@@ -1,16 +1,3 @@
-<!-- Add in the stack logo image from /public -->
-<p align="center">
-    <picture>
-        <source media="(prefers-color-scheme: light)"
-            srcset="./public/apricot-logo-long-light.svg#gh-light-mode-only">
-        <source media="(prefers-color-scheme: dark)"
-            srcset="./public/apricot-logo-long.svg#gh-dark-mode-only">
-        <img src="./public/apricot-logo-long.svg"
-            alt="Apricot Logo" 
-            style="height: 300px; width: 300px; border-radius: 15px;" 
-        />
-  </picture>
-</p>
 
 ## Tech Stack
 
@@ -69,9 +56,17 @@ To dev:
 
 Login:
 
+Admin Login
+
 -   email: test+super@apricothealth.ai
 -   password: a pillow for troy
 
+Nurse Login
+
+-   email: test@apricothealth.ai
+-   password: a pillow for troy
+
+  
 Verification code:
 123456
 
