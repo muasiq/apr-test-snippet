@@ -1,0 +1,63 @@
+name: Deploy Production
+
+env:
+    PROJECT_ID: accentra-399415
+    PROJECT_NUMBER: 101304530431
+    REGION: us-central1
+    SERVER_PORT: 80
+    APRICOT_ENV: production
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+concurrency:
+    group: '${{ github.workflow }} @ ${{ github.event.pull_request.head.label || github.head_ref || github.ref }}'
+    cancel-in-progress: false
+
+jobs:
+    deploy-webapp:
+        name: deploy-webapp
+        runs-on: ubuntu-latest
+        if: github.actor != 'github-actions[bot]'
+        permissions:
+            pull-requests: write
+            contents: 'read'
+            id-token: 'write'
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - id: 'auth'
+              name: 'Authenticate to Google Cloud'
+              uses: 'google-github-actions/auth@v2'
+              with:
+                  workload_identity_provider: 'projects/${{ env.PROJECT_NUMBER }}/locations/global/workloadIdentityPools/github-actions/providers/github-actions'
+                  service_account: 'github-actions-service@${{ env.PROJECT_ID }}.iam.gserviceaccount.com'
+                  token_format: 'access_token'
+            - name: Set up Cloud SDK
+              uses: google-github-actions/setup-gcloud@v2
+            - name: Docker Login
+              run: |
+                  gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev
+
+            - name: Build Webapp
+              run: |
+                  docker build --build-arg APRICOT_ENV=${{ env.APRICOT_ENV }} --build-arg PRISMA_FIELD_ENCRYPTION_KEY=${{secrets.PRISMA_FIELD_ENCRYPTION_KEY}} -t ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/document-ai/webapp:${{ github.sha }}-prod -f Dockerfile .
+                  docker image push ${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/document-ai/webapp:${{ github.sha }}-prod
+
+            - name: Deploy Webapp to Cloud Run
+              run: |
+                  gcloud run deploy prod-webapp \
+                  --image $REGION-docker.pkg.dev/$PROJECT_ID/document-ai/webapp:$GITHUB_SHA-prod \
+                  --platform managed \
+                  --allow-unauthenticated \
+                  --min-instances=1 \
+                  --max-instances=20 \
+                  --port=$SERVER_PORT \
+                  --region=$REGION

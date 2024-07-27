@@ -1,0 +1,50 @@
+{
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.organizeImports": "explicit",
+		"source.removeUnusedImports": "explicit"
+	},
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.guides.bracketPairs": "active",
+	"editor.rulers": [120],
+	"prettier.requireConfig": true,
+	"prettier.useEditorConfig": true,
+	"prettier.resolveGlobalModules": false,
+	"prettier.configPath": ".prettierrc",
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/node_modules": false,
+		"**/.next": true
+	},
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"cSpell.words": [
+		"Accentra",
+		"Bims",
+		"Braden",
+		"Elara",
+		"hchb",
+		"inngest",
+		"MAHC",
+		"payor",
+		"Permissioned",
+		"sendgrid",
+		"Signoff",
+		"trpc",
+		"inngest",
+		"pointcare"
+	],
+	"[prisma]": {
+		"editor.defaultFormatter": "Prisma.prisma"
+	}
+}

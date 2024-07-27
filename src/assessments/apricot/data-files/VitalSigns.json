@@ -1,0 +1,3149 @@
+[
+	{
+		"id": "AC1000",
+		"questionType": "Code",
+		"text": "Are any adjustments to the default vital sign parameters needed?",
+		"codingInstructions": "Adjustments to the vital sign parameters might be ordered by the physician, required by the insurance provider, or indicated by the patient's diagnosis.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ2T74SYXC",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1000A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1000B",
+					"code": "1",
+					"followup": ["AC1001"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": 150,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1000A",
+					"code": "0",
+					"followup": ["AC1001"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1000B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1001",
+		"questionType": "Checklist",
+		"text": "Select the vital sign parameters that need adjustment.",
+		"codingInstructions": "Only select items that require an adjustment to the default reporting parameters. ",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Temperature",
+					"sequence": 1,
+					"reference": "AC1001A",
+					"code": "0",
+					"followup": ["AC1002", "AC1003"]
+				},
+				{
+					"text": "Pulse",
+					"sequence": 2,
+					"reference": "AC1001B",
+					"code": "1",
+					"followup": ["AC1004", "AC1005"]
+				},
+				{
+					"text": "Respirations",
+					"sequence": 3,
+					"reference": "AC1001C",
+					"code": "2",
+					"followup": ["AC1006", "AC1007"]
+				},
+				{
+					"text": "Systolic Blood Pressure",
+					"sequence": 4,
+					"reference": "AC1001D",
+					"code": "3",
+					"followup": ["AC1008", "AC1009"]
+				},
+				{
+					"text": "Diastolic Blood Pressure",
+					"sequence": 5,
+					"reference": "AC1001E",
+					"code": "4",
+					"followup": ["AC1010", "AC1011"]
+				},
+				{
+					"text": "Oxygen Saturation Level",
+					"sequence": 6,
+					"reference": "AC1001F",
+					"code": "5",
+					"followup": ["AC1012"]
+				},
+				{
+					"text": "Fasting Blood Sugar",
+					"sequence": 7,
+					"reference": "AC1001G",
+					"code": "6",
+					"followup": ["AC1013", "AC1014"]
+				},
+				{
+					"text": "Random Blood Sugar",
+					"sequence": 8,
+					"reference": "AC1001H",
+					"code": "7",
+					"followup": ["AC1015", "AC1016"]
+				},
+				{
+					"text": "Weight",
+					"sequence": 9,
+					"reference": "AC1001I",
+					"code": "8",
+					"followup": ["AC1017", "AC1018"]
+				},
+				{
+					"text": "INR Level",
+					"sequence": 10,
+					"reference": "AC1001J",
+					"code": "9",
+					"followup": ["AC1019", "AC1020"]
+				},
+				{
+					"text": "Ankle Circumference",
+					"sequence": 11,
+					"reference": "AC1001K",
+					"code": "10",
+					"followup": ["AC1021", "AC1022"]
+				},
+				{
+					"text": "Calf Circumference",
+					"sequence": 12,
+					"reference": "AC1001L",
+					"code": "11",
+					"followup": ["AC1023", "AC1024"]
+				},
+				{
+					"text": "Girth",
+					"sequence": 13,
+					"reference": "AC1001M",
+					"code": "12",
+					"followup": ["AC1025", "AC1026"]
+				},
+				{
+					"text": "Instep Circumference",
+					"sequence": 14,
+					"reference": "AC1001N",
+					"code": "13",
+					"followup": ["AC1027", "AC1028"]
+				},
+				{
+					"text": "Pain Level",
+					"sequence": 15,
+					"reference": "AC1001O",
+					"code": "14",
+					"followup": ["AC1029", "AC1030"]
+				},
+				{
+					"text": "Prothrombin Time",
+					"sequence": 16,
+					"reference": "AC1001P",
+					"code": "15",
+					"followup": ["AC1031", "AC1032"]
+				},
+				{
+					"text": "Thigh Circumference",
+					"sequence": 17,
+					"reference": "AC1001Q",
+					"code": "16",
+					"followup": ["AC1033", "AC1034"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Temperature",
+					"sequence": 1,
+					"reference": "AC1001A",
+					"code": "0",
+					"followup": ["AC1002", "AC1003"]
+				},
+				{
+					"text": "Pulse",
+					"sequence": 2,
+					"reference": "AC1001B",
+					"code": "1",
+					"followup": ["AC1004", "AC1005"]
+				},
+				{
+					"text": "Respirations",
+					"sequence": 3,
+					"reference": "AC1001C",
+					"code": "2",
+					"followup": ["AC1006", "AC1007"]
+				},
+				{
+					"text": "Systolic Blood Pressure",
+					"sequence": 4,
+					"reference": "AC1001D",
+					"code": "3",
+					"followup": ["AC1008", "AC1009"]
+				},
+				{
+					"text": "Diastolic Blood Pressure",
+					"sequence": 5,
+					"reference": "AC1001E",
+					"code": "4",
+					"followup": ["AC1010", "AC1011"]
+				},
+				{
+					"text": "Oxygen Saturation Level",
+					"sequence": 6,
+					"reference": "AC1001F",
+					"code": "5",
+					"followup": ["AC1012"]
+				},
+				{
+					"text": "Fasting Blood Sugar",
+					"sequence": 7,
+					"reference": "AC1001G",
+					"code": "6",
+					"followup": ["AC1013", "AC1014"]
+				},
+				{
+					"text": "Random Blood Sugar",
+					"sequence": 8,
+					"reference": "AC1001H",
+					"code": "7",
+					"followup": ["AC1015", "AC1016"]
+				},
+				{
+					"text": "Weight",
+					"sequence": 9,
+					"reference": "AC1001I",
+					"code": "8",
+					"followup": ["AC1017", "AC1018"]
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1002",
+		"questionType": "Number",
+		"text": "Physician should be notified of a temperature (in degrees Fahrenheit) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1003",
+		"questionType": "Number",
+		"text": "Physician should be notified of a temperature (in degrees Fahrenheit) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1004",
+		"questionType": "Number",
+		"text": "Physician should be notified of a pulse rate (in bpm) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1005",
+		"questionType": "Number",
+		"text": "Physician should be notified of a pulse rate (in bpm) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1006",
+		"questionType": "Number",
+		"text": "Physician should be notified of a respiration rate (in breaths per minute) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1007",
+		"questionType": "Number",
+		"text": "Physician should be notified of a respiration rate (in breaths per minute) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1008",
+		"questionType": "Number",
+		"text": "Physician should be notified of a systolic blood pressure (in mmHg) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1009",
+		"questionType": "Number",
+		"text": "Physician should be notified of a systolic blood pressure (in mmHg) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1010",
+		"questionType": "Number",
+		"text": "Physician should be notified of a diastolic blood pressure (in mmHg) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1011",
+		"questionType": "Number",
+		"text": "Physician should be notified of a diastolic blood pressure (in mmHg) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1012",
+		"questionType": "Number",
+		"text": "Physician should be notified of an oxygen saturation (in %) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1013",
+		"questionType": "Number",
+		"text": "Physician should be notified of a fasting blood sugar level (in mg/dL) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1014",
+		"questionType": "Number",
+		"text": "Physician should be notified of a fasting blood sugar level (in mg/dL) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1015",
+		"questionType": "Number",
+		"text": "Physician should be notified of a random blood sugar level (in mg/dL) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1016",
+		"questionType": "Number",
+		"text": "Physician should be notified of a random blood sugar level (in mg/dL) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1017",
+		"questionType": "Number",
+		"text": "Physician should be notified of a weight (in pounds) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1018",
+		"questionType": "Number",
+		"text": "Physician should be notified of a weight (in pounds) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1019",
+		"questionType": "Number",
+		"text": "Physician should be notified of an INR level greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1020",
+		"questionType": "Number",
+		"text": "Physician should be notified of an INR level less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1021",
+		"questionType": "Number",
+		"text": "Physician should be notified of an ankle circumference (in cm) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1022",
+		"questionType": "Number",
+		"text": "Physician should be notified of an ankle circumference (in cm) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1023",
+		"questionType": "Number",
+		"text": "Physician should be notified of a calf circumference (in cm) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1024",
+		"questionType": "Number",
+		"text": "Physician should be notified of a calf circumference (in cm) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1025",
+		"questionType": "Number",
+		"text": "Physician should be notified of a girth (in cm) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1026",
+		"questionType": "Number",
+		"text": "Physician should be notified of a girth (in cm) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1027",
+		"questionType": "Number",
+		"text": "Physician should be notified of an instep circumference (in cm) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1028",
+		"questionType": "Number",
+		"text": "Physician should be notified of an instep circumference (in cm) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1029",
+		"questionType": "Number",
+		"text": "Physician should be notified of a pain level greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1030",
+		"questionType": "Number",
+		"text": "Physician should be notified of a pain level less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1031",
+		"questionType": "Number",
+		"text": "Physician should be notified of a prothrombin time (in seconds) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1032",
+		"questionType": "Number",
+		"text": "Physician should be notified of a prothrombin time (in seconds) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1033",
+		"questionType": "Number",
+		"text": "Physician should be notified of a thigh circumference (in cm) greater than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1034",
+		"questionType": "Number",
+		"text": "Physician should be notified of a thigh circumference (in cm) less than:",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1039",
+		"questionType": "Code",
+		"text": "Are the patient's height and weight known?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1039A",
+					"code": "0",
+					"followup": ["AC1040", "AC1045", "AC1046"]
+				},
+				{
+					"text": "Height only",
+					"sequence": 2,
+					"reference": "AC1039B",
+					"code": "1",
+					"followup": ["AC1040", "AC1046"]
+				},
+				{
+					"text": "Weight only",
+					"sequence": 3,
+					"reference": "AC1039C",
+					"code": "2",
+					"followup": ["AC1045", "AC1046"]
+				},
+				{
+					"text": "Both unknown",
+					"sequence": 4,
+					"reference": "AC1039D",
+					"code": "3"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1041",
+		"questionType": "Code",
+		"text": "Was height assessed?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1041A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1041B",
+					"code": "1",
+					"followup": ["AC1040"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1040",
+		"questionType": "Number",
+		"text": "What is the patient's height, in inches?",
+		"wellskyOriginalText": "#REF!",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ2YMRZZJ6",
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": 133,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1044",
+		"questionType": "Code",
+		"text": "Was weight assessed?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1044A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1044B",
+					"code": "1",
+					"followup": ["AC1045", "AC1047"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1045",
+		"questionType": "Number",
+		"text": "What is the patient's measured weight, in pounds?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ3X3X4SPP",
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": 134,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1046",
+		"questionType": "Code",
+		"text": "How was the patient's height and/or weight determined?",
+		"codingInstructions": "If no direct comments are made about this, assume that the measurements were stated.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": false,
+			"responses": []
+		},
+		"wellsky": {
+			"id": 135,
+			"active": false,
+			"responses": [
+				{
+					"text": "Stated",
+					"sequence": 1,
+					"reference": "AC1046A",
+					"code": "0"
+				},
+				{
+					"text": "Actual",
+					"sequence": 2,
+					"reference": "AC1046B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1047",
+		"questionType": "Code",
+		"text": "How was the patient's weight measured?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ4O2G2UJX",
+			"active": true,
+			"responses": [
+				{
+					"text": "KH/MAC",
+					"sequence": 1,
+					"reference": "AC1047A",
+					"code": "0"
+				},
+				{
+					"text": "Scales",
+					"sequence": 2,
+					"reference": "AC1047B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1049",
+		"questionType": "Code",
+		"text": "Was the patient's temperature measured?",
+		"alternateQuestionText": "Was the patient's temperature measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1049A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1049B",
+					"code": "1",
+					"followup": ["AC1050", "AC1051"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1049A",
+					"code": "0",
+					"followup": ["AC1050"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1049B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1050",
+		"questionType": "Number",
+		"text": "What was the patient's measured temperature, in degrees Fahrenheit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ4G2Q3I49",
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": 129,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1051",
+		"questionType": "Code",
+		"text": "Indicate the method used to measure temperature.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ5GX84RDV",
+			"active": true,
+			"responses": [
+				{
+					"text": "Axillary",
+					"sequence": 1,
+					"reference": "AC1051A",
+					"code": "0"
+				},
+				{
+					"text": "Oral",
+					"sequence": 2,
+					"reference": "AC1051B",
+					"code": "1"
+				},
+				{
+					"text": "Otic",
+					"sequence": 3,
+					"reference": "AC1051C",
+					"code": "2"
+				},
+				{
+					"text": "Rectal",
+					"sequence": 4,
+					"reference": "AC1051D",
+					"code": "3"
+				},
+				{
+					"text": "Temporal",
+					"sequence": 5,
+					"reference": "AC1051E",
+					"code": "4"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1059",
+		"questionType": "Code",
+		"text": "Was the patient's pulse measured?",
+		"alternateQuestionText": "Was the patient's pulse measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1059A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1059B",
+					"code": "1",
+					"followup": ["AC1060", "AC1061", "AC1062"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1059A",
+					"code": "0",
+					"followup": ["AC1061", "AC1060", "AC1062"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1059B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1060",
+		"questionType": "Number",
+		"text": "What was the patient's measured pulse rate, in bpm?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ6BO88PRQ",
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": 124,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1061",
+		"questionType": "Code",
+		"text": "Indicate pulse type.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ676CTZWO",
+			"active": true,
+			"responses": [
+				{
+					"text": "Apical",
+					"sequence": 1,
+					"reference": "AC1061A",
+					"code": "0"
+				},
+				{
+					"text": "Brachial",
+					"sequence": 2,
+					"reference": "AC1061B",
+					"code": "1"
+				},
+				{
+					"text": "Carotid",
+					"sequence": 3,
+					"reference": "AC1061C",
+					"code": "2"
+				},
+				{
+					"text": "Popliteal",
+					"sequence": 4,
+					"reference": "AC1061D",
+					"code": "3"
+				},
+				{
+					"text": "Radial",
+					"sequence": 5,
+					"reference": "AC1061E",
+					"code": "4"
+				},
+				{
+					"text": "Absent",
+					"sequence": 6,
+					"reference": "AC1061F",
+					"code": "5"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 126,
+			"active": true,
+			"responses": [
+				{
+					"text": "Apical",
+					"sequence": 1,
+					"reference": "AC1061A",
+					"code": "0"
+				},
+				{
+					"text": "Radial",
+					"sequence": 2,
+					"reference": "AC1061B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1062",
+		"questionType": "Checklist",
+		"text": "Indicate pulse characteristics.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ15VZOR6H",
+			"active": true,
+			"responses": [
+				{
+					"text": "WNL",
+					"sequence": 1,
+					"reference": "AC1062A",
+					"code": "0"
+				},
+				{
+					"text": "Thready",
+					"sequence": 2,
+					"reference": "AC1062B",
+					"code": "1"
+				},
+				{
+					"text": "Weak",
+					"sequence": 3,
+					"reference": "AC1062C",
+					"code": "2"
+				},
+				{
+					"text": "Regularly Irregular",
+					"sequence": 4,
+					"reference": "AC1062D",
+					"code": "3"
+				},
+				{
+					"text": "Irregularly Irregular",
+					"sequence": 5,
+					"reference": "AC1062E",
+					"code": "4"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 125,
+			"active": true,
+			"responses": [
+				{
+					"text": "Regular",
+					"sequence": 1,
+					"reference": "AC1062A",
+					"code": "0"
+				},
+				{
+					"text": "Irregular",
+					"sequence": 2,
+					"reference": "AC1062B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1059E",
+		"questionType": "Code",
+		"text": "Was the patient's pulse measured?",
+		"alternateQuestionText": "Was the patient's pulse measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1059EA",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1059EB",
+					"code": "1",
+					"followup": ["AC1060E", "AC1061E", "AC1062E"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1059EA",
+					"code": "0",
+					"followup": ["AC1061", "AC1060", "AC1062"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1059EB",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1060E",
+		"questionType": "Number",
+		"text": "What was the patient's measured pulse rate, in bpm?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ6BO88PRQ",
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": 124,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1061E",
+		"questionType": "Code",
+		"text": "Indicate pulse type.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ676CTZWO",
+			"active": true,
+			"responses": [
+				{
+					"text": "Radial",
+					"sequence": 1,
+					"reference": "AC1061EA",
+					"code": "0"
+				},
+				{
+					"text": "Apical",
+					"sequence": 2,
+					"reference": "AC1061EB",
+					"code": "1"
+				},
+				{
+					"text": "Brachial",
+					"sequence": 3,
+					"reference": "AC1061EC",
+					"code": "2"
+				},
+				{
+					"text": "Carotid",
+					"sequence": 4,
+					"reference": "AC1061ED",
+					"code": "3"
+				},
+				{
+					"text": "Popliteal",
+					"sequence": 5,
+					"reference": "AC1061EE",
+					"code": "4"
+				},
+				{
+					"text": "Inguinal",
+					"sequence": 6,
+					"reference": "AC1061EF",
+					"code": "5"
+				},
+				{
+					"text": "Pedal",
+					"sequence": 7,
+					"reference": "AC1061EG",
+					"code": "6"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 126,
+			"active": true,
+			"responses": [
+				{
+					"text": "Apical",
+					"sequence": 1,
+					"reference": "AC1061EA",
+					"code": "0"
+				},
+				{
+					"text": "Radial",
+					"sequence": 2,
+					"reference": "AC1061EB",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1062E",
+		"questionType": "Checklist",
+		"text": "Indicate pulse characteristics.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "MQ15VZOR6H",
+			"active": true,
+			"responses": [
+				{
+					"text": "WNL",
+					"sequence": 1,
+					"reference": "AC1062EA",
+					"code": "0"
+				},
+				{
+					"text": "Thready",
+					"sequence": 2,
+					"reference": "AC1062EB",
+					"code": "1"
+				},
+				{
+					"text": "Weak",
+					"sequence": 3,
+					"reference": "AC1062EC",
+					"code": "2"
+				},
+				{
+					"text": "Irregular",
+					"sequence": 4,
+					"reference": "AC1062ED",
+					"code": "3"
+				},
+				{
+					"text": "Absent",
+					"sequence": 5,
+					"reference": "AC1062EE",
+					"code": "4"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 125,
+			"active": true,
+			"responses": [
+				{
+					"text": "Regular",
+					"sequence": 1,
+					"reference": "AC1062EA",
+					"code": "0"
+				},
+				{
+					"text": "Irregular",
+					"sequence": 2,
+					"reference": "AC1062EB",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1069",
+		"questionType": "Code",
+		"text": "Was the patient's respiration rate measured?",
+		"alternateQuestionText": "Was the patient's respiration rate measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1069A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1069B",
+					"code": "1",
+					"followup": ["AC1070", "AC1071"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1069A",
+					"code": "0",
+					"followup": ["AC1070"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1069B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1070",
+		"questionType": "Number",
+		"text": "What was the patient's measured respiration rate, in respirations per minute?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1071",
+		"questionType": "Code",
+		"text": "Indicate respiration characteristics.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "WNL",
+					"sequence": 1,
+					"reference": "AC1071A",
+					"code": "0"
+				},
+				{
+					"text": "Labored",
+					"sequence": 2,
+					"reference": "AC1071B",
+					"code": "1"
+				},
+				{
+					"text": "Shallow",
+					"sequence": 3,
+					"reference": "AC1071C",
+					"code": "2"
+				},
+				{
+					"text": "Cheyne-Stoke",
+					"sequence": 4,
+					"reference": "AC1071D",
+					"code": "3"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1069E",
+		"questionType": "Code",
+		"text": "Was the patient's respiration rate measured?",
+		"alternateQuestionText": "Was the patient's respiration rate measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1069EA",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1069EB",
+					"code": "1",
+					"followup": ["AC1070E", "AC1071E"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1069EA",
+					"code": "0",
+					"followup": ["AC1070"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1069EB",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1070E",
+		"questionType": "Number",
+		"text": "What was the patient's measured respiration rate, in respirations per minute?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1071E",
+		"questionType": "Code",
+		"text": "Indicate respiration characteristics.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "WNL",
+					"sequence": 1,
+					"reference": "AC1071EA",
+					"code": "0"
+				},
+				{
+					"text": "Labored",
+					"sequence": 2,
+					"reference": "AC1071EB",
+					"code": "1"
+				},
+				{
+					"text": "Shallow",
+					"sequence": 3,
+					"reference": "AC1071EC",
+					"code": "2"
+				},
+				{
+					"text": "Cheyne-Stoke",
+					"sequence": 4,
+					"reference": "AC1071ED",
+					"code": "3"
+				},
+				{
+					"text": "Diminished",
+					"sequence": 5,
+					"reference": "AC1071EE",
+					"code": "4"
+				},
+				{
+					"text": "Absent",
+					"sequence": 6,
+					"reference": "AC1071EF",
+					"code": "5"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1079",
+		"questionType": "Code",
+		"text": "Was the patient's blood pressure measured?",
+		"alternateQuestionText": "Was the patient's blood pressure measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1079A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1079B",
+					"code": "1",
+					"followup": ["AC1080", "AC1083", "AC1081", "AC1082"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1079A",
+					"code": "0",
+					"followup": ["AC1080", "AC1081", "AC1082"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1079B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1080",
+		"questionType": "Number",
+		"text": "What was the patient's systolic blood pressure?",
+		"codingInstructions": "If blood pressure is available in the format \"#/#\", the systolic number is before the slash and the diastolic number is after the slash.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": "137, 138, 139, 140, 141, 142,",
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1083",
+		"questionType": "Number",
+		"text": "What was the patient's diastolic blood pressure?",
+		"codingInstructions": "If blood pressure is available in the format \"#/#\", the systolic number is before the slash and the diastolic number is after the slash.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": "137, 138, 139, 140, 141, 142,",
+			"active": false,
+			"responses": [
+				{
+					"text": "Left Arm",
+					"sequence": 1,
+					"reference": "AC1083A",
+					"code": "0"
+				},
+				{
+					"text": "Right Arm",
+					"sequence": 2,
+					"reference": "AC1083B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1081",
+		"questionType": "Code",
+		"text": "In what location was the patient's blood pressure measured?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Arm - RT",
+					"sequence": 1,
+					"reference": "AC1081A",
+					"code": "0"
+				},
+				{
+					"text": "Arm - LT",
+					"sequence": 2,
+					"reference": "AC1081B",
+					"code": "1"
+				},
+				{
+					"text": "Leg - RT",
+					"sequence": 3,
+					"reference": "AC1081C",
+					"code": "2"
+				},
+				{
+					"text": "Leg - LT",
+					"sequence": 4,
+					"reference": "AC1081D",
+					"code": "3"
+				}
+			]
+		},
+		"wellsky": {
+			"id": "137, 138, 139, 140, 141, 142,",
+			"active": false,
+			"responses": [
+				{
+					"text": "Lying",
+					"sequence": 1,
+					"reference": "AC1081A",
+					"code": "0"
+				},
+				{
+					"text": "Sitting",
+					"sequence": 2,
+					"reference": "AC1081B",
+					"code": "1"
+				},
+				{
+					"text": "Standing",
+					"sequence": 3,
+					"reference": "AC1081C",
+					"code": "2"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1082",
+		"questionType": "Code",
+		"text": "In what position was the patient while blood pressure was measured?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Sitting",
+					"sequence": 1,
+					"reference": "AC1082A",
+					"code": "0"
+				},
+				{
+					"text": "Standing",
+					"sequence": 2,
+					"reference": "AC1082B",
+					"code": "1"
+				},
+				{
+					"text": "Lying",
+					"sequence": 3,
+					"reference": "AC1082C",
+					"code": "2"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1079E",
+		"questionType": "Code",
+		"text": "Was the patient's blood pressure measured?",
+		"alternateQuestionText": "Was the patient's blood pressure measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1079EA",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1079EB",
+					"code": "1",
+					"followup": ["AC1080E", "AC1083E", "AC1081E", "AC1082E"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1079EA",
+					"code": "0",
+					"followup": ["AC1080", "AC1081", "AC1082"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1079EB",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1080E",
+		"questionType": "Number",
+		"text": "What was the patient's systolic blood pressure?",
+		"codingInstructions": "If blood pressure is available in the format \"#/#\", the systolic number is before the slash and the diastolic number is after the slash.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": "137, 138, 139, 140, 141, 142,",
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1083E",
+		"questionType": "Number",
+		"text": "What was the patient's diastolic blood pressure?",
+		"codingInstructions": "If blood pressure is available in the format \"#/#\", the systolic number is before the slash and the diastolic number is after the slash.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": "137, 138, 139, 140, 141, 142,",
+			"active": false,
+			"responses": [
+				{
+					"text": "Left Arm",
+					"sequence": 1,
+					"reference": "AC1083EA",
+					"code": "0"
+				},
+				{
+					"text": "Right Arm",
+					"sequence": 2,
+					"reference": "AC1083EB",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1081E",
+		"questionType": "Code",
+		"text": "In what location was the patient's blood pressure measured?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Arm - RT",
+					"sequence": 1,
+					"reference": "AC1081EA",
+					"code": "0"
+				},
+				{
+					"text": "Arm - LT",
+					"sequence": 2,
+					"reference": "AC1081EB",
+					"code": "1"
+				},
+				{
+					"text": "Leg - RT",
+					"sequence": 3,
+					"reference": "AC1081EC",
+					"code": "2"
+				},
+				{
+					"text": "Leg - LT",
+					"sequence": 4,
+					"reference": "AC1081ED",
+					"code": "3"
+				},
+				{
+					"text": "Arm - LT Forearm",
+					"sequence": 5,
+					"reference": "AC1081EE",
+					"code": "4"
+				},
+				{
+					"text": "Arm - RT Forearm",
+					"sequence": 6,
+					"reference": "AC1081EF",
+					"code": "5"
+				}
+			]
+		},
+		"wellsky": {
+			"id": "137, 138, 139, 140, 141, 142,",
+			"active": false,
+			"responses": [
+				{
+					"text": "Lying",
+					"sequence": 1,
+					"reference": "AC1081EA",
+					"code": "0"
+				},
+				{
+					"text": "Sitting",
+					"sequence": 2,
+					"reference": "AC1081EB",
+					"code": "1"
+				},
+				{
+					"text": "Standing",
+					"sequence": 3,
+					"reference": "AC1081EC",
+					"code": "2"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1082E",
+		"questionType": "Code",
+		"text": "In what position was the patient while blood pressure was measured?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Sitting",
+					"sequence": 1,
+					"reference": "AC1082EA",
+					"code": "0"
+				},
+				{
+					"text": "Standing",
+					"sequence": 2,
+					"reference": "AC1082EB",
+					"code": "1"
+				},
+				{
+					"text": "Lying",
+					"sequence": 3,
+					"reference": "AC1082EC",
+					"code": "2"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1090",
+		"questionType": "Code",
+		"text": "Was the patient's oxygen saturation level measured?",
+		"alternateQuestionText": "Was the patient's oxygen sautration level measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1090A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1090B",
+					"code": "1",
+					"followup": ["AC1091", "AC1092"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1091",
+		"questionType": "Number",
+		"text": "What was the patient's oxygen saturation level, as a percent?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1092",
+		"questionType": "Code",
+		"text": "Indicate the patient's oxygen use at the time oxygen saturation level was measured.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "On Room Air",
+					"sequence": 1,
+					"reference": "AC1092A",
+					"code": "0"
+				},
+				{
+					"text": "On Oxygen 1 L",
+					"sequence": 2,
+					"reference": "AC1092B",
+					"code": "1"
+				},
+				{
+					"text": "On Oxygen 1.5 L",
+					"sequence": 3,
+					"reference": "AC1092C",
+					"code": "2"
+				},
+				{
+					"text": "On Oxygen 2 L",
+					"sequence": 4,
+					"reference": "AC1092D",
+					"code": "3"
+				},
+				{
+					"text": "On Oxygen 2.5 L",
+					"sequence": 5,
+					"reference": "AC1092E",
+					"code": "4"
+				},
+				{
+					"text": "On Oxygen 3 L",
+					"sequence": 6,
+					"reference": "AC1092F",
+					"code": "5"
+				},
+				{
+					"text": "On Oxygen 3.5 L",
+					"sequence": 7,
+					"reference": "AC1092G",
+					"code": "6"
+				},
+				{
+					"text": "On Oxygen 4 L",
+					"sequence": 8,
+					"reference": "AC1092H",
+					"code": "7"
+				},
+				{
+					"text": "On Oxygen 4.5 L",
+					"sequence": 9,
+					"reference": "AC1092I",
+					"code": "8"
+				},
+				{
+					"text": "On Oxygen 5 L",
+					"sequence": 10,
+					"reference": "AC1092J",
+					"code": "9"
+				},
+				{
+					"text": "On Oxygen 5.5 L",
+					"sequence": 11,
+					"reference": "AC1092K",
+					"code": "10"
+				},
+				{
+					"text": "On Oxygen 6 L",
+					"sequence": 12,
+					"reference": "AC1092L",
+					"code": "11"
+				},
+				{
+					"text": "On Oxygen 6.5 L",
+					"sequence": 13,
+					"reference": "AC1092M",
+					"code": "12"
+				},
+				{
+					"text": "On Oxygen 7 L",
+					"sequence": 14,
+					"reference": "AC1092N",
+					"code": "13"
+				},
+				{
+					"text": "On Oxygen 7.5 L",
+					"sequence": 15,
+					"reference": "AC1092O",
+					"code": "14"
+				},
+				{
+					"text": "On Oxygen 8 L",
+					"sequence": 16,
+					"reference": "AC1092P",
+					"code": "15"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1090E",
+		"questionType": "Code",
+		"text": "Was the patient's oxygen saturation level measured?",
+		"alternateQuestionText": "Was the patient's oxygen sautration level measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1090EA",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1090EB",
+					"code": "1",
+					"followup": ["AC1091E", "AC1092E"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1091E",
+		"questionType": "Number",
+		"text": "What was the patient's oxygen saturation level, as a percent?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1092E",
+		"questionType": "Code",
+		"text": "Indicate the patient's oxygen use at the time oxygen saturation level was measured.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "On Room Air",
+					"sequence": 1,
+					"reference": "AC1092EA",
+					"code": "0"
+				},
+				{
+					"text": "On Oxygen",
+					"sequence": 2,
+					"reference": "AC1092EB",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1100",
+		"questionType": "Code",
+		"text": "Was the patient's pain level assessed?",
+		"alternateQuestionText": "Was the patient's pain level assessed during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1100A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1100B",
+					"code": "1",
+					"followup": ["AC1101"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1101",
+		"questionType": "Code",
+		"text": "What was the patient's reported pain level?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "0",
+					"sequence": 1,
+					"reference": "AC1101A",
+					"code": "0"
+				},
+				{
+					"text": "1",
+					"sequence": 2,
+					"reference": "AC1101B",
+					"code": "1"
+				},
+				{
+					"text": "2",
+					"sequence": 3,
+					"reference": "AC1101C",
+					"code": "2"
+				},
+				{
+					"text": "3",
+					"sequence": 4,
+					"reference": "AC1101D",
+					"code": "3"
+				},
+				{
+					"text": "4",
+					"sequence": 5,
+					"reference": "AC1101E",
+					"code": "4"
+				},
+				{
+					"text": "5",
+					"sequence": 6,
+					"reference": "AC1101F",
+					"code": "5"
+				},
+				{
+					"text": "6",
+					"sequence": 7,
+					"reference": "AC1101G",
+					"code": "6"
+				},
+				{
+					"text": "7",
+					"sequence": 8,
+					"reference": "AC1101H",
+					"code": "7"
+				},
+				{
+					"text": "8",
+					"sequence": 9,
+					"reference": "AC1101I",
+					"code": "8"
+				},
+				{
+					"text": "9",
+					"sequence": 10,
+					"reference": "AC1101J",
+					"code": "9"
+				},
+				{
+					"text": "10",
+					"sequence": 11,
+					"reference": "AC1101K",
+					"code": "10"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1110",
+		"questionType": "Code",
+		"text": "Was the patient's blood sugar measured?",
+		"alternateQuestionText": "Was the patient's blood sugar measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1110A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1110B",
+					"code": "1",
+					"followup": ["AC1111", "AC1112"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC1110A",
+					"code": "0",
+					"followup": ["AC1111", "AC1112"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC1110B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1111",
+		"questionType": "Number",
+		"text": "What was the patient's blood sugar reading, in mg/dL?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1112",
+		"questionType": "Code",
+		"text": "Indicate the type of blood sugar measurement.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Random",
+					"sequence": 1,
+					"reference": "AC1112A",
+					"code": "0"
+				},
+				{
+					"text": "Fasting",
+					"sequence": 2,
+					"reference": "AC1112B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Random",
+					"sequence": 1,
+					"reference": "AC1112A",
+					"code": "0"
+				},
+				{
+					"text": "Fasting",
+					"sequence": 2,
+					"reference": "AC1112B",
+					"code": "1"
+				},
+				{
+					"text": "2 Hours Postprandial (PP)",
+					"sequence": 3,
+					"reference": "AC1112C",
+					"code": "2"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC1120",
+		"questionType": "Code",
+		"text": "Was the patient's INR level measured?",
+		"alternateQuestionText": "Was the patient's INR level measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1120A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1120B",
+					"code": "1",
+					"followup": ["AC1121"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1121",
+		"questionType": "Number",
+		"text": "What was the patient's measured INR level?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1130",
+		"questionType": "Code",
+		"text": "Was the patient's prothrombin time measured?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1130A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1130B",
+					"code": "1",
+					"followup": ["AC1131"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1131",
+		"questionType": "Number",
+		"text": "What was the patient's prothrombin time, in seconds?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1140",
+		"questionType": "Code",
+		"text": "Was the patient's ankle circumference measured?",
+		"alternateQuestionText": "Was the patient's ankle circumference measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1140A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1140B",
+					"code": "1",
+					"followup": ["AC1141", "AC1142"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1141",
+		"questionType": "Number",
+		"text": "What was the patient's ankle circumference, in centimeters?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1142",
+		"questionType": "Code",
+		"text": "Which ankle was measured to determine ankle circumference?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Left",
+					"sequence": 1,
+					"reference": "AC1142A",
+					"code": "0"
+				},
+				{
+					"text": "Right",
+					"sequence": 2,
+					"reference": "AC1142B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1150",
+		"questionType": "Code",
+		"text": "Was the patient's calf circumference measured?",
+		"alternateQuestionText": "Was the patient's calf circumference measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1150A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1150B",
+					"code": "1",
+					"followup": ["AC1151", "AC1152"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1151",
+		"questionType": "Number",
+		"text": "What was the patient's calf circumference, in centimeters?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1152",
+		"questionType": "Code",
+		"text": "Which calf was measured to determine ankle circumference?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Left",
+					"sequence": 1,
+					"reference": "AC1152A",
+					"code": "0"
+				},
+				{
+					"text": "Right",
+					"sequence": 2,
+					"reference": "AC1152B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1160",
+		"questionType": "Code",
+		"text": "Was the patient's girth measured?",
+		"alternateQuestionText": "Was the patient's girth measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1160A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1160B",
+					"code": "1",
+					"followup": ["AC1161"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1161",
+		"questionType": "Number",
+		"text": "What was the patient's measured girth, in centimeters?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1170",
+		"questionType": "Code",
+		"text": "Was the patient's head circumference measured?",
+		"alternateQuestionText": "Was the patient's head circumference measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1170A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1170B",
+					"code": "1",
+					"followup": ["AC1171"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1171",
+		"questionType": "Text",
+		"text": "What was the patient's measured head circumference, in centimeters?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1180",
+		"questionType": "Code",
+		"text": "Was the patient's instep circumference measured?",
+		"alternateQuestionText": "Was the patient's instep circumference measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1180A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1180B",
+					"code": "1",
+					"followup": ["AC1181"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1181",
+		"questionType": "Text",
+		"text": "What was the patient's measured instep circumference, in centimeters?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1190",
+		"questionType": "Code",
+		"text": "Was the patient's thigh circumference measured?",
+		"alternateQuestionText": "Was the patient's thigh circumference measured during the Start of Care visit?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1190A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1190B",
+					"code": "1",
+					"followup": ["AC1191"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1191",
+		"questionType": "Text",
+		"text": "What was the patient's measured thigh circumference, in centimeters?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	}
+]

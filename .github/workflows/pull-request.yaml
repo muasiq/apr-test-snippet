@@ -1,0 +1,209 @@
+name: Pull Request
+
+on:
+    pull_request:
+        branches: [staging]
+
+jobs:
+    compile:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - name: Install Dependencies
+              run: npm i
+
+            - name: Compile
+              run: npm run check:ts
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - uses: falti/dotenv-action@v1.1
+              with:
+                  path: ./.env.example
+                  keys-case: bypass
+                  export-variables: true
+
+            - name: Install Dependencies
+              run: npm i
+
+            - name: Format
+              run: npm run format:check
+
+            - name: Lint
+              run: npm run lint
+    test:
+        needs: [compile, lint]
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - uses: falti/dotenv-action@v1.1
+              with:
+                  path: ./.env.example
+                  keys-case: bypass
+                  export-variables: true
+
+            - name: Install Dependencies
+              run: npm i
+
+            - name: Setup
+              run: npm run setup
+
+            - name: Run Api
+              run: npm run dev:test &
+
+            - name: Wait for Api to start
+              uses: iFaxity/wait-on-action@v1
+              with:
+                  resource: http://localhost:3000/
+
+            - name: Test
+              run: npm run test
+
+    component-test:
+        needs: [test]
+        runs-on: ubuntu-latest-m
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - uses: falti/dotenv-action@v1.1
+              with:
+                  path: ./.env.example
+                  keys-case: bypass
+                  export-variables: true
+
+            - name: Install Dependencies
+              run: npm i
+
+            - name: Setup
+              run: npm run setup
+
+            - name: Cypress Component test
+              uses: actions/checkout@v4
+            - name: Cypress run
+              uses: cypress-io/github-action@v6
+              with:
+                  component: true
+
+            - uses: actions/upload-artifact@v4
+              if: failure()
+              with:
+                  name: cypress-screenshots
+                  path: cypress/screenshots
+                  if-no-files-found: ignore # 'warn' or 'error' are also available, defaults to `warn`
+
+            - uses: actions/upload-artifact@v4
+              if: failure()
+              with:
+                  name: cypress-videos
+                  path: cypress/videos
+                  if-no-files-found: ignore
+
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - uses: falti/dotenv-action@v1.1
+              with:
+                  path: ./.env.example
+                  keys-case: bypass
+                  export-variables: true
+
+            - name: Cypress install
+              uses: cypress-io/github-action@v6
+              with:
+                  # Disable running of tests within install job
+                  runTests: false
+                  build: npm run build:test
+
+            - name: Copy public assets
+              run: cp -R public .next/standalone
+
+            - name: Copy static assets
+              run: cp -R .next/static .next/standalone/.next
+
+            - name: Save build folder
+              uses: actions/upload-artifact@v4
+              with:
+                  name: build
+                  if-no-files-found: error
+                  path: .next
+
+    end-to-end-test:
+        timeout-minutes: 30
+        needs: [build, test]
+        runs-on: ubuntu-latest-m
+        strategy:
+            fail-fast: false
+            matrix:
+                containers: [1, 2, 3]
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - uses: falti/dotenv-action@v1.1
+              with:
+                  path: ./.env.example
+                  keys-case: bypass
+                  export-variables: true
+
+            - name: Download the build folder
+              uses: actions/download-artifact@v4
+              with:
+                  name: build
+                  path: .next
+
+            - name: Cypress Run
+              uses: cypress-io/github-action@v6
+              with:
+                  build: npm run cypress:setup
+                  start: |
+                      npm run inngest:dev &
+                      npm run start:test
+                  wait-on: 'http://localhost:3000'
+                  wait-on-timeout: 200
+                  record: true
+                  browser: chrome
+                  parallel: true
+              env:
+                  CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

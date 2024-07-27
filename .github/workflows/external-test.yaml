@@ -1,0 +1,37 @@
+name: External Test
+
+on:
+    pull_request:
+        branches: [main]
+    workflow_dispatch:
+
+jobs:
+    test-external-apis:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: 20
+
+            - uses: falti/dotenv-action@v1.1
+              with:
+                  path: ./.env.example
+                  keys-case: bypass
+                  export-variables: true
+
+            - name: Install Dependencies
+              run: npm i
+
+            - name: Setup
+              run: npm run setup
+
+            - name: Test External APIs
+              run: npm run test:external
+              env:
+                  FDB_API_CLIENT_ID: ${{ secrets.FDB_API_CLIENT_ID }}
+                  FDB_API_SECRET_KEY: ${{ secrets.FDB_API_SECRET_KEY }}
+                  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

@@ -1,0 +1,792 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Organization {
+  id                               Int                                @id @default(autoincrement())
+  name                             String
+  emailDomains                     String[]
+  configurationType                ConfigurationType                  @default(HomeCareHomeBase)
+  Location                         Location[]
+  Patient                          Patient[]
+  users                            User[]
+  LoginProfile                     LoginProfile[]
+  VitalSignConfig                  VitalSignConfig[]
+  VersionedConfiguration           VersionedConfiguration[]
+  AttachmentType                   AttachmentType[]                   @relation("AttachmentTypes")
+  VisitNoteAttachmentType          AttachmentType?                    @relation("VisitNoteAttachmentType", fields: [visitNoteAttachmentTypeId], references: [id], onDelete: Cascade)
+  visitNoteAttachmentTypeId        Int?                               @unique
+  PhysicalAssessmentCategories     PhysicalAssessmentCategory[]
+  Facility                         Facility[]
+  AssociatedPhysicians             AssociatedPhysician[]
+  Supply                           Supply[]
+  additionalDropdownConfiguration  Json                               @default("{}")
+  SkilledNursingServiceCodes       SkilledNursingServiceCodes[]
+  AdditionalEvaluationServiceCodes AdditionalEvaluationServiceCodes[]
+}
+
+model AdditionalEvaluationServiceCodes {
+  id             Int          @id @default(autoincrement())
+  code           String
+  description    String
+  discipline     String
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@unique([organizationId, code])
+}
+
+model SkilledNursingServiceCodes {
+  id             Int          @id @default(autoincrement())
+  code           String
+  description    String
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@unique([organizationId, code])
+}
+
+model Supply {
+  id             Int          @id @default(autoincrement())
+  package        String
+  category       String
+  vendor         String
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  @@unique([organizationId, package])
+}
+
+model Facility {
+  id             Int          @id @default(autoincrement())
+  name           String
+  street         String
+  city           String
+  state          State
+  zip            String
+  phone          String?
+  fax            String?
+  facilityType   String
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+
+  @@unique([organizationId, name])
+}
+
+model VersionedConfiguration {
+  id                Int               @id @default(autoincrement())
+  configurationType ConfigurationType
+  allQuestions      Json
+  qaConfig          Json
+  completedConfig   Json
+  pathways          Json
+  pathwaysNesting   Json              @default("[]")
+
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+
+  Patient Patient[]
+}
+
+model Patient {
+  id                               Int                                @id @default(autoincrement())
+  organizationId                   Int
+  // this could be renamed to episodeID at this point since we aren't supporting wellsky
+  EMRIdentifier                    String?
+  dateOfBirth                      DateTime
+  createdAt                        DateTime                           @default(now())
+  updatedAt                        DateTime                           @updatedAt
+  firstName                        String
+  lastName                         String
+  middleName                       String?
+  suffix                           String?
+  socialSecurityNumber             String?
+  socialSecurityUnknown            Boolean?
+  contactNotes                     String?
+  serviceLocationType              String?
+  serviceLocationNotes             String?
+  M0150Answer                      String[]
+  M0063Answer                      String?
+  M0065Answer                      String?
+  M0150SpecifyAnswer               String?
+  physicianOrderedSOCDate          DateTime?
+  physicianOrderedSOCDateNA        Boolean?
+  locationId                       Int?
+  SOCVisitDate                     DateTime?
+  SOCVisitTime                     DateTime?
+  SOCVisitCaseManagerId            String?
+  qaAssignedUserId                 String?
+  dataEntryAssignedUserId          String?
+  address1                         String?
+  address2                         String?
+  city                             String?
+  county                           String?
+  gender                           Gender?
+  mobilePhoneNumber                String?
+  alternatePhoneNumber             String?
+  patientReferralSourceId          Int?                               @unique
+  phoneNumber                      String?
+  primaryDiagnosis                 String?
+  primaryDiagnosisId               Int?                               @unique
+  PrimaryDiagnosis                 PrimaryDiagnoses?                  @relation(fields: [primaryDiagnosisId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  state                            State?
+  status                           PatientStatus                      @default(NewPatient)
+  zip                              String?
+  nurseSignOffName                 String?
+  nurseSignOffDate                 DateTime?
+  deleted                          Boolean                            @default(false)
+  versionedConfigurationId         Int
+  VersionedConfiguration           VersionedConfiguration             @relation(fields: [versionedConfigurationId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  configurationType                ConfigurationType                  @default(HomeCareHomeBase)
+  AssessmentAnswer                 AssessmentAnswer[]
+  InterviewQuestion                InterviewQuestion[]
+  NurseConfirmedAssessmentSections NurseConfirmedAssessmentSections[]
+  NurseInterview                   NurseInterview?
+  QaAssignedUser                   User?                              @relation("QaAssignedUser", fields: [qaAssignedUserId], references: [id])
+  DataEntryAssignedUser            User?                              @relation("dataEntryAssignedUser", fields: [dataEntryAssignedUserId], references: [id])
+  SOCVisitCaseManager              User?                              @relation("SOCVisitCaseManager", fields: [SOCVisitCaseManagerId], references: [id])
+  Location                         Location?                          @relation(fields: [locationId], references: [id])
+  Organization                     Organization                       @relation(fields: [organizationId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  PatientReferralSource            PatientReferralSource?             @relation(fields: [patientReferralSourceId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  PatientArtifacts                 PatientArtifact[]
+  PatientAssociatedPhysicians      PatientAssociatedPhysician[]
+  PatientEmergencyContacts         PatientEmergencyContact[]
+  SecondaryDiagnoses               SecondaryDiagnoses[]
+  PayorSources                     PatientPayorSource[]
+  PromptAuditLog                   PromptAuditLog[]
+  LoginProfile                     LoginProfile[]
+
+  @@unique([organizationId, EMRIdentifier])
+}
+
+model NurseConfirmedAssessmentSections {
+  id        Int      @id @default(autoincrement())
+  patientId Int
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  section   String
+  Patient   Patient  @relation(fields: [patientId], references: [id])
+
+  @@unique([patientId, section])
+}
+
+model PatientPayorSource {
+  id                    Int      @id @default(autoincrement())
+  patientId             Int
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+  payorSourceName       String?
+  payorSourceType       String?
+  payorSourceIdentifier String?
+  Patient               Patient? @relation(fields: [patientId], references: [id])
+}
+
+// Deprecated
+model SecondaryDiagnoses {
+  id          Int      @id @default(autoincrement())
+  patientId   Int
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  icdCode     String?
+  description String?
+  diagnosis   String?
+  Patient     Patient  @relation(fields: [patientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+// Deprecated
+model PrimaryDiagnoses {
+  id          Int      @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  icdCode     String?
+  description String?
+  Patient     Patient?
+}
+
+model PatientReferralSource {
+  id           Int       @id @default(autoincrement())
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  referralDate DateTime?
+  socDate      DateTime?
+  facilityName String?
+  facilityType String?
+  contactName  String?
+  contactPhone String?
+  Patient      Patient?
+}
+
+model PatientAuditLog {
+  id        Int                   @id @default(autoincrement())
+  patientId Int
+  userId    String
+  action    PatientAuditLogAction
+  payload   Json?
+  createdAt DateTime              @default(now())
+}
+
+model PromptAuditLog {
+  id           Int      @id @default(autoincrement())
+  patientId    Int
+  promptName   String
+  prompt       String
+  response     String?
+  inputTokens  Int?
+  outputTokens Int?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  Patient      Patient  @relation(fields: [patientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model PatientAssociatedPhysician {
+  id                 Int                 @id @default(autoincrement())
+  createdAt          DateTime            @default(now())
+  updatedAt          DateTime            @updatedAt
+  type               ProviderType[]      @default([]) // deprecated
+  providerType       ProviderType?
+  referringPhysician ReferringPhysician?
+  name               String?
+  firstName          String? // deprecated
+  lastName           String? // deprecated
+  phone              String?
+  notes              String?
+  institution        String?
+  patientId          Int
+  Patient            Patient             @relation(fields: [patientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model PatientEmergencyContact {
+  id             Int      @id @default(autoincrement())
+  patientId      Int
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  firstName      String?
+  lastName       String?
+  relationship   String?
+  type           String[]
+  phone          String?
+  homePhone      String?
+  mobilePhone    String?
+  alternatePhone String?
+  address        String?
+  city           String?
+  state          State?
+  zip            String?
+  availability   String[]
+  notes          String?
+
+  Patient Patient @relation(fields: [patientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+}
+
+model PatientArtifact {
+  id                      Int                              @id @default(autoincrement())
+  cloudStorageLocation    String? // should be unique, but for testing we allow referencing same image
+  uploadFinalized         Boolean                          @default(true)
+  fileName                String
+  fileType                String
+  tagName                 PatientArtifactTag
+  attachmentTypeId        Int?
+  attachmentType          AttachmentType?                  @relation(fields: [attachmentTypeId], references: [id])
+  integrationStatus       PatientArtifactIntegrationStatus @default(Pending)
+  integrationMessage      String?
+  createdAt               DateTime                         @default(now())
+  updatedAt               DateTime                         @updatedAt
+  patientId               Int
+  userThatUploadedId      String?
+  deleted                 Boolean                          @default(false)
+  patient                 Patient                          @relation(fields: [patientId], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  UserThatUploaded        User?                            @relation(fields: [userThatUploadedId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  patientDocumentArtifact PatientDocumentArtifact?
+}
+
+model PatientDocumentArtifact {
+  id                               Int                   @id @default(autoincrement())
+  documentRawText                  String?
+  documentExtractionOutputLocation String?               @unique
+  relevantPages                    Int[]
+  relevantMedPages                 Int[]                 @default([])
+  status                           PatientArtifactStatus @default(ExtractionCompleted)
+  extractionAttempts               Int                   @default(0)
+  patientArtifactId                Int                   @unique
+  createdAt                        DateTime              @default(now())
+  updatedAt                        DateTime              @updatedAt
+  paragraphs                       Paragraph[]
+  PatientArtifact                  PatientArtifact       @relation(fields: [patientArtifactId], references: [id])
+}
+
+model Paragraph {
+  id                        Int                     @id @default(autoincrement())
+  createdAt                 DateTime                @default(now())
+  updatedAt                 DateTime                @updatedAt
+  startIndex                Int
+  endIndex                  Int
+  page                      Int
+  positionOnPage            Int
+  patientDocumentArtifactId Int
+  PatientDocumentArtifact   PatientDocumentArtifact @relation(fields: [patientDocumentArtifactId], references: [id])
+}
+
+model Location {
+  id             Int          @id @default(autoincrement())
+  name           String
+  createdAt      DateTime     @default(now())
+  updatedAt      DateTime     @updatedAt
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+  patients       Patient[]
+  Users          User[]
+
+  cmsBranchId String?
+  state       State?
+
+  deleted Boolean @default(false)
+
+  @@unique([organizationId, name])
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id                        String              @id @default(cuid())
+  name                      String
+  email                     String              @unique
+  password                  String
+  image                     String?
+  organizationId            Int
+  emailVerified             DateTime
+  pointcareId               String?
+  devices                   Device[]
+  createdAt                 DateTime            @default(now())
+  updatedAt                 DateTime            @updatedAt
+  roles                     UserRole[]          @default([Nurse])
+  accounts                  Account[]
+  AssessmentAnswer          AssessmentAnswer[]
+  InterviewQuestion         InterviewQuestion[]
+  NurseInterview            NurseInterview[]
+  CaseManagedPatients       Patient[]           @relation("SOCVisitCaseManager")
+  QaAssignedPatients        Patient[]           @relation("QaAssignedUser")
+  DataEntryAssignedPatients Patient[]           @relation("dataEntryAssignedUser")
+  PatientArtifact           PatientArtifact[]
+  sessions                  Session[]
+  Organization              Organization        @relation(fields: [organizationId], references: [id])
+  Locations                 Location[]
+}
+
+model Device {
+  id        String   @id @default(cuid())
+  userId    String
+  metadata  Json
+  createdAt DateTime @default(now())
+  User      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String   @id
+  token      String
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model NurseInterviewThemeSummaries {
+  id               Int                          @id @default(autoincrement())
+  nurseInterviewId Int
+  theme            String
+  createdAt        DateTime                     @default(now())
+  updatedAt        DateTime?                    @updatedAt
+  QuestionItems    NurseInterviewQuestionItem[]
+  NurseInterview   NurseInterview               @relation(fields: [nurseInterviewId], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([nurseInterviewId, theme])
+}
+
+model NurseInterviewQuestionItem {
+  id                           Int                          @id @default(autoincrement())
+  NurseInterviewThemeSummaryId Int
+  question                     String
+  LLMSummarizedText            String[]
+  humanConfirmedSummarizedText String?
+  NurseInterviewThemeSummaries NurseInterviewThemeSummaries @relation(fields: [NurseInterviewThemeSummaryId], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([NurseInterviewThemeSummaryId, question])
+}
+
+model NurseInterview {
+  id                                   Int                            @id @default(autoincrement())
+  selectedThemesToReportOn             String[]                       @default([])
+  distanceTraveled                     Int?
+  minutesSpentWithPatient              Int?
+  minutesSpentDriving                  Int?
+  totalWounds                          Int?
+  hasCompletedWoundPhotoUpload         Boolean?                       @default(false)
+  hasCompletedMedicationPhotoUpload    Boolean?                       @default(false)
+  hasCompletedDocumentsUpload          Boolean?                       @default(false)
+  hasCompletedOtherPhotoUpload         Boolean?                       @default(false)
+  hasConfirmedThemesWithinNormalLimits Boolean?                       @default(false)
+  userId                               String
+  patientId                            Int                            @unique
+  createdAt                            DateTime                       @default(now())
+  updatedAt                            DateTime                       @updatedAt
+  Patient                              Patient                        @relation(fields: [patientId], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  User                                 User                           @relation(fields: [userId], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  NurseInterviewThemeSummaries         NurseInterviewThemeSummaries[]
+}
+
+model InterviewQuestion {
+  id                            Int                       @id @default(autoincrement())
+  question                      String
+  cloudStorageAudioFileLocation String?
+  audioContentType              String?
+  audioTranscriptionStatus      AudioTranscriptionStatus?
+  retryAttempts                 Int                       @default(0)
+  transcribedText               String?
+  transcribedTextConfidence     Float?
+  lowConfidenceAcknowledged     DateTime?
+  textResponse                  String?
+  patientId                     Int
+  userId                        String
+  createdAt                     DateTime                  @default(now())
+  updatedAt                     DateTime                  @updatedAt
+  interviewQuestionShortLabel   String
+  interviewQuestionTheme        String
+  Patient                       Patient                   @relation(fields: [patientId], references: [id], onDelete: Cascade, onUpdate: NoAction)
+  User                          User                      @relation(fields: [userId], references: [id], onDelete: Cascade, onUpdate: NoAction)
+
+  @@unique([patientId, interviewQuestionShortLabel])
+}
+
+model AssessmentAnswer {
+  id                        Int                               @id @default(autoincrement())
+  patientId                 Int
+  assessmentNumber          String
+  status                    AssessmentAnswerSuggestionStatus  @default(InProgress)
+  generatedResponse         Json?
+  generatedResponseAccepted Boolean?
+  checkedResponse           Json?
+  checkedById               String?
+  integrationStatus         AssessmentAnswerIntegrationStatus @default(Pending)
+  integrationMessage        String?
+  createdAt                 DateTime                          @default(now())
+  updatedAt                 DateTime                          @updatedAt
+  deleted                   Boolean                           @default(false)
+  checkedBy                 User?                             @relation(fields: [checkedById], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  Patient                   Patient                           @relation(fields: [patientId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+
+  @@unique([patientId, assessmentNumber])
+}
+
+model VitalSignConfig {
+  id                        Int          @id @default(autoincrement())
+  name                      String
+  temperatureMin            Float?
+  temperatureMax            Float?
+  pulseMin                  Float?
+  pulseMax                  Float?
+  respirationsMin           Float?
+  respirationsMax           Float?
+  bloodPressureSystolicMin  Float?
+  bloodPressureSystolicMax  Float?
+  bloodPressureDiastolicMin Float?
+  bloodPressureDiastolicMax Float?
+  oxygenSaturationMin       Float?
+  oxygenSaturationMax       Float?
+  fastingBloodSugarMin      Float?
+  fastingBloodSugarMax      Float?
+  randomBloodSugarMin       Float?
+  randomBloodSugarMax       Float?
+  painLevelMin              Float?
+  painLevelMax              Float?
+  weightMin                 Float?
+  weightMax                 Float?
+  inrLevelMin               Float?
+  inrLevelMax               Float?
+  prothrombinTimeMin        Float?
+  prothrombinTimeMax        Float?
+  ankleCircumferenceMin     Float?
+  ankleCircumferenceMax     Float?
+  calfCircumferenceMin      Float?
+  calfCircumferenceMax      Float?
+  girthMin                  Float?
+  girthMax                  Float?
+  headCircumferenceMin      Float?
+  headCircumferenceMax      Float?
+  instepCircumferenceMin    Float?
+  instepCircumferenceMax    Float?
+  thighCircumferenceMin     Float?
+  thighCircumferenceMax     Float?
+  organizationId            Int
+  Organization              Organization @relation(fields: [organizationId], references: [id])
+  createdAt                 DateTime     @default(now())
+  updatedAt                 DateTime     @updatedAt
+
+  @@unique([organizationId, name])
+}
+
+model AttachmentType {
+  id                    Int               @id @default(autoincrement())
+  description           String
+  type                  String
+  location              String
+  notes                 String?
+  requiredForSOC        Boolean
+  VisitNoteOrganization Organization?     @relation("VisitNoteAttachmentType")
+  Organization          Organization?     @relation("AttachmentTypes", fields: [organizationId], references: [id])
+  organizationId        Int?
+  createdAt             DateTime          @default(now())
+  updatedAt             DateTime          @updatedAt
+  deleted               Boolean           @default(false)
+  PatientArtifact       PatientArtifact[]
+
+  @@unique([organizationId, type, description])
+}
+
+model LoginProfile {
+  id                Int     @id @default(autoincrement())
+  firstName         String
+  lastName          String
+  hchbUsername      String
+  hchbPassword      String /// @encrypted
+  pointcareUserId   String
+  pointcarePassword String /// @encrypted
+  inUse             Boolean @default(false)
+  mainLogin         Boolean @default(false)
+
+  patientId Int?
+  Patient   Patient? @relation(fields: [patientId], references: [id])
+
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([organizationId, hchbUsername])
+  @@unique([organizationId, pointcareUserId])
+}
+
+model AssociatedPhysician {
+  id   Int    @id @default(autoincrement())
+  name String
+
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([organizationId, name])
+}
+
+model PhysicalAssessmentCategory {
+  id   Int    @id @default(autoincrement())
+  name String
+
+  organizationId Int
+  Organization   Organization @relation(fields: [organizationId], references: [id])
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([organizationId, name])
+}
+
+enum AssessmentAnswerIntegrationStatus {
+  Pending
+  Completed
+  Failed
+}
+
+enum ConfigurationType {
+  HomeCareHomeBase
+  WellSky
+  Choice
+}
+
+enum PatientArtifactTag {
+  ReferralDocument
+  Wounds
+  Medication
+  Other
+  Photos
+  VisitNote
+}
+
+enum UserRole {
+  Nurse // Troy Aikman
+  BranchOffice
+  BranchAdmin
+  OrgOffice
+  OrgAdmin
+
+  // system/apricot roles
+  OrgQA
+  QA
+  QaManager
+  DataEntry
+  DataEntryManager
+  PromptIterator
+  SuperAdmin
+
+  // Deprecated
+  BackOffice
+  Admin
+  Coordinator
+}
+
+enum AssessmentAnswerSuggestionStatus {
+  Queued
+  InProgress
+  Completed
+  Failed
+}
+
+enum ProviderType {
+  PrimaryCareProvider
+  ReferringPhysician // deprecated
+  Specialist
+  OtherFollowingPhysician
+}
+
+enum ReferringPhysician {
+  YES
+  NO
+}
+
+enum Gender {
+  Male
+  Female
+}
+
+enum PatientStatus {
+  NewPatient
+  Incomplete // assessment started
+  WithQA // Drafting Documentation
+  SignoffNeeded // Pending Signoff
+  ReadyForEMR
+  AddingToEMR
+  Complete
+  NonAdmit
+}
+
+enum PatientArtifactStatus {
+  ExtractionNotStarted
+  ExtractionStarted
+  ExtractionCompleted
+  ExtractionFailed
+}
+
+enum PatientArtifactIntegrationStatus {
+  Pending
+  Completed
+  Failed
+}
+
+enum AudioTranscriptionStatus {
+  NotStarted
+  InProgress
+  Completed
+  Failed
+  NoResults
+}
+
+enum State {
+  AL
+  AK
+  AZ
+  AR
+  CA
+  CO
+  CT
+  DC
+  DE
+  FL
+  GA
+  HI
+  ID
+  IL
+  IN
+  IA
+  KS
+  KY
+  LA
+  ME
+  MD
+  MA
+  MI
+  MN
+  MS
+  MO
+  MT
+  NE
+  NV
+  NH
+  NJ
+  NM
+  NY
+  NC
+  ND
+  OH
+  OK
+  OR
+  PA
+  PR
+  RI
+  SC
+  SD
+  TN
+  TX
+  UT
+  VT
+  VA
+  WA
+  WV
+  WI
+  WY
+}
+
+enum PatientAuditLogAction {
+  CREATE_PATIENT
+  UPDATE_PATIENT
+  DELETE_PATIENT
+  UPLOAD_ARTIFACT
+}

@@ -1,0 +1,647 @@
+[
+	{
+		"id": "AC1997",
+		"questionType": "Code",
+		"text": "Was MAHC-10 Fall Risk Assessment completed?",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3142",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC1997A",
+					"code": "0",
+					"followup": ["AC1998"]
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC1997B",
+					"code": "1",
+					"followup": [
+						"AC2000",
+						"AC2001",
+						"AC2002",
+						"AC2003",
+						"AC2004",
+						"AC2005",
+						"AC2006",
+						"AC2007",
+						"AC2008",
+						"AC2009"
+					]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1998",
+		"questionType": "Code",
+		"text": "Indicate reason a fall assessment was not completed.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": [
+				{
+					"text": "Not appropriate at time of evaluation",
+					"sequence": 1,
+					"reference": "AC1998A",
+					"code": "0"
+				},
+				{
+					"text": "Not applicable",
+					"sequence": 2,
+					"reference": "AC1998B",
+					"code": "1"
+				},
+				{
+					"text": "Other",
+					"sequence": 3,
+					"reference": "AC1998C",
+					"code": "2",
+					"followup": ["AC1999"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC1999",
+		"questionType": "Text",
+		"text": "Specify other reason a fall assessment was not completed.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2000",
+		"questionType": "Code",
+		"text": "Age 65+",
+		"alternateQuestionText": "Is the patient age 65 or older? Consider the patient's birthdate with respect to today's date.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3153",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2000A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2000B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 789,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2000A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2000B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2001",
+		"questionType": "Code",
+		"text": "Diagnosis (3 or more co-existing) - Includes only documented medical diagnosis.",
+		"alternateQuestionText": "Does the patient have 3 or more co-existing diagnoses?",
+		"codingInstructions": "Includes only documented medical diagnosis.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3156",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2001A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2001B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 794,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2001A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2001B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2002",
+		"questionType": "Code",
+		"text": "Prior history of falls within 3 months - A fall is defined as an unintentional change in position resulting in coming to rest on the ground or at a lower level.",
+		"alternateQuestionText": "Does the patient have a prior history of falls within the last 3 months?",
+		"codingInstructions": "Fall definition: \"An unintentional change in position resulting in coming to rest on the ground or at a lower level.\"",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3159",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2002A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2002B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 799,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2002A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2002B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2003",
+		"questionType": "Code",
+		"text": "Incontinence - Inability to make it to the bathroom or commode in timely manner. Includes frequency, urgency, and/or nocturia.",
+		"alternateQuestionText": "Does the patient experience incontinence?",
+		"codingInstructions": "Inability to make it to the bathroom or commode in timely manner. Includes frequency, urgency, and/or nocturia.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3164",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2003A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2003B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 804,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2003A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2003B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2004",
+		"questionType": "Code",
+		"text": "Visual impairment - Includes but not limited to, macular degeneration, diabetic retinopathies, visual field loss, age related changes, decline in visual acuity, accommodation, glare tolerance, depth perception, and night vision or not wearing prescribed glasses or having the correct prescription.",
+		"alternateQuestionText": "Is the patient visually impaired?",
+		"codingInstructions": "Includes but not limited to, macular degeneration, diabetic retinopathies, visual field loss, age related changes, decline in visual acuity, accommodation, glare tolerance, depth perception, and night vision or not wearing prescribed glasses or having the correct prescription.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3169",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2004A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2004B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 809,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2004A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2004B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2005",
+		"questionType": "Code",
+		"text": "Impaired functional mobility - May include patients who need help with IADLs or ADLs or have gait or transfer problems, arthritis, pain, fear of falling, foot problems, impaired sensation, impaired coordination or improper use of assistive devices.",
+		"alternateQuestionText": "Does the patient have impaired functional mobility",
+		"codingInstructions": "May include patients who need help with IADLs or ADLs or have gait or transfer problems, arthritis, pain, fear of falling, foot problems, impaired sensation, impaired coordination or improper use of assistive devices.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3175",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2005A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2005B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 814,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2005A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2005B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2006",
+		"questionType": "Code",
+		"text": "Environmental hazards - May include but not limited to, poor illumination, equipment tubing, inappropriate footwear, pets, hard to reach items, floor surfaces that are uneven or cluttered, or outdoor entry and exits.",
+		"alternateQuestionText": "Does the patient have environmental hazards in their living situation?",
+		"codingInstructions": "May include but not limited to, poor illumination, equipment tubing, inappropriate footwear, pets, hard to reach items, floor surfaces that are uneven or cluttered, or outdoor entry and exits.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3183",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2006A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2006B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 819,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2006A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2006B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2007",
+		"questionType": "Code",
+		"text": "Poly Pharmacy (4 or more prescriptions - any type). - All PRESCRIPTIONS including prescriptions for OTC meds. Drugs highly associated with fall risk include but are not limited to, sedatives, anti-depressants, tranquilizers, narcotics, antihypertensives, cardiac meds, corticosteroids, anti-anxiety drugs, anticholinergic drugs, and hypoglycemic drugs.",
+		"alternateQuestionText": "Does the patient take 4 or more prescriptions of any type?",
+		"codingInstructions": "All PRESCRIPTIONS including prescriptions for OTC meds. Drugs highly associated with fall risk include but are not limited to, sedatives, antidepressants, tranquilizers, narcotics, antihypertensives, cardiac meds, corticosteroids, anti-anxiety drugs, anticholinergic drugs, and hypoglycemic drugs.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3189",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2007A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2007B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 824,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2007A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2007B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2008",
+		"questionType": "Code",
+		"text": "Pain affecting level of function - Pain often affects an individual's desire or ability to move or pain can be a factor in depression or compliance with safety recommendations.",
+		"alternateQuestionText": "Does the patient experience pain that affects their level of function?",
+		"codingInstructions": "Pain often affects an individual's desire or ability to move or pain can be a factor in depression or compliance with safety recommendations.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3196",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2008A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2008B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 829,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2008A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2008B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2009",
+		"questionType": "Code",
+		"text": "Cognitive impairment - Could include patients with dementia, Alzheimer's or stroke patients or patients who are confused, use poor judgment, have decreased comprehension, impulsivity, memory deficits. Consider patient's ability to adhere to the plan of care.",
+		"alternateQuestionText": "Does the patient have a cognitive impairment?",
+		"codingInstructions": "Could include patients with dementia, Alzheimer's or stroke patients or patients who are confused, use poor judgment, have decreased comprehension, impulsivity, memory deficits. Consider patient's ability to adhere to the plan of care.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3201",
+			"active": true,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2009A",
+					"code": "0"
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2009B",
+					"code": "1"
+				}
+			]
+		},
+		"wellsky": {
+			"id": 834,
+			"active": true,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2009A",
+					"code": "0"
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2009B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2020",
+		"questionType": "Code",
+		"text": "Do you want to perform a TUG (Timed Up and Go) Assessment?",
+		"alternateQuestionText": "Was a Timed Up and Go (TUG) Assessment performed for this patient?",
+		"codingInstructions": "Unless otherwise indicated in the documents, select 'no' as the answer.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3133",
+			"active": false,
+			"responses": [
+				{
+					"text": "No",
+					"sequence": 1,
+					"reference": "AC2020A",
+					"code": "0",
+					"followup": ["AC2021"]
+				},
+				{
+					"text": "Yes",
+					"sequence": 2,
+					"reference": "AC2020B",
+					"code": "1",
+					"followup": ["AC2019"]
+				}
+			]
+		},
+		"wellsky": {
+			"id": null,
+			"active": false,
+			"responses": [
+				{
+					"text": "Yes",
+					"sequence": 1,
+					"reference": "AC2020A",
+					"code": "0",
+					"followup": ["AC2019"]
+				},
+				{
+					"text": "No",
+					"sequence": 2,
+					"reference": "AC2020B",
+					"code": "1"
+				}
+			]
+		}
+	},
+	{
+		"id": "AC2021",
+		"questionType": "Text",
+		"text": "Indicate reason Timed Up and Go (TUG) screen not performed.",
+		"codingInstructions": "Unless otherwise indicated in the documents, answer 'Not appropriate at time of evaluation.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": "PA3136",
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2019",
+		"questionType": "Number",
+		"text": "Indicate results of TUG assessment in seconds.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	}
+]

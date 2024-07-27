@@ -1,0 +1,28 @@
+import { Autocomplete } from '../inputs/Autocomplete';
+import { Checkbox } from '../inputs/Checkbox';
+import { CurrencyField } from '../inputs/CurrencyField';
+import { DatePicker } from '../inputs/DatePicker';
+import { DateRangePicker } from '../inputs/DateRangePicker';
+import { DateTimePicker } from '../inputs/DateTimePicker';
+import { InlineCheckbox } from '../inputs/InlineCheckbox';
+import { PatternFormatField } from '../inputs/PatternFormatField';
+import { RadioButton } from '../inputs/RadioButton';
+import { Select } from '../inputs/Select';
+import { SelectChips } from '../inputs/SelectChips';
+import { TextField } from '../inputs/TextField';
+import { TimePicker } from '../inputs/TimePicker';
+import { withController } from './withController';
+
+export const FormAutocomplete = withController(Autocomplete);
+export const FormCheckbox = withController(Checkbox);
+export const FormCurrencyField = withController(CurrencyField);
+export const FormDatePicker = withController(DatePicker);
+export const FormDateRangePicker = withController(DateRangePicker);
+export const FormDateTimePicker = withController(DateTimePicker);
+export const FormInlineCheckbox = withController(InlineCheckbox);
+export const FormPatternFormatField = withController(PatternFormatField);
+export const FormRadioButton = withController(RadioButton);
+export const FormSelect = withController(Select);
+export const FormSelectChips = withController(SelectChips);
+export const FormTextField = withController(TextField);
+export const FormTimePicker = withController(TimePicker);

@@ -1,0 +1,4594 @@
+[
+	{
+		"id": "PA-710511",
+		"questionType": "Select",
+		"originalText": "SELECT THE CLIENT'S MARITAL STATUS: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Select the patient's marital status:",
+		"responses": [
+			{
+				"text": "NOT MARRIED",
+				"cleanedText": "Not Married"
+			},
+			{
+				"text": "MARRIED",
+				"cleanedText": "Married"
+			},
+			{
+				"text": "WIDOWED",
+				"cleanedText": "Widowed"
+			},
+			{
+				"text": "DIVORCED",
+				"cleanedText": "Divorced"
+			},
+			{
+				"text": "SEPARATED",
+				"cleanedText": "Separated"
+			},
+			{
+				"text": "UK - UNKNOWN",
+				"cleanedText": "Unknown"
+			}
+		]
+	},
+	{
+		"id": "PA-329f77",
+		"questionType": "Select",
+		"originalText": "INDICATE THE CLIENT'S RELIGION: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's religion:",
+		"responses": [
+			{
+				"text": "ASSEMBLY OF GOD",
+				"cleanedText": "Assembly of God"
+			},
+			{
+				"text": "BAPTIST",
+				"cleanedText": "Baptist"
+			},
+			{
+				"text": "CATHOLIC",
+				"cleanedText": "Catholic"
+			},
+			{
+				"text": "CHRISTIAN",
+				"cleanedText": "Christian"
+			},
+			{
+				"text": "CHRISTIAN SCIENTIST",
+				"cleanedText": "Christian Scientist"
+			},
+			{
+				"text": "CHURCH OF CHRIST",
+				"cleanedText": "Church of Christ"
+			},
+			{
+				"text": "EPISCOPAL",
+				"cleanedText": "Episcopal"
+			},
+			{
+				"text": "HEBREW",
+				"cleanedText": "Hebrew"
+			},
+			{
+				"text": "JEHOVAH'S WITNESS",
+				"cleanedText": "Jehovah's Witness"
+			},
+			{
+				"text": "JEWISH",
+				"cleanedText": "Jewish"
+			},
+			{
+				"text": "LUTHERAN",
+				"cleanedText": "Lutheran"
+			},
+			{
+				"text": "METHODIST",
+				"cleanedText": "Methodist"
+			},
+			{
+				"text": "MUSLIM",
+				"cleanedText": "Muslim"
+			},
+			{
+				"text": "PENTECOSTAL",
+				"cleanedText": "Pentecostal"
+			},
+			{
+				"text": "PRESBYTERIAN",
+				"cleanedText": "Presbyterian"
+			},
+			{
+				"text": "PROTESTANT",
+				"cleanedText": "Protestant"
+			},
+			{
+				"text": "UNKNOWN",
+				"cleanedText": "Unknown"
+			},
+			{
+				"text": "OTHER [SPECIFY]",
+				"cleanedText": "Other",
+				"followup": ["PA-e853e3"]
+			}
+		]
+	},
+	{
+		"id": "PA-a2cb51",
+		"questionType": "Select",
+		"originalText": "IS THE PATIENT A VETERAN OR SPOUSE OF A VETERAN? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is the patient a veteran or spouse of a veteran?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-158940",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE FINANCIAL FACTORS (SELECT ALL THAT APPLY) - IF ANY FINANCIAL ISSUES ARE PRESENT, CONSIDER MSW EVALUATION OR COMMUNITY RESOURCE REFERRAL FOR ASSISTANCE. TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate financial factors affecting the patient:",
+		"responses": [
+			{
+				"text": "NOT ABLE TO AFFORD MEDICATIONS",
+				"cleanedText": "Not Able to Afford Medications"
+			},
+			{
+				"text": "NOT ABLE TO AFFORD TRANSPORTATION FOR MEDICAL APPOINTMENTS",
+				"cleanedText": "not able to afford transportation for medical appointments"
+			},
+			{
+				"text": "NOT ABLE TO AFFORD RENT/ UTILITIES",
+				"cleanedText": "not able to afford Rent/ utilities"
+			},
+			{
+				"text": "INSUFFICIENT MONEY TO BUY FOOD",
+				"cleanedText": "Insufficient Money to Buy Food"
+			},
+			{
+				"text": "N/A - NO FINANCIAL ISSUES",
+				"cleanedText": "N/A - No financial issues"
+			}
+		]
+	},
+	{
+		"id": "PA-bb14d8",
+		"questionType": "Select",
+		"originalText": "IS THE PATIENT HOMEBOUND? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is the patient homebound?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-a2cb92", "PA-89f43c", "PA-006625"]
+			},
+			{
+				"text": "NO - WARNING: MEDICARE PATIENTS MUST MEET HOMEBOUND ELIGIBILITY REQUIREMENTS TO RECEIVE HOME HEALTH SERVICES. CONTACT SUPERVISOR TO DISCUSS PATIENT'S HOMEBOUND STATUS.",
+				"cleanedText": "No - Warning: medicare patients must meet homebound eligibility requirements to receive home health services. contact supervisor to discuss patient's homebound status.",
+				"followup": ["PA-0065ff"]
+			}
+		]
+	},
+	{
+		"id": "PA-f2a5bc",
+		"questionType": "Select",
+		"originalText": "HAS THE CLIENT RECEIVED HOME HEALTH SERVICES FROM A DIFFERENT HOME HEALTH PROVIDER IN THE PAST 60 DAYS? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Has the patient received home health services from a different home health provider in the past 60 days?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-034b16", "PA-13c95d"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-56b19d",
+		"questionType": "Select",
+		"originalText": "IS THE PATIENT CURRENTLY RECEIVING OUTPATIENT THERAPY SERVICES? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is the patient currently receiving outpatient therapy services?",
+		"responses": [
+			{
+				"text": "YES - CONTACT CLINICAL MANAGER TO DISCUSS HOME HEALTH ELIGIBILITY",
+				"cleanedText": "Yes - Contact clinical manager to discuss home health eligibility"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-7a7fc5",
+		"questionType": "Select",
+		"originalText": "DOES THE CLIENT RECEIVE PERSONAL CARE SERVICES? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient receive personal care services?",
+		"responses": [
+			{
+				"text": "YES - ADD 'PCS COORDINATION OF CARE' COORDINATION NOTE TO NOTIFY BRANCH DESIGNEE OF NEED TO COORDINATE WITH PCS PROVIDER",
+				"cleanedText": "Yes - Add 'pcs coordination of care' coordination note to notify branch designee of need to coordinate with pcs provider"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No",
+				"followup": ["PA-2b99ba"]
+			}
+		]
+	},
+	{
+		"id": "PA-2ccac4",
+		"questionType": "Text",
+		"originalText": "INDICATE THE PRIMARY DIAGNOSIS/PRIMARY FOCUS OF CARE THAT HAS BEEN VERIFIED WITH THE PHYSICIAN/PROVIDER. \n\nPRIMARY DIAGNOSIS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate the primary diagnosis / primary focus of care that has been verified with the physician/provider:"
+	},
+	{
+		"id": "PA-e2d583",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE CONDITION(S) TO BE INCLUDED IN POC THAT HAVE BEEN VERIFIED WITH THE PHYSICIAN/PROVIDER:\n\nONLY SELECT CONDITION(S) IF VERIFICATION HAS OCCURRED VERBALLY WITH PHYSICIAN/PROVIDER OR DOCUMENTED WITHIN MEDICAL RECORD. TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate condition(s) to be included in POC that have been verified with the physician/provider (only select condition(s) if verification has occurred verbally with physician/provider or if documented within medical record):",
+		"responses": [
+			{
+				"text": "NONE",
+				"cleanedText": "None"
+			},
+			{
+				"text": "AFTERCARE OF SURGERY",
+				"cleanedText": "Aftercare of Surgery",
+				"followup": ["PA-e1c6ef"]
+			},
+			{
+				"text": "ANEMIA",
+				"cleanedText": "Anemia"
+			},
+			{
+				"text": "ANEURYSM",
+				"cleanedText": "Aneurysm"
+			},
+			{
+				"text": "ANXIETY",
+				"cleanedText": "Anxiety"
+			},
+			{
+				"text": "ASTHMA",
+				"cleanedText": "Asthma"
+			},
+			{
+				"text": "ATRIAL FIBRILLATION",
+				"cleanedText": "Atrial Fibrillation"
+			},
+			{
+				"text": "BPH",
+				"cleanedText": "Bph"
+			},
+			{
+				"text": "CAD",
+				"cleanedText": "Cad"
+			},
+			{
+				"text": "CANCER",
+				"cleanedText": "Cancer",
+				"followup": ["PA-beeb38"]
+			},
+			{
+				"text": "CHF",
+				"cleanedText": "CHF"
+			},
+			{
+				"text": "CIRRHOSIS OF LIVER",
+				"cleanedText": "Cirrhosis of Liver"
+			},
+			{
+				"text": "CKD",
+				"cleanedText": "Ckd"
+			},
+			{
+				"text": "COPD",
+				"cleanedText": "COPD"
+			},
+			{
+				"text": "CVA/STROKE",
+				"cleanedText": "Cva/Stroke",
+				"followup": ["PA-13e6d0"]
+			},
+			{
+				"text": "DEMENTIA",
+				"cleanedText": "Dementia",
+				"followup": ["PA-111f9b", "PA-a8e655", "PA-4a5756"]
+			},
+			{
+				"text": "DEPRESSION",
+				"cleanedText": "Depression"
+			},
+			{
+				"text": "DIABETES",
+				"cleanedText": "Diabetes",
+				"followup": ["PA-7da924"]
+			},
+			{
+				"text": "DIVERTICULOSIS",
+				"cleanedText": "Diverticulosis"
+			},
+			{
+				"text": "DVT",
+				"cleanedText": "Dvt",
+				"followup": ["PA-becc32"]
+			},
+			{
+				"text": "EMPHYSEMA",
+				"cleanedText": "Emphysema"
+			},
+			{
+				"text": "FRACTURES",
+				"cleanedText": "Fractures",
+				"followup": ["PA-a7f400"]
+			},
+			{
+				"text": "GERD",
+				"cleanedText": "Gerd"
+			},
+			{
+				"text": "HYPERTENSION",
+				"cleanedText": "Hypertension"
+			},
+			{
+				"text": "HYPOTENSION",
+				"cleanedText": "Hypotension"
+			},
+			{
+				"text": "INFECTION",
+				"cleanedText": "Infection",
+				"followup": ["PA-347a9f"]
+			},
+			{
+				"text": "IRRITABLE BOWEL DISEASE",
+				"cleanedText": "Irritable Bowel Disease"
+			},
+			{
+				"text": "LUPUS",
+				"cleanedText": "Lupus"
+			},
+			{
+				"text": "MALNUTRITION",
+				"cleanedText": "Malnutrition"
+			},
+			{
+				"text": "MENTAL ILLNESS",
+				"cleanedText": "Mental Illness",
+				"followup": ["PA-943545"]
+			},
+			{
+				"text": "MI",
+				"cleanedText": "Mi",
+				"followup": ["PA-f8217b"]
+			},
+			{
+				"text": "MS",
+				"cleanedText": "Ms"
+			},
+			{
+				"text": "OBESITY",
+				"cleanedText": "Obesity"
+			},
+			{
+				"text": "OSTEOARTHRITIS",
+				"cleanedText": "Osteoarthritis",
+				"followup": ["PA-50f030"]
+			},
+			{
+				"text": "OSTEOPOROSIS",
+				"cleanedText": "Osteoporosis"
+			},
+			{
+				"text": "PARALYSIS",
+				"cleanedText": "Paralysis",
+				"followup": ["PA-a1b848"]
+			},
+			{
+				"text": "PARKINSON'S DISEASE",
+				"cleanedText": "Parkinson's Disease"
+			},
+			{
+				"text": "PULMONARY HYPERTENSION",
+				"cleanedText": "Pulmonary Hypertension"
+			},
+			{
+				"text": "PVD",
+				"cleanedText": "PVD"
+			},
+			{
+				"text": "RHEUMATOID ARTHRITIS",
+				"cleanedText": "Rheumatoid Arthritis"
+			},
+			{
+				"text": "SEIZURES",
+				"cleanedText": "Seizures"
+			},
+			{
+				"text": "SKIN IMPAIRMENT (I.E., CELLULITIS, ABSCESS, WOUND, ETC.)",
+				"cleanedText": "Skin impairment (I.e., cellulitis, abscess, wound, etc.)",
+				"followup": ["PA-0c5ee9"]
+			},
+			{
+				"text": "SPINAL STENOSIS",
+				"cleanedText": "Spinal Stenosis",
+				"followup": ["PA-02b7f4"]
+			},
+			{
+				"text": "SUBSTANCE  ABUSE",
+				"cleanedText": "Substance Abuse"
+			},
+			{
+				"text": "UTI",
+				"cleanedText": "UTI"
+			},
+			{
+				"text": "VISION IMPAIRMENT",
+				"cleanedText": "Vision Impairment",
+				"followup": ["PA-9bebb6"]
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-138b81"]
+			}
+		]
+	},
+	{
+		"id": "PA-946407",
+		"questionType": "Select",
+		"originalText": "WAS HEIGHT ASSESSED? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Was height assessed?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-5ebc6d"]
+			},
+			{
+				"text": "NOT ASSESSED",
+				"cleanedText": "Not Assessed"
+			}
+		]
+	},
+	{
+		"id": "PA-ee1734",
+		"questionType": "Select",
+		"originalText": "WAS WEIGHT ASSESSED? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Was weight assessed?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-022016"]
+			},
+			{
+				"text": "NOT ASSESSED",
+				"cleanedText": "Not Assessed"
+			}
+		]
+	},
+	{
+		"id": "PA-73f37a",
+		"questionType": "Select",
+		"originalText": "WAS THE PATIENT DISCHARGED FROM AN INPATIENT FACILITY WITHIN THE LAST 14 DAYS? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Was the patient discharged from an inpatient facility within the last 14 days?",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No",
+				"followup": []
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": []
+			}
+		]
+	},
+	{
+		"id": "PA-7075db",
+		"questionType": "Select",
+		"originalText": "IS THE PATIENT AT RISK FOR ED USE? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is the patient at risk for ED use?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-809bd9",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE SAFETY RISK ASSESSMENT FINDINGS FROM PATIENT/CAREGIVER REPORT AND/OR REVIEW OF WELCOME CALL AND SHH- RISK ASSESSMENT SCREENING COORDINATION NOTES: \n(ADD POINTCARE VISIT ALERT FOR ANY SELECTED ITEMS) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate safety risk assessment findings from patient/caregiver report and/or review of welcome call and SHH:",
+		"responses": [
+			{
+				"text": "ACTIVE SUBSTANCE USE PATIENT/CAREGIVER",
+				"cleanedText": "Active Substance Use Patient/Caregiver",
+				"followup": ["PA-809bd9a"]
+			},
+			{
+				"text": "AGGRESSIVE PATIENT/CAREGIVER",
+				"cleanedText": "Aggressive Patient/Caregiver",
+				"followup": ["PA-809bd9b"]
+			},
+			{
+				"text": "FIREARMS - UNSECURED",
+				"cleanedText": "Firearms - Unsecured",
+				"followup": ["PA-809bd9c"]
+			},
+			{
+				"text": "HIGH CRIME/UNSAFE NEIGHBORHOOD",
+				"cleanedText": "High Crime/Unsafe Neighborhood",
+				"followup": ["PA-809bd9d"]
+			},
+			{
+				"text": "HISTORY OF CRIME OF VIOLENCE",
+				"cleanedText": "History of Crime of Violence",
+				"followup": ["PA-212334", "PA-999214", "PA-809bd9e"]
+			},
+			{
+				"text": "PATIENT LISTED ON SEX OFFENDER REGISTRY",
+				"cleanedText": "patient listed on sex offender registry",
+				"followup": ["PA-809bd9f"]
+			},
+			{
+				"text": "PETS/ANIMALS - POORLY CONTROLLED",
+				"cleanedText": "Pets/Animals - Poorly controlled",
+				"followup": ["PA-809bd9g"]
+			},
+			{
+				"text": "NONE",
+				"cleanedText": "None"
+			},
+			{
+				"text": "OTHER",
+				"cleanedText": "Other",
+				"followup": ["PA-7fa416", "PA-809bd9h"]
+			}
+		]
+	},
+	{
+		"id": "PA-809bd9a",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR ACTIVE SUBSTANCE USE PATIENT/CAREGIVER",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about active substance use:"
+	},
+	{
+		"id": "PA-809bd9b",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR AGGRESSIVE PATIENT/CAREGIVER",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about aggressive patient/caregiver:"
+	},
+	{
+		"id": "PA-809bd9c",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR FIREARMS - UNSECURED",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about firearms - unsecured:"
+	},
+	{
+		"id": "PA-809bd9d",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR HIGH CRIME/UNSAFE NEIGHBORHOOD",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about high crime / unsafe neighborhood:"
+	},
+	{
+		"id": "PA-809bd9e",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR HISTORY OF CRIME OF VIOLENCE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about history of crime or violence:"
+	},
+	{
+		"id": "PA-809bd9f",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR PATIENT LISTED ON SEX OFFENDER REGISTRY",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about patient listed on sex offender registry:"
+	},
+	{
+		"id": "PA-809bd9g",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR PETS/ANIMALS - POORLY CONTROLLED",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about pets/animals - poorly controlled:"
+	},
+	{
+		"id": "PA-809bd9h",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR OTHER SAFETY RISK ASSESSMENT FINDINGS",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about other safety risk assessment findings:"
+	},
+	{
+		"id": "PA-bd2f2c",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE SAFETY HAZARDS/SANITATION ISSUES: (SELECT ALL THAT APPLY AND ADD POINTCARE VISIT ALERT AS APPROPRIATE) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate safety hazards/sanitation issues:",
+		"responses": [
+			{
+				"text": "BATHROOM - ABSENT NON-SKID/ABRASIVE STRIPS ON SURFACES",
+				"cleanedText": "Bathroom - Absent non-skid/abrasive strips on surfaces",
+				"followup": ["PA-bd2f2c1"]
+			},
+			{
+				"text": "COOKING FACILITIES - UNSAFE/INADEQUATE",
+				"cleanedText": "Cooking Facilities - Unsafe/Inadequate",
+				"followup": ["PA-bd2f2c2"]
+			},
+			{
+				"text": "COOLING - INADEQUATE",
+				"cleanedText": "Cooling - Inadequate",
+				"followup": ["PA-bd2f2c3"]
+			},
+			{
+				"text": "DME- UNSAFE USE/MAINTENANCE",
+				"cleanedText": "DME- Unsafe Use/Maintenance",
+				"followup": ["PA-bd2f2c4"]
+			},
+			{
+				"text": "DOORS/WINDOWS NOT SECURE",
+				"cleanedText": "Doors/Windows Not Secure",
+				"followup": ["PA-bd2f2c5"]
+			},
+			{
+				"text": "ELECTRICAL CORDS/DEVICES - UNSAFE",
+				"cleanedText": "Electrical Cords/Devices - Unsafe",
+				"followup": ["PA-bd2f2c6"]
+			},
+			{
+				"text": "ELECTRICITY - NON-FUNCTIONING OR DISCONNECTED",
+				"cleanedText": "Electricity - Non-functioning or disconnected",
+				"followup": ["PA-bd2f2c7"]
+			},
+			{
+				"text": "EMERGENCY EXIT PLAN NOT ESTABLISHED",
+				"cleanedText": "Emergency Exit Plan Not Established",
+				"followup": ["PA-bd2f2c8"]
+			},
+			{
+				"text": "ENTRYWAYS INADEQUATE (ABSENT STAIRS/ENTRY RAMPS/RAILS)",
+				"cleanedText": "Entryways inadequate (absent stairs/entry ramps/rails)",
+				"followup": ["PA-bd2f2c9"]
+			},
+			{
+				"text": "FIRE SAFETY DEVICES - MISSING/INADEQUATE",
+				"cleanedText": "Fire Safety Devices - Missing/Inadequate",
+				"followup": ["PA-bd2f2c10"]
+			},
+			{
+				"text": "FLOOR - LOOSE COVERINGS/RUG",
+				"cleanedText": "Floor - Loose coverings/rug",
+				"followup": ["PA-bd2f2c11"]
+			},
+			{
+				"text": "FOOD STORAGE - INADEQUATE (REFRIGERATION)",
+				"cleanedText": "Food Storage - Inadequate (refrigeration)",
+				"followup": ["PA-bd2f2c12"]
+			},
+			{
+				"text": "GAS APPLIANCES - UNSAFE/NONFUNCTIONING",
+				"cleanedText": "Gas Appliances - Unsafe/Nonfunctioning",
+				"followup": ["PA-bd2f2c13"]
+			},
+			{
+				"text": "GRAB BARS IN BATH/TOILET/SHOWER - INADEQUATE OR ABSENT",
+				"cleanedText": "Grab Bars in Bath/Toilet/Shower - Inadequate or absent",
+				"followup": ["PA-bd2f2c14"]
+			},
+			{
+				"text": "HEATING - INADEQUATE",
+				"cleanedText": "Heating - Inadequate",
+				"followup": ["PA-bd2f2c15"]
+			},
+			{
+				"text": "HOME IN REMOTE LOCATION",
+				"cleanedText": "Home in Remote Location",
+				"followup": ["PA-bd2f2c16"]
+			},
+			{
+				"text": "INSECTS/RODENTS INFESTATION",
+				"cleanedText": "Insects/Rodents Infestation",
+				"followup": ["PA-bd2f2c17"]
+			},
+			{
+				"text": "LIGHTING - INADEQUATE",
+				"cleanedText": "Lighting - Inadequate",
+				"followup": ["PA-bd2f2c18"]
+			},
+			{
+				"text": "LIVING AREA - CLUTTERED",
+				"cleanedText": "Living Area - Cluttered",
+				"followup": ["PA-bd2f2c19"]
+			},
+			{
+				"text": "LIVING AREA - SOILED",
+				"cleanedText": "Living Area - Soiled",
+				"followup": ["PA-bd2f2c20"]
+			},
+			{
+				"text": "MEDICATION - IMPROPER STORAGE OR LABELING",
+				"cleanedText": "Medication - Improper storage or labeling",
+				"followup": ["PA-bd2f2c21"]
+			},
+			{
+				"text": "ODOR - NOXIOUS (SMOKY, URINE, FECES, ETC.)",
+				"cleanedText": "Odor - Noxious (smoky, urine, feces, etc.)",
+				"followup": ["PA-bd2f2c22"]
+			},
+			{
+				"text": "OXYGEN IN USE",
+				"cleanedText": "Oxygen in Use",
+				"followup": ["PA-bd2f2c23"]
+			},
+			{
+				"text": "PHONE - LIMITED OR NO CELL SERVICE",
+				"cleanedText": "Phone - Limited or no cell service",
+				"followup": ["PA-bd2f2c24"]
+			},
+			{
+				"text": "PHONE - PATIENT UNABLE TO ACCESS/USE",
+				"cleanedText": "Phone - Patient unable to access/use",
+				"followup": ["PA-bd2f2c25"]
+			},
+			{
+				"text": "PLUMBING - INADEQUATE",
+				"cleanedText": "Plumbing - Inadequate",
+				"followup": ["PA-bd2f2c26"]
+			},
+			{
+				"text": "ROADWAYS LEADING TO HOME INADEQUATE",
+				"cleanedText": "Roadways Leading to Home Inadequate",
+				"followup": ["PA-bd2f2c27"]
+			},
+			{
+				"text": "SHARPS/HAZARDOUS MATERIALS AND WASTE - IMPROPER DISPOSAL/STORAGE",
+				"cleanedText": "Sharps/Hazardous Materials and Waste - Improper disposal/storage",
+				"followup": ["PA-bd2f2c28"]
+			},
+			{
+				"text": "SIDEWALK LEADING TO HOME INADEQUATE",
+				"cleanedText": "Sidewalk Leading to Home Inadequate",
+				"followup": ["PA-bd2f2c29"]
+			},
+			{
+				"text": "SMOKE/MONOXIDE DETECTORS INADEQUATE",
+				"cleanedText": "Smoke/Monoxide Detectors Inadequate",
+				"followup": ["PA-bd2f2c30"]
+			},
+			{
+				"text": "SMOKING IN HOME",
+				"cleanedText": "Smoking in Home",
+				"followup": ["PA-bd2f2c31"]
+			},
+			{
+				"text": "STRUCTURE - FLOOR/ROOF/WINDOWS INADEQUATE",
+				"cleanedText": "Structure - Floor/Roof/Windows inadequate",
+				"followup": ["PA-bd2f2c32"]
+			},
+			{
+				"text": "TRASH DISPOSAL - INADEQUATE/NOT SCHEDULED",
+				"cleanedText": "Trash Disposal - Inadequate/Not scheduled",
+				"followup": ["PA-bd2f2c33"]
+			},
+			{
+				"text": "NONE",
+				"cleanedText": "None"
+			},
+			{
+				"text": "OTHER",
+				"cleanedText": "Other",
+				"followup": ["PA-411bbb", "PA-bd2f2c34"]
+			}
+		]
+	},
+	{
+		"id": "PA-bd2f2c1",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR BATHROOM - ABSENT NON-SKID/ABRASIVE STRIPS ON SURFACES",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about absent non-skid/abrasive strips on bathroom surfaces:"
+	},
+	{
+		"id": "PA-bd2f2c2",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR COOKING FACILITIES - UNSAFE/INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about unsafe/inadequate cooking facilities:"
+	},
+	{
+		"id": "PA-bd2f2c3",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR COOLING - INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate cooling:"
+	},
+	{
+		"id": "PA-bd2f2c4",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR DME- UNSAFE USE/MAINTENANCE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about unsafe use/maintenance of DME:"
+	},
+	{
+		"id": "PA-bd2f2c5",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR DOORS/WINDOWS NOT SECURE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about doors/windows not secure:"
+	},
+	{
+		"id": "PA-bd2f2c6",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR ELECTRICAL CORDS/DEVICES - UNSAFE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about unsafe electrical cords/devices:"
+	},
+	{
+		"id": "PA-bd2f2c7",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR ELECTRICITY - NON-FUNCTIONING OR DISCONNECTED",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about non-functioning or disconnected electricity:"
+	},
+	{
+		"id": "PA-bd2f2c8",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR EMERGENCY EXIT PLAN NOT ESTABLISHED",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about emergency exit plan not established:"
+	},
+	{
+		"id": "PA-bd2f2c9",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR ENTRYWAYS INADEQUATE (ABSENT STAIRS/ENTRY RAMPS/RAILS)",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate entryways (absent stairs/entry ramps/rails):"
+	},
+	{
+		"id": "PA-bd2f2c10",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR FIRE SAFETY DEVICES - MISSING/INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about missing/inadequate fire safety devices:"
+	},
+	{
+		"id": "PA-bd2f2c11",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR FLOOR - LOOSE COVERINGS/RUG",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about loose floor coverings/rug:"
+	},
+	{
+		"id": "PA-bd2f2c12",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR FOOD STORAGE - INADEQUATE (REFRIGERATION)",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate food storage (refrigeration):"
+	},
+	{
+		"id": "PA-bd2f2c13",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR GAS APPLIANCES - UNSAFE/NONFUNCTIONING",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about unsafe/nonfunctioning gas appliances:"
+	},
+	{
+		"id": "PA-bd2f2c14",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR GRAB BARS IN BATH/TOILET/SHOWER - INADEQUATE OR ABSENT",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate or absent grab bars in bath/toilet/shower:"
+	},
+	{
+		"id": "PA-bd2f2c15",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR HEATING - INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate heating:"
+	},
+	{
+		"id": "PA-bd2f2c16",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR HOME IN REMOTE LOCATION",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about home in a remote location:"
+	},
+	{
+		"id": "PA-bd2f2c17",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR INSECTS/RODENTS INFESTATION",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about insect/rodent infestation:"
+	},
+	{
+		"id": "PA-bd2f2c18",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR LIGHTING - INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate lighting:"
+	},
+	{
+		"id": "PA-bd2f2c19",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR LIVING AREA - CLUTTERED",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about cluttered living area:"
+	},
+	{
+		"id": "PA-bd2f2c20",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR LIVING AREA - SOILED",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about soiled living area:"
+	},
+	{
+		"id": "PA-bd2f2c21",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR MEDICATION - IMPROPER STORAGE OR LABELING",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about improper storage or labeling of medication:"
+	},
+	{
+		"id": "PA-bd2f2c22",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR ODOR - NOXIOUS (SMOKY, URINE, FECES, ETC.)",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about noxious odor (smoky, urine, feces, etc.):"
+	},
+	{
+		"id": "PA-bd2f2c23",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR OXYGEN IN USE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about oxygen in use:"
+	},
+	{
+		"id": "PA-bd2f2c24",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR PHONE - LIMITED OR NO CELL SERVICE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about limited or no cell service on phone:"
+	},
+	{
+		"id": "PA-bd2f2c25",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR PHONE - PATIENT UNABLE TO ACCESS/USE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about patient unable to access/use phone:"
+	},
+	{
+		"id": "PA-bd2f2c26",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR PLUMBING - INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate plumbing:"
+	},
+	{
+		"id": "PA-bd2f2c27",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR ROADWAYS LEADING TO HOME INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate roadways leading to home:"
+	},
+	{
+		"id": "PA-bd2f2c28",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR SHARPS/HAZARDOUS MATERIALS AND WASTE - IMPROPER DISPOSAL/STORAGE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about improper disposal/storage of sharps/hazardous materials and waste:"
+	},
+	{
+		"id": "PA-bd2f2c29",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR SIDEWALK LEADING TO HOME INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate sidewalk leading to home:"
+	},
+	{
+		"id": "PA-bd2f2c30",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR SMOKE/MONOXIDE DETECTORS INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate smoke/monoxide detectors:"
+	},
+	{
+		"id": "PA-bd2f2c31",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR SMOKING IN HOME",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about smoking in home:"
+	},
+	{
+		"id": "PA-bd2f2c32",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR STRUCTURE - FLOOR/ROOF/WINDOWS INADEQUATE",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate structure - floor/roof/windows:"
+	},
+	{
+		"id": "PA-bd2f2c33",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR TRASH DISPOSAL - INADEQUATE/NOT SCHEDULED",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about inadequate/not scheduled trash disposal:"
+	},
+	{
+		"id": "PA-bd2f2c34",
+		"questionType": "Text",
+		"originalText": "POINTCARE VISIT ALERT FOR OTHER SAFETY HAZARDS / SANITATION ISSUES:",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert about other safety hazards / sanitation issues:"
+	},
+	{
+		"id": "PA-9a0579",
+		"questionType": "MultiSelect",
+		"originalText": "COMMUNITY SERVICES/ASSISTANCE RECEIVED FROM PERSONS/ENTITIES OTHER THAN HOME HEALTH STAFF (MARK ALL THAT APPLY): TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Community services/assistance received from persons/entities other than home health staff:",
+		"responses": [
+			{
+				"text": "ADULT DAYCARE",
+				"cleanedText": "Adult Daycare"
+			},
+			{
+				"text": "CHARITABLE ORGANIZATIONS (E.G., CHURCH GROUPS, ADOPT A GRANDPARENT, ETC.)",
+				"cleanedText": "Charitable organizations (e.g., church groups, adopt a grandparent, etc.)"
+			},
+			{
+				"text": "COUNCIL ON AGING",
+				"cleanedText": "Council on Aging"
+			},
+			{
+				"text": "HOMEMAKER SERVICES",
+				"cleanedText": "Homemaker Services"
+			},
+			{
+				"text": "INDIGENT CLIENT ASSISTANCE FOR MEDICATIONS",
+				"cleanedText": "Indigent Client Assistance for Medications"
+			},
+			{
+				"text": "INTENSIVE OUTPATIENT PROGRAM (IOP)",
+				"cleanedText": "Intensive outpatient program (IOP)"
+			},
+			{
+				"text": "MEALS ON WHEELS",
+				"cleanedText": "Meals on Wheels"
+			},
+			{
+				"text": "PARTIAL HOSPITALIZATION PROGRAM (PHP)",
+				"cleanedText": "Partial hospitalization program (PHP)"
+			},
+			{
+				"text": "RECOVERY PROGRAM (AA, NA, ETC.)",
+				"cleanedText": "Recovery program (AA, NA, etc.)"
+			},
+			{
+				"text": "STATE PERSONAL CARE ASSISTANCE PROGRAM",
+				"cleanedText": "State Personal Care Assistance Program"
+			},
+			{
+				"text": "TRANSPORTATION SERVICES",
+				"cleanedText": "Transportation Services"
+			},
+			{
+				"text": "VOLUNTEER SERVICES",
+				"cleanedText": "Volunteer Services"
+			},
+			{
+				"text": "N/A - NO COMMUNITY RESOURCES RECEIVED",
+				"cleanedText": "N/A - No community resources received"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-c966ef"]
+			}
+		]
+	},
+	{
+		"id": "PA-185bff",
+		"questionType": "Select",
+		"originalText": "IS A REFERRAL NEEDED FOR COMMUNITY RESOURCES/SERVICES TO MEET THE PATIENT'S PSYCHOSOCIAL NEEDS? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is a referral needed for community resources/services to meet the patient's psychosocial needs?",
+		"responses": [
+			{
+				"text": "YES - DOCUMENT DETAILS RELATED TO COORDINATION OF REFERRAL WITHIN NARRATIVE",
+				"cleanedText": "Yes - Document details related to coordination of referral within narrative",
+				"followup": ["PA-f9f6ad"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-73ec57",
+		"questionType": "MultiSelect",
+		"originalText": "SELECT APPLICABLE CORRECTIVE LENSES OR DEVICES: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Select applicable corrective lenses or devices:",
+		"responses": [
+			{
+				"text": "CONTACTS",
+				"cleanedText": "Contacts"
+			},
+			{
+				"text": "GLASSES",
+				"cleanedText": "Glasses"
+			},
+			{
+				"text": "HEARING AIDS",
+				"cleanedText": "Hearing Aids"
+			},
+			{
+				"text": "DENTURES/PARTIALS [REMOVABLE]",
+				"cleanedText": "Dentures/Partials [removable]"
+			},
+			{
+				"text": "N/A - NO CORRECTIVE LENSES OR DEVICES",
+				"cleanedText": "N/A - No corrective lenses or devices"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-4ab5a8"]
+			}
+		]
+	},
+	{
+		"id": "PA-d58f74",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT HAVE PAIN THAT INTERFERES WITH ACTIVITY/MOVEMENT? (INCLUDES ACUTE PAIN, CHRONIC PAIN IN RECENT/PERTINENT PAST) TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient have pain that interferes with activity/movement (includes acute pain, chronic pain in recent/pertinent past)?",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES - RECORD PAIN RATING IN VITAL SIGNS/TESTS & MEASURES",
+				"cleanedText": "Yes - Record pain rating in vital signs/tests & measures",
+				"followup": ["PA-5b241b"]
+			}
+		]
+	},
+	{
+		"id": "PA-3c342a",
+		"questionType": "Select",
+		"originalText": "SENSORY PERCEPTION - ABILITY TO RESPOND MEANINGFULLY TO PRESSURE-RELATED DISCOMFORT TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Sensory perception: ability to respond meaningfully to pressure-related discomfort:",
+		"responses": [
+			{
+				"text": "1. COMPLETELY LIMITED - UNRESPONSIVE (DOES NOT MOAN, FLINCH OR GRASP) TO PAINFUL STIMULI, DUE TO DIMINISHED LEVEL OF CONSCIOUSNESS OR SEDATION OR LIMITED ABILITY TO FEEL PAIN OVER MOST OF BODY SURFACES",
+				"cleanedText": "1. Completely Limited - Unresponsive (does not moan, flinch or grasp) to painful stimuli, due to diminished level of consciousness or sedation or limited ability to feel pain over most of body surfaces"
+			},
+			{
+				"text": "2. VERY LIMITED - RESPONDS ONLY TO PAINFUL STIMULI. CANNOT COMMUNICATE DISCOMFORT EXCEPT BY MOANING OR RESTLESNESS, OR HAS A SENSORY IMPAIRMENT WHICH LIMITS THE ABILITY TO FEEL PAIN OR DISCOMFORT OVER HALF OF BODY",
+				"cleanedText": "2. Very Limited - Responds only to painful stimuli. cannot communicate discomfort except by moaning or restlesness, or has a sensory impairment which limits the ability to feel pain or discomfort over half of body"
+			},
+			{
+				"text": "3. SLIGHTLY LIMITED - RESPONDS TO VERBAL COMMANDS BUT CANNOT ALWAYS COMMUNICATE DISCOMFORT OR NEED TO BE TURNED, OR HAS SOME SENSORY IMPAIRMENT WHICH LIMITS ABILITY TO FEEL PAIN OR DISCOMFORT IN 1 OR 2 EXTREMITIES",
+				"cleanedText": "3. Slightly Limited - Responds to verbal commands but cannot always communicate discomfort or need to be turned, or has some sensory impairment which limits ability to feel pain or discomfort in 1 or 2 extremities"
+			},
+			{
+				"text": "4. NO IMPAIRMENT - RESPONDS TO VERBAL COMMANDS. HAS NO SENSORY DEFICIT WHICH WOULD LIMIT ABILITY TO FEEL OR VOICE PAIN OR DISCOMFORT",
+				"cleanedText": "4. No Impairment - Responds to verbal commands. has no sensory deficit which would limit ability to feel or voice pain or discomfort"
+			}
+		]
+	},
+	{
+		"id": "PA-8d5572",
+		"questionType": "Select",
+		"originalText": "MOISTURE - DEGREE TO WHICH SKIN IS EXPOSED TO MOISTURE TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Moisture: degree to which skin is exposed to moisture:",
+		"responses": [
+			{
+				"text": "1. CONSTANTLY MOIST - SKIN IS KEPT MOIST ALMOST CONSTANTLY BY PERSPIRATION, URINE, ETC. DAMPNESS IS DETECTED EVERY TIME PATIENT IS MOVED OR TURNED",
+				"cleanedText": "1. Constantly Moist - Skin is kept moist almost constantly by perspiration, urine, etc. dampness is detected every time patient is moved or turned"
+			},
+			{
+				"text": "2. OFTEN MOIST - SKIN IS OFTEN BUT NOT ALWAYS MOIST. LINEN MUST BE CHANGED AS OFTEN AS 3 TIMES IN 24 HOURS",
+				"cleanedText": "2. Often Moist - Skin is often but not always moist. linen must be changed as often as 3 times in 24 hours"
+			},
+			{
+				"text": "3. OCCASIONALLY MOIST - SKIN IS OCCASIONALLY MOIST, REQUIRING AN EXTRA LINEN CHANGE APPROXIMATELY ONCE A DAY",
+				"cleanedText": "3. Occasionally Moist - Skin is occasionally moist, requiring an extra linen change approximately once a day"
+			},
+			{
+				"text": "4. RARELY MOIST - SKIN IS USUALLY DRY. LINEN ONLY REQUIRES CHANGING AT ROUTINE INTERVALS",
+				"cleanedText": "4. Rarely Moist - Skin is usually dry. linen only requires changing at routine intervals"
+			}
+		]
+	},
+	{
+		"id": "PA-603f9e",
+		"questionType": "Select",
+		"originalText": "ACTIVITY - DEGREE OF PHYSICAL ACTIVITY TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Activity: degree of physical activity:",
+		"responses": [
+			{
+				"text": "1. BEDFAST - CONFINED TO BED",
+				"cleanedText": "1. Bedfast - Confined to bed"
+			},
+			{
+				"text": "2. CHAIRFAST - ABILITY TO WALK SEVERELY LIMITED OR NON-EXISTENT. CANNOT BEAR OWN WEIGHT AND/OR MUST BE ASSISTED INTO CHAIR OR WHEELCHAIR",
+				"cleanedText": "2. Chairfast - Ability to walk severely limited or non-existent. cannot bear own weight and/or must be assisted into chair or wheelchair"
+			},
+			{
+				"text": "3. WALKS OCCASIONALLY - WALKS OCCASIONALLY DURING DAY, BUT FOR VERY SHORT DISTANCES, WITH OR WITHOUT ASSISTANCE. SPENDS MAJORITY OF DAY IN BED OR CHAIR",
+				"cleanedText": "3. Walks Occasionally - Walks occasionally during day, but for very short distances, with or without assistance. spends majority of day in bed or chair"
+			},
+			{
+				"text": "4. WALKS FREQUENTLY - WALKS OUTSIDE BEDROOM TWICE A DAY AND INSIDE ROOM AT LEAST ONCE EVERY TWO HOURS DURING WAKING HOURS",
+				"cleanedText": "4. Walks Frequently - Walks outside bedroom twice a day and inside room at least once every two hours during waking hours"
+			}
+		]
+	},
+	{
+		"id": "PA-f30be6",
+		"questionType": "Select",
+		"originalText": "MOBILITY - ABILITY TO CHANGE AND CONTROL BODY POSITION TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Mobility: ability to change and control body position:",
+		"responses": [
+			{
+				"text": "1. COMPLETELY IMMOBILE - DOES NOT MAKE EVEN SLIGHT CHANGES IN BODY OR EXTREMITY POSITION WITHOUT ASSISTANCE",
+				"cleanedText": "1. Completely Immobile - Does not make even slight changes in body or extremity position without assistance"
+			},
+			{
+				"text": "2. VERY LIMITED - MAKES OCCASIONAL SLIGHT CHANGES IN BODY OR EXTREMITY POSITION BUT UNABLE TO MAKE FREQUENT OR SIGNIFICANT CHANGES INDEPENDENTLY",
+				"cleanedText": "2. Very Limited - Makes occasional slight changes in body or extremity position but unable to make frequent or significant changes independently"
+			},
+			{
+				"text": "3. SLIGHTLY LIMITED - MAKES FREQUENT THOUGH SLIGHT CHANGES IN BODY OR EXTREMITY POSITION INDEPENDENTLY",
+				"cleanedText": "3. Slightly Limited - Makes frequent though slight changes in body or extremity position independently"
+			},
+			{
+				"text": "4. NO LIMITATIONS - MAKES MAJOR AND FREQUENT CHANGES IN POSITION WITHOUT ASSISTANCE",
+				"cleanedText": "4. No Limitations - Makes major and frequent changes in position without assistance"
+			}
+		]
+	},
+	{
+		"id": "PA-806a93",
+		"questionType": "Select",
+		"originalText": "NUTRITION - USUAL FOOD INTAKE PATTERN TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Nutrition: usual food intake pattern:",
+		"responses": [
+			{
+				"text": "1. VERY POOR - NEVER EATS A COMPLETE MEAL. RARELY EATS MORE THAN 1/3 OF ANY FOOD OFFERED. EATS 2 SERVIINGS OR LESS OF PROTEIN (MEAT OR DAIRY PRODUCTS) PER DAY. TAKES FLUIDS POORLY. DOES NOT TAKE A LIQUID DIETARY SUPPLEMENT, OR IS NPO AND/OR MAINTAINED ON CLEAR LIQUIDS OR IV FOR MORE THAN 5 DAYS",
+				"cleanedText": "1. Very Poor - Never eats a complete meal. rarely eats more than 1/3 of any food offered. eats 2 serviings or less of protein (meat or dairy products) per day. takes fluids poorly. does not take a liquid dietary supplement, or is npo and/or maintained on clear liquids or IV for more than 5 days"
+			},
+			{
+				"text": "2. PROBABLY INADEQUATE - RARELY EATS A COMPLETE MEAL AND GENERALLY EATS ONLY ABOUT 1/2 OF ANY FOOD OFFERED. PROTEIN INTAKE INCLUDES ONLY 3 SERVINGS OF MEAT OR DAIRY PRODUCTS PER DAY. OCCASIONALLY WILL TAKE A DIETARY SUPPLEMENT, OR RECEIVES LESS THAN OPTIMUM AMOUNT OF LIQUID DIET OR TUBE FEEDING",
+				"cleanedText": "2. Probably Inadequate - Rarely eats a complete meal and generally eats only about 1/2 of any food offered. protein intake includes only 3 servings of meat or dairy products per day. occasionally will take a dietary supplement, or receives less than optimum amount of liquid diet or tube feeding"
+			},
+			{
+				"text": "3. ADEQUATE - EATS OVER HALF OF MOST MEALS. EATS A TOTAL OF 4 SERVINGS OF PROTEIN (MEAT, DAIRY PRODUCTS) PER DAY. OCCASIONALLY WILL REFUSE A MEAL, BUT WILL USUALLY TAKE A SUPPLEMENT WHEN OFFERED, OR IS ON A TUBE FEEDING OR TPN REGIMEN, WHICH PROBABLY MEETS MOST OF NUTRITIONAL NEEDS",
+				"cleanedText": "3. Adequate - Eats over half of most meals. eats a total of 4 servings of protein (meat, dairy products) per day. occasionally will refuse a meal, but will usually take a supplement when offered, or is on a tube feeding or TPN regimen, which probably meets most of nutritional needs"
+			},
+			{
+				"text": "4. EXCELLENT - EATS MOST OF EVERY MEAL. NEVER REFUSES A MEAL. USUALLY EATS A TOTAL OF 4 OR MORE SERVINGS OF MEAT AND DAIRY PRODUCTS. OCCASIONALLY EATS BETWEEN MEALS. DOES NOT REQUIRE SUPPLEMENTATION",
+				"cleanedText": "4. Excellent - Eats most of every meal. never refuses a meal. usually eats a total of 4 or more servings of meat and dairy products. occasionally eats between meals. does not require supplementation"
+			}
+		]
+	},
+	{
+		"id": "PA-dfa675",
+		"questionType": "Select",
+		"originalText": "FRICTION AND SHEAR TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Friction and shear:",
+		"responses": [
+			{
+				"text": "1. PROBLEM - REQUIRES MODERATE TO MAXIMUM ASSISTANCE IN MOVING. COMPLETE LIFTING WITHOUT SLIDING AGAINST SHEETS IS IMPOSSIBLE. FREQUENTLY SLIDES DOWN IN BED OR CHAIR, REQUIRING FREQUENT REPOSITIONING WITH MAXIMUM ASSISTANCE. SPASTICITY, CONTRACTURES, OR AGITATION LEADS TO ALMOST CONSTANT FRICTION",
+				"cleanedText": "1. Problem - Requires moderate to maximum assistance in moving. complete lifting without sliding against sheets is impossible. frequently slides down in bed or chair, requiring frequent repositioning with maximum assistance. spasticity, contractures, or agitation leads to almost constant friction"
+			},
+			{
+				"text": "2. POTENTIAL PROBLEM - MOVES FEEBLY OR REQUIRES MINIMUM ASSISTANCE. DURING A MOVE SKIN PROBABLY SLIDES TO SOME EXTENT AGAINST SHEETS, CHAIR, RESTRAINTS, OR OTHER DEVICES. MAINTAINS RELATIVELY GOOD POSITION IN CHAIR OR BED MOST OF THE TIME BUT OCCASIONALLY SLIDES DOWN",
+				"cleanedText": "2. Potential Problem - Moves feebly or requires minimum assistance. during a move skin probably slides to some extent against sheets, chair, restraints, or other devices. maintains relatively good position in chair or bed most of the time but occasionally slides down"
+			},
+			{
+				"text": "3. NO APPARENT PROBLEM - MOVES IN BED AND IN CHAIR INDEPENDENTLY AND HAS SUFFICIENT MUSCLE STRENGTH TO LIFT UP COMPLETELY DURING MOVE. MAINTAINS GOOD POSITION IN BED OR CHAIR",
+				"cleanedText": "3. No Apparent Problem - Moves in bed and in chair independently and has sufficient muscle strength to lift up completely during move. maintains good position in bed or chair"
+			}
+		]
+	},
+	{
+		"id": "PA-f8f58f",
+		"questionType": "Numeric",
+		"originalText": "TOTAL SCORE (PATIENTS WITH A TOTAL SCORE OF 18 OR LESS ARE CONSIDERED TO BE AT RISK OF DEVELOPING PRESSURE ULCERS): TYPE: NUMERIC - MULTISELECT: N",
+		"cleanedText": "Total score (patients with a total score of 18 or less are considered to be at risk of developing pressure ulcers):"
+	},
+	{
+		"id": "PA-22f022",
+		"questionType": "Text",
+		"originalText": "BASED ON THE SCORE, THE RISK LEVEL FOR THIS PATIENT IS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Based on the score, the risk level for this patient is:"
+	},
+	{
+		"id": "PA-e08cb7",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE INTEGUMENTARY ASSESSMENT FINDINGS: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate integumentary assessment findings:",
+		"responses": [
+			{
+				"text": "WNL",
+				"cleanedText": "WNL"
+			},
+			{
+				"text": "BLISTERS",
+				"cleanedText": "Blisters",
+				"followup": ["PA-880d90"]
+			},
+			{
+				"text": "BRUISING",
+				"cleanedText": "Bruising",
+				"followup": ["PA-98c506"]
+			},
+			{
+				"text": "CLAMMY",
+				"cleanedText": "Clammy"
+			},
+			{
+				"text": "CYANOSIS",
+				"cleanedText": "Cyanosis"
+			},
+			{
+				"text": "DRY/FLAKY",
+				"cleanedText": "Dry/Flaky"
+			},
+			{
+				"text": "ERYTHEMA",
+				"cleanedText": "Erythema"
+			},
+			{
+				"text": "FLUSHED",
+				"cleanedText": "Flushed"
+			},
+			{
+				"text": "ITCHING",
+				"cleanedText": "Itching"
+			},
+			{
+				"text": "JAUNDICE",
+				"cleanedText": "Jaundice"
+			},
+			{
+				"text": "MOIST",
+				"cleanedText": "Moist"
+			},
+			{
+				"text": "MOTTLED",
+				"cleanedText": "Mottled"
+			},
+			{
+				"text": "PALE",
+				"cleanedText": "Pale"
+			},
+			{
+				"text": "PETECHIAE",
+				"cleanedText": "Petechiae"
+			},
+			{
+				"text": "POOR TURGOR",
+				"cleanedText": "Poor Turgor"
+			},
+			{
+				"text": "RASH",
+				"cleanedText": "Rash",
+				"followup": ["PA-0ac639"]
+			},
+			{
+				"text": "THIN/FRAIL",
+				"cleanedText": "Thin/Frail"
+			},
+			{
+				"text": "WOUND(S) - REMINDER: ENSURE PATIENT HAS ADEQUATE WOUND CARE SUPPLIES FOR 1 WEEK",
+				"cleanedText": "Wound(s) - Reminder: ensure patient has adequate wound care supplies for 1 week"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-878a81"]
+			}
+		]
+	},
+	{
+		"id": "PA-c87a6a",
+		"questionType": "Select",
+		"originalText": "DOES PATIENT HAVE OR REQUIRE AN IV ACCESS? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does patient have or require an IV access?",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-d343af"]
+			}
+		]
+	},
+	{
+		"id": "PA-40dd62",
+		"questionType": "Select",
+		"originalText": "LABS PERFORMED: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Labs performed:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES - ADD 'PT/INR RESULTS' COORDINATION NOTE IF PT/INR OBTAINED, AND/OR ADD 'LAB COLLECTION' COORDINATION NOTE IF ANY OTHER LAB IS OBTAINED",
+				"cleanedText": "Yes - Add 'pt/Inr results' coordination note if Pt/Inr obtained, and/or add 'lab collection' coordination note if any other lab is obtained"
+			}
+		]
+	},
+	{
+		"id": "PA-71b83a",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE RESPIRATORY ASSESSMENT FINDINGS: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate respiratory assessment findings:",
+		"responses": [
+			{
+				"text": "WNL",
+				"cleanedText": "WNL"
+			},
+			{
+				"text": "ABNORMAL BREATH SOUNDS",
+				"cleanedText": "Abnormal Breath Sounds",
+				"followup": ["PA-b4a881"]
+			},
+			{
+				"text": "COUGH",
+				"cleanedText": "Cough",
+				"followup": ["PA-efd76e"]
+			},
+			{
+				"text": "TOBACCO USE",
+				"cleanedText": "Tobacco Use"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-422172"]
+			}
+		]
+	},
+	{
+		"id": "PA-376bd7",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE ACTIVITIES THAT AFFECT THE PATIENT'S BREATHING DURING THIS ASSESSMENT AND/OR IN THE PAST 24 HOURS (SELECT ALL THAT APPLY): TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate activities that affect the patient's breathing during this assessment and/or in the past 24 hours:",
+		"responses": [
+			{
+				"text": "AGITATION",
+				"cleanedText": "Agitation"
+			},
+			{
+				"text": "AT REST",
+				"cleanedText": "At Rest"
+			},
+			{
+				"text": "BATHING",
+				"cleanedText": "Bathing"
+			},
+			{
+				"text": "BENDING",
+				"cleanedText": "Bending"
+			},
+			{
+				"text": "DRESSING",
+				"cleanedText": "Dressing"
+			},
+			{
+				"text": "EATING",
+				"cleanedText": "Eating"
+			},
+			{
+				"text": "LYING DOWN",
+				"cleanedText": "Lying Down"
+			},
+			{
+				"text": "REACHING",
+				"cleanedText": "Reaching"
+			},
+			{
+				"text": "SELF-WHEELING WHEELCHAIR LESS THAN 20 FEET",
+				"cleanedText": "self-wheeling wheelchair less than 20 feet"
+			},
+			{
+				"text": "SITTING",
+				"cleanedText": "Sitting"
+			},
+			{
+				"text": "STAIRS",
+				"cleanedText": "Stairs"
+			},
+			{
+				"text": "TALKING",
+				"cleanedText": "Talking"
+			},
+			{
+				"text": "TOILETING",
+				"cleanedText": "Toileting"
+			},
+			{
+				"text": "TRANSFERRING",
+				"cleanedText": "Transferring"
+			},
+			{
+				"text": "WALKING",
+				"cleanedText": "Walking"
+			},
+			{
+				"text": "N/A - NO SHORTNESS OF BREATH REPORTED/OBSERVED WITH MOVEMENT OR AT REST",
+				"cleanedText": "N/A - No shortness of breath reported/observed with movement or at rest"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-9c74e3"]
+			}
+		]
+	},
+	{
+		"id": "PA-180690",
+		"questionType": "MultiSelect",
+		"originalText": "CARDIOVASCULAR ASSESSMENT: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate cardiovascular assessment findings:",
+		"responses": [
+			{
+				"text": "WNL",
+				"cleanedText": "WNL"
+			},
+			{
+				"text": "CAPILLARY REFILL >3 SECONDS",
+				"cleanedText": "Capillary Refill >3 Seconds"
+			},
+			{
+				"text": "CHEST PAIN",
+				"cleanedText": "Chest Pain",
+				"followup": ["PA-575b3d", "PA-2354fe"]
+			},
+			{
+				"text": "DIZZINESS",
+				"cleanedText": "Dizziness",
+				"followup": ["PA-89e795"]
+			},
+			{
+				"text": "EDEMA",
+				"cleanedText": "Edema",
+				"followup": ["PA-9866ee"]
+			},
+			{
+				"text": "IMPLANTED DEFIBRILLATOR",
+				"cleanedText": "Implanted Defibrillator"
+			},
+			{
+				"text": "IRREGULAR HEARTBEAT",
+				"cleanedText": "Irregular Heartbeat"
+			},
+			{
+				"text": "LEG CRAMPS",
+				"cleanedText": "Leg Cramps"
+			},
+			{
+				"text": "MURMUR",
+				"cleanedText": "Murmur"
+			},
+			{
+				"text": "NECK VEIN DISTENSION",
+				"cleanedText": "Neck Vein Distension"
+			},
+			{
+				"text": "NOCTURNAL DYSPNEA",
+				"cleanedText": "Nocturnal Dyspnea"
+			},
+			{
+				"text": "ORTHOPNEA",
+				"cleanedText": "Orthopnea"
+			},
+			{
+				"text": "PACEMAKER",
+				"cleanedText": "Pacemaker"
+			},
+			{
+				"text": "PALPITATIONS",
+				"cleanedText": "Palpitations"
+			},
+			{
+				"text": "PEDAL PULSES ABSENT",
+				"cleanedText": "Pedal Pulses Absent",
+				"followup": ["PA-fe39cf"]
+			},
+			{
+				"text": "SYNCOPE",
+				"cleanedText": "Syncope"
+			},
+			{
+				"text": "VARICOSITIES",
+				"cleanedText": "Varicosities"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-0db3f7"]
+			}
+		]
+	},
+	{
+		"id": "PA-c080fc",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE GENITOURINARY ASSESSMENT: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate genitourinary assessment:",
+		"responses": [
+			{
+				"text": "WNL",
+				"cleanedText": "WNL"
+			},
+			{
+				"text": "DIALYSIS - INCLUDE DIALYSIS SCHEDULE IN POINTCARE VISIT ALERT",
+				"cleanedText": "Dialysis - Include dialysis schedule in pointcare visit alert"
+			},
+			{
+				"text": "HEMATURIA",
+				"cleanedText": "Hematuria"
+			},
+			{
+				"text": "INCONTINENCE",
+				"cleanedText": "Incontinence"
+			},
+			{
+				"text": "NOCTURIA",
+				"cleanedText": "Nocturia"
+			},
+			{
+				"text": "OLIGURIA",
+				"cleanedText": "Oliguria"
+			},
+			{
+				"text": "POLYDIPSIA",
+				"cleanedText": "Polydipsia"
+			},
+			{
+				"text": "POLYURIA",
+				"cleanedText": "Polyuria"
+			},
+			{
+				"text": "RETENTION",
+				"cleanedText": "Retention"
+			},
+			{
+				"text": "SEDIMENTS IN URINE",
+				"cleanedText": "Sediments in Urine"
+			},
+			{
+				"text": "SIGNS AND SYMPTOMS OF UTI",
+				"cleanedText": "Signs and Symptoms of UTI",
+				"followup": ["PA-21e194", "PA-3f6826"]
+			},
+			{
+				"text": "UROSTOMY",
+				"cleanedText": "Urostomy",
+				"followup": ["PA-9e42dc"]
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-8ad2cc"]
+			}
+		]
+	},
+	{
+		"id": "PA-d3f68a",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE GASTROINTESTINAL ASSESSMENT: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate gastrointestinal assessment:",
+		"responses": [
+			{
+				"text": "WNL",
+				"cleanedText": "WNL"
+			},
+			{
+				"text": "ABSENT BOWEL SOUNDS",
+				"cleanedText": "Absent Bowel Sounds",
+				"followup": ["PA-3a075f"]
+			},
+			{
+				"text": "HYPOACTIVE BOWEL SOUNDS",
+				"cleanedText": "Hypoactive Bowel Sounds",
+				"followup": ["PA-1b24d4"]
+			},
+			{
+				"text": "HYPERACTIVE BOWEL SOUNDS",
+				"cleanedText": "Hyperactive Bowel Sounds",
+				"followup": ["PA-b15d7b"]
+			},
+			{
+				"text": "ABDOMINAL DISTENSION",
+				"cleanedText": "Abdominal Distension"
+			},
+			{
+				"text": "ABDOMEN HARD",
+				"cleanedText": "Abdomen Hard"
+			},
+			{
+				"text": "ASCITES",
+				"cleanedText": "Ascites"
+			},
+			{
+				"text": "BLOOD IN STOOL",
+				"cleanedText": "Blood in Stool"
+			},
+			{
+				"text": "CONSTIPATION",
+				"cleanedText": "Constipation"
+			},
+			{
+				"text": "DEHYDRATION",
+				"cleanedText": "Dehydration"
+			},
+			{
+				"text": "DIARRHEA",
+				"cleanedText": "Diarrhea"
+			},
+			{
+				"text": "DYSPHAGIA",
+				"cleanedText": "Dysphagia"
+			},
+			{
+				"text": "ENTERAL FEEDINGS",
+				"cleanedText": "Enteral Feedings"
+			},
+			{
+				"text": "FLATULENCE",
+				"cleanedText": "Flatulence"
+			},
+			{
+				"text": "FLUID INTAKE IMPAIRED",
+				"cleanedText": "Fluid Intake Impaired"
+			},
+			{
+				"text": "HEMORRHOIDS",
+				"cleanedText": "Hemorrhoids"
+			},
+			{
+				"text": "HERNIAS",
+				"cleanedText": "Hernias"
+			},
+			{
+				"text": "NAUSEA",
+				"cleanedText": "Nausea"
+			},
+			{
+				"text": "RECTAL BLEEDING",
+				"cleanedText": "Rectal Bleeding"
+			},
+			{
+				"text": "TENDERNESS",
+				"cleanedText": "Tenderness"
+			},
+			{
+				"text": "VOMITING",
+				"cleanedText": "Vomiting"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-24a49e"]
+			}
+		]
+	},
+	{
+		"id": "PA-b450f2",
+		"questionType": "Date",
+		"originalText": "INDICATE DATE OF LAST BOWEL MOVEMENT: TYPE: DATE - MULTISELECT: N",
+		"cleanedText": "Indicate date of last bowel movement:"
+	},
+	{
+		"id": "PA-4533f1",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE NUTRITIONAL ASSESSMENT FINDINGS: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate nutritional assessment findings:",
+		"responses": [
+			{
+				"text": "PATIENT HAS AN ILLNESS OR CONDITION WHICH MADE HIM/HER CHANGE THE KIND AND/OR AMOUNT OF FOOD THEY EAT",
+				"cleanedText": "patient has an illness or condition which made him/her change the kind and/or amount of food they eat"
+			},
+			{
+				"text": "PATIENT EATS FEWER THAN 2 MEALS PER DAY",
+				"cleanedText": "patient eats fewer than 2 meals per day"
+			},
+			{
+				"text": "PATIENT EATS FEW FRUITS AND VEGETABLES, OR MILK PRODUCTS",
+				"cleanedText": "patient eats few fruits and vegetables, or milk products"
+			},
+			{
+				"text": "PATIENT HAS THREE OR MORE ALCOHOLIC BEVERAGES A DAY ",
+				"cleanedText": "patient has three or more alcoholic beverages a day"
+			},
+			{
+				"text": "PATIENT HAS TOOTH OR MOUTH PROBLEMS THAT MAKE IT HARD FOR THEM TO EAT",
+				"cleanedText": "patient has tooth or mouth problems that make it hard for them to eat"
+			},
+			{
+				"text": "PATIENT DOESN'T ALWAYS HAVE THE FINANCIAL MEANS TO OBTAIN FOOD",
+				"cleanedText": "patient doesn't always have the financial means to obtain food"
+			},
+			{
+				"text": "PATIENT EATS ALONE MOST OF THE TIME",
+				"cleanedText": "patient eats alone most of the time"
+			},
+			{
+				"text": "PATIENT TAKES 3 OR MORE PRESCRIBED OR OVER THE COUNTER DRUGS PER DAY",
+				"cleanedText": "patient takes 3 or more prescribed or over the counter drugs per day"
+			},
+			{
+				"text": "WITHOUT WANTING TO, THE PATIENT HAS LOST OR GAINED OVER 10 POUNDS IN THE PAST 6 MONTHS",
+				"cleanedText": "without wanting to, the patient has lost or gained over 10 pounds in the past 6 months"
+			},
+			{
+				"text": "PATIENT NOT ALWAYS PHYSICALLY ABLE TO SHOP, COOK, AND/OR FEED SELF",
+				"cleanedText": "patient not always physically able to shop, cook, and/or feed self"
+			},
+			{
+				"text": "PATIENT DRINKS LESS THAN FOUR GLASSES OF WATER PER DAY",
+				"cleanedText": "patient drinks less than four glasses of water per day"
+			},
+			{
+				"text": "NO NUTRITIONAL PROBLEMS NOTED -  0 PTS",
+				"cleanedText": "No Nutritional Problems Noted - 0 pts"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-6283f8"]
+			}
+		]
+	},
+	{
+		"id": "PA-2c4dff",
+		"questionType": "Numeric",
+		"originalText": "TOTAL NUTRITION ASSESSMENT SCORE: TYPE: NUMERIC - MULTISELECT: N",
+		"cleanedText": "Total nutrition assessment score:"
+	},
+	{
+		"id": "PA-a5c924",
+		"questionType": "Text",
+		"originalText": "BASED ON THE SCORE, THE NUTRITIONAL RISK LEVEL IS:  TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Based on the score, the nutritional risk level is:"
+	},
+	{
+		"id": "PA-4ad7dc",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE NEUROLOGIC FINDINGS: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate neurologic findings:",
+		"responses": [
+			{
+				"text": "WNL",
+				"cleanedText": "WNL"
+			},
+			{
+				"text": "APHASIA",
+				"cleanedText": "Aphasia"
+			},
+			{
+				"text": "DIZZINESS/VERTIGO",
+				"cleanedText": "Dizziness/Vertigo"
+			},
+			{
+				"text": "DYSPHAGIA",
+				"cleanedText": "Dysphagia"
+			},
+			{
+				"text": "FACIAL WEAKNESS",
+				"cleanedText": "Facial Weakness"
+			},
+			{
+				"text": "INSOMNIA",
+				"cleanedText": "Insomnia"
+			},
+			{
+				"text": "NUMBNESS/TINGLING",
+				"cleanedText": "Numbness/Tingling"
+			},
+			{
+				"text": "SYNCOPAL EPISODES",
+				"cleanedText": "Syncopal Episodes"
+			},
+			{
+				"text": "TREMORS",
+				"cleanedText": "Tremors"
+			},
+			{
+				"text": "LEFT SIDED PARALYSIS",
+				"cleanedText": "Left Sided Paralysis"
+			},
+			{
+				"text": "RIGHT SIDED PARALYSIS",
+				"cleanedText": "Right Sided Paralysis"
+			},
+			{
+				"text": "LUE PARALYSIS",
+				"cleanedText": "LUE Paralysis"
+			},
+			{
+				"text": "RUE PARALYSIS",
+				"cleanedText": "RUE Paralysis"
+			},
+			{
+				"text": "LLE PARALYSIS",
+				"cleanedText": "Lle Paralysis"
+			},
+			{
+				"text": "RLE PARALYSIS",
+				"cleanedText": "Rle Paralysis"
+			},
+			{
+				"text": "LEFT SIDED WEAKNESS",
+				"cleanedText": "Left Sided Weakness"
+			},
+			{
+				"text": "RIGHT SIDED WEAKNESS",
+				"cleanedText": "Right Sided Weakness"
+			},
+			{
+				"text": "LUE WEAKNESS",
+				"cleanedText": "LUE Weakness"
+			},
+			{
+				"text": "RUE WEAKNESS",
+				"cleanedText": "RUE Weakness"
+			},
+			{
+				"text": "LLE WEAKNESS",
+				"cleanedText": "Lle Weakness"
+			},
+			{
+				"text": "RLE WEAKNESS",
+				"cleanedText": "Rle Weakness"
+			},
+			{
+				"text": "PARAPLEGIA",
+				"cleanedText": "Paraplegia"
+			},
+			{
+				"text": "QUADRIPLEGIA",
+				"cleanedText": "Quadriplegia"
+			},
+			{
+				"text": "FLACCID TONE",
+				"cleanedText": "Flaccid Tone"
+			},
+			{
+				"text": "POSITIONAL TONE",
+				"cleanedText": "Positional Tone"
+			},
+			{
+				"text": "SPASTIC TONE",
+				"cleanedText": "Spastic Tone"
+			},
+			{
+				"text": "UNRESPONSIVE",
+				"cleanedText": "Unresponsive"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-6d1530"]
+			}
+		]
+	},
+	{
+		"id": "PA-77eb23",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT HAVE DIABETES? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient have diabetes?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-f28598"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-a0c7d8",
+		"questionType": "Select",
+		"originalText": "INDICATE LEVEL OF COGNITIVE IMPAIRMENT TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate level of cognitive impairment:",
+		"responses": [
+			{
+				"text": "13 - 15: COGNITIVELY INTACT",
+				"cleanedText": "13 - 15: cognitively intact"
+			},
+			{
+				"text": "8 - 12: MODERATELY IMPAIRED",
+				"cleanedText": "8 - 12: moderately impaired"
+			},
+			{
+				"text": "0 - 7: SEVERE IMPAIRMENT",
+				"cleanedText": "0 - 7: severe impairment"
+			},
+			{
+				"text": "PATIENT UNABLE TO COMPLETE INTERVIEW",
+				"cleanedText": "Patient Unable to Complete Interview"
+			}
+		]
+	},
+	{
+		"id": "PA-ec76c0",
+		"questionType": "Select",
+		"originalText": "DID THE PATIENT RESPOND WITH A SYMPTOM PRESENCE OF \"NOT ASSESSED/NO INFORMATION\" OR A SYMPTOM FREQUENCY OF \"7 - 11 DAYS\" OR \"12 - 14 DAYS\"? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Did the patient respond with a symptom presence of \"not assessed/no information\" or a symptom frequency of \"7: 11 days\" or \"12: 14 days\"?",
+		"responses": [
+			{
+				"text": "NO - END PHQ INTERVIEW",
+				"cleanedText": "No - End PHQ interview",
+				"followup": ["PA-902140"]
+			},
+			{
+				"text": "YES - CONTINUE TO PHQ9 INTERVIEW",
+				"cleanedText": "Yes - Continue to phq9 interview",
+				"followup": [
+					"PA-ce1777",
+					"PA-6d0bbc",
+					"PA-d513ba",
+					"PA-117d0e",
+					"PA-d650bd",
+					"PA-71b5d5",
+					"PA-0fd4a6",
+					"PA-902140"
+				]
+			}
+		]
+	},
+	{
+		"id": "PA-31c271",
+		"questionType": "Select",
+		"originalText": "IS PATIENT ABLE TO PERFORM A TUG (TIMED UP AND GO) ASSESSMENT? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is patient able to perform a TUG (Timed Up and Go) assessment?",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-bc3e40"]
+			}
+		]
+	},
+	{
+		"id": "PA-72bab0",
+		"questionType": "Select",
+		"originalText": "AGE 65+ TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Age 65+:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-a79a45",
+		"questionType": "Select",
+		"originalText": "DIAGNOSIS (3 OR MORE CO-EXISTING) -- INCLUDES ONLY DOCUMENTED MEDICAL DIAGNOSIS TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Diagnosis (3 or more co-existing): includes only documented medical diagnosis:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-a8774d",
+		"questionType": "Select",
+		"originalText": "PRIOR HISTORY OF FALLS WITHIN 3 MONTHS --  AN UNINTENTIONAL CHANGE IN POSITION RESULTING IN COMING TO REST ON THE GROUND OR AT A LOWER LEVEL TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Prior history of falls within 3 months: an unintentional change in position resulting in coming to rest on the ground or at a lower level:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-d8dbe9",
+		"questionType": "Select",
+		"originalText": "INCONTINENCE -- INABILITY TO MAKE IT TO THE BATHROOM OR COMMODE IN TIMELY MANNER INCLUDES FREQUENCY, URGENCY, AND/OR NOCTURIA. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Incontinence: inability to make it to the bathroom or commode in timely manner includes frequency, urgency, and/or nocturia:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-9b7ee6",
+		"questionType": "Select",
+		"originalText": "VISUAL IMPAIRMENT -- INCLUDES BUT NOT LIMITED TO, MACULAR DEGENERATION, DIABETIC RETINOPATHIES, VISUAL FIELD LOSS, AGE RELATED CHANGES, DECLINE IN VISUAL ACUITY, ACCOMMODATION, GLARE TOLERANCE, DEPTH PERCEPTION, AND NIGHT VISION OR NOT WEARING PRESCRIBED GLASSES OR HAVING THE CORRECT PRESCRIPTION. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Visual impairment: includes but not limited to, macular degeneration, diabetic retinopathies, visual field loss, age related changes, decline in visual acuity, accommodation, glare tolerance, depth perception, and night vision or not wearing prescribed glasses or having the correct prescription:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-2741b1",
+		"questionType": "Select",
+		"originalText": "IMPAIRED FUNCTIONAL MOBILITY -- MAY INCLUDE PATIENTS WHO NEED HELP WITH IADLS OR ADLS OR HAVE GAIT OR TRANSFER PROBLEMS, ARTHRITIS, PAIN,  FEAR OF FALLING, FOOT PROBLEMS, IMPAIRED SENSATION, IMPAIRED COORDINATION OR IMPROPER USE OF ASSISTIVE DEVICES. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Impaired functional mobility: may include patients who need help with IADLs or ADLs or have gait or transfer problems, arthritis, pain, fear of falling, foot problems, impaired sensation, impaired coordination or improper use of assistive devices:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-c2faa5",
+		"questionType": "Select",
+		"originalText": "ENVIRONMENTAL HAZARDS -- MAY INCLUDE BUT NOT LIMITED TO, POOR ILLUMINATION, EQUIPMENT TUBING, INAPPROPRIATE FOOTWEAR, PETS, HARD TO REACH ITEMS, FLOOR SURFACES THAT ARE UNEVEN OR CLUTTERED, OR OUTDOOR ENTRY AND EXITS. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Environmental hazards: may include but not limited to, poor illumination, equipment tubing, inappropriate footwear, pets, hard to reach items, floor surfaces that are uneven or cluttered, or outdoor entry and exits:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-6c36d4",
+		"questionType": "Select",
+		"originalText": "POLY PHARMACY (4 OR MORE PRESCRIPTIONS - ANY TYPE) -- ALL PRESCRIPTIONS INCLUDING PRESCRIPTIONS FOR OTC MEDS.  DRUGS HIGHLY ASSOCIATED WITH FALL RISK INCLUDE BUT NOT LIMITED TO, SEDATIVES, ANTI-DEPRESSANTS, TRANQUILIZERS, NARCOTICS, ANTIHYPERTENSIVES, CARDIAC MEDS, CORTICOSTEROIDS, ANTI-ANXIETY DRUGS, ANTICHOLINERGIC DRUGS, AND HYPOGLYCEMIC DRUGS. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Poly pharmacy (4 or more prescriptions: any type): all prescriptions including prescriptions for OTC meds. drugs highly associated with fall risk include but not limited to, sedatives, antidepressants, tranquilizers, narcotics, antihypertensives, cardiac meds, corticosteroids, anti-anxiety drugs, anticholinergic drugs, and hypoglycemic drugs:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-113443",
+		"questionType": "Select",
+		"originalText": "PAIN AFFECTING LEVEL OF FUNCTION -- PAIN OFTEN AFFECTS AN INDIVIDUAL'S DESIRE OR ABILITY TO MOVE, OR PAIN CAN BE  A FACTOR IN DEPRESSION OR COMPLIANCE WITH SAFETY RECOMMENDATIONS. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Pain affecting level of function: pain often affects an individual's desire or ability to move, or pain can be a factor in depression or compliance with safety recommendations:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-de2831",
+		"questionType": "Select",
+		"originalText": "COGNITIVE IMPAIRMENT -- COULD INCLUDE PATIENTS WITH DEMENTIA, ALZHEIMER'S OR STROKE PATIENTS, OR PATIENTS WHO ARE CONFUSED, USE POOR JUDGMENT, HAVE DECREASED COMPREHENSION, IMPULSIVITY, MEMORY DEFICITS. CONSIDER PATIENTS ABILITY TO ADHERE TO THE PLAN OF CARE. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Cognitive impairment: could include patients with dementia, Alzheimer's or stroke patients, or patients who are confused, use poor judgment, have decreased comprehension, impulsivity, memory deficits. consider patients ability to adhere to the plan of care:",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-70d05f",
+		"questionType": "Numeric",
+		"originalText": "ACCORDING TO THE MAHC 10 FALL RISK ASSESSMENT, THIS PATIENT'S SCORE IS: TYPE: NUMERIC - MULTISELECT: N",
+		"cleanedText": "According to the MAHC 10 fall risk assessment, this patient's score is:"
+	},
+	{
+		"id": "PA-315849",
+		"questionType": "Text",
+		"originalText": "BASED ON THE SCORE, THE PATIENT IS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Based on the score, the patient is:"
+	},
+	{
+		"id": "PA-fa6fd6",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE MUSCULOSKELETAL ASSESSMENT: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate musculoskeletal assessment:",
+		"responses": [
+			{
+				"text": "WNL",
+				"cleanedText": "WNL"
+			},
+			{
+				"text": "AMPUTATION",
+				"cleanedText": "Amputation",
+				"followup": ["PA-edf06f"]
+			},
+			{
+				"text": "ATROPHY",
+				"cleanedText": "Atrophy"
+			},
+			{
+				"text": "CONTRACTURES",
+				"cleanedText": "Contractures",
+				"followup": ["PA-fd46f5"]
+			},
+			{
+				"text": "JOINT STIFFNESS",
+				"cleanedText": "Joint Stiffness"
+			},
+			{
+				"text": "JOINT SWELLING",
+				"cleanedText": "Joint Swelling"
+			},
+			{
+				"text": "MUSCLE SPASMS",
+				"cleanedText": "Muscle Spasms",
+				"followup": ["PA-fb24dc"]
+			},
+			{
+				"text": "MUSCLE WEAKNESS",
+				"cleanedText": "Muscle Weakness"
+			},
+			{
+				"text": "POOR BALANCE/UNSTEADY GAIT",
+				"cleanedText": "Poor Balance/Unsteady Gait"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-14f11c"]
+			}
+		]
+	},
+	{
+		"id": "PA-6da0f6",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT UTILIZE ASSISTIVE DEVICE(S) (SHOWER CHAIR, TUB BENCH, GRAB BAR(S), ETC.) FOR BATHING? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient utilize assistive device(s) (shower chair, tub bench, grab bar(s), etc.) for bathing?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-3bb277"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-aef6db",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE IF THE PATIENT HAS ANY OF THE FOLLOWING AVAILABLE/IN-USE WITHIN THE HOME (SELECT ALL THAT APPLY): TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate if the patient has any of the following available/in-use within the home:",
+		"responses": [
+			{
+				"text": "BEDSIDE COMMODE",
+				"cleanedText": "Bedside Commode",
+				"followup": ["PA-35ac72"]
+			},
+			{
+				"text": "BEDPAN",
+				"cleanedText": "Bedpan",
+				"followup": ["PA-94de03"]
+			},
+			{
+				"text": "URINAL",
+				"cleanedText": "Urinal",
+				"followup": ["PA-735194"]
+			},
+			{
+				"text": "N/A - NO BEDSIDE COMMODE, BEDPAN, OR URINAL AVAILABLE/IN-USE WITHIN HOME",
+				"cleanedText": "N/A - No bedside commode, bedpan, or urinal available/in-use within home",
+				"followup": ["PA-7671a7"]
+			}
+		]
+	},
+	{
+		"id": "PA-a7be6b",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE DME AVAILABLE/IN-USE WITHIN THE HOME FOR TRANSFERRING/AMBULATING (SELECT ALL THAT APPLY): TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate DME available/in-use within the home for transferring/ambulating:",
+		"responses": [
+			{
+				"text": "CANE",
+				"cleanedText": "Cane"
+			},
+			{
+				"text": "SLIDING BOARD",
+				"cleanedText": "Sliding Board"
+			},
+			{
+				"text": "WALKER/ROLLATOR",
+				"cleanedText": "Walker/Rollator"
+			},
+			{
+				"text": "WHEELCHAIR",
+				"cleanedText": "Wheelchair"
+			},
+			{
+				"text": "N/A - NO DME AVAILABLE/IN-USE",
+				"cleanedText": "N/A - No DME available/in-use"
+			}
+		]
+	},
+	{
+		"id": "PA-af42c2a",
+		"questionType": "Select",
+		"originalText": "REMINDER: IF DME IS NOT AVAILABLE BUT IS RECOMMENDED TO ENHANCE PATIENT SAFETY, NOTIFY DME PROVIDER AND DOCUMENT DETAILS WITHIN CARE COORDINATION SECTION OF THIS ASSESSMENT TYPE: UNKNOWN - MULTISELECT: N",
+		"cleanedText": "Is any DME recommended to enhance patient safety, but not available?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-af42c2b"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-af42c2b",
+		"questionType": "Text",
+		"originalText": "Care Coordination Note about DME Needs",
+		"cleanedText": "Indicate contents of care coordination note about recommended DME that is not available:"
+	},
+	{
+		"id": "PA-35f8af",
+		"questionType": "Select",
+		"originalText": "SECTION ONE: DOES THE MEDICAL HISTORY OR ASSESSMENT FINDINGS SUGGEST INFECTION? (EXAMPLES INCLUDE: CURRENT ANTIBIOTIC THERAPY TO TREAT INFECTION, UTI, PNEUMONIA, CELLULITIS, WOUND WITH INCREASED DRAINAGE OR ODOR) TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the medical history or assessment findings suggest infection (examples include: current antibiotic therapy to treat infection, UTI, pneumonia, cellulitis, wound with increased drainage or odor)?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-7a00c3", "PA-8ab796"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-4cab6a",
+		"questionType": "Select",
+		"originalText": "IS THIS ASSESSMENT BEING PERFORMED FOR A MEDICARE PAYMENT EPISODE THAT DETERMINES A CASE MIX GROUP (THERAPY NEED)? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is this assessment being performed for a medicare payment episode that determines a case mix group (therapy need)?",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No",
+				"followup": []
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-36d8ab",
+		"questionType": "Select",
+		"originalText": "DO ANY OF THE FOLLOWING TELEHEALTH EXCLUSIONS APPLY TO THE PATIENT?\n\n•PATIENT IS HOSPICE APPROPRIATE\n•PATIENT RECEIVING PALLIATIVE CARE\n•UNSAFE ENVIRONMENT FOR EQUIPMENT\n•HEMODIALYSIS PATIENT\n•PSYCH DIAGNOSIS\n•VA PATIENT TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Do any of the following telehealth exclusions apply to the patient: patient is hospice appropriate, patient receiving palliative care, unsafe environment for equipment, hemodialysis patient, psych diagnosis, or VA patient?",
+		"responses": [
+			{
+				"text": "YES - ONE OR MORE EXCLUSIONS APPLY",
+				"cleanedText": "Yes - One or more exclusions apply"
+			},
+			{
+				"text": "NO - NONE OF THE EXCLUSIONS APPLY",
+				"cleanedText": "No - None of the exclusions apply",
+				"followup": ["PA-afe46d"]
+			}
+		]
+	},
+	{
+		"id": "PA-2b9cd8",
+		"questionType": "MultiSelect",
+		"originalText": "WOULD YOU LIKE TO START OR END ONE OF THE FOLLOWING SKILLED HOME HEALTH SPECIALTY PROGRAMS TODAY? (ONLY SELECT TO START OR END PROGRAM) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Would the clinician like to start or end one of the following skilled home health specialty programs today?",
+		"responses": [
+			{
+				"text": "BLOOM SPECIALTY PROGRAM",
+				"cleanedText": "Bloom Specialty Program",
+				"followup": ["PA-33911e1"]
+			},
+			{
+				"text": "BREATHING WITH CARE SPECIALTY PROGRAM",
+				"cleanedText": "Breathing with Care Specialty Program",
+				"followup": ["PA-33911e2"]
+			},
+			{
+				"text": "CLEAR SPECIALTY PROGRAM",
+				"cleanedText": "Clear Specialty Program",
+				"followup": ["PA-33911e3"]
+			},
+			{
+				"text": "FRONT AND CENTER - VETERAN PATIENT SPECIALTY PROGRAM",
+				"cleanedText": "Front and Center - Veteran patient specialty program",
+				"followup": ["PA-33911e4"]
+			},
+			{
+				"text": "MATTERS OF THE HEART SPECIALTY PROGRAM",
+				"cleanedText": "matters of the heart specialty program",
+				"followup": ["PA-33911e5"]
+			},
+			{
+				"text": "MEANINGFUL CARE - SPECIALTY PROGRAM FOR DEMENTIA CAREGIVERS",
+				"cleanedText": "Meaningful Care - Specialty program for dementia caregivers",
+				"followup": ["PA-33911e6"]
+			},
+			{
+				"text": "SEPSIS SPECIALTY PROGRAM",
+				"cleanedText": "Sepsis Specialty Program",
+				"followup": ["PA-33911e7"]
+			},
+			{
+				"text": "N/A - PATIENT IS CURRENTLY ENROLLED IN A SKILLED HOME HEALTH SPECIALTY PROGRAM",
+				"cleanedText": "N/A - Patient is currently enrolled in a skilled home health specialty program"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-33911e1",
+		"questionType": "Select",
+		"originalText": "INDICATE IF START OR END OF PROGRAM: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate if start or end of Bloom program:",
+		"responses": [
+			{
+				"text": "START OF BLOOM SPECIALTY PROGRAM",
+				"cleanedText": "Start of Bloom Specialty Program"
+			},
+			{
+				"text": "END OF BLOOM SPECIALTY PROGRAM",
+				"cleanedText": "End of Bloom Specialty Program"
+			}
+		]
+	},
+	{
+		"id": "PA-33911e2",
+		"questionType": "Select",
+		"originalText": "INDICATE IF START OR END OF PROGRAM: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate if start or end of Breathing with Care program:",
+		"responses": [
+			{
+				"text": "START OF BREATHING WITH CARE SPECIALTY PROGRAM",
+				"cleanedText": "Start of Breathing with Care Specialty Program"
+			},
+			{
+				"text": "END OF BREATHING WITH CARE SPECIALTY PROGRAM",
+				"cleanedText": "End of Breathing with Care Specialty Program"
+			}
+		]
+	},
+	{
+		"id": "PA-33911e3",
+		"questionType": "Select",
+		"originalText": "INDICATE IF START OR END OF PROGRAM: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate if start or end of Clear program:",
+		"responses": [
+			{
+				"text": "START OF CLEAR SPECIALTY PROGRAM",
+				"cleanedText": "Start of Clear Specialty Program"
+			},
+			{
+				"text": "END OF CLEAR SPECIALTY PROGRAM",
+				"cleanedText": "End of Clear Specialty Program"
+			}
+		]
+	},
+	{
+		"id": "PA-33911e4",
+		"questionType": "Select",
+		"originalText": "INDICATE IF START OR END OF PROGRAM: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate if start or end of Front and Center program:",
+		"responses": [
+			{
+				"text": "START OF FRONT AND CENTER SPECIALTY PROGRAM",
+				"cleanedText": "Start of Front and Center Specialty Program"
+			},
+			{
+				"text": "END OF FRONT AND CENTER SPECIALTY PROGRAM",
+				"cleanedText": "End of Front and Center Specialty Program"
+			}
+		]
+	},
+	{
+		"id": "PA-33911e5",
+		"questionType": "Select",
+		"originalText": "INDICATE IF START OR END OF PROGRAM: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate if start or end of Matters of the Heart program:",
+		"responses": [
+			{
+				"text": "START OF MATTERS OF THE HEART SPECIALTY PROGRAM",
+				"cleanedText": "Start of Matters of the Heart Specialty Program"
+			},
+			{
+				"text": "END OF MATTERS OF THE HEART SPECIALTY PROGRAM",
+				"cleanedText": "End of Matters of the Heart Specialty Program"
+			}
+		]
+	},
+	{
+		"id": "PA-33911e6",
+		"questionType": "Select",
+		"originalText": "INDICATE IF START OR END OF PROGRAM: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate if start or end of Meaningful Care program:",
+		"responses": [
+			{
+				"text": "START OF MEANINGFUL CARE SPECIALTY PROGRAM",
+				"cleanedText": "Start of Meaningful Care Specialty Program"
+			},
+			{
+				"text": "END OF MEANINGFUL CARE SPECIALTY PROGRAM",
+				"cleanedText": "End of Meaningful Care Specialty Program"
+			}
+		]
+	},
+	{
+		"id": "PA-33911e7",
+		"questionType": "Select",
+		"originalText": "INDICATE IF START OR END OF PROGRAM: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate if start or end of Sepsis program:",
+		"responses": [
+			{
+				"text": "START OF SEPSIS SPECIALTY PROGRAM",
+				"cleanedText": "Start of Sepsis Specialty Program"
+			},
+			{
+				"text": "END OF SEPSIS SPECIALTY PROGRAM",
+				"cleanedText": "End of Sepsis Specialty Program"
+			}
+		]
+	},
+	{
+		"id": "PA-19d8a2",
+		"questionType": "MultiSelect",
+		"originalText": "WOULD YOU LIKE TO START OR END ONE OF THE FOLLOWING MENTAL HEALTH AND WELLNESS SPECIALTY PROGRAMS TODAY? (ONLY SELECT TO START OR END PROGRAM) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Would the clinician like to start or end one of the following mental health and wellness specialty programs today?",
+		"responses": [
+			{
+				"text": "EMBRACE - START OF SPECIALTY PROGRAM",
+				"cleanedText": "Embrace - Start of specialty program",
+				"followup": ["PA-9c173e", "PA-ec3b37", "PA-1032e5", "PA-95fa77"]
+			},
+			{
+				"text": "MINDFUL CARE - START OF SPECIALTY PROGRAM",
+				"cleanedText": "Mindful Care - Start of specialty program",
+				"followup": ["PA-542cb9", "PA-20804b", "PA-c77a9f", "PA-f52ff4"]
+			},
+			{
+				"text": "EMBRACE - END OF SPECIALTY PROGRAM",
+				"cleanedText": "Embrace - End of specialty program",
+				"followup": ["PA-fc1c2d", "PA-5f163e", "PA-842548", "PA-ccb6ed"]
+			},
+			{
+				"text": "MINDFUL CARE - END OF SPECIALTY PROGRAM",
+				"cleanedText": "Mindful Care - End of specialty program",
+				"followup": ["PA-1e8b71", "PA-03fc82", "PA-51488c", "PA-557128"]
+			},
+			{
+				"text": "N/A - PATIENT IS CURRENTLY ENROLLED IN A MENTAL HEALTH AND WELLNESS SPECIALTY PROGRAM",
+				"cleanedText": "N/A - Patient is currently enrolled in a mental health and wellness specialty program"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-ae381e",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE WITH WHOM CARE COORDINATION WAS PERFORMED: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate with whom care coordination was performed:",
+		"responses": [
+			{
+				"text": "PHYSICIAN/NPP",
+				"cleanedText": "Physician/Npp"
+			},
+			{
+				"text": "SUPERVISOR",
+				"cleanedText": "Supervisor"
+			},
+			{
+				"text": "RN",
+				"cleanedText": "Rn"
+			},
+			{
+				"text": "LPN/LVN",
+				"cleanedText": "Lpn/Lvn"
+			},
+			{
+				"text": "PT",
+				"cleanedText": "PT"
+			},
+			{
+				"text": "PTA",
+				"cleanedText": "Pta"
+			},
+			{
+				"text": "OT",
+				"cleanedText": "OT"
+			},
+			{
+				"text": "COTA",
+				"cleanedText": "Cota"
+			},
+			{
+				"text": "ST",
+				"cleanedText": "ST"
+			},
+			{
+				"text": "MSW",
+				"cleanedText": "MSW"
+			},
+			{
+				"text": "HHA",
+				"cleanedText": "Hha"
+			},
+			{
+				"text": "CAREGIVER",
+				"cleanedText": "Caregiver"
+			},
+			{
+				"text": "PCS",
+				"cleanedText": "Pcs"
+			},
+			{
+				"text": "PRIVATE DUTY",
+				"cleanedText": "Private Duty"
+			},
+			{
+				"text": "ALF",
+				"cleanedText": "Alf"
+			},
+			{
+				"text": "DIALYSIS CENTER",
+				"cleanedText": "Dialysis Center"
+			},
+			{
+				"text": "DME COMPANY",
+				"cleanedText": "DME Company"
+			},
+			{
+				"text": "OTHER",
+				"cleanedText": "Other"
+			}
+		]
+	},
+	{
+		"id": "PA-3226f8a",
+		"questionType": "Select",
+		"originalText": "ARE ANY OF THE FOLLOWING STATEMENTS TRUE FOR THIS PATIENT: THERE HAS BEEN A CHANGE IN PATIENT STATUS, PATIENT IS NOT PROGRESSING TOWARD GOALS, ORDERED TREATMENT NOT PROVIDED DURING VISIT, OR FOLLOW-UP IS NEEDED BY BRANCH DESIGNEE?",
+		"cleanedText": "Are any of the following statements true for this patient: there has been a change in patient status, patient is not progressing toward goals, ordered treatment not provided during visit, or follow-up is needed by branch designee?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-3226f8b"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-3226f8b",
+		"questionType": "Text",
+		"originalText": "Indicate contents of Clinical Coordination Note regarding a change in patient status, patient is not progressing toward goals, ordered treatment no provided during visit, or follow-up needed by branch designee:",
+		"cleanedText": "Indicate contents of Clinical Coordination Note regarding a change in patient status, patient is not progressing toward goals, ordered treatment not provided during visit, or follow-up needed by branch designee:"
+	},
+	{
+		"id": "PA-b3ba9f",
+		"questionType": "MultiSelect",
+		"originalText": "DOCUMENT PATIENT'S STRENGTH(S): (SELECT ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Document patient's strength(s):",
+		"responses": [
+			{
+				"text": "KNOWLEDGE OF DISEASE MANAGEMENT",
+				"cleanedText": "Knowledge of Disease Management"
+			},
+			{
+				"text": "KNOWLEDGE OF MEDICATION REGIMEN",
+				"cleanedText": "Knowledge of Medication Regimen"
+			},
+			{
+				"text": "KNOWLEDGE OF PRESCRIBED DIET",
+				"cleanedText": "Knowledge of Prescribed Diet"
+			},
+			{
+				"text": "MOTIVATION AND READINESS FOR CHANGE",
+				"cleanedText": "Motivation and Readiness for Change"
+			},
+			{
+				"text": "VOCATIONAL INTEREST/HOBBIES",
+				"cleanedText": "Vocational Interest/Hobbies"
+			},
+			{
+				"text": "INTERPERSONAL RELATIONSHIPS AND SUPPORTS",
+				"cleanedText": "Interpersonal Relationships and Supports"
+			},
+			{
+				"text": "FINANCIAL STABILITY",
+				"cleanedText": "Financial Stability"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-3501f6"]
+			}
+		]
+	},
+	{
+		"id": "PA-5c24bc",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE PATIENT'S CARE PREFERENCES AND ADD CARE PREFERENCES TO POINTCARE VISIT ALERT: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate patient's care preferences:",
+		"responses": [
+			{
+				"text": "PREFERS AFTERNOON VISITS",
+				"cleanedText": "Prefers Afternoon Visits",
+				"followup": ["PA-5c24bc1"]
+			},
+			{
+				"text": "PREFERS MORNING VISITS",
+				"cleanedText": "Prefers Morning Visits",
+				"followup": ["PA-5c24bc1"]
+			},
+			{
+				"text": "PREFERS NON-SMOKING STAFF",
+				"cleanedText": "Prefers Non-smoking Staff",
+				"followup": ["PA-5c24bc1"]
+			},
+			{
+				"text": "PREFERS VISITS ON SPECIFIC DAYS",
+				"cleanedText": "Prefers Visits on Specific Days",
+				"followup": ["PA-154c32", "PA-5c24bc1"]
+			},
+			{
+				"text": "NO CARE PREFERENCES INDICATED",
+				"cleanedText": "No Care Preferences Indicated"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-0c3526", "PA-5c24bc1"]
+			}
+		]
+	},
+	{
+		"id": "PA-5c24bc1",
+		"questionType": "Text",
+		"originalText": "Contents of Pointcare Visit Alert about patient care prefences",
+		"cleanedText": "Indicate contents of Pointcare Visit Alert regarding patient's care preferences:"
+	},
+	{
+		"id": "PA-d41c23",
+		"questionType": "Select",
+		"originalText": "THE PATIENT AND/OR CAREGIVER PARTICIPATED IN THE DEVELOPMENT OF THE POC AND IS IN AGREEMENT WITH THE POC. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "The patient and/or caregiver participated in the development of the POC and is in agreement with the POC:",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-ab5d81",
+		"questionType": "Text",
+		"originalText": "REVIEW THE CALENDAR AND TREATMENT PLAN WITH THE PATIENT IN ORDER TO KEEP THEM UP-TO-DATE AND DEFINITELY INFORMED ABOUT THE CARE THEY WILL RECEIVE. \n\nDOCUMENT DETAILS OF DISCUSSION AND PLAN FOR NEXT VISIT: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Document details of discussion with patient regarding calendar / treatment plan and document plan for next visit:"
+	},
+	{
+		"id": "PA-e853e3",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER RELIGION: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other religion:"
+	},
+	{
+		"id": "PA-e7e092",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER FINANCIAL FACTOR(S): TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other financial factor(s):"
+	},
+	{
+		"id": "PA-a2cb92",
+		"questionType": "MultiSelect",
+		"originalText": "CRITERIA 1 - THE PATIENT IS HOMEBOUND BECAUSE AN ILLNESS OR INJURY RENDERS HIM/HER CONFINED TO THE HOME EXCEPT: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "The patient is homebound because an illness or injury renders him/her confined to the home except:",
+		"responses": [
+			{
+				"text": "WITH THE ASSISTANCE OF ANOTHER INDIVIDUAL",
+				"cleanedText": "with the assistance of another individual"
+			},
+			{
+				"text": "WITH THE ASSISTANCE OF A SUPPORTIVE DEVICE",
+				"cleanedText": "with the assistance of a supportive device",
+				"followup": ["PA-7b1c1f"]
+			},
+			{
+				"text": "LEAVING HOME IS MEDICALLY CONTRAINDICATED",
+				"cleanedText": "Leaving Home Is Medically Contraindicated"
+			}
+		]
+	},
+	{
+		"id": "PA-89f43c",
+		"questionType": "Select",
+		"originalText": "IMPAIRED BODY FUNCTIONS THAT EITHER REQUIRE HOME HEALTH INTERVENTION OR WILL IMPACT THE PLAN OF CARE: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Impaired body functions that either require home health intervention or will impact the plan of care:",
+		"responses": [
+			{
+				"text": "NA - NOT APPLICABLE",
+				"cleanedText": "NA - Not applicable"
+			},
+			{
+				"text": "YES - DRAINING/INFECTED WOUND AND/OR IMMUNOCOMPROMISED",
+				"cleanedText": "Yes - Draining/Infected wound and/or immunocompromised",
+				"followup": ["PA-802a3b"]
+			}
+		]
+	},
+	{
+		"id": "PA-006625",
+		"questionType": "MultiSelect",
+		"originalText": "CRITERIA 2 - PATIENT HAS A NORMAL INABILITY TO LEAVE HOME AND LEAVING HOME REQUIRES A CONSIDERABLE AND TAXING EFFORT. FURTHERMORE, THE PATIENT MEETS THE MEDICARE DEFINITION OF HOMEBOUND BECAUSE OF THE FOLLOWING STRUCTURAL AND/OR FUNCTIONAL IMPAIRMENT(S) AND/OR ACTIVITY LIMITATIONS: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Patient has a normal inability to leave home and leaving home requires a considerable and taxing effort. Furthermore, the patient meets the Medicare definition of homebound because of the following structural and/or functional impairment(s) and/or activity limitations:",
+		"responses": [
+			{
+				"text": "COGNITIVE DEFICITS IMPACT JUDGEMENT, IMPAIR ABILITY TO SAFELY NAVIGATE AND PREVENT SOUND DECISION MAKING FOR SAFETY",
+				"cleanedText": "cognitive deficits impact judgement, impair ability to safely navigate and prevent sound decision making for safety"
+			},
+			{
+				"text": "PSYCHIATRIC ILLNESS/REFUSAL TO LEAVE HOME OR NOT SAFE FOR PATIENT TO LEAVE HOME UNATTENDED",
+				"cleanedText": "psychiatric illness/refusal to leave home or not safe for patient to leave home unattended"
+			},
+			{
+				"text": "IMPAIRED VISION IMPACTS ABILITY TO SAFELY LEAVE HOME",
+				"cleanedText": "impaired vision impacts ability to safely leave home"
+			},
+			{
+				"text": "FLUCTUATIONS OF BLOOD PRESSURE",
+				"cleanedText": "Fluctuations of Blood Pressure"
+			},
+			{
+				"text": "UNSTABLE BLOOD SUGAR LEVELS, EXPERIENCES SEVERE FLUCTUATIONS",
+				"cleanedText": "unstable blood sugar levels, experiences severe fluctuations"
+			},
+			{
+				"text": "INABILITY TO ADMINISTER INJECTIONS DUE TO PHYSICAL AND/OR COGNITIVE IMPAIRMENT",
+				"cleanedText": "inability to administer injections due to physical and/or cognitive impairment"
+			},
+			{
+				"text": "EXPERIENCES ANGINA WITH MINIMAL ACTIVITY",
+				"cleanedText": "Experiences Angina with Minimal Activity"
+			},
+			{
+				"text": "PAIN",
+				"cleanedText": "Pain"
+			},
+			{
+				"text": "ACTIVITY RESTRICTED DUE TO PAIN RELATED TO MEDICAL CONDITION",
+				"cleanedText": "activity restricted due to pain related to medical condition"
+			},
+			{
+				"text": "ACTIVITY RESTRICTED DUE TO PAIN RELATED TO SURGICAL PROCEDURE",
+				"cleanedText": "activity restricted due to pain related to surgical procedure"
+			},
+			{
+				"text": "ACTIVITY RESTRICTED DUE TO SURGICAL PROCEDURE",
+				"cleanedText": "activity restricted due to surgical procedure"
+			},
+			{
+				"text": "NEW PATHOLOGICAL FRACTURE (OSTEOPOROSIS) WITH SEVERE PAIN AND LIMITED MOBILITY",
+				"cleanedText": "new pathological fracture (osteoporosis) with severe pain and limited mobility"
+			},
+			{
+				"text": "SOB WHEN AMBULATING SHORT DISTANCES (20 FT OR LESS)",
+				"cleanedText": "Sob when ambulating short distances (20 ft or less)"
+			},
+			{
+				"text": "SOB WITH MINIMAL ACTIVITY/EXERTION",
+				"cleanedText": "Sob with Minimal Activity/Exertion"
+			},
+			{
+				"text": "SOB AT REST",
+				"cleanedText": "Sob at Rest"
+			},
+			{
+				"text": "POOR ACTIVITY TOLERANCE/POOR ENDURANCE",
+				"cleanedText": "Poor Activity Tolerance/Poor Endurance"
+			},
+			{
+				"text": "ACTIVITY RESTRICTIONS DUE TO DIMINISHED SENSATION/CIRCULATION IN LOWER EXTREMITY/EXTREMITIES. PATIENT VULNERABLE TO BLISTERS OR OTHER BREAKDOWN ON FEET WHEN AMBULATING >100 FEET.",
+				"cleanedText": "Activity restrictions due to diminished sensation/circulation in lower extremity/extremities. patient vulnerable to blisters or other breakdown on feet when ambulating >100 feet."
+			},
+			{
+				"text": "REQUIRES ASSISTANCE OR ASSISTIVE DEVICE DUE TO NEUROPATHY/PARASTHESIA IN LOWER EXTREMITY/EXTREMITIES",
+				"cleanedText": "requires assistance or assistive device due to neuropathy/parasthesia in lower extremity/extremities"
+			},
+			{
+				"text": "HIGH FALL RISK DUE TO GAIT INSTABILITY AND MUSCLE WEAKNESS",
+				"cleanedText": "high fall risk due to gait instability and muscle weakness"
+			},
+			{
+				"text": "DECREASED ABILITY/INABILITY TO TRANSFER FROM BED TO CHAIR",
+				"cleanedText": "decreased ability/inability to transfer from bed to chair"
+			},
+			{
+				"text": "PATIENT IS CHAIRBOUND AND UNABLE TO WHEEL SELF",
+				"cleanedText": "patient is chairbound and unable to wheel self"
+			},
+			{
+				"text": "PATIENT IS BEDBOUND",
+				"cleanedText": "Patient Is Bedbound"
+			},
+			{
+				"text": "OTHER",
+				"cleanedText": "Other",
+				"followup": ["PA-57993b"]
+			}
+		]
+	},
+	{
+		"id": "PA-0065ff",
+		"questionType": "Select",
+		"originalText": "PLEASE EXPLAIN: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Please explain why the patient is not homebound:",
+		"responses": [
+			{
+				"text": "PATIENT IS NON-MEDICARE AND PATIENT IS NOT REQUIRED TO BE HOMEBOUND",
+				"cleanedText": "patient is non-medicare and patient is not required to be homebound"
+			},
+			{
+				"text": "OTHER",
+				"cleanedText": "Other",
+				"followup": ["PA-2c3969"]
+			}
+		]
+	},
+	{
+		"id": "PA-034b16",
+		"questionType": "Text",
+		"originalText": "INDICATE THE NAME OF THE HOME HEALTH AGENCY THAT PROVIDED RECENT SERVICES: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate the name of the home health agency that provided recent services:"
+	},
+	{
+		"id": "PA-13c95d",
+		"questionType": "Select",
+		"originalText": "IS THE CLIENT STILL RECEIVING HOME HEALTH SERVICES FROM A DIFFERENT PROVIDER? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is the patient still receiving home health services from a different provider?",
+		"responses": [
+			{
+				"text": "YES - CONTACT CLINICAL MANAGER TO DISCUSS HOME HEALTH ELIGIBILITY",
+				"cleanedText": "Yes - Contact clinical manager to discuss home health eligibility"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-2b99ba",
+		"questionType": "Select",
+		"originalText": "DOES THE CLIENT NEED PERSONAL CARE SERVICES? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient need personal care services?",
+		"responses": [
+			{
+				"text": "YES - THIS RESPONSE WILL INITIATE A REFERRAL TO ELARA CONNECT TO COORDINATE PCS OR VET ASSIST SERVICES",
+				"cleanedText": "Yes - This response will initiate a referral to elara connect to coordinate pcs or vet assist services"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-e1c6ef",
+		"questionType": "Text",
+		"originalText": "SPECIFY SURGICAL PROCEDURE, SITE, AND LATERALITY (IF APPLICABLE): TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify surgical procedure, site, and laterality (if applicable):"
+	},
+	{
+		"id": "PA-beeb38",
+		"questionType": "MultiSelect",
+		"originalText": "DOES PATIENT HAVE ACUTE/ACTIVE CANCER OR HISTORY OF? TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Does patient have acute/active cancer or history of cancer?",
+		"responses": [
+			{
+				"text": "ACUTE/ACTIVE",
+				"cleanedText": "Acute/Active",
+				"followup": ["PA-e2cce8"]
+			},
+			{
+				"text": "HISTORY OF",
+				"cleanedText": "History of",
+				"followup": ["PA-e2cce8"]
+			}
+		]
+	},
+	{
+		"id": "PA-13e6d0",
+		"questionType": "Text",
+		"originalText": "SPECIFY LATE EFFECT/RESIDUAL: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify late effect/residual related to CVA/Stroke:"
+	},
+	{
+		"id": "PA-111f9b",
+		"questionType": "Text",
+		"originalText": "SPECIFY TYPE OF DEMENTIA, IF KNOWN: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify type of dementia, if known:"
+	},
+	{
+		"id": "PA-a8e655",
+		"questionType": "Select",
+		"originalText": "SPECIFY SEVERITY OF DEMENTIA: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Specify severity of dementia:",
+		"responses": [
+			{
+				"text": "MILD",
+				"cleanedText": "Mild"
+			},
+			{
+				"text": "MODERATE",
+				"cleanedText": "Moderate"
+			},
+			{
+				"text": "SEVERE",
+				"cleanedText": "Severe"
+			},
+			{
+				"text": "UNKNOWN",
+				"cleanedText": "Unknown"
+			}
+		]
+	},
+	{
+		"id": "PA-4a5756",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE IF ANY OF THE FOLLOWING ARE PRESENT: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate if any of the following are present:",
+		"responses": [
+			{
+				"text": "ANXIETY",
+				"cleanedText": "Anxiety"
+			},
+			{
+				"text": "BEHAVIORAL DISTURBANCE",
+				"cleanedText": "Behavioral Disturbance"
+			},
+			{
+				"text": "MOOD DISTURBANCE",
+				"cleanedText": "Mood Disturbance"
+			},
+			{
+				"text": "PSYCHOTIC DISTURBANCE",
+				"cleanedText": "Psychotic Disturbance"
+			},
+			{
+				"text": "NONE",
+				"cleanedText": "None"
+			}
+		]
+	},
+	{
+		"id": "PA-7da924",
+		"questionType": "MultiSelect",
+		"originalText": "SPECIFY COMPLICATION(S) OF DIABETES: (SELECT ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Specify complication(s) of diabetes:",
+		"responses": [
+			{
+				"text": "DIABETIC NEPHROPATHY",
+				"cleanedText": "Diabetic Nephropathy"
+			},
+			{
+				"text": "DIABETIC NEUROPATHY",
+				"cleanedText": "Diabetic Neuropathy"
+			},
+			{
+				"text": "DIABETIC RETINOPATHY",
+				"cleanedText": "Diabetic Retinopathy"
+			},
+			{
+				"text": "DIABETIC ULCER(S)",
+				"cleanedText": "Diabetic ulcer(s)"
+			},
+			{
+				"text": "OTHER DIABETIC COMPLICATION(S)",
+				"cleanedText": "Other diabetic complication(s)",
+				"followup": ["PA-70b15c"]
+			},
+			{
+				"text": "N/A - NO DIABETIC COMPLICATIONS",
+				"cleanedText": "N/A - No diabetic complications"
+			}
+		]
+	},
+	{
+		"id": "PA-becc32",
+		"questionType": "Text",
+		"originalText": "SPECIFY SITE AND LATERALITY OF DVT: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify site and laterality of DVT:"
+	},
+	{
+		"id": "PA-a7f400",
+		"questionType": "Text",
+		"originalText": "SPECIFY SITE AND LATERALITY OF FRACTURES: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify site and laterality of fractures:"
+	},
+	{
+		"id": "PA-347a9f",
+		"questionType": "Text",
+		"originalText": "SPECIFY TYPE OF INFECTION: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify type of infection:"
+	},
+	{
+		"id": "PA-943545",
+		"questionType": "Text",
+		"originalText": "SPECIFY MENTAL ILLNESS DIAGNOSIS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify mental illness diagnosis:"
+	},
+	{
+		"id": "PA-f8217b",
+		"questionType": "Text",
+		"originalText": "DATE OF MI: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Date of MI:"
+	},
+	{
+		"id": "PA-50f030",
+		"questionType": "Text",
+		"originalText": "SPECIFY SITE (JOINT) AND LATERALITY OF OSTEOARTHRITIS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify site (joint) and laterality of osteoarthritis:"
+	},
+	{
+		"id": "PA-a1b848",
+		"questionType": "Text",
+		"originalText": "SPECIFY TYPE AND LATERALITY OF PARALYSIS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify type and laterality of paralysis:"
+	},
+	{
+		"id": "PA-0c5ee9",
+		"questionType": "Text",
+		"originalText": "SPECIFY TYPE, SITE, AND LATERALITY OF SKIN IMPAIRMENT: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify type, site, and laterality of skin impairment:"
+	},
+	{
+		"id": "PA-02b7f4",
+		"questionType": "Text",
+		"originalText": "SPECIFY LOCATION OF SPINAL STENOSIS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify location of spinal stenosis:"
+	},
+	{
+		"id": "PA-9bebb6",
+		"questionType": "Text",
+		"originalText": "SPECIFY VISION IMPAIRMENT: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify vision impairment:"
+	},
+	{
+		"id": "PA-138b81",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER CURRENT CHRONIC CONDITION: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other current chronic condition:"
+	},
+	{
+		"id": "PA-212334",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE VIOLENT CRIME TYPE: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate violent crime type:",
+		"responses": [
+			{
+				"text": "ATTEMPTED MURDER",
+				"cleanedText": "Attempted Murder"
+			},
+			{
+				"text": "MURDER",
+				"cleanedText": "Murder"
+			},
+			{
+				"text": "SEXUAL ASSAULT/RAPE",
+				"cleanedText": "Sexual Assault/Rape"
+			},
+			{
+				"text": "USE OF WEAPONS RESULTING IN SERIOUS BODILY INJURY",
+				"cleanedText": "use of weapons resulting in serious bodily injury"
+			}
+		]
+	},
+	{
+		"id": "PA-999214",
+		"questionType": "Text",
+		"originalText": "DESCRIPTION OF CRIME OF VIOLENCE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Description of crime of violence:"
+	},
+	{
+		"id": "PA-7fa416",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER SAFETY RISK ASSESSMENT FINDINGS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other safety risk assessment findings:"
+	},
+	{
+		"id": "PA-411bbb",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER SAFETY HAZARD/SANITATION ISSUE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other safety hazard / sanitation issue:"
+	},
+	{
+		"id": "PA-c966ef",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER COMMUNITY RESOURCES INVOLVED IN CLIENTS CARE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other community resources involved in patient's care:"
+	},
+	{
+		"id": "PA-f9f6ad",
+		"questionType": "Text",
+		"originalText": "INDICATE COMMUNITY RESOURCES/SERVICES NEEDED: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate community resources/services needed:"
+	},
+	{
+		"id": "PA-4ab5a8",
+		"questionType": "Text",
+		"originalText": "SPECIFY OTHER CORRECTIVE LENS OR DEVICE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify other corrective lens or device:"
+	},
+	{
+		"id": "PA-5b241b",
+		"questionType": "Text",
+		"originalText": "INDICATE LOCATION/QUALITY OF PAIN, OBJECTIVE PAIN SYMPTOMS, AND PAIN RELIEF MEASURES. DOCUMENT THE PAIN SCALE USED IF OTHER THAN 0-10: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate location/quality of pain, objective pain symptoms, and pain relief measures. Document the pain scale used, if other than 0-10."
+	},
+	{
+		"id": "PA-96dadc",
+		"questionType": "Select",
+		"originalText": "IS SURGICAL WOUND HEALING BY PRIMARY INTENTION? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is surgical wound healing by primary intention?",
+		"responses": [
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			}
+		]
+	},
+	{
+		"id": "PA-880d90",
+		"questionType": "Text",
+		"originalText": "LOCATION OF BLISTERS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Location of blisters:"
+	},
+	{
+		"id": "PA-98c506",
+		"questionType": "Text",
+		"originalText": "INDICATE LOCATION OF BRUISING: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate location of bruising:"
+	},
+	{
+		"id": "PA-0ac639",
+		"questionType": "Text",
+		"originalText": "DESCRIBE RASH APPEARANCE/LOCATION: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Describe rash appearance/location:"
+	},
+	{
+		"id": "PA-878a81",
+		"questionType": "Text",
+		"originalText": "DESCRIBE OTHER SKIN ASSESSMENT FINDINGS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Describe other skin assessment findings:"
+	},
+	{
+		"id": "PA-d343af",
+		"questionType": "Text",
+		"originalText": "INDICATE IV TYPE, LOCATION, SITE ASSESSMENT (INCLUDE LENGTH OF EXPOSED CATHETER IF MIDLINE OR PICC, CHECK MEDICAL RECORD FOR PREVIOUS LENGTH AND REPORT TO MD IF INCREASED LENGTH), LUMENS, PATENCY: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate IV type, location, site assessment (include lumens, patency, and length of exposed catheter if midline or PICC):"
+	},
+	{
+		"id": "PA-b4a881",
+		"questionType": "Text",
+		"originalText": "INDICATE TYPE OF ABNORMAL BREATH SOUNDS (CRACKLES/RALES, RHONCHI, WHEEZES, ETC.) AND LOCATION (UPPER/LOWER LATERALITY): TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate type of abnormal breath sounds (crackles/rales, rhonchi, wheezes, etc.) and location (upper/lower laterality):"
+	},
+	{
+		"id": "PA-efd76e",
+		"questionType": "Select",
+		"originalText": "INDICATE TYPE OF COUGH: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate type of cough:",
+		"responses": [
+			{
+				"text": "PRODUCTIVE",
+				"cleanedText": "Productive",
+				"followup": ["PA-caa8a3"]
+			},
+			{
+				"text": "NON PRODUCTIVE",
+				"cleanedText": "Non Productive"
+			}
+		]
+	},
+	{
+		"id": "PA-422172",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER RESPIRATORY ISSUE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other respiratory issue:"
+	},
+	{
+		"id": "PA-9c74e3",
+		"questionType": "Text",
+		"originalText": "SPECIFY OTHER ACTIVITIES THAT AFFECT THE PATIENT'S BREATHING: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify other activities that affect the patient's breathing:"
+	},
+	{
+		"id": "PA-575b3d",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE FREQUENCY OF CHEST PAIN: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate frequency of chest pain:",
+		"responses": [
+			{
+				"text": "AT CURRENT VISIT",
+				"cleanedText": "At Current Visit"
+			},
+			{
+				"text": "DAILY",
+				"cleanedText": "Daily"
+			},
+			{
+				"text": ">3 TIMES PER WEEK",
+				"cleanedText": ">3 Times Per Week"
+			},
+			{
+				"text": "1 - 3 TIMES PER WEEK",
+				"cleanedText": "1 - 3 times per week"
+			},
+			{
+				"text": "LESS THAN WEEKLY",
+				"cleanedText": "Less Than Weekly"
+			},
+			{
+				"text": "OTHER",
+				"cleanedText": "Other",
+				"followup": ["PA-c83bb7"]
+			}
+		]
+	},
+	{
+		"id": "PA-2354fe",
+		"questionType": "Select",
+		"originalText": "IS CHEST PAIN RELIEVED WITH CURRENT MEDICATION REGIMEN? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is chest pain relieved with current medication regimen?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			},
+			{
+				"text": "N/A",
+				"cleanedText": "N/A"
+			}
+		]
+	},
+	{
+		"id": "PA-89e795",
+		"questionType": "MultiSelect",
+		"originalText": "DESCRIBE WHEN DIZZINESS OCCURS: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Describe when dizziness occurs:",
+		"responses": [
+			{
+				"text": "SITTING",
+				"cleanedText": "Sitting"
+			},
+			{
+				"text": "STANDING",
+				"cleanedText": "Standing"
+			},
+			{
+				"text": "STOOPING/BENDING",
+				"cleanedText": "Stooping/Bending"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-071a9a"]
+			}
+		]
+	},
+	{
+		"id": "PA-9866ee",
+		"questionType": "Text",
+		"originalText": "INDICATE LOCATION AND CHARACTERISTICS OF EDEMA (E.G. NON-PITTING, PITTING - TRACE, +1, +2, +3, +4) : TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate location and characteristics of edema (e.g. non-pitting, pitting, trace, +1, +2, +3, +4):"
+	},
+	{
+		"id": "PA-fe39cf",
+		"questionType": "Select",
+		"originalText": "LOCATION OF PEDAL PULSES ABSENT: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Location of pedal pulses absent:",
+		"responses": [
+			{
+				"text": "RIGHT",
+				"cleanedText": "Right"
+			},
+			{
+				"text": "LEFT",
+				"cleanedText": "Left"
+			},
+			{
+				"text": "BILATERAL",
+				"cleanedText": "Bilateral"
+			}
+		]
+	},
+	{
+		"id": "PA-0db3f7",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER CARDIOVASCULAR ISSUE(S): TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other cardiovascular issue(s):"
+	},
+	{
+		"id": "PA-21e194",
+		"questionType": "Text",
+		"originalText": "INDICATE S/S OF UTI THAT ARE PRESENT: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate signs and symptoms of UTI that are present:"
+	},
+	{
+		"id": "PA-3f6826",
+		"questionType": "Select",
+		"originalText": "WAS IN-HOME URINE REAGENT STRIP TEST PERFORMED? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Was in-home urine reagent strip test performed?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-612e9b"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-9e42dc",
+		"questionType": "Text",
+		"originalText": "INDICATE CONDITION OF STOMA SITE AND CHARACTERISTICS OF URINE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate condition of stoma site and characteristics of urine:"
+	},
+	{
+		"id": "PA-8ad2cc",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER GENITOURINARY ISSUE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other genitourinary issue:"
+	},
+	{
+		"id": "PA-4771b3",
+		"questionType": "Text",
+		"originalText": "INDICATE CATHETER TYPE, SIZE, BALLOON SIZE, AND DATE LAST CHANGED: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate catheter type, size, balloon size, and date last changed:"
+	},
+	{
+		"id": "PA-3a075f",
+		"questionType": "Text",
+		"originalText": "INDICATE WHICH QUADRANT BOWEL SOUNDS ARE ABSENT: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate in which quadrant bowel sounds are absent:"
+	},
+	{
+		"id": "PA-1b24d4",
+		"questionType": "Text",
+		"originalText": "INDICATE WHICH QUADRANT BOWEL SOUNDS ARE HYPOACTIVE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate in which quadrant bowel sounds are hypoactive:"
+	},
+	{
+		"id": "PA-b15d7b",
+		"questionType": "Text",
+		"originalText": "INDICATE WHICH QUADRANT BOWEL SOUNDS ARE HYPERACTIVE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate in which quadrant bowel sounds are hyperactive:"
+	},
+	{
+		"id": "PA-24a49e",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER GASTROINTESTINAL ISSUE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other gastrointestinal issue:"
+	},
+	{
+		"id": "PA-e1a7b9",
+		"questionType": "Text",
+		"originalText": "INDICATE TYPE, LOCATION, AND APPEARANCE OF OSTOMY AND SURROUNDING SKIN: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate type, location, and appearance of ostomy and surrounding skin:"
+	},
+	{
+		"id": "PA-6283f8",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER NUTRITIONAL ASSESSMENT FINDING: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other nutritional assessment finding:"
+	},
+	{
+		"id": "PA-6d1530",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER ABNORMAL NEUROLOGIC FINDINGS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other abnormal neurologic findings:"
+	},
+	{
+		"id": "PA-f28598",
+		"questionType": "MultiSelect",
+		"originalText": "HOW FREQUENT ARE BLOOD SUGARS CHECKED: (MARK ALL THAT APPLY) TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "How frequently are blood sugars checked?",
+		"responses": [
+			{
+				"text": "DAILY",
+				"cleanedText": "Daily"
+			},
+			{
+				"text": "AC",
+				"cleanedText": "Ac"
+			},
+			{
+				"text": "HS",
+				"cleanedText": "Hs"
+			},
+			{
+				"text": "OTHER (SPECIFY)",
+				"cleanedText": "Other",
+				"followup": ["PA-3065aa"]
+			}
+		]
+	},
+	{
+		"id": "PA-bc3e40",
+		"questionType": "Text",
+		"originalText": "DIRECTIONS FOR TUG ASSESSMENT ARE FOUND IN REFERENCE SECTION.  INDICATE RESULTS IN SECONDS. TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate results of TUG screen in seconds:"
+	},
+	{
+		"id": "PA-edf06f",
+		"questionType": "Text",
+		"originalText": "PLEASE INDICATE WHAT IS AMPUTATED: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Please indicate what is amputated:"
+	},
+	{
+		"id": "PA-fd46f5",
+		"questionType": "Text",
+		"originalText": "SPECIFY LOCATION(S) OF CONTRACTURES: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify location(s) of contractures:"
+	},
+	{
+		"id": "PA-fb24dc",
+		"questionType": "Text",
+		"originalText": "INDICATE LOCATION(S) OF MUSCLE SPASMS: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate location(s) of muscle spasms:"
+	},
+	{
+		"id": "PA-14f11c",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER MUSCULOSKELETAL FINDING: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other musculoskeletal finding:"
+	},
+	{
+		"id": "PA-3bb277",
+		"questionType": "Select",
+		"originalText": "IS THE PATIENT ABLE TO UTILIZE ASSISTIVE DEVICE(S) FOR BATHING INDEPENDENTLY? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is the patient able to utilize assistive device(s) for bathing independently?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-35ac72",
+		"questionType": "Select",
+		"originalText": "IS PATIENT ABLE TO SAFELY USE BEDSIDE COMMODE? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is patient able to safely use a bedside commode?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-94de03",
+		"questionType": "Select",
+		"originalText": "IS PATIENT ABLE TO PLACE AND REMOVE BEDPAN INDEPENDENTLY? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is patient able to place and remove a bedpan independently?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-735194",
+		"questionType": "Select",
+		"originalText": "IS PATIENT ABLE TO PLACE AND REMOVE URINAL INDEPENDENTLY? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is patient able to place and remove a urinal independently?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-7671a7",
+		"questionType": "Select",
+		"originalText": "IS BEDSIDE COMMODE, BEDPAN, OR URINAL REQUIRED FOR SAFE TOILET TRANSFER? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Is bedside commode, bedpan, or urinal required for safe toilet transfer?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-7a00c3",
+		"questionType": "MultiSelect",
+		"originalText": "SECTION TWO: SIGNS OF SEPSIS PRESENT? TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Are signs of sepsis present?",
+		"responses": [
+			{
+				"text": "TEMPERATURE > OR = 101° F OR < OR = 96.8° F",
+				"cleanedText": "temperature > or = 101° f or < or = 96.8° f"
+			},
+			{
+				"text": "HEART RATE >90 BPM",
+				"cleanedText": "Heart Rate >90 Bpm"
+			},
+			{
+				"text": "RESPIRATORY RATE >20 BREATHS/MINUTE",
+				"cleanedText": "Respiratory Rate >20 Breaths/Minute"
+			},
+			{
+				"text": "SYSTOLIC BLOOD PRESSURE <100",
+				"cleanedText": "Systolic Blood Pressure <100"
+			},
+			{
+				"text": "NEW ONSET MENTAL STATUS CHANGES (MILD CONFUSION OR DISORIENTATION)",
+				"cleanedText": "New onset mental status changes (mild confusion or disorientation)"
+			},
+			{
+				"text": "N/A - NO SIGNS AND SYMPTOMS OF SEPSIS PRESENT",
+				"cleanedText": "N/A - No signs and symptoms of sepsis present"
+			}
+		]
+	},
+	{
+		"id": "PA-8ab796",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT SHOW 2 OR MORE SIGNS OF SEPSIS? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient show 2 or more signs of sepsis?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-2d9dbc"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-193d0e",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE ROUTE OF ADMINISTRATION FOR CHEMOTHERAPY CANCER TREATMENTS ON ADMISSION TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate route of administration for chemotherapy cancer treatments on admission:",
+		"responses": [
+			{
+				"text": "A2. IV",
+				"cleanedText": "IV"
+			},
+			{
+				"text": "A3. ORAL",
+				"cleanedText": "Oral"
+			},
+			{
+				"text": "A10. OTHER",
+				"cleanedText": "Other"
+			}
+		]
+	},
+	{
+		"id": "PA-f4f24b",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE TYPE OF ADMINISTRATION OF OXYGEN THERAPY ON ADMISSION TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate type of administration of oxygen therapy on admission:",
+		"responses": [
+			{
+				"text": "C2. CONTINUOUS",
+				"cleanedText": "Continuous"
+			},
+			{
+				"text": "C3. INTERMITTENT",
+				"cleanedText": "Intermittent"
+			},
+			{
+				"text": "C4. HIGH-CONCENTRATION",
+				"cleanedText": "High-concentration"
+			}
+		]
+	},
+	{
+		"id": "PA-6e5b44",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE FREQUENCY OF SUCTIONING ON ADMISSION TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate frequency of suctioning on admission:",
+		"responses": [
+			{
+				"text": "D2. SCHEDULED",
+				"cleanedText": "Scheduled"
+			},
+			{
+				"text": "D3. AS NEEDED",
+				"cleanedText": "As Needed"
+			}
+		]
+	},
+	{
+		"id": "PA-6d3cd4",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE TYPE OF NON-INVASIVE MECHANICAL VENTILATOR ON ADMISSION TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate type of non-invasive mechanical ventilator on admission:",
+		"responses": [
+			{
+				"text": "G2. BIPAP",
+				"cleanedText": "BiPAP"
+			},
+			{
+				"text": "G3. CPAP",
+				"cleanedText": "CPAP"
+			}
+		]
+	},
+	{
+		"id": "PA-0efd08",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE TYPE OF IV MEDICATIONS ON ADMISSION TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate type of IV medications on admission:",
+		"responses": [
+			{
+				"text": "H2. VASOACTIVE MEDICATIONS",
+				"cleanedText": "Vasoactive Medications"
+			},
+			{
+				"text": "H3. ANTIBIOTICS",
+				"cleanedText": "Antibiotics"
+			},
+			{
+				"text": "H4. ANTICOAGULATION",
+				"cleanedText": "Anticoagulation"
+			},
+			{
+				"text": "H10. OTHER",
+				"cleanedText": "Other"
+			}
+		]
+	},
+	{
+		"id": "PA-e26b4b",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE TYPE OF DIALYSIS ON ADMISSION TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate type of dialysis on admission:",
+		"responses": [
+			{
+				"text": "J2. HEMODIALYSIS",
+				"cleanedText": "Hemodialysis"
+			},
+			{
+				"text": "J3. PERITONEAL DIALYSIS",
+				"cleanedText": "Peritoneal Dialysis"
+			}
+		]
+	},
+	{
+		"id": "PA-f3cbc0",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE TYPE OF IV ACCESS ON ADMISSION TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate type of IV access on admission:",
+		"responses": [
+			{
+				"text": "O2. PERIPHERAL",
+				"cleanedText": "Peripheral"
+			},
+			{
+				"text": "O3. MID-LINE",
+				"cleanedText": "Mid-line"
+			},
+			{
+				"text": "O4. CENTRAL (E.G., PICC, TUNNELED, PORT)",
+				"cleanedText": "Central (e.g., PICC, tunneled, port)"
+			}
+		]
+	},
+	{
+		"id": "PA-afe46d",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT MEET ANY OF THE FOLLOWING TELEHEALTH/RPM ELIGIBILITY CRITERIA? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient meet any of the following Telehealth/RPM eligibility criteria?",
+		"responses": [
+			{
+				"text": "PRIMARY DIAGNOSIS OF CHF OR COPD",
+				"cleanedText": "primary diagnosis of CHF or COPD",
+				"followup": ["PA-7cebed"]
+			},
+			{
+				"text": "PHYSICIAN REFERRAL FOR TELEHEALTH",
+				"cleanedText": "Physician Referral for Telehealth",
+				"followup": ["PA-1c4969"]
+			},
+			{
+				"text": "PATIENT PARTICIPATING IN PAYOR SPECIFIC PROGRAM REQUIRING TELEHEALTH (I.E PRIORITY HEALTH, PEOPLE’S HEALTH)",
+				"cleanedText": "Patient participating in payor specific program requiring telehealth (I.e priority health, people’s health)",
+				"followup": ["PA-2b2be8"]
+			},
+			{
+				"text": "N/A - PATIENT DOES NOT MEET TELEHEALTH/RPM ELIGIBILITY CRITERIA",
+				"cleanedText": "N/A - Patient does not meet telehealth/rpm eligibility criteria"
+			}
+		]
+	},
+	{
+		"id": "PA-9c173e",
+		"questionType": "Select",
+		"originalText": "EMBRACE START OF PROGRAM: I FEEL I CAN IDENTIFY MY STRENGTHS DURING CHALLENGING TIMES. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel I can identify my strengths during challenging times.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-ec3b37",
+		"questionType": "Select",
+		"originalText": "EMBRACE START OF PROGRAM: I FEEL I AM ABLE TO EXPRESS MY EMOTIONS IN AN ACCEPTING MANNER. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel I am able to express my emotions in an accepting manner. Indicate the rating given.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-1032e5",
+		"questionType": "Select",
+		"originalText": "EMBRACE START OF PROGRAM: I FEEL I HAVE GOALS THAT I FOCUS ON DAILY. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel I have goals that I focus on daily.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-95fa77",
+		"questionType": "Select",
+		"originalText": "EMBRACE START OF PROGRAM: I FEEL I AM ABLE TO RECOGNIZE EARLY WARNING SIGNS OF A MEDICAL OR MENTAL HEALTH PROBLEM. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel I am able to recognize early warning signs of a medical or mental health problem.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-542cb9",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE START OF PROGRAM: I FEEL I HAVE EFFECTIVE PROBLEM SOLVING SKILLS TODAY. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel I have effective problem solving skills today.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-20804b",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE START OF PROGRAM: I FEEL I HAVE A GOOD UNDERSTANDING OF THE THINGS I AM RESPONSIBLE FOR IN MANAGING MY HEALTH. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel I have a good understanding of the things I am responsible for in managing my health.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-c77a9f",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE START OF PROGRAM: I FEEL MY MENTAL OR EMOTIONAL HEALTH IS: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel my mental or emotional health is...",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-f52ff4",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE START OF PROGRAM: I FEEL I AM ABLE TO RECOGNIZE EARLY WARNING SIGNS OF A PROBLEM WITH MY MENTAL WELL-BEING. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel I am able to recognize early warning signs of a problem with my mental well-being.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-fc1c2d",
+		"questionType": "Select",
+		"originalText": "EMBRACE END OF PROGRAM: I FEEL EMBRACE HAS HELPED ME TO IDENTIFY MY STRENGTHS DURING CHALLENGING TIMES. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel Embrace has helped me to identify my strengths during challenging times.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-5f163e",
+		"questionType": "Select",
+		"originalText": "EMBRACE END OF PROGRAM: I FEEL EMBRACE HAS HELPED ME TO EXPRESS MY EMOTIONS IN AN ACCEPTING MANNER. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel Embrace has helped me to express my emotions in an accepting manner.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-842548",
+		"questionType": "Select",
+		"originalText": "EMBRACE END OF PROGRAM: I FEEL EMBRACE HAS HELPED ME TO HAVE GOALS THAT I FOCUS ON DAILY. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel Embrace has helped me to have goals that I focus on daily.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-ccb6ed",
+		"questionType": "Select",
+		"originalText": "EMBRACE END OF PROGRAM: I FEEL EMBRACE HAS HELPED ME TO RECOGNIZE EARLY WARNING SIGNS OF A MEDICAL OR MENTAL HEALTH PROBLEM. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel Embrace has helped me to recognize early warning signs of a medical or mental health problem.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-1e8b71",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE END OF PROGRAM: I FEEL MINDFUL CARE HAS HELPED ME TO HAVE EFFECTIVE PROBLEM SOLVING SKILLS TODAY. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel Mindful Care has helped me to have effective problem solving skills today.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-03fc82",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE END OF PROGRAM: I FEEL MINDFUL CARE HAS HELPED ME TO HAVE A GOOD UNDERSTANDING OF THE THINGS I AM RESPONSIBLE FOR IN MANAGING MY HEALTH. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel Mindful Care has helped me to have a good understanding of the things I am responsible for in managing my health.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-51488c",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE END OF PROGRAM: AT THE END OF MINDFUL CARE, I FEEL MY MENTAL OR EMOTIONAL HEALTH IS: TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: At the end of Mindful Care, I feel my mental or emotional health is...",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-557128",
+		"questionType": "Select",
+		"originalText": "MINDFUL CARE END OF PROGRAM: I FEEL MINDFUL CARE HAS HELPED ME TO RECOGNIZE EARLY WARNING SIGNS OF A PROBLEM WITH MY MENTAL WELL-BEING. TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Indicate the patient's/caregiver's rating of the following statement: I feel Mindful Care has helped me to recognize early warning signs of a problem with my mental well-being.",
+		"responses": [
+			{
+				"text": "EXCELLENT",
+				"cleanedText": "Excellent"
+			},
+			{
+				"text": "VERY GOOD",
+				"cleanedText": "Very Good"
+			},
+			{
+				"text": "GOOD",
+				"cleanedText": "Good"
+			},
+			{
+				"text": "FAIR",
+				"cleanedText": "Fair"
+			},
+			{
+				"text": "POOR",
+				"cleanedText": "Poor"
+			}
+		]
+	},
+	{
+		"id": "PA-3501f6",
+		"questionType": "Text",
+		"originalText": "SPECIFY OTHER STRENGTH(S): TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify other patient strength(s):"
+	},
+	{
+		"id": "PA-154c32",
+		"questionType": "MultiSelect",
+		"originalText": "INDICATE PREFERRED DAY(S) FOR VISITS: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Indicate preferred day(s) for visits:",
+		"responses": [
+			{
+				"text": "SUNDAY",
+				"cleanedText": "Sunday"
+			},
+			{
+				"text": "MONDAY",
+				"cleanedText": "Monday"
+			},
+			{
+				"text": "TUESDAY",
+				"cleanedText": "Tuesday"
+			},
+			{
+				"text": "WEDNESDAY",
+				"cleanedText": "Wednesday"
+			},
+			{
+				"text": "THURSDAY",
+				"cleanedText": "Thursday"
+			},
+			{
+				"text": "FRIDAY",
+				"cleanedText": "Friday"
+			},
+			{
+				"text": "SATURDAY",
+				"cleanedText": "Saturday"
+			}
+		]
+	},
+	{
+		"id": "PA-0c3526",
+		"questionType": "Text",
+		"originalText": "SPECIFY OTHER CARE PREFERENCE(S): TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify other patient care preference(s):"
+	},
+	{
+		"id": "PA-7b1c1f",
+		"questionType": "Text",
+		"originalText": "ASSISTIVE DEVICES TO LEAVE HOME INCLUDE: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Assistive devices required to leave home include:"
+	},
+	{
+		"id": "PA-802a3b",
+		"questionType": "MultiSelect",
+		"originalText": "SPECIFY IMPAIRED BODY FUNCTIONS THAT EITHER REQUIRE HOME HEALTH INTERVENTION OR WILL IMPACT THE PLAN OF CARE: TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Specify impaired body functions that either require Home Health intervention or will impact the Plan of Care:",
+		"responses": [
+			{
+				"text": "PATIENT IS RECEIVING CARE FOR A DRAINING, INFECTED WOUND",
+				"cleanedText": "patient is receiving care for a draining, infected wound"
+			},
+			{
+				"text": "PATIENT IS IMMUNOCOMPROMISED",
+				"cleanedText": "Patient Is Immunocompromised",
+				"followup": ["PA-ceffd0"]
+			}
+		]
+	},
+	{
+		"id": "PA-57993b",
+		"questionType": "Text",
+		"originalText": "OTHER CRITERIA 2 REASON PATIENT IS HOMEBOUND: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Other reason patient is homebound:"
+	},
+	{
+		"id": "PA-2c3969",
+		"questionType": "Text",
+		"originalText": "OTHER REASON PATIENT NOT HOMEBOUND: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Other reason patient is not homebound:"
+	},
+	{
+		"id": "PA-e2cce8",
+		"questionType": "Text",
+		"originalText": "SPECIFY SITE AND LATERALITY OF CANCER: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify site and laterality of cancer:"
+	},
+	{
+		"id": "PA-70b15c",
+		"questionType": "Text",
+		"originalText": "SPECIFY OTHER DIABETIC COMPLICATION(S): TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Specify other diabetic complication(s):"
+	},
+	{
+		"id": "PA-300edd",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER INPATIENT FACILITY: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other inpatient facility:"
+	},
+	{
+		"id": "PA-caa8a3",
+		"questionType": "Text",
+		"originalText": "INDICATE AMOUNT AND COLOR OF SPUTUM: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate amount and color of sputum:"
+	},
+	{
+		"id": "PA-c83bb7",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER FREQUENCY OF CHEST PAIN: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other chest pain frequency:"
+	},
+	{
+		"id": "PA-071a9a",
+		"questionType": "Text",
+		"originalText": "DESCRIBE OTHER INSTANCES THAT CAUSE DIZZINESS FOR THE PATIENT: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Describe other instances that cause dizziness for the patient:"
+	},
+	{
+		"id": "PA-612e9b",
+		"questionType": "Select",
+		"originalText": "WAS REAGENT TEST POSITIVE FOR UTI? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Was reagent test positive for UTI?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes"
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-3065aa",
+		"questionType": "Text",
+		"originalText": "INDICATE OTHER FREQUENCY BLOOD SUGAR CHECKED: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate other frequency blood sugar checked:"
+	},
+	{
+		"id": "PA-b6db34",
+		"questionType": "Text",
+		"originalText": "INDICATE REASON PATIENT/CAREGIVER IS UNABLE TO INJECT MEDICATION: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Indicate reason patient/caregiver is unable to inject medication:"
+	},
+	{
+		"id": "PA-2d9dbc",
+		"questionType": "MultiSelect",
+		"originalText": "SECTION THREE: SIGNS OF SEVERE SEPSIS (ORGAN DYSFUNCTION) PRESENT? TYPE: LIST - MULTISELECT: Y",
+		"cleanedText": "Are signs of severe sepsis (organ dysfunction) present?",
+		"responses": [
+			{
+				"text": "CARDIOVASCULAR DYSFUNCTION: SBP <90 MMHG OR 40 MMHG DROP BELOW BASELINE SYSTOLIC",
+				"cleanedText": "cardiovascular dysfunction: sbp <90 mmhg or 40 mmhg drop below baseline systolic"
+			},
+			{
+				"text": "RESPIRATORY DYSFUNCTION: PULSE OXIMETRY <90% OR NEW OR INCREASING NEED FOR OXYGEN TO KEEP SAT >90% OR PREVENT DYSPNEA",
+				"cleanedText": "respiratory dysfunction: pulse oximetry <90% or new or increasing need for oxygen to keep sat >90% or prevent dyspnea"
+			},
+			{
+				"text": "NEUROLOGIC DYSFUNCTION: NEW ONSET SEVERE MENTAL STATUS CHANGE OR DECREASED LEVEL OF CONSCIOUSNESS (SEVERE CONFUSION OR AGITATION/SEVERE LETHARGY OR DIFFICULTY WAKING UP)",
+				"cleanedText": "Neurologic dysfunction: new onset severe mental status change or decreased level of consciousness (severe confusion or agitation/severe lethargy or difficulty waking up)"
+			},
+			{
+				"text": "PERFUSION DYSFUNCTION: MOTTLED SKIN (PATCHY RED/PURPLE DISCOLORATION ON TRUNK OR EXTREMITIES) OR CAP REFILL > OR = TO 3 SECONDS (WHILE HAND ABOVE HEART LEVEL)",
+				"cleanedText": "Perfusion dysfunction: mottled skin (patchy red/purple discoloration on trunk or extremities) or cap refill > or = to 3 seconds (while hand above heart level)"
+			},
+			{
+				"text": "NONE",
+				"cleanedText": "None"
+			}
+		]
+	},
+	{
+		"id": "PA-7cebed",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT AGREE TO TELEHEALTH FOR CHF/COPD? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient agree to Telehealth for CHF/COPD?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-e5870f1"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-e5870f1",
+		"questionType": "Text",
+		"originalText": "CONTENTS OF TELEHEALTH/RPM ELIGIBILITY CRITERIA NOTE",
+		"cleanedText": "Indicate contents of Telehealth/RPM Eligibility Criteria Note:"
+	},
+	{
+		"id": "PA-1c4969",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT AGREE TO TELEHEALTH FOR PHYSICIAN REFERRAL? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient agree to Telehealth for physician referral?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-e5870f1"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-e5870f1",
+		"questionType": "Text",
+		"originalText": "CONTENTS OF TELEHEALTH/RPM ELIGIBILITY CRITERIA NOTE",
+		"cleanedText": "Indicate contents of Telehealth/RPM Eligibility Criteria Note:"
+	},
+	{
+		"id": "PA-2b2be8",
+		"questionType": "Select",
+		"originalText": "DOES THE PATIENT AGREE TO TELEHEALTH FOR PAYOR SPECIFIC PROGRAM REQUIRING TELEHEALTH? TYPE: LIST - MULTISELECT: N",
+		"cleanedText": "Does the patient agree to Telehealth for payor-specific program requiring Telehealth?",
+		"responses": [
+			{
+				"text": "YES",
+				"cleanedText": "Yes",
+				"followup": ["PA-e5870f1"]
+			},
+			{
+				"text": "NO",
+				"cleanedText": "No"
+			}
+		]
+	},
+	{
+		"id": "PA-e5870f1",
+		"questionType": "Text",
+		"originalText": "CONTENTS OF TELEHEALTH/RPM ELIGIBILITY CRITERIA NOTE",
+		"cleanedText": "Indicate contents of Telehealth/RPM Eligibility Criteria Note:"
+	},
+	{
+		"id": "PA-ceffd0",
+		"questionType": "Text",
+		"originalText": "DESCRIBE REASON PATIENT IMMUNOCOMPROMISED: TYPE: TEXT - MULTISELECT: N",
+		"cleanedText": "Describe reason patient is immunocompromised:"
+	}
+]

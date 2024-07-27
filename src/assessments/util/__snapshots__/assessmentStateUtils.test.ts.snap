@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`assessmentStateUtils allRelevantQuestionsForPageHeading should return all relevant questions for multiple follow-up levels 1`] = `
+[
+  "PA-73f37a",
+  "M1000",
+  "PA-f2a5bc",
+  "PA-15bc7b",
+  "MQ3K8EDC1D",
+  "PA-b08dd6",
+  "O0110_A",
+  "vaccinations_custom",
+  "PA-105a9f",
+  "MQ67LVO5CK",
+  "PA-9f8d09",
+  "PA-772181",
+]
+`;

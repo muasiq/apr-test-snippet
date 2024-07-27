@@ -1,0 +1,22 @@
+[
+	{
+		"id": "AC1",
+		"questionType": "Text",
+		"text": "SOC Visit Start Time:",
+		"alternateQuestionText": "At what time did the nurse arrive at the patient's home?",
+		"codingInstructions": "Provide a response in military time, using HH:MM format.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	}
+]

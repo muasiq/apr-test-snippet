@@ -1,0 +1,1779 @@
+[
+	{ "View": "Female Anterior", "Region": "Abdominal", "Location": "Lower Abdominal, Midline", "x": 457, "y": 422 },
+	{
+		"View": "Female Anterior",
+		"Region": "Abdominal",
+		"Location": "Lower Quadrant Abdominal, Left",
+		"x": 629,
+		"y": 568
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Abdominal",
+		"Location": "Lower Quadrant Abdominal, Right",
+		"x": 286,
+		"y": 568
+	},
+	{ "View": "Female Anterior", "Region": "Abdominal", "Location": "Umbilical", "x": 457, "y": 422 },
+	{ "View": "Female Anterior", "Region": "Abdominal", "Location": "Upper Abdominal, Midline", "x": 457, "y": 294 },
+	{
+		"View": "Female Anterior",
+		"Region": "Abdominal",
+		"Location": "Upper Quadrant Abdominal, Left",
+		"x": 629,
+		"y": 294
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Abdominal",
+		"Location": "Upper Quadrant Abdominal, Right",
+		"x": 286,
+		"y": 294
+	},
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Cheek, Left", "x": 617, "y": 609 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Cheek, Right", "x": 343, "y": 644 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Chin", "x": 480, "y": 825 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Cranial, Superior", "x": 474, "y": 224 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Forehead, Left", "x": 606, "y": 399 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Forehead, Middle", "x": 474, "y": 434 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Forehead, Right", "x": 337, "y": 387 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Lower Jaw, Right", "x": 386, "y": 790 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Lower Jaw, Left", "x": 583, "y": 790 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Lower Lip", "x": 480, "y": 778 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Neck, Left", "x": 560, "y": 930 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Neck, Middle", "x": 480, "y": 825 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Neck, Right", "x": 377, "y": 930 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Nose", "x": 480, "y": 644 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Orbital, Left", "x": 572, "y": 521 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Orbital, Right", "x": 383, "y": 521 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Upper Jaw, Right", "x": 320, "y": 761 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Upper Jaw, Left", "x": 652, "y": 810 },
+	{ "View": "Female Anterior", "Region": "Head/Neck", "Location": "Upper Lip", "x": 480, "y": 705 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Distal Dorsum, Left", "x": 443, "y": 901 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Fifth Toe, Left", "x": 735, "y": 1064 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Fourth Toe, Left", "x": 669, "y": 1187 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Great Toe, Left", "x": 320, "y": 1263 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Middle Dorsum, Left", "x": 389, "y": 655 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Proximal Dorsum, Left", "x": 349, "y": 492 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Second Toe, Left", "x": 446, "y": 1169 },
+	{ "View": "Female Anterior", "Region": "Left Foot", "Location": "Third Toe, Left", "x": 566, "y": 1131 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Distal Forearm, Left",
+		"x": 469,
+		"y": 708
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Fifth Finger, Left",
+		"x": 452,
+		"y": 1216
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Fourth Finger, Left",
+		"x": 492,
+		"y": 1239
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Middle Forearm, Left",
+		"x": 443,
+		"y": 574
+	},
+	{ "View": "Female Anterior", "Region": "Left Lower Arm/Hand", "Location": "Palm, Left", "x": 497, "y": 1023 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Proximal Forearm, Left",
+		"x": 423,
+		"y": 247
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Second Finger, Left",
+		"x": 594,
+		"y": 1239
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Third Finger, Left",
+		"x": 543,
+		"y": 1257
+	},
+	{ "View": "Female Anterior", "Region": "Left Lower Arm/Hand", "Location": "Thumb, Left", "x": 629, "y": 1044 },
+	{ "View": "Female Anterior", "Region": "Left Lower Arm/Hand", "Location": "Wrist, Left", "x": 494, "y": 848 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Leg",
+		"Location": "Distal Lower Leg, Medial, Left",
+		"x": 383,
+		"y": 866
+	},
+	{ "View": "Female Anterior", "Region": "Left Lower Leg", "Location": "Distal Pretibial, Left", "x": 457, "y": 766 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Leg",
+		"Location": "Mid Lower Leg, Medial, Left",
+		"x": 366,
+		"y": 550
+	},
+	{ "View": "Female Anterior", "Region": "Left Lower Leg", "Location": "Middle Pretibial, Left", "x": 463, "y": 498 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Leg",
+		"Location": "Proximal Lower Leg, Medial, Left",
+		"x": 389,
+		"y": 247
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Left Lower Leg",
+		"Location": "Proximal Pretibial, Left",
+		"x": 480,
+		"y": 270
+	},
+	{ "View": "Female Anterior", "Region": "Left Upper Arm", "Location": "Antecubital, Left", "x": 480, "y": 1239 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Upper Arm",
+		"Location": "Distal Upper Arm, Left",
+		"x": 469,
+		"y": 1087
+	},
+	{ "View": "Female Anterior", "Region": "Left Upper Arm", "Location": "Middle Upper Arm, Left", "x": 446, "y": 924 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Upper Arm",
+		"Location": "Proximal Upper Arm, Left",
+		"x": 417,
+		"y": 679
+	},
+	{ "View": "Female Anterior", "Region": "Left Upper Arm", "Location": "Shoulder, Left", "x": 423, "y": 381 },
+	{ "View": "Female Anterior", "Region": "Left Upper Leg", "Location": "Distal Thigh, Left", "x": 417, "y": 854 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Upper Leg",
+		"Location": "Distal Thigh, Medial, Left",
+		"x": 292,
+		"y": 936
+	},
+	{ "View": "Female Anterior", "Region": "Left Upper Leg", "Location": "Knee, Medial, Left", "x": 309, "y": 1140 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Upper Leg",
+		"Location": "Mid Thigh, Medial, Left",
+		"x": 286,
+		"y": 539
+	},
+	{ "View": "Female Anterior", "Region": "Left Upper Leg", "Location": "Middle Thigh, Left", "x": 452, "y": 498 },
+	{ "View": "Female Anterior", "Region": "Left Upper Leg", "Location": "Patellar, Left", "x": 400, "y": 1105 },
+	{ "View": "Female Anterior", "Region": "Left Upper Leg", "Location": "Proximal Thigh, Left", "x": 446, "y": 241 },
+	{
+		"View": "Female Anterior",
+		"Region": "Left Upper Leg",
+		"Location": "Proximal Thigh, Medial, Left",
+		"x": 269,
+		"y": 212
+	},
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Greater Trochanter, Left", "x": 652, "y": 369 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Greater Trochanter, Right", "x": 171, "y": 372 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Inguinal, Left", "x": 652, "y": 527 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Inguinal, Right", "x": 246, "y": 550 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Labial", "x": 440, "y": 498 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Pubic", "x": 440, "y": 498 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Subrapubic", "x": 440, "y": 498 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Vaginal", "x": 440, "y": 498 },
+	{ "View": "Female Anterior", "Region": "Pelvic/Hip", "Location": "Vulvar", "x": 440, "y": 498 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Distal Dorsum, Right", "x": 503, "y": 971 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Fifth Toe, Right", "x": 200, "y": 1087 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Fourth Toe, Right", "x": 257, "y": 1187 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Great Toe, Right", "x": 629, "y": 1274 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Middle Dorsum, Right", "x": 509, "y": 825 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Proximal Dorsum, Right", "x": 577, "y": 451 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Second Toe, Right", "x": 463, "y": 1245 },
+	{ "View": "Female Anterior", "Region": "Right Foot", "Location": "Third Toe, Right", "x": 343, "y": 1181 },
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Distal Forearm, Right",
+		"x": 440,
+		"y": 737
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fifth Finger, Right",
+		"x": 457,
+		"y": 1210
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fourth Finger, Right",
+		"x": 412,
+		"y": 1257
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Middle Forearm, Right",
+		"x": 480,
+		"y": 515
+	},
+	{ "View": "Female Anterior", "Region": "Right Lower Arm/Hand", "Location": "Palm, Right", "x": 406, "y": 1029 },
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Proximal Forearm, Right",
+		"x": 540,
+		"y": 235
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Second Finger, Right",
+		"x": 320,
+		"y": 1257
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Third Finger, Right",
+		"x": 372,
+		"y": 1257
+	},
+	{ "View": "Female Anterior", "Region": "Right Lower Arm/Hand", "Location": "Thumb, Right", "x": 263, "y": 1064 },
+	{ "View": "Female Anterior", "Region": "Right Lower Arm/Hand", "Location": "Wrist, Right", "x": 409, "y": 866 },
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Distal Lower Leg, Medial, Right",
+		"x": 523,
+		"y": 912
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Distal Pretibial, Right",
+		"x": 480,
+		"y": 866
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Mid Lower Leg, Medial, Right",
+		"x": 537,
+		"y": 597
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Middle Pretibial, Right",
+		"x": 469,
+		"y": 655
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Proximal Lower Leg, Medial, Right",
+		"x": 532,
+		"y": 285
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Proximal Pretibial, Right",
+		"x": 440,
+		"y": 229
+	},
+	{ "View": "Female Anterior", "Region": "Right Upper Arm", "Location": "Antecubital, Right", "x": 469, "y": 1245 },
+	{
+		"View": "Female Anterior",
+		"Region": "Right Upper Arm",
+		"Location": "Distal Upper Arm, Right",
+		"x": 566,
+		"y": 1082
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Upper Arm",
+		"Location": "Middle Upper Arm, Right",
+		"x": 486,
+		"y": 994
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Right Upper Arm",
+		"Location": "Proximal Upper Arm, Right",
+		"x": 503,
+		"y": 749
+	},
+	{ "View": "Female Anterior", "Region": "Right Upper Arm", "Location": "Shoulder, Right", "x": 549, "y": 469 },
+	{
+		"View": "Female Anterior",
+		"Region": "Right Upper Leg",
+		"Location": "Distal Thigh, Medial, Right",
+		"x": 629,
+		"y": 965
+	},
+	{ "View": "Female Anterior", "Region": "Right Upper Leg", "Location": "Distal Thigh, Right", "x": 514, "y": 994 },
+	{ "View": "Female Anterior", "Region": "Right Upper Leg", "Location": "Knee, Medial, Right", "x": 612, "y": 1169 },
+	{
+		"View": "Female Anterior",
+		"Region": "Right Upper Leg",
+		"Location": "Mid Thigh, Medial, Right",
+		"x": 640,
+		"y": 477
+	},
+	{ "View": "Female Anterior", "Region": "Right Upper Leg", "Location": "Middle Thigh, Right", "x": 469, "y": 539 },
+	{ "View": "Female Anterior", "Region": "Right Upper Leg", "Location": "Patellar, Right", "x": 532, "y": 1146 },
+	{
+		"View": "Female Anterior",
+		"Region": "Right Upper Leg",
+		"Location": "Proximal Thigh, Medial, Right",
+		"x": 669,
+		"y": 270
+	},
+	{ "View": "Female Anterior", "Region": "Right Upper Leg", "Location": "Proximal Thigh, Right", "x": 472, "y": 253 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Axillary, Left", "x": 852, "y": 737 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Axillary, Right", "x": 63, "y": 702 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Epigastric", "x": 457, "y": 1047 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Inferior Thoracic, Left", "x": 640, "y": 1012 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Inferior Thoracic, Right", "x": 257, "y": 1052 },
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Lower Inner Quadrant Breast, Left",
+		"x": 572,
+		"y": 836
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Lower Inner Quadrant Breast, Right",
+		"x": 343,
+		"y": 842
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Lower Outer Quadrant Breast, Left",
+		"x": 652,
+		"y": 790
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Lower Outer Quadrant Breast, Right",
+		"x": 269,
+		"y": 784
+	},
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Middle Thoracic, Left", "x": 652, "y": 790 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Middle Thoracic, Right", "x": 269, "y": 784 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Nipple, Left", "x": 652, "y": 790 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Nipple, Right", "x": 269, "y": 784 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Sternal, Inferior", "x": 469, "y": 959 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Sternal, Middle", "x": 457, "y": 609 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Sternal, Superior", "x": 457, "y": 428 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Subclavian, Left", "x": 709, "y": 369 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Subclavian, Right", "x": 166, "y": 387 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Superior Thoracic, Left", "x": 680, "y": 580 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Superior Thoracic, Right", "x": 274, "y": 644 },
+	{ "View": "Female Anterior", "Region": "Torso", "Location": "Trachea", "x": 463, "y": 259 },
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Upper Inner Quadrant Breast, Left",
+		"x": 572,
+		"y": 685
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Upper Inner Quadrant Breast, Right",
+		"x": 360,
+		"y": 679
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Upper Outer Quadrant Breast, Left",
+		"x": 737,
+		"y": 696
+	},
+	{
+		"View": "Female Anterior",
+		"Region": "Torso",
+		"Location": "Upper Outer Quadrant Breast, Right",
+		"x": 274,
+		"y": 644
+	},
+	{ "View": "Female Left Lateral", "Region": "Left Foot", "Location": "Ankle, Left", "x": 509, "y": 539 },
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Foot",
+		"Location": "Anterior Edge of Foot, Left",
+		"x": 314,
+		"y": 583
+	},
+	{ "View": "Female Left Lateral", "Region": "Left Foot", "Location": "Fifth Toe, Left", "x": 189, "y": 603 },
+	{ "View": "Female Left Lateral", "Region": "Left Foot", "Location": "Fourth Toe, Left", "x": 109, "y": 603 },
+	{ "View": "Female Left Lateral", "Region": "Left Foot", "Location": "Great Toe, Left", "x": 46, "y": 591 },
+	{ "View": "Female Left Lateral", "Region": "Left Foot", "Location": "Lateral Malleolus, Left", "x": 549, "y": 469 },
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Foot",
+		"Location": "Middle Edge of Foot, Left",
+		"x": 452,
+		"y": 574
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Foot",
+		"Location": "Posterior Edge of Foot, Left",
+		"x": 614,
+		"y": 597
+	},
+	{ "View": "Female Left Lateral", "Region": "Left Foot", "Location": "Second Toe, Left", "x": 46, "y": 591 },
+	{ "View": "Female Left Lateral", "Region": "Left Foot", "Location": "Third Toe, Left", "x": 109, "y": 603 },
+	{ "View": "Female Left Lateral", "Region": "Left Head/Neck", "Location": "Cheek, Left", "x": 343, "y": 702 },
+	{ "View": "Female Left Lateral", "Region": "Left Head/Neck", "Location": "Cranial, Lower", "x": 723, "y": 620 },
+	{ "View": "Female Left Lateral", "Region": "Left Head/Neck", "Location": "Cranial, Mid", "x": 709, "y": 387 },
+	{ "View": "Female Left Lateral", "Region": "Left Head/Neck", "Location": "Cranial, Upper", "x": 514, "y": 346 },
+	{ "View": "Female Left Lateral", "Region": "Left Head/Neck", "Location": "Ear, Left", "x": 534, "y": 612 },
+	{ "View": "Female Left Lateral", "Region": "Left Head/Neck", "Location": "Neck, Left", "x": 592, "y": 1108 },
+	{ "View": "Female Left Lateral", "Region": "Left Head/Neck", "Location": "Temporal, Left", "x": 320, "y": 483 },
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Lower Arm",
+		"Location": "Distal Forearm, Left",
+		"x": 612,
+		"y": 615
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Lower Arm",
+		"Location": "Middle Forearm, Left",
+		"x": 606,
+		"y": 469
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Lower Arm",
+		"Location": "Proximal Forearm, Left",
+		"x": 629,
+		"y": 215
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Lower Arm",
+		"Location": "Second Finger, Left",
+		"x": 480,
+		"y": 1187
+	},
+	{ "View": "Female Left Lateral", "Region": "Left Lower Arm", "Location": "Thumb, Left", "x": 366, "y": 1000 },
+	{ "View": "Female Left Lateral", "Region": "Left Lower Arm", "Location": "Wrist, Left", "x": 557, "y": 734 },
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Lower Leg",
+		"Location": "Distal Lower Leg, Left",
+		"x": 612,
+		"y": 813
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Lower Leg",
+		"Location": "Middle Lower Leg, Left",
+		"x": 629,
+		"y": 480
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Lower Leg",
+		"Location": "Proximal Lower Leg, Left",
+		"x": 594,
+		"y": 241
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Upper Arm",
+		"Location": "Distal Upper Arm, Left",
+		"x": 389,
+		"y": 1213
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Upper Arm",
+		"Location": "Middle Upper Arm, Left",
+		"x": 400,
+		"y": 842
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Upper Arm",
+		"Location": "Proximal Upper Arm, Left",
+		"x": 394,
+		"y": 361
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Left Upper Leg",
+		"Location": "Proximal Thigh, Left",
+		"x": 486,
+		"y": 323
+	},
+	{ "View": "Female Left Lateral", "Region": "Left Upper Leg", "Location": "Distal Thigh, Left", "x": 446, "y": 971 },
+	{ "View": "Female Left Lateral", "Region": "Left Upper Leg", "Location": "Knee, Left", "x": 452, "y": 1134 },
+	{ "View": "Female Left Lateral", "Region": "Left Upper Leg", "Location": "Middle Thigh, Left", "x": 469, "y": 547 },
+	{ "View": "Female Left Lateral", "Region": "Torso, Left", "Location": "Flank, Left", "x": 629, "y": 1041 },
+	{
+		"View": "Female Left Lateral",
+		"Region": "Torso, Left",
+		"Location": "Greater Trochanter, Left",
+		"x": 372,
+		"y": 1338
+	},
+	{
+		"View": "Female Left Lateral",
+		"Region": "Torso, Left",
+		"Location": "Inferior Thoracic, Left",
+		"x": 352,
+		"y": 959
+	},
+	{ "View": "Female Left Lateral", "Region": "Torso, Left", "Location": "Lower Breast, Left", "x": 243, "y": 591 },
+	{
+		"View": "Female Left Lateral",
+		"Region": "Torso, Left",
+		"Location": "Superior Thoracic, Left",
+		"x": 389,
+		"y": 702
+	},
+	{ "View": "Female Left Lateral", "Region": "Torso, Left", "Location": "Upper Breast, Left", "x": 346, "y": 372 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Cervical, Left", "x": 303, "y": 994 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Cervical, Middle", "x": 474, "y": 985 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Cervical, Right", "x": 652, "y": 994 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Lower Cranial, Left", "x": 280, "y": 591 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Lower Cranial, Right", "x": 646, "y": 655 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Middle Cranial", "x": 472, "y": 539 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Upper Cranial, Left", "x": 332, "y": 247 },
+	{ "View": "Female Posterior", "Region": "Head/Neck", "Location": "Upper Cranial, Right", "x": 572, "y": 247 },
+	{ "View": "Female Posterior", "Region": "Left Foot", "Location": "Achilles Tendon, Left", "x": 600, "y": 440 },
+	{ "View": "Female Posterior", "Region": "Left Foot", "Location": "Heel, Left", "x": 672, "y": 889 },
+	{
+		"View": "Female Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Distal Forearm, Left",
+		"x": 423,
+		"y": 644
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Fifth Finger, Left",
+		"x": 492,
+		"y": 1128
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Fourth Finger, Left",
+		"x": 443,
+		"y": 1160
+	},
+	{ "View": "Female Posterior", "Region": "Left Lower Arm/Hand", "Location": "Hand, Left", "x": 429, "y": 889 },
+	{
+		"View": "Female Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Middle Forearm, Left",
+		"x": 514,
+		"y": 440
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Proximal Forearm, Left",
+		"x": 554,
+		"y": 218
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Second Finger, Left",
+		"x": 352,
+		"y": 1163
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Third Finger, Left",
+		"x": 400,
+		"y": 1169
+	},
+	{ "View": "Female Posterior", "Region": "Left Lower Arm/Hand", "Location": "Thumb, Left", "x": 286, "y": 994 },
+	{ "View": "Female Posterior", "Region": "Left Lower Arm/Hand", "Location": "Wrist, Left", "x": 454, "y": 714 },
+	{ "View": "Female Posterior", "Region": "Left Lower Leg", "Location": "Distal Calf, Left", "x": 492, "y": 696 },
+	{ "View": "Female Posterior", "Region": "Left Lower Leg", "Location": "Middle Calf, Left", "x": 492, "y": 469 },
+	{ "View": "Female Posterior", "Region": "Left Lower Leg", "Location": "Proximal Calf, Left", "x": 474, "y": 229 },
+	{
+		"View": "Female Posterior",
+		"Region": "Left Upper Arm",
+		"Location": "Distal Upper Arm, Left",
+		"x": 463,
+		"y": 1082
+	},
+	{ "View": "Female Posterior", "Region": "Left Upper Arm", "Location": "Elbow, Left", "x": 474, "y": 1222 },
+	{
+		"View": "Female Posterior",
+		"Region": "Left Upper Arm",
+		"Location": "Middle Upper Arm, Left",
+		"x": 492,
+		"y": 854
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Left Upper Arm",
+		"Location": "Proximal Upper Arm, Left",
+		"x": 537,
+		"y": 568
+	},
+	{ "View": "Female Posterior", "Region": "Left Upper Arm", "Location": "Shoulder, Left", "x": 583, "y": 352 },
+	{ "View": "Female Posterior", "Region": "Left Upper Leg", "Location": "Midde Upper Leg, Left", "x": 486, "y": 714 },
+	{ "View": "Female Posterior", "Region": "Left Upper Leg", "Location": "Popliteal, Left", "x": 497, "y": 1216 },
+	{
+		"View": "Female Posterior",
+		"Region": "Left Upper Leg",
+		"Location": "Proximal Upper Leg, Left",
+		"x": 457,
+		"y": 323
+	},
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Anal", "x": 469, "y": 504 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Coccyx", "x": 469, "y": 504 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Iliac Crest, Left", "x": 114, "y": 276 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Iliac Crest, Right", "x": 829, "y": 305 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Ischium", "x": 469, "y": 644 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Ischium, Left", "x": 469, "y": 644 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Ischium, Right", "x": 469, "y": 644 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Lower Buttock, Left", "x": 240, "y": 620 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Lower Buttock, Right", "x": 692, "y": 603 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Perineum", "x": 469, "y": 504 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Rectal", "x": 469, "y": 504 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Sacral, Left", "x": 160, "y": 183 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Sacral, Middle", "x": 457, "y": 189 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Sacral, Right", "x": 783, "y": 95 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Upper Buttock, Left", "x": 280, "y": 475 },
+	{ "View": "Female Posterior", "Region": "Pelvic/Hip", "Location": "Upper Buttock, Right", "x": 680, "y": 445 },
+	{ "View": "Female Posterior", "Region": "Right Foot", "Location": "Achilles Tendon, Right", "x": 297, "y": 317 },
+	{ "View": "Female Posterior", "Region": "Right Foot", "Location": "Heel, Right", "x": 303, "y": 690 },
+	{
+		"View": "Female Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Distal Forearm, Right",
+		"x": 457,
+		"y": 658
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fifth Finger, Right",
+		"x": 440,
+		"y": 1230
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fourth Finger, Right",
+		"x": 486,
+		"y": 1242
+	},
+	{ "View": "Female Posterior", "Region": "Right Lower Arm/Hand", "Location": "Hand, Right", "x": 514, "y": 1006 },
+	{
+		"View": "Female Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Middle Forearm, Right",
+		"x": 412,
+		"y": 448
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Proximal Forearm, Right",
+		"x": 372,
+		"y": 311
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Second Finger, Right",
+		"x": 600,
+		"y": 1245
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Third Finger, Right",
+		"x": 546,
+		"y": 1274
+	},
+	{ "View": "Female Posterior", "Region": "Right Lower Arm/Hand", "Location": "Thumb, Right", "x": 686, "y": 1099 },
+	{ "View": "Female Posterior", "Region": "Right Lower Arm/Hand", "Location": "Wrist, Right", "x": 474, "y": 825 },
+	{ "View": "Female Posterior", "Region": "Right Lower Leg", "Location": "Distal Calf, Right", "x": 409, "y": 936 },
+	{ "View": "Female Posterior", "Region": "Right Lower Leg", "Location": "Middle Calf, Right", "x": 383, "y": 556 },
+	{ "View": "Female Posterior", "Region": "Right Lower Leg", "Location": "Proximal Calf, Right", "x": 326, "y": 259 },
+	{
+		"View": "Female Posterior",
+		"Region": "Right Upper Arm",
+		"Location": "Distal Upper Arm, Right",
+		"x": 429,
+		"y": 1108
+	},
+	{ "View": "Female Posterior", "Region": "Right Upper Arm", "Location": "Elbow, Right", "x": 457, "y": 1309 },
+	{
+		"View": "Female Posterior",
+		"Region": "Right Upper Arm",
+		"Location": "Middle Upper Arm, Right",
+		"x": 446,
+		"y": 899
+	},
+	{
+		"View": "Female Posterior",
+		"Region": "Right Upper Arm",
+		"Location": "Proximal Upper Arm, Right",
+		"x": 400,
+		"y": 632
+	},
+	{ "View": "Female Posterior", "Region": "Right Upper Arm", "Location": "Shoulder, Right", "x": 357, "y": 364 },
+	{
+		"View": "Female Posterior",
+		"Region": "Right Upper Leg",
+		"Location": "Midde Upper Leg, Right",
+		"x": 426,
+		"y": 772
+	},
+	{ "View": "Female Posterior", "Region": "Right Upper Leg", "Location": "Popliteal, Right", "x": 409, "y": 1257 },
+	{
+		"View": "Female Posterior",
+		"Region": "Right Upper Leg",
+		"Location": "Proximal Upper Leg, Right",
+		"x": 474,
+		"y": 480
+	},
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Lateral Flank, Left", "x": 240, "y": 871 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Lateral Flank, Right", "x": 554, "y": 915 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Lower Back, Left", "x": 229, "y": 1084 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Lower Back, Medial", "x": 349, "y": 1181 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Lower Back, Right", "x": 623, "y": 1137 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Medial Flank, Left", "x": 323, "y": 877 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Medial Flank, Right", "x": 537, "y": 933 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Mid Back, Left", "x": 197, "y": 971 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Mid Back, Medial", "x": 386, "y": 940 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Mid Back, Right", "x": 557, "y": 833 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Scapula, Left", "x": 237, "y": 396 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Scapula, Right", "x": 603, "y": 425 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Upper Back, Left", "x": 189, "y": 495 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Upper Back, Medial", "x": 423, "y": 256 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Upper Back, Right", "x": 612, "y": 399 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Vertebrae, Inferior", "x": 412, "y": 953 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Vertebrae, Middle", "x": 417, "y": 720 },
+	{ "View": "Female Posterior", "Region": "Torso", "Location": "Vertebrae, Superior", "x": 380, "y": 253 },
+	{ "View": "Female Right Lateral", "Region": "Right Foot", "Location": "Ankle, Right", "x": 180, "y": 183 },
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Anterior Edge of Foot, Right",
+		"x": 489,
+		"y": 463
+	},
+	{ "View": "Female Right Lateral", "Region": "Right Foot", "Location": "Fifth Toe, Right", "x": 620, "y": 475 },
+	{ "View": "Female Right Lateral", "Region": "Right Foot", "Location": "Fourth Toe, Right", "x": 680, "y": 469 },
+	{ "View": "Female Right Lateral", "Region": "Right Foot", "Location": "Great Toe, Right", "x": 783, "y": 440 },
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Lateral Malleolus, Right",
+		"x": 183,
+		"y": 267
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Middle Edge of Foot, Right",
+		"x": 309,
+		"y": 454
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Posterior Edge of Foot, Right",
+		"x": 137,
+		"y": 463
+	},
+	{ "View": "Female Right Lateral", "Region": "Right Foot", "Location": "Second Toe, Right", "x": 749, "y": 475 },
+	{ "View": "Female Right Lateral", "Region": "Right Foot", "Location": "Third Toe, Right", "x": 709, "y": 475 },
+	{ "View": "Female Right Lateral", "Region": "Right Head/Neck", "Location": "Cheek, Right", "x": 572, "y": 688 },
+	{ "View": "Female Right Lateral", "Region": "Right Head/Neck", "Location": "Cranial, Lower", "x": 214, "y": 708 },
+	{ "View": "Female Right Lateral", "Region": "Right Head/Neck", "Location": "Cranial, Mid", "x": 343, "y": 387 },
+	{ "View": "Female Right Lateral", "Region": "Right Head/Neck", "Location": "Cranial, Upper", "x": 457, "y": 270 },
+	{ "View": "Female Right Lateral", "Region": "Right Head/Neck", "Location": "Ear, Right", "x": 360, "y": 638 },
+	{ "View": "Female Right Lateral", "Region": "Right Head/Neck", "Location": "Neck, Right", "x": 269, "y": 1070 },
+	{ "View": "Female Right Lateral", "Region": "Right Head/Neck", "Location": "Temporal, Right", "x": 537, "y": 533 },
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Distal Forearm, Right",
+		"x": 434,
+		"y": 515
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Middle Forearm, Right",
+		"x": 457,
+		"y": 384
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Proximal Forearm, Right",
+		"x": 286,
+		"y": 282
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Second Finger, Right",
+		"x": 554,
+		"y": 1318
+	},
+	{ "View": "Female Right Lateral", "Region": "Right Lower Arm", "Location": "Thumb, Right", "x": 646, "y": 1047 },
+	{ "View": "Female Right Lateral", "Region": "Right Lower Arm", "Location": "Wrist, Right", "x": 409, "y": 720 },
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Lower Leg",
+		"Location": "Distal Lower Leg, Right",
+		"x": 317,
+		"y": 924
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Lower Leg",
+		"Location": "Middle Lower Leg, Right",
+		"x": 246,
+		"y": 679
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Lower Leg",
+		"Location": "Proximal Lower Leg, Right",
+		"x": 229,
+		"y": 445
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Upper Arm",
+		"Location": "Distal Upper Arm, Right",
+		"x": 412,
+		"y": 1233
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Upper Arm",
+		"Location": "Middle Upper Arm, Right",
+		"x": 477,
+		"y": 880
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Upper Arm",
+		"Location": "Proximal Upper Arm, Right",
+		"x": 457,
+		"y": 407
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Upper Leg",
+		"Location": "Distal Thigh, Right",
+		"x": 469,
+		"y": 959
+	},
+	{ "View": "Female Right Lateral", "Region": "Right Upper Leg", "Location": "Knee, Right", "x": 600, "y": 1155 },
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Upper Leg",
+		"Location": "Middle Thigh, Right",
+		"x": 446,
+		"y": 583
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Right Upper Leg",
+		"Location": "Proximal Thigh, Right",
+		"x": 406,
+		"y": 264
+	},
+	{ "View": "Female Right Lateral", "Region": "Torso, Right", "Location": "Flank, Right", "x": 263, "y": 979 },
+	{
+		"View": "Female Right Lateral",
+		"Region": "Torso, Right",
+		"Location": "Greater Trochanter, Right",
+		"x": 554,
+		"y": 1330
+	},
+	{
+		"View": "Female Right Lateral",
+		"Region": "Torso, Right",
+		"Location": "Inferior Thoracic, Right",
+		"x": 609,
+		"y": 953
+	},
+	{ "View": "Female Right Lateral", "Region": "Torso, Right", "Location": "Lower Breast, Right", "x": 686, "y": 533 },
+	{
+		"View": "Female Right Lateral",
+		"Region": "Torso, Right",
+		"Location": "Superior Thoracic, Right",
+		"x": 537,
+		"y": 726
+	},
+	{ "View": "Female Right Lateral", "Region": "Torso, Right", "Location": "Upper Breast, Right", "x": 626, "y": 340 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Anterior Edge of Foot, Left", "x": 574, "y": 530 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Fifth Toe, Left", "x": 617, "y": 451 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Fourth Toe, Left", "x": 672, "y": 472 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Great Toe Joint, Left", "x": 646, "y": 515 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Great Toe, Left", "x": 749, "y": 539 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Heel, Left", "x": 123, "y": 536 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Medial Malleolus, Left", "x": 203, "y": 332 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Middle Edge of Foot, Left", "x": 346, "y": 512 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Posterior Edge of Foot, Left", "x": 300, "y": 521 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Second Toe, Left", "x": 755, "y": 498 },
+	{ "View": "Left Medial Foot", "Region": "N/A", "Location": "Third Toe, Left", "x": 726, "y": 472 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Distal Plantar, Left", "x": 363, "y": 1143 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Fifth Toe, Left", "x": 657, "y": 489 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Fourth Toe, Left", "x": 594, "y": 393 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Great Toe, Left", "x": 294, "y": 291 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Heel, Left", "x": 380, "y": 1350 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Middle Plantar, Left", "x": 398, "y": 886 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Proximal Plantar, Left", "x": 437, "y": 556 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Second Toe, Left", "x": 426, "y": 294 },
+	{ "View": "Left Plantar Foot", "Region": "N/A", "Location": "Third Toe, Left", "x": 520, "y": 326 },
+	{ "View": "Male Anterior", "Region": "Abdominal", "Location": "Lower Abdominal, Midline", "x": 460, "y": 647 },
+	{
+		"View": "Male Anterior",
+		"Region": "Abdominal",
+		"Location": "Abdominal Lower Quadrant, Left",
+		"x": 174,
+		"y": 647
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Abdominal",
+		"Location": "Abdominal Lower Quadrant, Right",
+		"x": 669,
+		"y": 623
+	},
+	{ "View": "Male Anterior", "Region": "Abdominal", "Location": "Umbilical", "x": 452, "y": 472 },
+	{ "View": "Male Anterior", "Region": "Abdominal", "Location": "Upper Abdominal, Midline", "x": 434, "y": 294 },
+	{
+		"View": "Male Anterior",
+		"Region": "Abdominal",
+		"Location": "Abdominal Upper Quadrant, Left",
+		"x": 189,
+		"y": 282
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Abdominal",
+		"Location": "Abdominal Upper Quadrant, Right",
+		"x": 634,
+		"y": 302
+	},
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Cheek, Left", "x": 280, "y": 545 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Cheek, Right", "x": 557, "y": 533 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Chin", "x": 432, "y": 798 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Cranial, Superior", "x": 434, "y": 183 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Forehead, Left", "x": 532, "y": 311 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Forehead, Middle", "x": 429, "y": 352 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Forehead, Right", "x": 272, "y": 323 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Lower Jaw, Left", "x": 543, "y": 743 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Lower Lip", "x": 432, "y": 702 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Neck, Left", "x": 583, "y": 790 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Neck, Middle", "x": 434, "y": 860 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Neck, Right", "x": 269, "y": 813 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Nose", "x": 400, "y": 562 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Orbital, Left", "x": 537, "y": 445 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Orbital, Right", "x": 375, "y": 463 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Upper Jaw, Right", "x": 269, "y": 705 },
+	{ "View": "Male Anterior", "Region": "Head/Neck", "Location": "Upper Lip", "x": 432, "y": 661 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Distal Dorsum, Left", "x": 609, "y": 854 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Fifth Toe, Left", "x": 783, "y": 1035 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Fourth Toe, Left", "x": 715, "y": 1122 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Great Toe, Left", "x": 300, "y": 1321 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Middle Dorsum, Left", "x": 280, "y": 635 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Proximal Dorsum, Left", "x": 289, "y": 346 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Second Toe, Left", "x": 489, "y": 1178 },
+	{ "View": "Male Anterior", "Region": "Left Foot", "Location": "Third Toe, Left", "x": 603, "y": 1128 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Distal Forearm, Left",
+		"x": 369,
+		"y": 798
+	},
+	{ "View": "Male Anterior", "Region": "Left Lower Arm/Hand", "Location": "Fifth Finger, Left", "x": 412, "y": 1295 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Fourth Finger, Left",
+		"x": 474,
+		"y": 1277
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Middle Forearm, Left",
+		"x": 477,
+		"y": 650
+	},
+	{ "View": "Male Anterior", "Region": "Left Lower Arm/Hand", "Location": "Palm, Left", "x": 472, "y": 1064 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Proximal Forearm, Left",
+		"x": 300,
+		"y": 241
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Second Finger, Left",
+		"x": 629,
+		"y": 1280
+	},
+	{ "View": "Male Anterior", "Region": "Left Lower Arm/Hand", "Location": "Third Finger, Left", "x": 526, "y": 1257 },
+	{ "View": "Male Anterior", "Region": "Left Lower Arm/Hand", "Location": "Thumb, Left", "x": 612, "y": 1052 },
+	{ "View": "Male Anterior", "Region": "Left Lower Arm/Hand", "Location": "Wrist, Left", "x": 432, "y": 918 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Leg",
+		"Location": "Distal Lower Leg, Medial, Left",
+		"x": 354,
+		"y": 842
+	},
+	{ "View": "Male Anterior", "Region": "Left Lower Leg", "Location": "Distal Pretibial, Left", "x": 440, "y": 880 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Leg",
+		"Location": "Mid Lower Leg, Medial, Left",
+		"x": 317,
+		"y": 553
+	},
+	{ "View": "Male Anterior", "Region": "Left Lower Leg", "Location": "Middle Pretibial, Left", "x": 423, "y": 743 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Lower Leg",
+		"Location": "Proximal Lower Leg, Medial, Left",
+		"x": 326,
+		"y": 381
+	},
+	{ "View": "Male Anterior", "Region": "Left Lower Leg", "Location": "Proximal Pretibial, Left", "x": 434, "y": 378 },
+	{ "View": "Male Anterior", "Region": "Left Upper Arm", "Location": "Antecubital, Left", "x": 509, "y": 1356 },
+	{ "View": "Male Anterior", "Region": "Left Upper Arm", "Location": "Distal Upper Arm, Left", "x": 406, "y": 1216 },
+	{ "View": "Male Anterior", "Region": "Left Upper Arm", "Location": "Middle Upper Arm, Left", "x": 457, "y": 1087 },
+	{ "View": "Male Anterior", "Region": "Left Upper Arm", "Location": "Proximal Upper Arm, Left", "x": 483, "y": 755 },
+	{ "View": "Male Anterior", "Region": "Left Upper Arm", "Location": "Shoulder, Left", "x": 526, "y": 346 },
+	{ "View": "Male Anterior", "Region": "Left Upper Leg", "Location": "Distal Thigh, Left", "x": 406, "y": 1023 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Upper Leg",
+		"Location": "Distal Thigh, Medial, Left",
+		"x": 309,
+		"y": 936
+	},
+	{ "View": "Male Anterior", "Region": "Left Upper Leg", "Location": "Knee, Medial, Left", "x": 292, "y": 1298 },
+	{ "View": "Male Anterior", "Region": "Left Upper Leg", "Location": "Mid Thigh, Medial, Left", "x": 263, "y": 728 },
+	{ "View": "Male Anterior", "Region": "Left Upper Leg", "Location": "Middle Thigh, Left", "x": 446, "y": 539 },
+	{ "View": "Male Anterior", "Region": "Left Upper Leg", "Location": "Patellar, Left", "x": 452, "y": 1263 },
+	{ "View": "Male Anterior", "Region": "Left Upper Leg", "Location": "Proximal Thigh, Left", "x": 543, "y": 337 },
+	{
+		"View": "Male Anterior",
+		"Region": "Left Upper Leg",
+		"Location": "Proximal Thigh, Medial, Left",
+		"x": 263,
+		"y": 437
+	},
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Greater Trochanter, Left", "x": 755, "y": 186 },
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Greater Trochanter, Right", "x": 166, "y": 212 },
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Inguinal, Left", "x": 657, "y": 302 },
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Inguinal, Right", "x": 246, "y": 299 },
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Penile", "x": 446, "y": 387 },
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Pubic", "x": 457, "y": 440 },
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Scrotum", "x": 463, "y": 545 },
+	{ "View": "Male Anterior", "Region": "Pelvic/Hip", "Location": "Suprapubic", "x": 432, "y": 224 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Distal Dorsum, Right", "x": 463, "y": 877 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Fifth Toe, Right", "x": 97, "y": 1026 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Fourth Toe, Right", "x": 160, "y": 1163 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Great Toe, Right", "x": 600, "y": 1350 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Middle Dorsum, Right", "x": 406, "y": 778 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Proximal Dorsum, Right", "x": 637, "y": 428 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Second Toe, Right", "x": 394, "y": 1201 },
+	{ "View": "Male Anterior", "Region": "Right Foot", "Location": "Third Toe, Right", "x": 274, "y": 1128 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Distal Forearm, Right",
+		"x": 526,
+		"y": 720
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fifth Finger, Right",
+		"x": 512,
+		"y": 1263
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fourth Finger, Right",
+		"x": 446,
+		"y": 1303
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Middle Forearm, Right",
+		"x": 514,
+		"y": 545
+	},
+	{ "View": "Male Anterior", "Region": "Right Lower Arm/Hand", "Location": "Palm, Right", "x": 446, "y": 1041 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Proximal Forearm, Right",
+		"x": 612,
+		"y": 340
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Second Finger, Right",
+		"x": 297,
+		"y": 1257
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Third Finger, Right",
+		"x": 374,
+		"y": 1280
+	},
+	{ "View": "Male Anterior", "Region": "Right Lower Arm/Hand", "Location": "Thumb, Right", "x": 252, "y": 1096 },
+	{ "View": "Male Anterior", "Region": "Right Lower Arm/Hand", "Location": "Wrist, Right", "x": 469, "y": 857 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Distal Lower Leg, Medial, Right",
+		"x": 532,
+		"y": 833
+	},
+	{ "View": "Male Anterior", "Region": "Right Lower Leg", "Location": "Distal Pretibial, Right", "x": 452, "y": 804 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Mid Lower Leg, Medial, Right",
+		"x": 574,
+		"y": 620
+	},
+	{ "View": "Male Anterior", "Region": "Right Lower Leg", "Location": "Middle Pretibial, Right", "x": 394, "y": 588 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Proximal Lower Leg, Medial, Right",
+		"x": 563,
+		"y": 326
+	},
+	{
+		"View": "Male Anterior",
+		"Region": "Right Lower Leg",
+		"Location": "Proximal Pretibial, Right",
+		"x": 354,
+		"y": 305
+	},
+	{ "View": "Male Anterior", "Region": "Right Upper Arm", "Location": "Antecubital, Right", "x": 400, "y": 1309 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Upper Arm",
+		"Location": "Distal Upper Arm, Right",
+		"x": 389,
+		"y": 1242
+	},
+	{ "View": "Male Anterior", "Region": "Right Upper Arm", "Location": "Middle Upper Arm, Right", "x": 426, "y": 991 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Upper Arm",
+		"Location": "Proximal Upper Arm, Right",
+		"x": 474,
+		"y": 696
+	},
+	{ "View": "Male Anterior", "Region": "Right Upper Arm", "Location": "Shoulder, Right", "x": 472, "y": 200 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Upper Leg",
+		"Location": "Distal Thigh, Medial, Right",
+		"x": 626,
+		"y": 892
+	},
+	{ "View": "Male Anterior", "Region": "Right Upper Leg", "Location": "Distal Thigh, Right", "x": 463, "y": 863 },
+	{ "View": "Male Anterior", "Region": "Right Upper Leg", "Location": "Knee, Medial, Right", "x": 614, "y": 1125 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Upper Leg",
+		"Location": "Mid Thigh, Medial, Right",
+		"x": 669,
+		"y": 574
+	},
+	{ "View": "Male Anterior", "Region": "Right Upper Leg", "Location": "Middle Thigh, Right", "x": 457, "y": 562 },
+	{ "View": "Male Anterior", "Region": "Right Upper Leg", "Location": "Patellar, Right", "x": 483, "y": 1143 },
+	{
+		"View": "Male Anterior",
+		"Region": "Right Upper Leg",
+		"Location": "Proximal Thigh, Medial, Right",
+		"x": 680,
+		"y": 302
+	},
+	{ "View": "Male Anterior", "Region": "Right Upper Leg", "Location": "Proximal Thigh, Right", "x": 334, "y": 226 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Axillary, Left", "x": 789, "y": 524 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Axillary, Right", "x": 109, "y": 512 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Epigastric", "x": 429, "y": 833 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Inferior Thoracic, Left", "x": 634, "y": 755 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Inferior Thoracic, Right", "x": 383, "y": 912 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Lower Inner Quadrant Breast, Left", "x": 57, "y": 612 },
+	{
+		"View": "Male Anterior",
+		"Region": "Torso",
+		"Location": "Lower Inner Quadrant Breast, Right",
+		"x": 375,
+		"y": 667
+	},
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Lower Outer Quadrant Breast, Left", "x": 743, "y": 629 },
+	{
+		"View": "Male Anterior",
+		"Region": "Torso",
+		"Location": "Lower Outer Quadrant Breast, Right",
+		"x": 140,
+		"y": 609
+	},
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Middle Thoracic, Left", "x": 606, "y": 720 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Middle Thoracic, Right", "x": 292, "y": 731 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Nipple, Left", "x": 597, "y": 591 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Nipple, Right", "x": 280, "y": 603 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Sternal, Inferior", "x": 440, "y": 690 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Sternal, Middle", "x": 449, "y": 515 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Sternal, Superior", "x": 452, "y": 294 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Subclavian, Left", "x": 663, "y": 235 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Subclavian, Right", "x": 211, "y": 224 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Superior Thoracic, Left", "x": 634, "y": 428 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Superior Thoracic, Right", "x": 206, "y": 396 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Trachea", "x": 452, "y": 200 },
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Upper Inner Quadrant Breast, Left", "x": 560, "y": 463 },
+	{
+		"View": "Male Anterior",
+		"Region": "Torso",
+		"Location": "Upper Inner Quadrant Breast, Right",
+		"x": 332,
+		"y": 492
+	},
+	{ "View": "Male Anterior", "Region": "Torso", "Location": "Upper Outer Quadrant Breast, Left", "x": 749, "y": 457 },
+	{
+		"View": "Male Anterior",
+		"Region": "Torso",
+		"Location": "Upper Outer Quadrant Breast, Right",
+		"x": 149,
+		"y": 510
+	},
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Ankle, Left", "x": 549, "y": 329 },
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Foot",
+		"Location": "Anterior Edge of Foot, Left",
+		"x": 332,
+		"y": 664
+	},
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Fifth Toe, Left", "x": 226, "y": 658 },
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Fourth Toe, Left", "x": 160, "y": 658 },
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Great Toe, Left", "x": 171, "y": 595 },
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Lateral Malleolus, Left", "x": 652, "y": 413 },
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Middle Edge of Foot, Left", "x": 463, "y": 644 },
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Distal Edge of Foot, Left", "x": 646, "y": 623 },
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Second Toe, Left", "x": 54, "y": 632 },
+	{ "View": "Male Left Lateral", "Region": "Left Foot", "Location": "Third Toe, Left", "x": 109, "y": 638 },
+	{ "View": "Male Left Lateral", "Region": "Left Head/Neck", "Location": "Cheek, Left", "x": 217, "y": 632 },
+	{ "View": "Male Left Lateral", "Region": "Left Head/Neck", "Location": "Cranial, Lower", "x": 689, "y": 612 },
+	{ "View": "Male Left Lateral", "Region": "Left Head/Neck", "Location": "Cranial, Mid", "x": 674, "y": 463 },
+	{ "View": "Male Left Lateral", "Region": "Left Head/Neck", "Location": "Cranial, Upper", "x": 580, "y": 279 },
+	{ "View": "Male Left Lateral", "Region": "Left Head/Neck", "Location": "Ear, Left", "x": 480, "y": 562 },
+	{ "View": "Male Left Lateral", "Region": "Left Head/Neck", "Location": "Neck, Left", "x": 472, "y": 831 },
+	{ "View": "Male Left Lateral", "Region": "Left Head/Neck", "Location": "Temporal, Left", "x": 337, "y": 428 },
+	{ "View": "Male Left Lateral", "Region": "Left Lower Arm", "Location": "Distal Forearm, Left", "x": 509, "y": 807 },
+	{ "View": "Male Left Lateral", "Region": "Left Lower Arm", "Location": "Middle Forearm, Left", "x": 597, "y": 565 },
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Lower Arm",
+		"Location": "Proximal Forearm, Left",
+		"x": 737,
+		"y": 247
+	},
+	{ "View": "Male Left Lateral", "Region": "Left Lower Arm", "Location": "Second Finger, Left", "x": 166, "y": 1330 },
+	{ "View": "Male Left Lateral", "Region": "Left Lower Arm", "Location": "Thumb, Left", "x": 237, "y": 2888 },
+	{ "View": "Male Left Lateral", "Region": "Left Lower Arm", "Location": "Wrist, Left", "x": 520, "y": 936 },
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Lower Leg",
+		"Location": "Distal Lower Leg, Left",
+		"x": 606,
+		"y": 921
+	},
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Lower Leg",
+		"Location": "Middle Lower Leg, Left",
+		"x": 526,
+		"y": 632
+	},
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Lower Leg",
+		"Location": "Proximal Lower Leg, Left",
+		"x": 520,
+		"y": 399
+	},
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Upper Arm",
+		"Location": "Distal Upper Arm, Left",
+		"x": 566,
+		"y": 994
+	},
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Upper Arm",
+		"Location": "Middle Upper Arm, Left",
+		"x": 472,
+		"y": 702
+	},
+	{
+		"View": "Male Left Lateral",
+		"Region": "Left Upper Arm",
+		"Location": "Proximal Upper Arm, Left",
+		"x": 520,
+		"y": 501
+	},
+	{ "View": "Male Left Lateral", "Region": "Left Upper Leg", "Location": "Proximal Thigh, Left", "x": 552, "y": 247 },
+	{ "View": "Male Left Lateral", "Region": "Left Upper Leg", "Location": "Distal Thigh, Left", "x": 406, "y": 839 },
+	{ "View": "Male Left Lateral", "Region": "Left Upper Leg", "Location": "Knee, Left", "x": 469, "y": 1227 },
+	{ "View": "Male Left Lateral", "Region": "Left Upper Leg", "Location": "Middle Thigh, Left", "x": 480, "y": 629 },
+	{ "View": "Male Left Lateral", "Region": "Torso, Left", "Location": "Flank, Left", "x": 634, "y": 1210 },
+	{
+		"View": "Male Left Lateral",
+		"Region": "Torso, Left",
+		"Location": "Greater Trochanter, Left",
+		"x": 234,
+		"y": 1315
+	},
+	{ "View": "Male Left Lateral", "Region": "Torso, Left", "Location": "Inferior Thoracic, Left", "x": 234, "y": 988 },
+	{ "View": "Male Left Lateral", "Region": "Torso, Left", "Location": "Lower Breast, Left", "x": 129, "y": 737 },
+	{ "View": "Male Left Lateral", "Region": "Torso, Left", "Location": "Superior Thoracic, Left", "x": 389, "y": 539 },
+	{ "View": "Male Left Lateral", "Region": "Torso, Left", "Location": "Upper Breast, Left", "x": 229, "y": 542 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Cervical, Left", "x": 269, "y": 924 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Cervical, Middle", "x": 446, "y": 956 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Cervical, Right", "x": 657, "y": 912 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Left Lower Cranial", "x": 223, "y": 615 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Left Upper Cranial", "x": 234, "y": 320 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Middle Cranial", "x": 434, "y": 515 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Right Lower Cranial", "x": 623, "y": 755 },
+	{ "View": "Male Posterior", "Region": "Head/Neck", "Location": "Right Upper Cranial", "x": 597, "y": 317 },
+	{ "View": "Male Posterior", "Region": "Left Foot", "Location": "Achilles Tendon, Left", "x": 580, "y": 343 },
+	{ "View": "Male Posterior", "Region": "Left Foot", "Location": "Heel, Left", "x": 432, "y": 731 },
+	{
+		"View": "Male Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Distal Forearm, Left",
+		"x": 486,
+		"y": 574
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Fifth Finger, Left",
+		"x": 572,
+		"y": 1315
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Fourth Finger, Left",
+		"x": 497,
+		"y": 1309
+	},
+	{ "View": "Male Posterior", "Region": "Left Lower Arm/Hand", "Location": "Hand, Left", "x": 492, "y": 1032 },
+	{
+		"View": "Male Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Middle Forearm, Left",
+		"x": 492,
+		"y": 492
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Proximal Forearm, Left",
+		"x": 532,
+		"y": 171
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Second Finger, Left",
+		"x": 340,
+		"y": 1263
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Left Lower Arm/Hand",
+		"Location": "Third Finger, Left",
+		"x": 414,
+		"y": 1318
+	},
+	{ "View": "Male Posterior", "Region": "Left Lower Arm/Hand", "Location": "Thumb, Left", "x": 252, "y": 1131 },
+	{ "View": "Male Posterior", "Region": "Left Lower Arm/Hand", "Location": "Wrist, Left", "x": 472, "y": 828 },
+	{ "View": "Male Posterior", "Region": "Left Lower Leg", "Location": "Distal Calf, Left", "x": 474, "y": 906 },
+	{ "View": "Male Posterior", "Region": "Left Lower Leg", "Location": "Middle Calf, Left", "x": 474, "y": 658 },
+	{ "View": "Male Posterior", "Region": "Left Lower Leg", "Location": "Proximal Calf, Left", "x": 474, "y": 282 },
+	{ "View": "Male Posterior", "Region": "Left Upper Arm", "Location": "Distal Upper Arm, Left", "x": 383, "y": 1178 },
+	{ "View": "Male Posterior", "Region": "Left Upper Arm", "Location": "Elbow, Left", "x": 472, "y": 1321 },
+	{ "View": "Male Posterior", "Region": "Left Upper Arm", "Location": "Middle Upper Arm, Left", "x": 446, "y": 918 },
+	{
+		"View": "Male Posterior",
+		"Region": "Left Upper Arm",
+		"Location": "Proximal Upper Arm, Left",
+		"x": 403,
+		"y": 690
+	},
+	{ "View": "Male Posterior", "Region": "Left Upper Arm", "Location": "Shoulder, Left", "x": 452, "y": 244 },
+	{ "View": "Male Posterior", "Region": "Left Upper Leg", "Location": "Midde Upper Leg, Left", "x": 417, "y": 784 },
+	{ "View": "Male Posterior", "Region": "Left Upper Leg", "Location": "Popliteal, Left", "x": 566, "y": 1192 },
+	{
+		"View": "Male Posterior",
+		"Region": "Left Upper Leg",
+		"Location": "Proximal Upper Leg, Left",
+		"x": 332,
+		"y": 241
+	},
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Anal", "x": 454, "y": 334 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Coccyx", "x": 449, "y": 282 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Iliac Crest, Left", "x": 223, "y": 299 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Iliac Crest, Right", "x": 709, "y": 299 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Ischium", "x": 454, "y": 440 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Ischium, Left", "x": 437, "y": 434 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Ischium, Right", "x": 466, "y": 442 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Lower Buttock, Left", "x": 117, "y": 410 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Lower Buttock, Right", "x": 683, "y": 399 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Perineum", "x": 466, "y": 311 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Rectal", "x": 457, "y": 477 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Sacral, Left", "x": 200, "y": 288 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Sacral, Middle", "x": 452, "y": 282 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Sacral, Right", "x": 597, "y": 264 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Upper Buttock, Left", "x": 323, "y": 235 },
+	{ "View": "Male Posterior", "Region": "Pelvic/Hip", "Location": "Upper Buttock, Right", "x": 654, "y": 224 },
+	{ "View": "Male Posterior", "Region": "Right Foot", "Location": "Achilles Tendon, Right", "x": 320, "y": 425 },
+	{ "View": "Male Posterior", "Region": "Right Foot", "Location": "Heel, Right", "x": 137, "y": 828 },
+	{
+		"View": "Male Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Distal Forearm, Right",
+		"x": 394,
+		"y": 679
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fifth Finger, Right",
+		"x": 352,
+		"y": 1198
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Fourth Finger, Right",
+		"x": 432,
+		"y": 1236
+	},
+	{ "View": "Male Posterior", "Region": "Right Lower Arm/Hand", "Location": "Hand, Right", "x": 417, "y": 947 },
+	{
+		"View": "Male Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Middle Forearm, Right",
+		"x": 400,
+		"y": 402
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Proximal Forearm, Right",
+		"x": 389,
+		"y": 191
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Second Finger, Right",
+		"x": 574,
+		"y": 1230
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Right Lower Arm/Hand",
+		"Location": "Third Finger, Right",
+		"x": 509,
+		"y": 1236
+	},
+	{ "View": "Male Posterior", "Region": "Right Lower Arm/Hand", "Location": "Thumb, Right", "x": 649, "y": 1052 },
+	{ "View": "Male Posterior", "Region": "Right Lower Arm/Hand", "Location": "Wrist, Right", "x": 412, "y": 778 },
+	{ "View": "Male Posterior", "Region": "Right Lower Leg", "Location": "Distal Calf, Right", "x": 394, "y": 915 },
+	{ "View": "Male Posterior", "Region": "Right Lower Leg", "Location": "Middle Calf, Right", "x": 369, "y": 620 },
+	{ "View": "Male Posterior", "Region": "Right Lower Leg", "Location": "Proximal Calf, Right", "x": 394, "y": 282 },
+	{
+		"View": "Male Posterior",
+		"Region": "Right Upper Arm",
+		"Location": "Distal Upper Arm, Right",
+		"x": 457,
+		"y": 1125
+	},
+	{ "View": "Male Posterior", "Region": "Right Upper Arm", "Location": "Elbow, Right", "x": 423, "y": 1298 },
+	{
+		"View": "Male Posterior",
+		"Region": "Right Upper Arm",
+		"Location": "Middle Upper Arm, Right",
+		"x": 429,
+		"y": 927
+	},
+	{
+		"View": "Male Posterior",
+		"Region": "Right Upper Arm",
+		"Location": "Proximal Upper Arm, Right",
+		"x": 452,
+		"y": 632
+	},
+	{ "View": "Male Posterior", "Region": "Right Upper Arm", "Location": "Shoulder, Right", "x": 463, "y": 369 },
+	{ "View": "Male Posterior", "Region": "Right Upper Leg", "Location": "Midde Upper Leg, Right", "x": 434, "y": 728 },
+	{ "View": "Male Posterior", "Region": "Right Upper Leg", "Location": "Popliteal, Right", "x": 460, "y": 1195 },
+	{
+		"View": "Male Posterior",
+		"Region": "Right Upper Leg",
+		"Location": "Proximal Upper Leg, Right",
+		"x": 472,
+		"y": 349
+	},
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Lateral Flank, Left", "x": 180, "y": 906 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Lateral Flank, Right", "x": 709, "y": 901 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Lower Back, Left", "x": 246, "y": 1245 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Lower Back, Medial", "x": 417, "y": 1251 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Lower Back, Right", "x": 652, "y": 1251 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Medial Flank, Left", "x": 297, "y": 819 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Medial Flank, Right", "x": 580, "y": 816 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Mid Back, Left", "x": 171, "y": 933 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Mid Back, Medial", "x": 400, "y": 939 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Mid Back, Right", "x": 574, "y": 939 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Scapula, Left", "x": 217, "y": 264 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Scapula, Right", "x": 637, "y": 302 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Upper Back, Left", "x": 137, "y": 378 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Upper Back, Medial", "x": 426, "y": 515 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Upper Back, Right", "x": 680, "y": 372 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Vertebrae, Inferior", "x": 400, "y": 939 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Vertebrae, Middle", "x": 400, "y": 629 },
+	{ "View": "Male Posterior", "Region": "Torso", "Location": "Vertebrae, Superior", "x": 423, "y": 197 },
+	{ "View": "Male Right Lateral", "Region": "Right Foot", "Location": "Ankle, Right", "x": 252, "y": 238 },
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Anterior Edge of Foot, Right",
+		"x": 489,
+		"y": 477
+	},
+	{ "View": "Male Right Lateral", "Region": "Right Foot", "Location": "Fifth Toe, Right", "x": 537, "y": 530 },
+	{ "View": "Male Right Lateral", "Region": "Right Foot", "Location": "Fourth Toe, Right", "x": 609, "y": 521 },
+	{ "View": "Male Right Lateral", "Region": "Right Foot", "Location": "Great Toe, Right", "x": 755, "y": 477 },
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Lateral Malleolus, Right",
+		"x": 174,
+		"y": 305
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Middle Edge of Foot, Right",
+		"x": 320,
+		"y": 492
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Foot",
+		"Location": "Posterior Edge of Foot, Right",
+		"x": 137,
+		"y": 477
+	},
+	{ "View": "Male Right Lateral", "Region": "Right Foot", "Location": "Second Toe, Right", "x": 712, "y": 521 },
+	{ "View": "Male Right Lateral", "Region": "Right Foot", "Location": "Third Toe, Right", "x": 657, "y": 530 },
+	{ "View": "Male Right Lateral", "Region": "Right Head/Neck", "Location": "Cheek, Right", "x": 606, "y": 606 },
+	{ "View": "Male Right Lateral", "Region": "Right Head/Neck", "Location": "Cranial, Lower", "x": 292, "y": 574 },
+	{ "View": "Male Right Lateral", "Region": "Right Head/Neck", "Location": "Cranial, Mid", "x": 283, "y": 428 },
+	{ "View": "Male Right Lateral", "Region": "Right Head/Neck", "Location": "Cranial, Upper", "x": 406, "y": 218 },
+	{ "View": "Male Right Lateral", "Region": "Right Head/Neck", "Location": "Ear, Right", "x": 417, "y": 539 },
+	{ "View": "Male Right Lateral", "Region": "Right Head/Neck", "Location": "Neck, Right", "x": 366, "y": 883 },
+	{ "View": "Male Right Lateral", "Region": "Right Head/Neck", "Location": "Temporal, Right", "x": 509, "y": 457 },
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Distal Forearm, Right",
+		"x": 409,
+		"y": 755
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Middle Forearm, Right",
+		"x": 369,
+		"y": 498
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Proximal Forearm, Right",
+		"x": 289,
+		"y": 206
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Lower Arm",
+		"Location": "Second Finger, Right",
+		"x": 686,
+		"y": 1263
+	},
+	{ "View": "Male Right Lateral", "Region": "Right Lower Arm", "Location": "Thumb, Right", "x": 686, "y": 1105 },
+	{ "View": "Male Right Lateral", "Region": "Right Lower Arm", "Location": "Wrist, Right", "x": 469, "y": 924 },
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Lower Leg",
+		"Location": "Distal Lower Leg, Right",
+		"x": 280,
+		"y": 912
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Lower Leg",
+		"Location": "Middle Lower Leg, Right",
+		"x": 269,
+		"y": 588
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Lower Leg",
+		"Location": "Proximal Lower Leg, Right",
+		"x": 229,
+		"y": 332
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Upper Arm",
+		"Location": "Distal Upper Arm, Right",
+		"x": 414,
+		"y": 1198
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Upper Arm",
+		"Location": "Middle Upper Arm, Right",
+		"x": 406,
+		"y": 939
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Upper Arm",
+		"Location": "Proximal Upper Arm, Right",
+		"x": 309,
+		"y": 375
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Upper Leg",
+		"Location": "Distal Thigh, Right",
+		"x": 200,
+		"y": 1041
+	},
+	{ "View": "Male Right Lateral", "Region": "Right Upper Leg", "Location": "Knee, Right", "x": 480, "y": 1038 },
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Upper Leg",
+		"Location": "Middle Thigh, Right",
+		"x": 369,
+		"y": 618
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Right Upper Leg",
+		"Location": "Proximal Thigh, Right",
+		"x": 403,
+		"y": 285
+	},
+	{ "View": "Male Right Lateral", "Region": "Torso, Right", "Location": "Flank, Right", "x": 263, "y": 1111 },
+	{
+		"View": "Male Right Lateral",
+		"Region": "Torso, Right",
+		"Location": "Greater Trochanter, Right",
+		"x": 603,
+		"y": 1303
+	},
+	{
+		"View": "Male Right Lateral",
+		"Region": "Torso, Right",
+		"Location": "Inferior Thoracic, Right",
+		"x": 609,
+		"y": 912
+	},
+	{ "View": "Male Right Lateral", "Region": "Torso, Right", "Location": "Lower Breast, Right", "x": 695, "y": 699 },
+	{
+		"View": "Male Right Lateral",
+		"Region": "Torso, Right",
+		"Location": "Superior Thoracic, Right",
+		"x": 594,
+		"y": 720
+	},
+	{ "View": "Male Right Lateral", "Region": "Torso, Right", "Location": "Upper Breast, Right", "x": 692, "y": 533 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Anterior Edge of Foot, Right", "x": 337, "y": 498 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Fifth Toe, Right", "x": 257, "y": 442 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Fourth Toe, Right", "x": 189, "y": 448 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Great Toe Joint, Right", "x": 206, "y": 518 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Great Toe, Right", "x": 117, "y": 547 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Heel, Right", "x": 746, "y": 521 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Medial Malleolus, Right", "x": 663, "y": 355 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Middle Edge of Foot, Right", "x": 474, "y": 527 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Posterior Edge of Foot, Right", "x": 680, "y": 562 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Second Toe, Right", "x": 117, "y": 475 },
+	{ "View": "Right Medial Foot", "Region": "N/A", "Location": "Third Toe, Right", "x": 143, "y": 466 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Distal Plantar, Right", "x": 486, "y": 1122 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Fifth Toe, Right", "x": 246, "y": 515 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Fourth Toe, Right", "x": 303, "y": 399 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Great Toe, Right", "x": 637, "y": 299 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Heel, Right", "x": 509, "y": 1347 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Middle Plantar, Right", "x": 480, "y": 854 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Proximal Plantar, Right", "x": 480, "y": 565 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Second Toe, Right", "x": 474, "y": 305 },
+	{ "View": "Right Plantar Foot", "Region": "N/A", "Location": "Third Toe, Right", "x": 383, "y": 343 }
+]

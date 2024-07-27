@@ -1,0 +1,11 @@
+{
+	"extends": "../tsconfig.json",
+
+	"compilerOptions": {
+		"target": "es5",
+		"lib": ["es5", "dom"],
+		"types": ["cypress", "node"],
+		"strictNullChecks": true
+	},
+	"include": ["**/*.ts", "support/component.tsx", "support/commands.ts"]
+}

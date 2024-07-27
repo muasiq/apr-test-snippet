@@ -1,0 +1,1571 @@
+[
+	{
+		"id": "ACP01",
+		"text": "Is a Home Health Aide needed for this patient?",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Yes, a Home Health Aide is ordered", "sequence": 1, "followup": ["ACP02"], "code": "0" },
+			{
+				"text": "Yes, a Home Health Aide is recommended; pending physician orders",
+				"sequence": 2,
+				"followup": ["ACP02"],
+				"code": "1"
+			},
+			{ "text": "No, a Home Health Aide is not needed", "sequence": 3, "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02",
+		"parentId": "ACP01",
+		"text": "Which of the following service categories should be provided by a Home Health Aide for this patient?",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Checklist",
+		"responses": [
+			{ "text": "ADL SERVICES", "originalText": "ADL SERVICES", "code": "0", "followup": ["ACP02-01"] },
+			{ "text": "IADL SERVICES", "originalText": "IADL SERVICES", "code": "1", "followup": ["ACP02-02"] },
+			{
+				"text": "INTAKE/OUTPUT MONITORING SERVICES",
+				"originalText": "INTAKE/OUTPUT",
+				"code": "2",
+				"followup": ["ACP02-03"]
+			},
+			{ "text": "OTHER SERVICES", "originalText": "OTHER SERVICES", "code": "3", "followup": ["ACP02-04"] },
+			{
+				"text": "VITAL SIGNS MONITORING SERVICES",
+				"originalText": "VITAL SIGNS",
+				"code": "4",
+				"followup": ["ACP02-05"]
+			}
+		]
+	},
+	{
+		"id": "ACP02-01",
+		"parentId": "ACP02",
+		"text": "Which of the following ADL SERVICES by home health aide are needed for this patient?",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Checklist",
+		"responses": [
+			{
+				"text": "PROVIDE ASSISTANCE WITH BEDSIDE COMMODE",
+				"originalText": "ASSIST TO BEDSIDE COMMODE",
+				"code": "0",
+				"followup": ["ACP02-01-01a", "ACP02-01-01b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH TOILET",
+				"originalText": "ASSIST TO TOILET",
+				"code": "0",
+				"followup": ["ACP02-01-02a", "ACP02-01-02b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH BEDPAN",
+				"originalText": "ASSIST WITH BEDPAN",
+				"code": "0",
+				"followup": ["ACP02-01-03a", "ACP02-01-03b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH FEEDING",
+				"originalText": "ASSIST WITH FEEDING",
+				"code": "0",
+				"followup": ["ACP02-01-04a", "ACP02-01-04b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH BATHING - BED BATH",
+				"originalText": "BATHING - BED BATH",
+				"code": "0",
+				"followup": ["ACP02-01-05a", "ACP02-01-05b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH BATHING - PARTIAL SPONGE BATH",
+				"originalText": "BATHING - PARTIAL SPONGE BATH",
+				"code": "0",
+				"followup": ["ACP02-01-06a", "ACP02-01-06b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH BATHING - SHOWER",
+				"originalText": "BATHING - SHOWER",
+				"code": "0",
+				"followup": ["ACP02-01-07a", "ACP02-01-07b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH BATHING - TUB BATH",
+				"originalText": "BATHING - TUB BATH",
+				"code": "0",
+				"followup": ["ACP02-01-08a", "ACP02-01-08b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH BATHING (TUB BATH/SHOWER)",
+				"originalText": "BATHING (TUB BATH/SHOWER)",
+				"code": "0",
+				"followup": ["ACP02-01-09a", "ACP02-01-09b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH COVID-19 SCREENING",
+				"originalText": "COVID-19 SCREENING",
+				"code": "0",
+				"followup": ["ACP02-01-10a", "ACP02-01-10b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH DRESSING",
+				"originalText": "DRESSING",
+				"code": "0",
+				"followup": ["ACP02-01-11a", "ACP02-01-11b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH EAR CARE",
+				"originalText": "EAR CARE",
+				"code": "0",
+				"followup": ["ACP02-01-12a", "ACP02-01-12b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH FOOT CARE",
+				"originalText": "FOOT CARE",
+				"code": "0",
+				"followup": ["ACP02-01-13a", "ACP02-01-13b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH HAIR CARE",
+				"originalText": "HAIR CARE",
+				"code": "0",
+				"followup": ["ACP02-01-14a", "ACP02-01-14b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH HOME EXERCISE PROGRAM",
+				"originalText": "HOME EXERCISE PROGRAM",
+				"code": "0",
+				"followup": ["ACP02-01-15a", "ACP02-01-15b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH NAIL CARE",
+				"originalText": "NAIL CARE",
+				"code": "0",
+				"followup": ["ACP02-01-16a", "ACP02-01-16b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH ORAL CARE",
+				"originalText": "ORAL CARE",
+				"code": "0",
+				"followup": ["ACP02-01-17a", "ACP02-01-17b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH PERINEAL CARE",
+				"originalText": "PERINEAL CARE",
+				"code": "0",
+				"followup": ["ACP02-01-18a", "ACP02-01-18b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH PROVIDE MEDICATION REMINDERS",
+				"originalText": "PROVIDE MEDICATION REMINDERS",
+				"code": "0",
+				"followup": ["ACP02-01-19a", "ACP02-01-19b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH ROM TO LLE",
+				"originalText": "ROM TO LLE",
+				"code": "0",
+				"followup": ["ACP02-01-20a", "ACP02-01-20b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH ROM TO LUE",
+				"originalText": "ROM TO LUE",
+				"code": "0",
+				"followup": ["ACP02-01-21a", "ACP02-01-21b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH ROM TO RLE",
+				"originalText": "ROM TO RLE",
+				"code": "0",
+				"followup": ["ACP02-01-22a", "ACP02-01-22b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH ROM TO RUE",
+				"originalText": "ROM TO RUE",
+				"code": "0",
+				"followup": ["ACP02-01-23a", "ACP02-01-23b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH ROUTINE CATHETER CARE",
+				"originalText": "ROUTINE CATHETER CARE",
+				"code": "0",
+				"followup": ["ACP02-01-24a", "ACP02-01-24b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH ROUTINE OSTOMY CARE",
+				"originalText": "ROUTINE OSTOMY CARE",
+				"code": "0",
+				"followup": ["ACP02-01-25a", "ACP02-01-25b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH SHAMPOO",
+				"originalText": "SHAMPOO",
+				"code": "0",
+				"followup": ["ACP02-01-26a", "ACP02-01-26b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH SHAVING",
+				"originalText": "SHAVING",
+				"code": "0",
+				"followup": ["ACP02-01-27a", "ACP02-01-27b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH SKIN CARE",
+				"originalText": "SKIN CARE",
+				"code": "0",
+				"followup": ["ACP02-01-28a", "ACP02-01-28b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH STAND-BY ASSISTANCE WITH AMBULATION",
+				"originalText": "STAND-BY ASSISTANCE WITH AMBULATION",
+				"code": "0",
+				"followup": ["ACP02-01-29a", "ACP02-01-29b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH TRANSFER CLIENT FROM BED/CHAIR",
+				"originalText": "TRANSFER CLIENT FROM BED/CHAIR",
+				"code": "0",
+				"followup": ["ACP02-01-30a", "ACP02-01-30b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH TRANSFER CLIENT FROM CHAIR/BED",
+				"originalText": "TRANSFER CLIENT FROM CHAIR/BED",
+				"code": "0",
+				"followup": ["ACP02-01-31a", "ACP02-01-31b"]
+			},
+			{
+				"text": "PROVIDE ASSISTANCE WITH TURN AND POSITION IN BED",
+				"originalText": "TURN AND POSITION IN BED",
+				"code": "0",
+				"followup": ["ACP02-01-32a", "ACP02-01-32b"]
+			}
+		]
+	},
+	{
+		"id": "ACP02-02",
+		"parentId": "ACP02",
+		"text": "Which of the following IADL SERVICES by home health aide are needed for this patient?",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Checklist",
+		"responses": [
+			{
+				"text": "CHANGE LINENS",
+				"originalText": "CHANGE LINENS",
+				"code": "1",
+				"followup": ["ACP02-02-01a", "ACP02-02-01b"]
+			},
+			{
+				"text": "EMPTY TRASH",
+				"originalText": "EMPTY TRASH",
+				"code": "1",
+				"followup": ["ACP02-02-02a", "ACP02-02-02b"]
+			},
+			{
+				"text": "EMPTY URINAL",
+				"originalText": "EMPTY URINAL",
+				"code": "1",
+				"followup": ["ACP02-02-03a", "ACP02-02-03b"]
+			},
+			{
+				"text": "EMPTY URINARY DRAINAGE BAG",
+				"originalText": "EMPTY URINARY DRAINAGE BAG",
+				"code": "1",
+				"followup": ["ACP02-02-04a", "ACP02-02-04b"]
+			},
+			{
+				"text": "OFFER FLUIDS",
+				"originalText": "OFFER FLUIDS",
+				"code": "1",
+				"followup": ["ACP02-02-05a", "ACP02-02-05b"]
+			},
+			{
+				"text": "PREPARE MEAL",
+				"originalText": "PREPARE MEAL",
+				"code": "1",
+				"followup": ["ACP02-02-06a", "ACP02-02-06b"]
+			},
+			{
+				"text": "PREPARE SNACK",
+				"originalText": "PREPARE SNACK",
+				"code": "1",
+				"followup": ["ACP02-02-07a", "ACP02-02-07b"]
+			},
+			{
+				"text": "WASH LINENS",
+				"originalText": "WASH LINENS",
+				"code": "1",
+				"followup": ["ACP02-02-08a", "ACP02-02-08b"]
+			}
+		]
+	},
+	{
+		"id": "ACP02-03",
+		"parentId": "ACP02",
+		"text": "Which of the following INTAKE/OUTPUT MONITORING SERVICES by home health aide are needed for this patient?",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Checklist",
+		"responses": [
+			{
+				"text": "RECORD DATE OF LAST BM",
+				"originalText": "DATE OF LAST BM",
+				"code": "2",
+				"followup": ["ACP02-03-01a", "ACP02-03-01b"]
+			},
+			{
+				"text": "RECORD INTAKE - FLUIDS",
+				"originalText": "INTAKE - FLUIDS",
+				"code": "2",
+				"followup": ["ACP02-03-02a", "ACP02-03-02b"]
+			},
+			{
+				"text": "RECORD INTAKE - FOOD",
+				"originalText": "INTAKE - FOOD",
+				"code": "2",
+				"followup": ["ACP02-03-03a", "ACP02-03-03b"]
+			},
+			{
+				"text": "RECORD OUTPUT - EMESIS",
+				"originalText": "OUTPUT - EMESIS",
+				"code": "2",
+				"followup": ["ACP02-03-04a", "ACP02-03-04b"]
+			},
+			{
+				"text": "RECORD OUTPUT - URINE",
+				"originalText": "OUTPUT - URINE",
+				"code": "2",
+				"followup": ["ACP02-03-05a", "ACP02-03-05b"]
+			}
+		]
+	},
+	{
+		"id": "ACP02-04",
+		"parentId": "ACP02",
+		"text": "Which of the following OTHER SERVICES by home health aide are needed for this patient?",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Checklist",
+		"responses": [
+			{
+				"text": "PROVIDE BLEEDING PRECAUTIONS",
+				"originalText": "BLEEDING PRECAUTIONS",
+				"code": "3",
+				"followup": ["ACP02-04-01a", "ACP02-04-01b"]
+			},
+			{
+				"text": "PROVIDE FALL PRECAUTIONS",
+				"originalText": "FALL PRECAUTIONS",
+				"code": "3",
+				"followup": ["ACP02-04-02a", "ACP02-04-02b"]
+			},
+			{
+				"text": "PROVIDE INFECTION CONTROL PRECAUTIONS",
+				"originalText": "INFECTION CONTROL PRECAUTIONS",
+				"code": "3",
+				"followup": ["ACP02-04-03a", "ACP02-04-03b"]
+			},
+			{
+				"text": "PROVIDE OTHER (PLEASE DESCRIBE)",
+				"originalText": "OTHER (PLEASE DESCRIBE)",
+				"code": "3",
+				"followup": ["ACP02-04-04a", "ACP02-04-04b"]
+			},
+			{
+				"text": "PROVIDE OXYGEN PRECAUTIONS",
+				"originalText": "OXYGEN PRECAUTIONS",
+				"code": "3",
+				"followup": ["ACP02-04-05a", "ACP02-04-05b"]
+			},
+			{
+				"text": "PROVIDE SMOKING PRECAUTIONS",
+				"originalText": "SMOKING PRECAUTIONS",
+				"code": "3",
+				"followup": ["ACP02-04-06a", "ACP02-04-06b"]
+			},
+			{
+				"text": "PROVIDE STANDARD PRECAUTIONS",
+				"originalText": "STANDARD PRECAUTIONS",
+				"code": "3",
+				"followup": ["ACP02-04-07a", "ACP02-04-07b"]
+			}
+		]
+	},
+	{
+		"id": "ACP02-05",
+		"parentId": "ACP02",
+		"text": "Which of the following VITAL SIGNS MONITORING SERVICES by home health aide are needed for this patient?",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Checklist",
+		"responses": [
+			{ "text": "OBTAIN B/P", "originalText": "B/P", "code": "4", "followup": ["ACP02-05-01a", "ACP02-05-01b"] },
+			{
+				"text": "OBTAIN PULSE",
+				"originalText": "PULSE",
+				"code": "4",
+				"followup": ["ACP02-05-02a", "ACP02-05-02b"]
+			},
+			{
+				"text": "OBTAIN RESPIRATIONS",
+				"originalText": "RESPIRATIONS",
+				"code": "4",
+				"followup": ["ACP02-05-03a", "ACP02-05-03b"]
+			},
+			{
+				"text": "OBTAIN TEMPERATURE",
+				"originalText": "TEMPERATURE",
+				"code": "4",
+				"followup": ["ACP02-05-04a", "ACP02-05-04b"]
+			},
+			{
+				"text": "OBTAIN WEIGHT",
+				"originalText": "WEIGHT",
+				"code": "4",
+				"followup": ["ACP02-05-05a", "ACP02-05-05b"]
+			}
+		]
+	},
+	{
+		"id": "ACP02-01-01a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH BEDSIDE COMMODE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-01b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH BEDSIDE COMMODE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-02a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH TOILET",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-02b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH TOILET",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-03a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH BEDPAN",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-03b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH BEDPAN",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-04a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH FEEDING",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-04b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH FEEDING",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-05a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH BATHING - BED BATH",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-05b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH BATHING - BED BATH",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-06a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH BATHING - PARTIAL SPONGE BATH",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-06b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH BATHING - PARTIAL SPONGE BATH",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-07a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH BATHING - SHOWER",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-07b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH BATHING - SHOWER",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-08a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH BATHING - TUB BATH",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-08b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH BATHING - TUB BATH",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-09a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH BATHING (TUB BATH/SHOWER)",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-09b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH BATHING (TUB BATH/SHOWER)",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-10a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH COVID-19 SCREENING",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-10b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH COVID-19 SCREENING",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-11a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH DRESSING",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-11b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH DRESSING",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-12a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH EAR CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-12b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH EAR CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-13a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH FOOT CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-13b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH FOOT CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-14a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH HAIR CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-14b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH HAIR CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-15a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH HOME EXERCISE PROGRAM",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-15b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH HOME EXERCISE PROGRAM",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-16a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH NAIL CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-16b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH NAIL CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-17a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH ORAL CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-17b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH ORAL CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-18a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH PERINEAL CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-18b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH PERINEAL CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-19a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH PROVIDE MEDICATION REMINDERS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-19b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH PROVIDE MEDICATION REMINDERS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-20a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH ROM TO LLE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-20b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH ROM TO LLE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-21a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH ROM TO LUE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-21b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH ROM TO LUE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-22a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH ROM TO RLE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-22b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH ROM TO RLE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-23a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH ROM TO RUE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-23b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH ROM TO RUE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-24a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH ROUTINE CATHETER CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-24b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH ROUTINE CATHETER CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-25a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH ROUTINE OSTOMY CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-25b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH ROUTINE OSTOMY CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-26a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH SHAMPOO",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-26b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH SHAMPOO",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-27a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH SHAVING",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-27b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH SHAVING",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-28a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH SKIN CARE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-28b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH SKIN CARE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-29a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH STAND-BY ASSISTANCE WITH AMBULATION",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-29b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH STAND-BY ASSISTANCE WITH AMBULATION",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-30a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH TRANSFER CLIENT FROM BED/CHAIR",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-30b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH TRANSFER CLIENT FROM BED/CHAIR",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-31a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH TRANSFER CLIENT FROM CHAIR/BED",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-31b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH TRANSFER CLIENT FROM CHAIR/BED",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-01-32a",
+		"parentId": "ACP02-01",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE ASSISTANCE WITH TURN AND POSITION IN BED",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-01-32b",
+		"parentId": "ACP02-01",
+		"text": "Provide details about the need for a home health aid to PROVIDE ASSISTANCE WITH TURN AND POSITION IN BED",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-01a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: CHANGE LINENS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-01b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to CHANGE LINENS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-02a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: EMPTY TRASH",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-02b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to EMPTY TRASH",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-03a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: EMPTY URINAL",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-03b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to EMPTY URINAL",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-04a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: EMPTY URINARY DRAINAGE BAG",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-04b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to EMPTY URINARY DRAINAGE BAG",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-05a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: OFFER FLUIDS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-05b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to OFFER FLUIDS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-06a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PREPARE MEAL",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-06b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to PREPARE MEAL",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-07a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PREPARE SNACK",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-07b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to PREPARE SNACK",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-02-08a",
+		"parentId": "ACP02-02",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: WASH LINENS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-02-08b",
+		"parentId": "ACP02-02",
+		"text": "Provide details about the need for a home health aid to WASH LINENS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-03-01a",
+		"parentId": "ACP02-03",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: RECORD DATE OF LAST BM",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-03-01b",
+		"parentId": "ACP02-03",
+		"text": "Provide details about the need for a home health aid to RECORD DATE OF LAST BM",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-03-02a",
+		"parentId": "ACP02-03",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: RECORD INTAKE - FLUIDS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-03-02b",
+		"parentId": "ACP02-03",
+		"text": "Provide details about the need for a home health aid to RECORD INTAKE - FLUIDS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-03-03a",
+		"parentId": "ACP02-03",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: RECORD INTAKE - FOOD",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-03-03b",
+		"parentId": "ACP02-03",
+		"text": "Provide details about the need for a home health aid to RECORD INTAKE - FOOD",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-03-04a",
+		"parentId": "ACP02-03",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: RECORD OUTPUT - EMESIS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-03-04b",
+		"parentId": "ACP02-03",
+		"text": "Provide details about the need for a home health aid to RECORD OUTPUT - EMESIS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-03-05a",
+		"parentId": "ACP02-03",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: RECORD OUTPUT - URINE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-03-05b",
+		"parentId": "ACP02-03",
+		"text": "Provide details about the need for a home health aid to RECORD OUTPUT - URINE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-04-01a",
+		"parentId": "ACP02-04",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE BLEEDING PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-04-01b",
+		"parentId": "ACP02-04",
+		"text": "Provide details about the need for a home health aid to PROVIDE BLEEDING PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-04-02a",
+		"parentId": "ACP02-04",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE FALL PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-04-02b",
+		"parentId": "ACP02-04",
+		"text": "Provide details about the need for a home health aid to PROVIDE FALL PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-04-03a",
+		"parentId": "ACP02-04",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE INFECTION CONTROL PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-04-03b",
+		"parentId": "ACP02-04",
+		"text": "Provide details about the need for a home health aid to PROVIDE INFECTION CONTROL PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-04-04a",
+		"parentId": "ACP02-04",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE OTHER (PLEASE DESCRIBE)",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-04-04b",
+		"parentId": "ACP02-04",
+		"text": "Provide details about the need for a home health aid to PROVIDE OTHER (PLEASE DESCRIBE)",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-04-05a",
+		"parentId": "ACP02-04",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE OXYGEN PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-04-05b",
+		"parentId": "ACP02-04",
+		"text": "Provide details about the need for a home health aid to PROVIDE OXYGEN PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-04-06a",
+		"parentId": "ACP02-04",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE SMOKING PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-04-06b",
+		"parentId": "ACP02-04",
+		"text": "Provide details about the need for a home health aid to PROVIDE SMOKING PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-04-07a",
+		"parentId": "ACP02-04",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: PROVIDE STANDARD PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-04-07b",
+		"parentId": "ACP02-04",
+		"text": "Provide details about the need for a home health aid to PROVIDE STANDARD PRECAUTIONS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-05-01a",
+		"parentId": "ACP02-05",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: OBTAIN B/P",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-05-01b",
+		"parentId": "ACP02-05",
+		"text": "Provide details about the need for a home health aid to OBTAIN B/P",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-05-02a",
+		"parentId": "ACP02-05",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: OBTAIN PULSE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-05-02b",
+		"parentId": "ACP02-05",
+		"text": "Provide details about the need for a home health aid to OBTAIN PULSE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-05-03a",
+		"parentId": "ACP02-05",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: OBTAIN RESPIRATIONS",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-05-03b",
+		"parentId": "ACP02-05",
+		"text": "Provide details about the need for a home health aid to OBTAIN RESPIRATIONS",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-05-04a",
+		"parentId": "ACP02-05",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: OBTAIN TEMPERATURE",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-05-04b",
+		"parentId": "ACP02-05",
+		"text": "Provide details about the need for a home health aid to OBTAIN TEMPERATURE",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	},
+	{
+		"id": "ACP02-05-05a",
+		"parentId": "ACP02-05",
+		"text": "Indicate the frequency with which the following home health aide assistance is needed: OBTAIN WEIGHT",
+		"assessment": "aide-care-plan",
+		"type": "response",
+		"questionType": "Code",
+		"responses": [
+			{ "text": "Every Visit", "code": "0" },
+			{ "text": "Daily", "code": "1" },
+			{ "text": "Weekly", "code": "2" }
+		]
+	},
+	{
+		"id": "ACP02-05-05b",
+		"parentId": "ACP02-05",
+		"text": "Provide details about the need for a home health aid to OBTAIN WEIGHT",
+		"assessment": "aide-care-plan",
+		"questionType": "Text"
+	}
+]

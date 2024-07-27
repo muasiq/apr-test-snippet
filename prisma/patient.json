@@ -1,0 +1,1079 @@
+{
+	"InterviewQuestion": [
+		{
+			"id": 3701,
+			"question": "Describe the patient's active diagnoses",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/ActiveDiagnosis",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient and patient's caregiver described that she has chronic venous stasis ulcers that they have been uhm treating for quite some time and stated amount of time . Patient requires care . She has pitting edema 2+ bilaterally , both legs um scattered blistering uhm on both lower extremities and four open wounds to leg . Wound one um measuring 2x1.5x0.1 round with moderate serous fluid wound . Number two measures 1x2x0 , irregular in shape , um serous fluid , moderate . Wound number three measures 3x5x0 round with moderate serous drainage . Wound four . It measures 1.5x1x0 . Serous fluid , moderate . Patient was found to have left leg and wrapped upon arrival\n a tiny hose that was stuck to the leg\nPatient will continue to require skilled nursing three times weekly , education was provided on need to leave dressing in place . Uhm risk for taking bandage off um condition and worsen worsening um the hose were stuck to the patient's leg um related to the drainage . Patient stated that they were removed by the caregiver due to pain and continued education will be needed and monitoring will be needed related to compliance on dressing",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:21:33.582Z",
+			"updatedAt": "2024-02-22T20:23:55.815Z",
+			"interviewQuestionShortLabel": "ActiveDiagnosis",
+			"interviewQuestionTheme": "Medications and Plan of Care"
+		},
+		{
+			"id": 3716,
+			"question": "Describe the patient's cardiovascular health.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/CardiovascularHealth",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient does have pitting edema 2+ to both lower extremities , history of hypertension , hyperlipidemia , states she has prior MI um currently receiving Unna boots to both lower extremities",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:33:11.545Z",
+			"updatedAt": "2024-02-22T20:33:22.861Z",
+			"interviewQuestionShortLabel": "CardiovascularHealth",
+			"interviewQuestionTheme": "Cardiac and Respiratory"
+		},
+		{
+			"id": 3702,
+			"question": "Describe your plan of care for this patient.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/CarePlan",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient will require physical therapy evaluation . Uhm patient should receive evaluation uhm from skilled nurse three times weekly . Um wound care supplies are going to include um sterile normal saline , 4x4 gauze , Unna boots , calcium AG , ROGAs\n Kerlix , and tape",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:22:13.585Z",
+			"updatedAt": "2024-02-22T20:22:32.112Z",
+			"interviewQuestionShortLabel": "CarePlan",
+			"interviewQuestionTheme": "Medications and Plan of Care"
+		},
+		{
+			"id": 3712,
+			"question": "Describe the patient's cognitive abilities.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/CognitiveAbilities",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient is alert and oriented times four , understands directions . Able to verbalize um need for medications and understand",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:30:34.538Z",
+			"updatedAt": "2024-02-22T20:30:43.612Z",
+			"interviewQuestionShortLabel": "CognitiveAbilities",
+			"interviewQuestionTheme": "Mental, Cognitive, and Psychosocial"
+		},
+		{
+			"id": 3698,
+			"question": "Describe the patient's ability to safely handle activities of daily living.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/DailyLiving",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient is chair faster and requires significant assistance with dressing lower body , moderate assistant , and dressing upper body . Patient is not able to manage um toileting . Patient is in assist to eat\n her goals for improvement would be to increase um strength and abilities . Patient um was unable to ambulate prior to this illness",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:18:32.581Z",
+			"updatedAt": "2024-02-22T20:18:56.802Z",
+			"interviewQuestionShortLabel": "DailyLiving",
+			"interviewQuestionTheme": "History and Functional"
+		},
+		{
+			"id": 3704,
+			"question": "Describe the goals and discharge plan for this patient.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/DischargeGoal",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient stated goal is to get wounds healed . Goal for this patient would be to get wounds healed and um strengthening uhm education on insulin-dependent diabetes and to see um blood sugar readings under 300 . Prognosis and rehab potential for this patient uhm\n is fair",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:23:54.604Z",
+			"updatedAt": "2024-02-22T20:24:13.023Z",
+			"interviewQuestionShortLabel": "DischargeGoal",
+			"interviewQuestionTheme": "Medications and Plan of Care"
+		},
+		{
+			"id": 3715,
+			"question": "Describe the patient's endocrine system.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/EndocrineSystemEvaluation",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient is a unstable insulin-dependent diabetes diabetic who is on a sliding scale of 60 units in the morning , 50 units in the afternoon and 40 units at night of Humulin Caregiver reports um not uncommon for her to have over 500 blood sugar readings , primary care is aware . Patient patient was hyperglycemic at 376 random caregivers giving 60 units of insulin , declined need for intervention , education provided on hyperglycemia . Patient also has hypothyroidism",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:32:40.575Z",
+			"updatedAt": "2024-02-22T20:33:11.206Z",
+			"interviewQuestionShortLabel": "EndocrineSystemEvaluation",
+			"interviewQuestionTheme": "Endocrine, Immune, and Blood"
+		},
+		{
+			"id": 3695,
+			"question": "Describe the patient's functional history.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/FunctionalHistory",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient has history of uncontrolled uhm insulin-dependent diabetes mellitus , history of cataract , stroke , venous insufficiency , um hypertension . Patient is chair fast and requires significant assistance uhm with ADLs . She spends most of her time sitting on the couch , requires moderate assistance for transfer . Patient denies having any recent falls",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:16:15.567Z",
+			"updatedAt": "2024-02-22T20:16:39.252Z",
+			"interviewQuestionShortLabel": "FunctionalHistory",
+			"interviewQuestionTheme": "History and Functional"
+		},
+		{
+			"id": 3724,
+			"question": "Describe the patient's gastrointestinal system.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/GastrointestinalAssessment",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient is fecally incontinent , also concerns for breakdown to the buttocks , um last bowel movement two days ago . Patient states she does have constipation and GERD . Concerns for breakdown related to incontinence",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:37:57.542Z",
+			"updatedAt": "2024-02-22T20:38:12.371Z",
+			"interviewQuestionShortLabel": "GastrointestinalAssessment",
+			"interviewQuestionTheme": "Elimination"
+		},
+		{
+			"id": 3723,
+			"question": "Describe the patient's genitourinary system.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/GenitourinarySystem",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient is urinary incontinence incontinent and wears brief . States she does have history of renal calculi , has a nephrologist , but states that she does not have chronic kidney disease . Hygiene concerns would be patient requires moderate assistance in order to transfer and is dependent in toileting\n risk for breakdown",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:37:27.618Z",
+			"updatedAt": "2024-02-22T20:37:46.414Z",
+			"interviewQuestionShortLabel": "GenitourinarySystem",
+			"interviewQuestionTheme": "Elimination"
+		},
+		{
+			"id": 3720,
+			"question": "Describe the patient's scalp, face, and neck",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/HeadNeckExamination",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient's scalp , face , and neck are all within normal limits . No abnormalities noted",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:35:39.548Z",
+			"updatedAt": "2024-02-22T20:35:45.418Z",
+			"interviewQuestionShortLabel": "HeadNeckExamination",
+			"interviewQuestionTheme": "Head, Neck, Vision, and Hearing"
+		},
+		{
+			"id": 3694,
+			"question": "Describe the patient's health history.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/HealthHistory",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient saw primary care physician yesterday . Patient was referred to our facility from Integrous wound care related to venous insufficiency and venous stasis ulcers to both lower extremities . Um no significant weight changes noted over the last six months . Um patient vaccinations , patient declines to get flu , states that it gives her the flu and declines pneumonia vaccine . Has had COVID vaccines times two",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:15:26.555Z",
+			"updatedAt": "2024-02-22T20:15:50.771Z",
+			"interviewQuestionShortLabel": "HealthHistory",
+			"interviewQuestionTheme": "History and Functional"
+		},
+		{
+			"id": 3714,
+			"question": "Describe the patient's immune system and blood health.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/ImmuneBloodHealth",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient denies having any immunodeficiencies um or symptoms of infection . No unusual bleeding or bruising . Patient has not not received any transfusions or dialysis",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:31:39.603Z",
+			"updatedAt": "2024-02-22T20:31:49.044Z",
+			"interviewQuestionShortLabel": "ImmuneBloodHealth",
+			"interviewQuestionTheme": "Endocrine, Immune, and Blood"
+		},
+		{
+			"id": 3703,
+			"question": "Describe the interventions needed by the patient.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/InterventionsNeeded",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": ". Patient is an insulin-dependent diabetic . We will require weekly three times weekly . Fingerstick um glucose monitoring . Patient requires Unna boots and wound care as described . Um cleaning of the skin with sterile normal saline , applying calcium alginate over-opening , open areas . Wound care measurements and photos weekly . Uhm patient's legs are to be wrapped with Unna boots uhm over the calcium AG , then covered with RhoGAs and then covered with Prolixin tape for closure . Patient is currently being managed by Integrous wound care clinic also",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:23:14.568Z",
+			"updatedAt": "2024-02-22T20:23:54.491Z",
+			"interviewQuestionShortLabel": "InterventionsNeeded",
+			"interviewQuestionTheme": "Medications and Plan of Care"
+		},
+		{
+			"id": 3691,
+			"question": "Describe the patient's living situation.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/LivingSituation",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient lives with her husband and her daughter uhm . Home is a single story home . There are lots of cluttered areas and obstructive doorways . No other hazards no- um noticed",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:14:10.589Z",
+			"updatedAt": "2024-02-22T20:14:22.419Z",
+			"interviewQuestionShortLabel": "LivingSituation",
+			"interviewQuestionTheme": "Living Situation"
+		},
+		{
+			"id": 3700,
+			"question": "Describe the patient's ability to prepare and take their medications reliably and safely.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/MedicationManagement",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient's care patient's caregiver daughter um provides all medication administration as far as sitting up um pill planner , husband assist with um dialing the quick pen on the insulin . Patient is able to inject um insulin herself , but needs it to be prepared and oral medication to be prepared with reminders",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:19:37.569Z",
+			"updatedAt": "2024-02-22T20:20:01.949Z",
+			"interviewQuestionShortLabel": "MedicationManagement",
+			"interviewQuestionTheme": "Medications and Plan of Care"
+		},
+		{
+			"id": 3699,
+			"question": "Indicate the reason for all medications that the patient is taking.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/MedicationNeed",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "MEDICATION Um MEDICATIONS Are indicated as seen",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:18:59.557Z",
+			"updatedAt": "2024-02-22T20:19:04.106Z",
+			"interviewQuestionShortLabel": "MedicationNeed",
+			"interviewQuestionTheme": "Medications and Plan of Care"
+		},
+		{
+			"id": 3711,
+			"question": "Describe the patient's memory and your neurologic findings.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/MemoryAssessment",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient's BIMS score was 15 . She is cognitively att- intact , alert , and oriented , pleasant , and affect . Does state she has some depression uhm that is controlled by medication . Doesn't appear to have any memory deficits . Able to carry on normal conversation . Reports normal sleep patterns",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:28:37.551Z",
+			"updatedAt": "2024-02-22T20:28:56.259Z",
+			"interviewQuestionShortLabel": "MemoryAssessment",
+			"interviewQuestionTheme": "Mental, Cognitive, and Psychosocial"
+		},
+		{
+			"id": 3721,
+			"question": "Describe the patient's bones, joints, and muscles.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/MusculoskeletalHealth",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient does report chronic weakness and pain uhm arthritic in nature throughout entire body . Patient is weak , unable to stand , chair fast , um decreased strength in arms um bilaterally and bilaterally in legs",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:36:07.548Z",
+			"updatedAt": "2024-02-22T20:36:22.098Z",
+			"interviewQuestionShortLabel": "MusculoskeletalHealth",
+			"interviewQuestionTheme": "Musculoskeletal System"
+		},
+		{
+			"id": 3719,
+			"question": "Describe the patient's nose, mouth, throat, and sinuses.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/NoseThroatSinuses",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient does not wear any dentures . Denies having any kind of congestion , no ENT problems , no swallowing difficulty . No cra- corrective devices",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:35:21.542Z",
+			"updatedAt": "2024-02-22T20:35:30.737Z",
+			"interviewQuestionShortLabel": "NoseThroatSinuses",
+			"interviewQuestionTheme": "Head, Neck, Vision, and Hearing"
+		},
+		{
+			"id": 3722,
+			"question": "Describe the patient's nutritional health and hydration status",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/NutritionalStatus",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient is an insulin-dependent diabetic . Um no sugar added . Um cardiac diet . She is properly hydrated . States she drinks six to eight glasses of water a day . Um limitations to nutrition and hydration would include that she requires someone to assist her to pivot into her motorized wheelchair and able to be able to feed herself and obtain water",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:36:50.570Z",
+			"updatedAt": "2024-02-22T20:37:09.668Z",
+			"interviewQuestionShortLabel": "NutritionalStatus",
+			"interviewQuestionTheme": "Nutrition"
+		},
+		{
+			"id": 3692,
+			"question": "Does the patient receive any care, services or assistance outside of home health care?",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/OutsideHomeHealthCare",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient's primary caregiver is her husband , um husband does state that daughter does do uhm bathing assist and such that medications and anything that he is unable to provide . He is available 24x7 . Daughter is available in the evening . She also lives there with them . No other assistance is received .",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:14:42.552Z",
+			"updatedAt": "2024-02-22T20:15:01.788Z",
+			"interviewQuestionShortLabel": "OutsideHomeHealthCare",
+			"interviewQuestionTheme": "Living Situation"
+		},
+		{
+			"id": 3710,
+			"question": "Describe the patient's pain.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/PainDescription",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient has pain to both lower extremities , states it varies in strength . She does take narcotic pain medication to control pain . States pain is 3/10 in both lower extremities , um varying pain up to level seven . Evaluation of this patient's pain is patient is in pain um related to venous stasis ulcers and pain will decrease um with healing of wounds",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:28:06.573Z",
+			"updatedAt": "2024-02-22T20:28:30.485Z",
+			"interviewQuestionShortLabel": "PainDescription",
+			"interviewQuestionTheme": "Pain"
+		},
+		{
+			"id": 3696,
+			"question": "Describe the patient's mobility and ability to safely move around or leave their home.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/PatientMobility",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient's husband does drive and daughter drives with caregivers have private vehicles . Patient is chair fast and unable to move from chair to um motorized scooter or motorized wheelchair . Um she does require assistance in guidance uhm to navigate the home . Um mobility uhm improvement for physical therapy uhm fair",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:17:00.563Z",
+			"updatedAt": "2024-02-22T20:17:24.881Z",
+			"interviewQuestionShortLabel": "PatientMobility",
+			"interviewQuestionTheme": "History and Functional"
+		},
+		{
+			"id": 3697,
+			"question": "Describe the patient's risk for pressure ulcers.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/PressureUlcers",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "patient is chair fast and requires um moderate assistance to pivot transfers . She is exposed to moisture . She is bowel and uhm urine incontinent and wears a brief . She is able to voice any discomfort . She is alert and oriented times four and aware of her body\n interventions that may need to occur are um patting in chairs and education related to repositioning",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:17:47.578Z",
+			"updatedAt": "2024-02-22T20:18:12.305Z",
+			"interviewQuestionShortLabel": "PressureUlcers",
+			"interviewQuestionTheme": "History and Functional"
+		},
+		{
+			"id": 3713,
+			"question": "Describe the patient's psychological and mental state.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/PsychologicalState",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient is pleasant and affect . Doesn't appear irritable . Um denies having any kind of anxiety . Does state she is tired . Um caregiver husband is by her side . Denies being lonely . Patient does state she has depression that is controlled by pain medication . Uhm no SI , ideation , uhm doesn't interfere with her daily life",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:31:11.585Z",
+			"updatedAt": "2024-02-22T20:31:30.509Z",
+			"interviewQuestionShortLabel": "PsychologicalState",
+			"interviewQuestionTheme": "Mental, Cognitive, and Psychosocial"
+		},
+		{
+			"id": 3717,
+			"question": "Describe the patient's respiratory health.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/RespiratoryHealth",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": ". Patient's lungs clear to auscultation times five . Caregiver states they did have oxygen in the home , but that he has returned it because there was no need for it . They deny that there are any respiratory issues . Patient denies having any cough or shortness of breath at rest . Patient does state shortness of breath with moderate exertion",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:33:40.550Z",
+			"updatedAt": "2024-02-22T20:34:44.466Z",
+			"interviewQuestionShortLabel": "RespiratoryHealth",
+			"interviewQuestionTheme": "Cardiac and Respiratory"
+		},
+		{
+			"id": 3718,
+			"question": "Describe the patients's sight and hearing.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/SightAndHearing",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": ". Patient wears glasses . Moderate impairment . States she needs to have appointment made with eye doctor that she has to use um aids to see\n her hearing moderate impairment , a skilled nurse has to raise voice . No hearing aids present",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:34:57.553Z",
+			"updatedAt": "2024-02-22T20:35:16.458Z",
+			"interviewQuestionShortLabel": "SightAndHearing",
+			"interviewQuestionTheme": "Head, Neck, Vision, and Hearing"
+		},
+		{
+			"id": 3709,
+			"question": "Describe the patient's skin.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/SkinCondition",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient does state skin is dry and itchy . No discoloration or no no abnormalities noted . No bruising noted .",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:27:19.552Z",
+			"updatedAt": "2024-02-22T20:27:26.552Z",
+			"interviewQuestionShortLabel": "SkinCondition",
+			"interviewQuestionTheme": "Skin"
+		},
+		{
+			"id": 3688,
+			"question": "Share details about your recent patient visit.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/VisitDetails",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "skilled nurse contacted the patient's daughter um by phone the evening before . Um patient's daughter responded via text um skilled nurse arrived at patient's home . Patient's husband answered the door around 8:30 a.m. Um patient was located in living room area . Uhm identified by name and date of birth . Patient's primary English language um states she is married and they are Christian . Patient lives with husband and daughter\ncare received during this visit . Initial start of care visit um multisystem assessment environmental assessment . Patient is um past medical history of insulin-dependent diabetic um cataract stroke , venous insufficiency . She wears glasses and has moderate impairment . States she needs uhm to visit the eye doctor , moderate hearing problems , but no hearing aids . No dentures . No complaints of ear , nose , or throat problems . No difficulty swallowing . Um shortness of breath with moderate exertion . She does have hypothyroidism . She states she has constipation that she had a BM two days ago , has GERD . Patient wears a brief , is bowel and urine incontinent . States she does have compre- depression , but is controlled by medication . Has history of kidney stones . Does see do- um kidney doctor uhm states she is unsure why .\nhas pain in both lower extremities um 3/10 and is chair fast . Patient has hypertension , hyperlipidemia , and states she has history of um MI . Her BIMS score was 15 . She states she has um dry skin . No other breakdown other than the wounds to her legs . Um left leg was unwrapped upon skilled nursing arrival . Patient um has a freestyle Library meter on uhm husband states that her sugars are um regularly over 300 . Random sugar at time of visit was 376 . Caregivers gave 60 units of insulin\n there is the use of motorized scooter um living will and power of attorney , daughter , chem- crawling , um is the same daughter who lives in home . Daughter assist with medication set up . They do have working smoke detectors , raised toilet seats . Um patient again is here fast . She is a pivot transfer with moderate assistance . She declined a full body skin inspection . There is no stairs at home . Patient states she is up-to-date up to date on COVID vaccine , but declines her flu and pneumonia shots",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:12:47.573Z",
+			"updatedAt": "2024-02-22T20:17:47.114Z",
+			"interviewQuestionShortLabel": "VisitDetails",
+			"interviewQuestionTheme": "SOC Visit"
+		},
+		{
+			"id": 3689,
+			"question": "Describe the patient's vital signs.",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/Vitals",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "Patient's vital signs were all within normal limits with the exception of being hyperglycemic uhm at 376 random . Um patient's husband gave 60 units of insulin and stated that the doctor was aware that she had been running high um decline in her knee any need for intervention . Uhm education was provided on hyperglycemic prevention . Patient declined caregiver declined um any intervention at this time",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:13:42.581Z",
+			"updatedAt": "2024-02-22T20:14:06.547Z",
+			"interviewQuestionShortLabel": "Vitals",
+			"interviewQuestionTheme": "SOC Visit"
+		},
+		{
+			"id": 3705,
+			"question": "Describe wound #1",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/Wounds1",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "wound one is a venous stasis ulcer\n that is\n on the right lower extremity , lateral side . It measures 2 cm , length with 1.5 cm depth , 0.1 , um moderate serous drainage . Um granulation tissue um pink , dull , dusky , um moderate to significant drainage noted",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:24:45.576Z",
+			"updatedAt": "2024-02-22T20:25:09.027Z",
+			"interviewQuestionShortLabel": "Wounds1",
+			"interviewQuestionTheme": "Wounds"
+		},
+		{
+			"id": 3706,
+			"question": "Describe wound #2",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/Wounds2",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "wound number two\n measures in length by 1x2 cmx0 cm , um moderate serous fluid on the right leg , medial um granulation tissue , minimal pink and dusky\n Education provided on Wound Care provided and need to be compliant with orders from the wound care clinic in order to heal wounds . There are blisters noted all over the right leg on this side",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:25:39.567Z",
+			"updatedAt": "2024-02-22T20:26:09.833Z",
+			"interviewQuestionShortLabel": "Wounds2",
+			"interviewQuestionTheme": "Wounds"
+		},
+		{
+			"id": 3707,
+			"question": "Describe wound #3",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/Wounds3",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "wound three lower left extremity proximal to the knee measuring in length 3 cm with is 5 cm depth is 0\n wound is round . Moderate serous fluid . Education again provided on uhm need to be compliant . No odor noted to any of these wounds",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:26:16.584Z",
+			"updatedAt": "2024-02-22T20:26:35.296Z",
+			"interviewQuestionShortLabel": "Wounds3",
+			"interviewQuestionTheme": "Wounds"
+		},
+		{
+			"id": 3708,
+			"question": "Describe wound #4",
+			"cloudStorageAudioFileLocation": "interview-audio/Accentra/218/Wounds4",
+			"audioContentType": "audio/webm;codecs=opus",
+			"audioTranscriptionStatus": "Completed",
+			"retryAttempts": 0,
+			"transcribedText": "wound number four measures in length , 1.5 cm with 1 cm depth , 0 cm . Wound has moderate serous drainage . Um no odor noted . Um tissue around skin has pitting edema , 2+ blistering noted to both lower extremities . Education again provided on need to be compliant with wound care prescribed",
+			"textResponse": "",
+			"patientId": 218,
+			"userId": "clqb0rdze000h8utjfimljveg",
+			"createdAt": "2024-02-22T20:26:55.573Z",
+			"updatedAt": "2024-02-22T20:27:19.480Z",
+			"interviewQuestionShortLabel": "Wounds4",
+			"interviewQuestionTheme": "Wounds"
+		}
+	],
+	"NurseInterview": {
+		"id": 170,
+		"selectedThemesToReportOn": [
+			"Wounds",
+			"Skin",
+			"Pain",
+			"Mental, Cognitive, and Psychosocial",
+			"Endocrine, Immune, and Blood",
+			"Cardiac and Respiratory",
+			"Head, Neck, Vision, and Hearing",
+			"Musculoskeletal System",
+			"Nutrition",
+			"Elimination"
+		],
+		"distanceTraveled": 30,
+		"minutesSpentWithPatient": 75,
+		"minutesSpentDriving": 25,
+		"totalWounds": 4,
+		"hasCompletedWoundPhotoUpload": true,
+		"hasCompletedMedicationPhotoUpload": true,
+		"hasCompletedDocumentsUpload": true,
+		"hasCompletedOtherPhotoUpload": true,
+		"hasConfirmedThemesWithinNormalLimits": true,
+		"userId": "clqb0rdze000h8utjfimljveg",
+		"patientId": 218,
+		"createdAt": "2024-02-22T20:04:12.536Z",
+		"updatedAt": "2024-02-22T20:38:04.548Z",
+		"NurseInterviewThemeSummaries": [
+			{
+				"id": 1542,
+				"nurseInterviewId": 170,
+				"theme": "Endocrine, Immune, and Blood",
+				"createdAt": "2024-02-22T20:31:52.789Z",
+				"updatedAt": "2024-02-22T20:31:52.789Z",
+				"QuestionItems": [
+					{
+						"id": 3753,
+						"NurseInterviewThemeSummaryId": 1542,
+						"question": "Describe the patient's endocrine system.",
+						"LLMSummarizedText": [
+							"Patient is an unstable insulin-dependent diabetic who is on a sliding scale of 60 units in the morning, 50 units in the afternoon and 40 units at night of Humulin.",
+							"Caregiver reports it is not uncommon for her to have over 500 blood sugar readings. Primary care is aware.",
+							"Patient was hyperglycemic at 376. Random caregivers gave 60 units of insulin but declined need for intervention. Education provided on hyperglycemia.",
+							"Patient also has hypothyroidism."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3752,
+						"NurseInterviewThemeSummaryId": 1542,
+						"question": "Describe the patient's immune system and blood health.",
+						"LLMSummarizedText": [
+							"Patient denies having any immunodeficiencies or symptoms of infection. No unusual bleeding or bruising.",
+							"Patient has not received any transfusions or dialysis."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1543,
+				"nurseInterviewId": 170,
+				"theme": "Cardiac and Respiratory",
+				"createdAt": "2024-02-22T20:33:26.542Z",
+				"updatedAt": "2024-02-22T20:33:26.542Z",
+				"QuestionItems": [
+					{
+						"id": 3754,
+						"NurseInterviewThemeSummaryId": 1543,
+						"question": "Describe the patient's cardiovascular health.",
+						"LLMSummarizedText": [
+							"Patient does have pitting edema 2+ to both lower extremities, history of hypertension, hyperlipidemia, states she has prior MI.",
+							"Currently receiving Unna boots to both lower extremities."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3755,
+						"NurseInterviewThemeSummaryId": 1543,
+						"question": "Describe the patient's respiratory health.",
+						"LLMSummarizedText": [
+							"Patient's lungs clear to auscultation times five. Caregiver states they did have oxygen in the home, but that he has returned it because there was no need for it. They deny that there are any respiratory issues.",
+							"Patient denies having any cough or shortness of breath at rest. Patient does state shortness of breath with moderate exertion."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1544,
+				"nurseInterviewId": 170,
+				"theme": "Head, Neck, Vision, and Hearing",
+				"createdAt": "2024-02-22T20:35:21.718Z",
+				"updatedAt": "2024-02-22T20:35:21.718Z",
+				"QuestionItems": [
+					{
+						"id": 3757,
+						"NurseInterviewThemeSummaryId": 1544,
+						"question": "Describe the patient's nose, mouth, throat, and sinuses.",
+						"LLMSummarizedText": [
+							"Patient does not wear any dentures. Denies having any kind of congestion, no ENT problems, no swallowing difficulty.",
+							"No corrective devices."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3758,
+						"NurseInterviewThemeSummaryId": 1544,
+						"question": "Describe the patient's scalp, face, and neck",
+						"LLMSummarizedText": [
+							"patient's scalp , face , and neck are all within normal limits . No abnormalities noted"
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3756,
+						"NurseInterviewThemeSummaryId": 1544,
+						"question": "Describe the patients's sight and hearing.",
+						"LLMSummarizedText": [
+							"Patient wears glasses. Moderate impairment. States she needs to have appointment made with eye doctor that she has to use um aids to see.",
+							"Her hearing moderate impairment, a skilled nurse has to raise voice. No hearing aids present."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1546,
+				"nurseInterviewId": 170,
+				"theme": "Nutrition",
+				"createdAt": "2024-02-22T20:37:15.004Z",
+				"updatedAt": "2024-02-22T20:37:15.004Z",
+				"QuestionItems": [
+					{
+						"id": 3760,
+						"NurseInterviewThemeSummaryId": 1546,
+						"question": "Describe the patient's nutritional health and hydration status",
+						"LLMSummarizedText": [
+							"Patient is an insulin-dependent diabetic. No sugar added. Cardiac diet.",
+							"She is properly hydrated. States she drinks six to eight glasses of water a day. Limitations to nutrition and hydration would include that she requires someone to assist her to pivot into her motorized wheelchair and able to be able to feed herself and obtain water."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1537,
+				"nurseInterviewId": 170,
+				"theme": "Medications and Plan of Care",
+				"createdAt": "2024-02-22T20:19:04.129Z",
+				"updatedAt": "2024-02-22T20:19:04.129Z",
+				"QuestionItems": [
+					{
+						"id": 3742,
+						"NurseInterviewThemeSummaryId": 1537,
+						"question": "Describe the goals and discharge plan for this patient.",
+						"LLMSummarizedText": [
+							"Patient stated goal is to get wounds healed.",
+							"Goal for this patient would be to get wounds healed and um strengthening, education on insulin-dependent diabetes, and to see blood sugar readings under 300.",
+							"Prognosis and rehab potential for this patient is fair."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3740,
+						"NurseInterviewThemeSummaryId": 1537,
+						"question": "Describe the interventions needed by the patient.",
+						"LLMSummarizedText": [
+							"Patient is an insulin-dependent diabetic. We will require weekly three times weekly fingerstick glucose monitoring.",
+							"Patient requires Unna boots and wound care as described: cleaning of the skin with sterile normal saline, applying calcium alginate over open areas.",
+							"Wound care measurements and photos weekly.",
+							"Patient's legs are to be wrapped with Unna boots over the calcium alginate, then covered with RhoGAs and then covered with Prolixin tape for closure.",
+							"Patient is currently being managed by Integrous wound care clinic also."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3738,
+						"NurseInterviewThemeSummaryId": 1537,
+						"question": "Describe the patient's ability to prepare and take their medications reliably and safely.",
+						"LLMSummarizedText": [
+							"Patient's caregiver daughter provides all medication administration as far as sitting up pill planner. Husband assists with dialing the quick pen on the insulin.",
+							"Patient is able to inject insulin herself, but needs it to be prepared and oral medication to be prepared with reminders."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3741,
+						"NurseInterviewThemeSummaryId": 1537,
+						"question": "Describe the patient's active diagnoses",
+						"LLMSummarizedText": [
+							"Patient and patient's caregiver described that she has chronic venous stasis ulcers that they have been treating for quite some time. Patient requires care. She has pitting edema 2+ bilaterally, both legs, scattered blistering on both lower extremities and four open wounds to leg.",
+							"Wound one measuring 2x1.5x0.1, round with moderate serous fluid. Wound number two measures 1x2x0, irregular in shape, moderate serous fluid. Wound number three measures 3x5x0, round with moderate serous drainage. Wound four measures 1.5x1x0 with moderate serous fluid.",
+							"Patient was found to have left leg wrapped upon arrival with a tiny hose stuck to the leg. Patient will continue to require skilled nursing three times weekly. Education was provided on the need to leave dressing in place due to the risk of worsening the condition if the bandage is taken off. The hose was stuck to the patient's leg related to the drainage.",
+							"Patient stated that the hose was removed by the caregiver due to pain. Continued education and monitoring will be needed related to compliance on dressing."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3739,
+						"NurseInterviewThemeSummaryId": 1537,
+						"question": "Describe your plan of care for this patient.",
+						"LLMSummarizedText": [
+							"Patient will require physical therapy evaluation.",
+							"Patient should receive evaluation from skilled nurse three times weekly.",
+							"Wound care supplies are going to include sterile normal saline, 4x4 gauze, Unna boots, calcium AG, Kerlix, and tape."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3737,
+						"NurseInterviewThemeSummaryId": 1537,
+						"question": "Indicate the reason for all medications that the patient is taking.",
+						"LLMSummarizedText": ["MEDICATION Um MEDICATIONS Are indicated as seen"],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1538,
+				"nurseInterviewId": 170,
+				"theme": "Wounds",
+				"createdAt": "2024-02-22T20:25:13.486Z",
+				"updatedAt": "2024-02-22T20:25:13.486Z",
+				"QuestionItems": [
+					{
+						"id": 3743,
+						"NurseInterviewThemeSummaryId": 1538,
+						"question": "Describe wound #1",
+						"LLMSummarizedText": [
+							"Wound one is a venous stasis ulcer that is on the right lower extremity, lateral side.",
+							"It measures 2 cm length with 1.5 cm depth, 0.1, moderate serous drainage.",
+							"Um granulation tissue um pink, dull, dusky, um moderate to significant drainage noted."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3744,
+						"NurseInterviewThemeSummaryId": 1538,
+						"question": "Describe wound #2",
+						"LLMSummarizedText": [
+							"Wound number two measures 2 cm long by 1 cm wide by 0 cm deep. Um, moderate serous fluid on the right leg, medial um granulation tissue, minimal pink and dusky.",
+							"Education provided on wound care. Provided and need to be compliant with orders from the wound care clinic in order to heal wounds. There are blisters noted all over the right leg on this side."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3745,
+						"NurseInterviewThemeSummaryId": 1538,
+						"question": "Describe wound #3",
+						"LLMSummarizedText": [
+							"Wound three lower left extremity proximal to the knee measuring in length 3 cm with 5 cm depth. Wound is round. Moderate serous fluid.",
+							"Education again provided on need to be compliant. No odor noted to any of these wounds."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3746,
+						"NurseInterviewThemeSummaryId": 1538,
+						"question": "Describe wound #4",
+						"LLMSummarizedText": [
+							"Wound number four measures four centimeters in length, one point five centimeters wide with one centimeter depth, zero centimeters. Wound has moderate serous drainage. No odor noted. Tissue around skin has pitting edema, two plus blistering noted to both lower extremities.",
+							"Education again provided on need to be compliant with wound care prescribed."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1539,
+				"nurseInterviewId": 170,
+				"theme": "Skin",
+				"createdAt": "2024-02-22T20:27:29.663Z",
+				"updatedAt": "2024-02-22T20:27:29.663Z",
+				"QuestionItems": [
+					{
+						"id": 3747,
+						"NurseInterviewThemeSummaryId": 1539,
+						"question": "Describe the patient's skin.",
+						"LLMSummarizedText": [
+							"Patient does state skin is dry and itchy.",
+							"No discoloration or abnormalities noted.",
+							"No bruising noted."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1540,
+				"nurseInterviewId": 170,
+				"theme": "Pain",
+				"createdAt": "2024-02-22T20:28:34.183Z",
+				"updatedAt": "2024-02-22T20:28:34.183Z",
+				"QuestionItems": [
+					{
+						"id": 3748,
+						"NurseInterviewThemeSummaryId": 1540,
+						"question": "Describe the patient's pain.",
+						"LLMSummarizedText": [
+							"Patient has pain to both lower extremities, states it varies in strength. She does take narcotic pain medication to control pain. States pain is 3/10 in both lower extremities, varying pain up to level seven.",
+							"Evaluation of this patient's pain is patient is in pain related to venous stasis ulcers and pain will decrease with healing of wounds."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1541,
+				"nurseInterviewId": 170,
+				"theme": "Mental, Cognitive, and Psychosocial",
+				"createdAt": "2024-02-22T20:29:01.390Z",
+				"updatedAt": "2024-02-22T20:29:01.390Z",
+				"QuestionItems": [
+					{
+						"id": 3750,
+						"NurseInterviewThemeSummaryId": 1541,
+						"question": "Describe the patient's cognitive abilities.",
+						"LLMSummarizedText": [
+							"Patient is alert and oriented times four, understands directions.",
+							"Able to verbalize need for medications and understand."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3749,
+						"NurseInterviewThemeSummaryId": 1541,
+						"question": "Describe the patient's memory and your neurologic findings.",
+						"LLMSummarizedText": [
+							"Patient's BIMS score was 15. She is cognitively intact, alert, oriented, pleasant, and has normal affect. Patient states she has some depression that is controlled by medication. She doesn't appear to have any memory deficits and is able to carry on normal conversation. Patient reports normal sleep patterns."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3751,
+						"NurseInterviewThemeSummaryId": 1541,
+						"question": "Describe the patient's psychological and mental state.",
+						"LLMSummarizedText": [
+							"Patient is pleasant and affect. Doesn't appear irritable. Denies having any kind of anxiety. States she is tired. Caregiver husband is by her side. Denies being lonely. Patient states she has depression that is controlled by pain medication. No suicidal ideation or intent that interferes with her daily life."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1547,
+				"nurseInterviewId": 170,
+				"theme": "Elimination",
+				"createdAt": "2024-02-22T20:37:51.018Z",
+				"updatedAt": "2024-02-22T20:37:51.018Z",
+				"QuestionItems": [
+					{
+						"id": 3762,
+						"NurseInterviewThemeSummaryId": 1547,
+						"question": "Describe the patient's gastrointestinal system.",
+						"LLMSummarizedText": [
+							"Patient is fecally incontinent. Also concerns for breakdown to the buttocks. Last bowel movement two days ago.",
+							"Patient states she does have constipation and GERD.",
+							"Concerns for breakdown related to incontinence."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3761,
+						"NurseInterviewThemeSummaryId": 1547,
+						"question": "Describe the patient's genitourinary system.",
+						"LLMSummarizedText": [
+							"Patient is urinary incontinent and wears briefs. States she does have history of renal calculi, has a nephrologist, but states that she does not have chronic kidney disease.",
+							"Hygiene concerns would be patient requires moderate assistance in order to transfer and is dependent in toileting. Risk for breakdown."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1533,
+				"nurseInterviewId": 170,
+				"theme": "SOC Visit",
+				"createdAt": "2024-02-22T20:14:13.299Z",
+				"updatedAt": "2024-02-22T20:14:13.299Z",
+				"QuestionItems": [
+					{
+						"id": 3726,
+						"NurseInterviewThemeSummaryId": 1533,
+						"question": "Describe the patient's vital signs.",
+						"LLMSummarizedText": [
+							"Patient's vital signs were all within normal limits with the exception of being hyperglycemic at 376 random. Patient's husband gave 60 units of insulin and stated that the doctor was aware that she had been running high. Decline in her knee; any need for intervention? Education was provided on hyperglycemic prevention.",
+							"Patient declined. Caregiver declined any intervention at this time."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3734,
+						"NurseInterviewThemeSummaryId": 1533,
+						"question": "Share details about your recent patient visit.",
+						"LLMSummarizedText": [],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1534,
+				"nurseInterviewId": 170,
+				"theme": "Living Situation",
+				"createdAt": "2024-02-22T20:14:26.643Z",
+				"updatedAt": "2024-02-22T20:14:26.643Z",
+				"QuestionItems": [
+					{
+						"id": 3727,
+						"NurseInterviewThemeSummaryId": 1534,
+						"question": "Describe the patient's living situation.",
+						"LLMSummarizedText": [
+							"Patient lives with her husband and her daughter. Home is a single story home.",
+							"There are lots of cluttered areas and obstructive doorways.",
+							"No other hazards were noticed."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3728,
+						"NurseInterviewThemeSummaryId": 1534,
+						"question": "Does the patient receive any care, services or assistance outside of home health care?",
+						"LLMSummarizedText": [
+							"Patient's primary caregiver is her husband. Husband states that daughter does assist with bathing and other care needs that he is unable to provide. He is available 24/7. Daughter also lives there with them and is available in the evenings.",
+							"No other assistance is received."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1536,
+				"nurseInterviewId": 170,
+				"theme": "History and Functional",
+				"createdAt": "2024-02-22T20:15:55.982Z",
+				"updatedAt": "2024-02-22T20:15:55.982Z",
+				"QuestionItems": [
+					{
+						"id": 3736,
+						"NurseInterviewThemeSummaryId": 1536,
+						"question": "Describe the patient's ability to safely handle activities of daily living.",
+						"LLMSummarizedText": [
+							"Patient is chair faster and requires significant assistance with dressing lower body, moderate assistant, and dressing upper body.",
+							"Patient is not able to manage toileting.",
+							"Patient is in assist to eat her goals for improvement would be to increase strength and abilities.",
+							"Patient was unable to ambulate prior to this illness."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3732,
+						"NurseInterviewThemeSummaryId": 1536,
+						"question": "Describe the patient's functional history.",
+						"LLMSummarizedText": [
+							"Patient has history of uncontrolled insulin-dependent diabetes mellitus, history of cataract, stroke, venous insufficiency, and hypertension.",
+							"Patient is chair fast and requires significant assistance with ADLs. She spends most of her time sitting on the couch, requires moderate assistance for transfer.",
+							"Patient denies having any recent falls."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3731,
+						"NurseInterviewThemeSummaryId": 1536,
+						"question": "Describe the patient's health history.",
+						"LLMSummarizedText": [
+							"Patient saw primary care physician yesterday. Patient was referred to our facility from Integrous wound care related to venous insufficiency and venous stasis ulcers to both lower extremities.",
+							"No significant weight changes noted over the last six months.",
+							"Patient declines to get flu vaccine, states that it gives her the flu. Declines pneumonia vaccine. Has had COVID vaccines times two."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3733,
+						"NurseInterviewThemeSummaryId": 1536,
+						"question": "Describe the patient's mobility and ability to safely move around or leave their home.",
+						"LLMSummarizedText": [
+							"Patient's husband does drive and daughter drives with caregivers have private vehicles. Patient is chair fast and unable to move from chair to um motorized scooter or motorized wheelchair.",
+							"She does require assistance in guidance uhm to navigate the home.",
+							"Um mobility uhm improvement for physical therapy fair."
+						],
+						"humanConfirmedSummarizedText": null
+					},
+					{
+						"id": 3735,
+						"NurseInterviewThemeSummaryId": 1536,
+						"question": "Describe the patient's risk for pressure ulcers.",
+						"LLMSummarizedText": [
+							"Patient is chair fast and requires moderate assistance to pivot transfers. She is exposed to moisture. She is bowel and urine incontinent and wears a brief. She is able to voice any discomfort.",
+							"She is alert and oriented times four and aware of her body. Interventions that may need to occur are padding in chairs and education related to repositioning."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			},
+			{
+				"id": 1545,
+				"nurseInterviewId": 170,
+				"theme": "Musculoskeletal System",
+				"createdAt": "2024-02-22T20:36:34.031Z",
+				"updatedAt": "2024-02-22T20:36:34.031Z",
+				"QuestionItems": [
+					{
+						"id": 3759,
+						"NurseInterviewThemeSummaryId": 1545,
+						"question": "Describe the patient's bones, joints, and muscles.",
+						"LLMSummarizedText": [
+							"Patient does report chronic weakness and pain arthritic in nature throughout entire body.",
+							"Patient is weak, unable to stand, chair fast, decreased strength in arms bilaterally and bilaterally in legs."
+						],
+						"humanConfirmedSummarizedText": null
+					}
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,3105 @@
+[
+	{
+		"id": "PWSN0",
+		"parentId": null,
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "code",
+		"text": "Are additional visits to be provided for this patient?",
+		"responses": [
+			{
+				"text": "No",
+				"followup": [],
+				"reference": "PWSN0N"
+			},
+			{
+				"text": "Yes",
+				"followup": ["PWSN1A", "PWSN1B", "PWSN3"],
+				"reference": "PWSN0Y"
+			}
+		]
+	},
+	{
+		"id": "PWSN1A",
+		"parentId": "PWSN0Y",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A205",
+		"template": "Skilled Nurse to evaluate and develop plan of care to be countersigned by physician. Skilled Nurse to assess/evaluate co-morbid conditions including *** and other conditions that present themselves during the course of this episode to identify changes and intervene to minimize complications. The agency may resume care following discharge from an inpatient facility. PRN visits by skilled nursing for complications related to current home health focus, disease processes, complications such as falls, pain, new wounds, symptoms of UTI, medication changes or venipuncture, recertification and discharge ***.",
+		"text": "Intervention: Assess and evaluate co-morbid conditions.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient.",
+		"responses": []
+	},
+	{
+		"id": "PWSN1B",
+		"parentId": "PWSN0Y",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A205",
+		"template": "A plan of care will be established that meets the patient's nursing needs and countersigned by physician.",
+		"text": "Goal: Changes to co-morbid conditions will be identified and reported to the physician",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN3",
+		"parentId": "PWSN0Y",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "code",
+		"treatmentCode": null,
+		"text": "Is medical/surgical nursing needed?",
+		"responses": [
+			{
+				"text": "No",
+				"followup": ["PWSN4A"],
+				"reference": "PWSN3N"
+			},
+			{
+				"text": "Yes",
+				"followup": ["PWSN13"],
+				"reference": "PWSN3Y"
+			}
+		]
+	},
+	{
+		"id": "PWSN4A",
+		"parentId": "PWSN3N",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Code",
+		"treatmentCode": "A101",
+		"text": "Is this a therapy-only patient?",
+		"codingInstructions": null,
+		"responses": [
+			{
+				"text": "No",
+				"reference": "PWSN4N"
+			},
+			{
+				"text": "Yes",
+				"followup": ["PWSN4B", "PWSN5A", "PWSN12A"],
+				"reference": "PWSN4Y"
+			}
+		]
+	},
+	{
+		"id": "PWSN4B",
+		"parentId": "PWSN3N",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A101",
+		"template": "RN may collect OASIS data and conduct comprehensive systems assessment to determine overall health and safety status and to assist in coordination of patient's therapy needs at timepoints required by federal and state regulations.",
+		"text": "Intervention: Therapy Only Patient",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN5A",
+		"parentId": "PWSN4Y",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Code",
+		"treatmentCode": null,
+		"text": "Is there a need for other disciplines?",
+		"responses": [
+			{
+				"text": "No",
+				"followup": [],
+				"reference": "PWSN5N"
+			},
+			{
+				"text": "Yes",
+				"followup": ["PWSN5B"],
+				"reference": "PWSN5Y"
+			}
+		]
+	},
+	{
+		"id": "PWSN5B",
+		"parentId": "PWSN5Y",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "What other disciplines are needed?",
+		"responses": [
+			{
+				"text": "PT Evaluation",
+				"followup": ["PWSN6C", "PWSN6D"],
+				"reference": "PWSN5B1"
+			},
+			{
+				"text": "ST Evaluation",
+				"followup": ["PWSN7C", "PWSN7D"],
+				"reference": "PWSN5B2"
+			},
+			{
+				"text": "OT Evaluation",
+				"followup": ["PWSN8C", "PWSN8D"],
+				"reference": "PWSN5B3"
+			},
+			{
+				"text": "MSW Evaluation",
+				"followup": ["PWSN9C", "PWSN9D"],
+				"reference": "PWSN5B4"
+			},
+			{
+				"text": "Aide Services",
+				"followup": ["PWSN10C", "PWSN10D"],
+				"reference": "PWSN5B5"
+			},
+			{
+				"text": "Dietician Evaluation",
+				"followup": ["PWSN11C", "PWSN11D"],
+				"reference": "PWSN5B6"
+			}
+		]
+	},
+	{
+		"id": "PWSN6C",
+		"parentId": "PWSN5B1",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "B102",
+		"template": "Physical therapist to evaluate to determine condition, physical therapy plans and rehabilitation potential; evaluate home environment to eliminate structural barriers and improve safety to increase functional independence (ramps, adaptive wheelchair, bathroom aides) and develop physical therapy plan of care to be signed by the physician. Therapist may perform O2 saturation levels at evaluation visit and PRN for signs and/or symptoms of possible respiratory complications or with O2 use.",
+		"text": "Intervention: PT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN6D",
+		"parentId": "PWSN5B1",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "B102",
+		"template": "A physical therapy evaluation will be completed and a plan of care to increase functional independence will be established for the physician's review and signature.",
+		"text": "Goal: PT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN6A",
+		"parentId": "PWSN5B1",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "B102",
+		"template": "Physical therapist to evaluate to determine condition, physical therapy plans and rehabilitation potential; evaluate home environment to eliminate structural barriers and improve safety to increase functional independence (ramps, adaptive wheelchair, bathroom aides) and develop physical therapy plan of care to be signed by the physician. Therapist may perform O2 saturation levels at evaluation visit and PRN for signs and/or symptoms of possible respiratory complications or with O2 use.",
+		"text": "Intervention: PT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN6B",
+		"parentId": "PWSN5B1",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "B102",
+		"template": "A physical therapy evaluation will be completed and a plan of care to increase functional independence will be established for the physician's review and signature.",
+		"text": "Goal: PT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN7A",
+		"parentId": "PWSN5B2",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "C103",
+		"template": "Speech therapy to evaluate to determine the type, severity and prognosis of a cognitive, communication/swallow disorder and develop plan of care for physician's signature to include establishing a treatment plan for the improvement of a cognitive, communication/swallow disorder.",
+		"text": "Intervention: ST Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN7B",
+		"parentId": "PWSN5B2",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "C103",
+		"template": "A speech therapy evaluation will be completed and a plan of care will be established for the physician's signature for the improvement of a cognitive, communication/swallow disorder.",
+		"text": "Goal: ST Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN7C",
+		"parentId": "PWSN5B2",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "C103",
+		"template": "Speech therapy to evaluate to determine the type, severity and prognosis of a cognitive, communication/swallow disorder and develop plan of care for physician's signature to include establishing a treatment plan for the improvement of a cognitive, communication/swallow disorder.",
+		"text": "Intervention: ST Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN7D",
+		"parentId": "PWSN5B2",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "C103",
+		"template": "A speech therapy evaluation will be completed and a plan of care will be established for the physician's signature for the improvement of a cognitive, communication/swallow disorder.",
+		"text": "Goal: ST Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN8A",
+		"parentId": "PWSN5B3",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "D102",
+		"template": "Occupational therapist to evaluate for OT services and develop plan of care for physician signature to include physical and psychosocial test results, establishment of a plan of treatment, rehabilitation goals, and evaluating the home environment for accessibility and safety and recommending modification. Therapist may perform O2 saturation level at evaluation visit and PRN for signs and/or symptoms of possible respiratory complications or with O2 use.",
+		"text": "Intervention: OT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN8B",
+		"parentId": "PWSN5B3",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "D102",
+		"template": "An occupational therapy evaluation will be completed and a plan of care will be established for the physician's signature for the enhancement of the patient's rehabilitation potential, and elimination of safety hazards to increase functional independence.",
+		"text": "Goal: OT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN8C",
+		"parentId": "PWSN5B3",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "D102",
+		"template": "Occupational therapist to evaluate for OT services and develop plan of care for physician signature to include physical and psychosocial test results, establishment of a plan of treatment, rehabilitation goals, and evaluating the home environment for accessibility and safety and recommending modification. Therapist may perform O2 saturation level at evaluation visit and PRN for signs and/or symptoms of possible respiratory complications or with O2 use.",
+		"text": "Intervention: OT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN8D",
+		"parentId": "PWSN5B3",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "D102",
+		"template": "An occupational therapy evaluation will be completed and a plan of care will be established for the physician's signature for the enhancement of the patient's rehabilitation potential, and elimination of safety hazards to increase functional independence.",
+		"text": "Goal: OT Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN9A",
+		"parentId": "PWSN5B4",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "E101",
+		"template": "Medical social services for evaluation to assess social and emotional factors related to the patient's illness, need for care, response to treatment and adjustment to care; to be followed by collaboration with the physician and nurse to develop a plan of care.",
+		"text": "Intervention: MSW Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN9B",
+		"parentId": "PWSN5B4",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "E101",
+		"template": "A medical social services evaluation will be completed and a plan of care will be established for the physician's signature for the enhancement of the patient's social and emotional factors, need for care, response to treatment and adjustment to care, to foster independent living at home.",
+		"text": "Goal: MSW Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN9C",
+		"parentId": "PWSN5B4",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "E101",
+		"template": "Medical social services for evaluation to assess social and emotional factors related to the patient's illness, need for care, response to treatment and adjustment to care; to be followed by collaboration with the physician and nurse to develop a plan of care.",
+		"text": "Intervention: MSW Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN9D",
+		"parentId": "PWSN5B4",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "E101",
+		"template": "A medical social services evaluation will be completed and a plan of care will be established for the physician's signature for the enhancement of the patient's social and emotional factors, need for care, response to treatment and adjustment to care, to foster independent living at home.",
+		"text": "Goal: MSW Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN10A",
+		"parentId": "PWSN5B5",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "F100",
+		"template": "Home Health Aide service for assistance with personal care, hygiene and activities of daily living.",
+		"text": "Intervention: Aide Services",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient.",
+		"responses": []
+	},
+	{
+		"id": "PWSN10B",
+		"parentId": "PWSN5B5",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "F100",
+		"template": "Home Health Aide service for assistance with personal care, hygiene and activities of daily living.",
+		"text": "Goal: Aide Services",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN10C",
+		"parentId": "PWSN5B5",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "F100",
+		"template": "Home Health Aide service for assistance with personal care, hygiene and activities of daily living.",
+		"text": "Intervention: Aide Services",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient.",
+		"responses": []
+	},
+	{
+		"id": "PWSN10D",
+		"parentId": "PWSN5B5",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "F100",
+		"template": "Home Health Aide service for assistance with personal care, hygiene and activities of daily living.",
+		"text": "Goal: Aide Services",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN11A",
+		"parentId": "PWSN5B6",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "RD100",
+		"template": "Registered dietician for evaluation to assess nutritional needs related to the patient's illness, need for care, response to treatment and adjustment to care; to be followed by collaboration with the physician and nurse and/or speech therapist to develop a plan of care.",
+		"text": "Intervention: Dietician Evaluation.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN11B",
+		"parentId": "PWSN5B6",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "RD100",
+		"template": "A registered dietician will complete a nutrition therapy evaluation and a plan of care will be established for the physician's signature for the enhancement of the patient's rehabilitation potential.",
+		"text": "Goal: Dietician Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN11C",
+		"parentId": "PWSN5B6",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "RD100",
+		"template": "Registered dietician for evaluation to assess nutritional needs related to the patient's illness, need for care, response to treatment and adjustment to care; to be followed by collaboration with the physician and nurse and/or speech therapist to develop a plan of care.",
+		"text": "Intervention: Dietician Evaluation.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN11D",
+		"parentId": "PWSN5B6",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "RD100",
+		"template": "A registered dietician will complete a nutrition therapy evaluation and a plan of care will be established for the physician's signature for the enhancement of the patient's rehabilitation potential.",
+		"text": "Goal: Dietician Evaluation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN12A",
+		"parentId": "PWSN5",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Code",
+		"treatmentCode": "A940",
+		"text": "Is there a need for additional physicians?",
+		"responses": [
+			{
+				"text": "No",
+				"followup": [],
+				"reference": "PWSN12AN"
+			},
+			{
+				"text": "Yes",
+				"followup": ["PWSN12C"],
+				"reference": "PWSN12AY"
+			}
+		]
+	},
+	{
+		"id": "PWSN12B",
+		"parentId": "PWSN12AY",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A940",
+		"template": "Home health agency may accept orders from the following physicians: *",
+		"text": "Intervention: Need for Additional Physicians",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN12C",
+		"parentId": "PWSN12AY",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A940",
+		"template": "Home health agency may accept orders from the following physicians: *",
+		"text": "Intervention: Need for Additional Physicians",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN13",
+		"parentId": "PWSN3Y",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements apply to this patient?",
+		"responses": [
+			{
+				"text": "Altered Cardiovascular System",
+				"followup": ["PWSN1301"],
+				"reference": "PWSN13A"
+			},
+			{
+				"text": "Altered Respiratory System",
+				"followup": ["PWSN1302"],
+				"reference": "PWSN13B"
+			},
+			{
+				"text": "Altered Gastrointestinal System",
+				"followup": ["PWSN1303"],
+				"reference": "PWSN13C"
+			},
+			{
+				"text": "Altered Genitourinary System",
+				"followup": ["PWSN1304"],
+				"reference": "PWSN13D"
+			},
+			{
+				"text": "Altered Skin Integrity",
+				"followup": ["PWSN1305"],
+				"reference": "PWSN13E"
+			},
+			{
+				"text": "Need for O/A, Skilled Teaching, and Management of Drains",
+				"followup": ["PWSN1306A", "PWSN1306B"],
+				"reference": "PWSN13F"
+			},
+			{
+				"text": "Need for Pleurx Catheter Care",
+				"followup": ["PWSN1307A", "PWSN1307B"],
+				"reference": "PWSN13G"
+			},
+			{
+				"text": "Need for Skilled Care Related to Risk of Falls",
+				"followup": ["PWSN1308A", "PWSN1308B"],
+				"reference": "PWSN13H"
+			},
+			{
+				"text": "Altered Neurological Status",
+				"followup": ["PWSN1309"],
+				"reference": "PWSN13I"
+			},
+			{
+				"text": "Altered Mental Status",
+				"followup": ["PWSN1310"],
+				"reference": "PWSN13J"
+			},
+			{
+				"text": "Altered Endocrine System",
+				"followup": ["PWSN1311"],
+				"reference": "PWSN13K"
+			},
+			{
+				"text": "Need for Interventions Related to Pain Management",
+				"followup": ["PWSN1312A", "PWSN1312B"],
+				"reference": "PWSN13L"
+			},
+			{
+				"text": "Need for Diagnostic Test",
+				"followup": ["PWSN1313"],
+				"reference": "PWSN13M"
+			},
+			{
+				"text": "Need for IV and/or Parenteral Therapy",
+				"followup": ["PWSN1314"],
+				"reference": "PWSN13N"
+			},
+			{
+				"text": "Need for IV flush",
+				"followup": ["PWSN1315A", "PWSN1315B"],
+				"reference": "PWSN13O"
+			},
+			{
+				"text": "Need for PICC Line Dressing Change",
+				"followup": ["PWSN1316A", "PWSN1316B"],
+				"reference": "PWSN13P"
+			},
+			{
+				"text": "Need for PICC Line Removal",
+				"followup": ["PWSN1317A", "PWSN1317B"],
+				"reference": "PWSN13Q"
+			},
+			{
+				"text": "Impaired Nutrition (Malnurition/Obesity)",
+				"followup": ["PWSN1318"],
+				"reference": "PWSN13R"
+			},
+			{
+				"text": "Medication Management",
+				"followup": ["PWSN1319"],
+				"reference": "PWSN13S"
+			},
+			{
+				"text": "Measures to Satisfy Plan of Care Synopsis",
+				"followup": ["PWSN1320"],
+				"reference": "PWSN13T"
+			},
+			{
+				"text": "Need for Other Disciplines",
+				"followup": ["PWSN1321"],
+				"reference": "PWSN13U"
+			},
+			{
+				"text": "Order Verification",
+				"followup": ["PWSN1322"],
+				"reference": "PWSN13V"
+			}
+		]
+	},
+	{
+		"id": "PWSN1301",
+		"parentId": "PWSN13A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about the cardiovascular system apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for Skilled Teaching related to Coronary Artery Disease",
+				"followup": ["PWSN14A", "PWSN14B"],
+				"reference": "PWSN1301A"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Coronary Artery Bypass Graft",
+				"followup": ["PWSN15A", "PWSN15B"],
+				"reference": "PWSN1301B"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Atrial Fibrillation",
+				"followup": ["PWSN16A", "PWSN16B"],
+				"reference": "PWSN1301C"
+			},
+			{
+				"text": "Need for O/A of Cardiac System Related to Coronary Artery Disease",
+				"followup": ["PWSN17A", "PWSN17B"],
+				"reference": "PWSN1301D"
+			},
+			{
+				"text": "Need for Hypertension Management (Used in conjunction with O/A and Skilled Teaching problem statement)",
+				"followup": ["PWSN18A", "PWSN18B"],
+				"reference": "PWSN1301E"
+			},
+			{
+				"text": "Need for Congestive Heart Failure Management (Used in conjunction with O/A and skilled teaching problem statement)",
+				"followup": ["PWSN19A", "PWSN19B"],
+				"reference": "PWSN1301F"
+			},
+			{
+				"text": "Need for Observation/Assessment and Skilled Teaching and Training Related to Cardiovascular System",
+				"followup": ["PWSN20A", "PWSN20B"],
+				"reference": "PWSN1301G"
+			}
+		]
+	},
+	{
+		"id": "PWSN14A",
+		"parentId": "PWSN1301A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A115",
+		"template": "Patient/caregiver will demonstrate compliance with treatment regime prescribed for coronary artery disease by *.",
+		"text": "Intervention: Need for skilled teaching related to Coronary Artery Disease.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN14B",
+		"parentId": "PWSN1301A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A115",
+		"template": "Patient/caregiver will demonstrate compliance with treatment regime prescribed for coronary artery disease by *.",
+		"text": "Goal: Need for skilled teaching related to Coronary Artery Disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN15A",
+		"parentId": "PWSN1301B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A126",
+		"template": "Skilled Nurse to instruct on Coronary Artery Bypass Graft to include disease process, management, and complications.",
+		"text": "Intervention: Need for skilled teaching related to coronary artery bypass graft.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN15B",
+		"parentId": "PWSN1301B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A126",
+		"template": "Patient/Caregiver to verbalize/demonstrate ability to care for coronary artery disease and follow-up to coronary artery bypass graft surgery by end of episode.",
+		"text": "Goal: Need for skilled teaching related to coronary artery bypass graft",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN16A",
+		"parentId": "PWSN1301C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A124",
+		"template": "Skilled Nurse to instruct on atrial fibrillation to include disease process, signs/symptoms, complications, and management.",
+		"text": "Intervention: Need for skilled teaching related to atrial fibrillation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN16B",
+		"parentId": "PWSN1301C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A124",
+		"template": "Patient/caregiver verbalize/demonstrate ability to care for atrial fibrillation by *.",
+		"text": "Goal: Need for skilled teaching related to atrial fibrillation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN17A",
+		"parentId": "PWSN1301D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A110",
+		"template": "Skilled Nurse for observation/assessment of cardiac system to identify changes associated with exacerbation for early intervention of complications.",
+		"text": "Intervention: Need for observation/assessment of cardiac system related to coronary artery disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN17B",
+		"parentId": "PWSN1301D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A110",
+		"template": "Cardiac exacerbations will be identified promptly and interventions initiated quickly to minimize associated risks and prevent unplanned hospitalization.",
+		"text": "Goal: Need for observation/assessment of cardiac system related to coronary artery disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN18A",
+		"parentId": "PWSN1301E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A225",
+		"template": "Skilled Nurse to provide skilled teaching/reinforcement of management of hypertension.",
+		"text": "Intervention: Need for hypertension management (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN18B",
+		"parentId": "PWSN1301E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A225",
+		"template": "Patient/Caregiver verbalize/demostrate ability to manage hypertension as evidenced by blood pressure readings consistently within physician approved parameters by *.",
+		"text": "Goal: Need for hypertension management (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN19A",
+		"parentId": "PWSN1301F",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A113",
+		"template": "Skilled Nurse to provide instructions related to management of congestive heart failure including, but not limited to: definition, risks factors, measures to prevent exacerbation, signs/symptoms and potential complications. Skilled Nurse to teach the patient to check weight daily and report to the physician of weight gain of 3 pounds overnight or 5 pounds in a week. Skilled Nurse to assess weight each visit and report to physician weight gain of 3 pounds overnight or 5 pounds in a week.",
+		"text": "Intervention: Need for congestive heart failure management (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN19B",
+		"parentId": "PWSN1301F",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A113",
+		"template": "Patient/Caregiver will understand and demonstrate compliance with management of CHF, as evidenced by improved endurance, decreased shortness of breath, stabilized weight and no unplanned hospitalizations, by *.",
+		"text": "Goal: Need for congestive heart failure management (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN20A",
+		"parentId": "PWSN1301G",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A113",
+		"template": "Skilled Nurse to observe and assess cardiovascular system to identify changes and intervene to minimize complications. Skilled Nurse to provide skilled teaching related to altered cardiovascular status including pathophysiology, nutrition, medication regimen, and permitted activities. May perform O2 saturation levels PRN for signs and/or symptoms of possible respiratory complications.",
+		"text": "Intervention: Need for observation/assessment and skilled teaching and training related to cardiovascular system",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN20B",
+		"parentId": "PWSN1301G",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A113",
+		"template": "Cardiovascular exacerbations will be identified promptly and interventions initiated to minimize risks. Patient/Caregiver will verbalize/demonstrate an ability to manage cardiovascular disease as evidenced by no unplanned hospitalizations by *. Abnormal O2 saturation levels will be reported to physician.",
+		"text": "Goal: Need for observation/assessment and skilled teaching and training related to cardiovascular system",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1302",
+		"parentId": "PWSN13B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about the respiratory system apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for Chronic Obstructive Pulmonary Disease Management",
+				"followup": ["PWSN21A", "PWSN21B"],
+				"reference": "PWSN2001A"
+			},
+			{
+				"text": "Need for Observation/Assessment and Skilled Teaching and Training Related to Respiratory System",
+				"followup": ["PWSN22A", "PWSN22B"],
+				"reference": "PWSN2001B"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Asthma",
+				"followup": ["PWSN23A", "PWSN23B"],
+				"reference": "PWSN2001C"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Bronchitis",
+				"followup": ["PWSN24A", "PWSN24B"],
+				"reference": "PWSN2001D"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Chronic Obstructive Pulmonary Disease (COPD)",
+				"followup": ["PWSN25A", "PWSN25B"],
+				"reference": "PWSN2001E"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Emphysema",
+				"followup": ["PWSN26A", "PWSN26B"],
+				"reference": "PWSN2001F"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Oxygen Therapy",
+				"followup": ["PWSN27A", "PWSN27B"],
+				"reference": "PWSN2001G"
+			},
+			{
+				"text": "Need for skilled teaching related to tracheostomy care (used in conjunction with o/a and skilled teaching problem statement)",
+				"followup": ["PWSN28A", "PWSN28B"],
+				"reference": "PWSN2001H"
+			}
+		]
+	},
+	{
+		"id": "PWSN21A",
+		"parentId": "PWSN2001A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A725",
+		"template": "Skilled Nurse to provide skilled teaching/reinforcement of management of chronic obstructive pulmonary disease (COPD) in the home setting including diet, medication therapy, and activities permitted/restrictions.",
+		"text": "Intervention: Need for chronic obstructive pulmonary disease management",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN21B",
+		"parentId": "PWSN2001A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A725",
+		"template": "Patient/Caregiver verbalize/demonstrate ability to care for chronic obstructive pulmonary disease (COPD) by end of episode.",
+		"text": "Goal: Need for chronic obstructive pulmonary disease management",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN22A",
+		"parentId": "PWSN2001B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A245",
+		"template": "Skilled Nurse to observe and assess respiratory system to identify changes and intervene to minimize complications. Skilled Nurse to provide skilled teaching related to altered respiratory status including pathophysiology, nutrition, medication regimen, and permitted activities. May perform O2 saturation level PRN for signs and/or symptoms of possible respiratory complications.",
+		"text": "Intervention: Need for observation/assessment and skilled teaching and training related to respiratory system",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN22B",
+		"parentId": "PWSN2001B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A245",
+		"template": "Respiratory exacerbations will be identified promptly and interventions initiated to minimize associated risks. Patient/Caregiver will verbalize/demonstrate an ability to manage respiratory disease as evidenced by improved endurance, decreased shortness of breath, normal O2 saturation levels and no unplanned hospitalizations, by *. Abnormal O2 saturation levels will be reported to physician.",
+		"text": "Goal: Need for observation/assessment and skilled teaching and training related to respiratory system",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN23A",
+		"parentId": "PWSN2001C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "TG009",
+		"template": "Skilled Nurse to provide instructions related to asthma, including definition, signs/symptoms to report, risk factors and prevention as well as possible complications.",
+		"text": "Intervention: Need for skilled teaching related to asthma",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN23B",
+		"parentId": "PWSN2001C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "TG009",
+		"template": "Patient/Caregiver will verbalize signs and symptoms of, risk factors and prevention as well as possible complications of asthma by *.",
+		"text": "Goal: Need for skilled teaching related to asthma",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN24A",
+		"parentId": "PWSN2001D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A732",
+		"template": "Skilled Nurse to provide skilled teaching related to bronchitis including but not limited to definition, signs/symptoms and what to report, current treatment and possible complications.",
+		"text": "Intervention: Need for skilled teaching related to bronchitis",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN24B",
+		"parentId": "PWSN2001D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A732",
+		"template": "Goal: Patient/caregiver will verbalize understanding of signs and symptoms of bronchitis, and demostrate ability to comply with treatment regime by *.",
+		"text": "Need for Skilled Teaching Related to Bronchitis",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN25A",
+		"parentId": "PWSN2001E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A742",
+		"template": "Skilled Nurse to instruct on Chronic Obstructive Pulmonary Disease to include disease process signs/symptoms, complications, and management.",
+		"text": "Intervention: Need for skilled teaching related to chronic obstructive pulmonary disease (COPD)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN25B",
+		"parentId": "PWSN2001E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A742",
+		"template": "Patient/caregiver will verbalize/demonstrate adequate knowledge of Chronic Obstructive Pulmonary Disease by *.",
+		"text": "Goal: Need for skilled teaching related to chronic obstructive pulmonary disease (COPD)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN26A",
+		"parentId": "PWSN2001F",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A733",
+		"template": "Skilled Nurse to provide instructions related to emphysema including definition of, factors that may increase risk, signs/symptoms, measures to manage, and possible complications of emphysema.",
+		"text": "Intervention: Need for skilled teaching related to emphysema",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN26B",
+		"parentId": "PWSN2001F",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A733",
+		"template": "Patient/Caregiver will verbalize understanding of emphysema including definition, signs and symptoms of complications and prescribed treatment regime by *.",
+		"text": "Goal: Need for skilled teaching related to emphysema",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN27A",
+		"parentId": "PWSN2001G",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A744",
+		"template": "Skilled Nurse to instruct regarding oxygen management including administration, care of equipment and safety.",
+		"text": "Intervention: Need for skilled teaching related to oxygen therapy",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN27B",
+		"parentId": "PWSN2001G",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A744",
+		"template": "Patient/Caregiver will demonstrate ability to safely manage oxygen therapy in the home setting by *.",
+		"text": "Goal: Need for skilled teaching related to oxygen therapy",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN28A",
+		"parentId": "PWSN2001H",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A265",
+		"template": "Skilled Nurse to provide skilled teaching/reinforcement of management of tracheostomy care including stoma care, suctioning, trach care, and dressing change. Skilled Nurse may provide tracheostomy care as needed each visit.",
+		"text": "Intervention: Need for skilled teaching related to tracheostomy care (Used in conjunction with O/A and skilled teaching problem statement).",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN28B",
+		"parentId": "PWSN2001H",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A265",
+		"template": "Patient/caregiver will verbalize/demonstrate ability to manage care of tracheostomy as evidenced by consistent return demonstrations using proper technique by *.",
+		"text": "Goal: Need for skilled teaching related to tracheostomy care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1303",
+		"parentId": "PWSN13C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about the gastrointestinal system apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for SN for Observation, Assessment, and Teaching Related to Gastrointestinal Disease",
+				"followup": ["PWSN30A", "PWSN30B"],
+				"reference": "PWSN29A"
+			},
+			{
+				"text": "Need for Skilled Procedure Related to Gastrointestinal System",
+				"followup": ["PWSN31"],
+				"reference": "PWSN29B"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Constipation",
+				"followup": ["PWSN37A", "PWSN37B"],
+				"reference": "PWSN29C"
+			}
+		]
+	},
+	{
+		"id": "PWSN30A",
+		"parentId": "PWSN29A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A275",
+		"template": "Skilled Nurse for observation/assessment of gastrointestinal status and to intervene to minimize complications. Skilled Nurse to provide skilled teaching/reinforcement related to altered gastrointestinal status including pathophysiology, nutritional requirements, and medication regimen.",
+		"text": "Intervention: Need for Skilled Nurse for observation, assessment, and teaching related to gastrointestinal disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN30B",
+		"parentId": "PWSN29A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A275",
+		"template": "Gastrointestinal status will be evaluated and exacerbations identified with interventions implemented to minimize complications. Patient/Caregiver will verbalize/demonstrate ability manage gastrointestinal disease as evidenced by decreased symptoms and no unplanned hospitalizations by *.",
+		"text": "Goal: Need for sn for observation, assessment, and teaching related to gastrointestinal disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN31",
+		"parentId": "PWSN29B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following procedures related to the gastrointestinal system are needed by this patient?",
+		"responses": [
+			{
+				"text": "Need for Colostomy/Ileostomy Teaching/Care",
+				"followup": ["PWSN32A", "PWSN32B"],
+				"reference": "PWSN31A"
+			},
+			{
+				"text": "Need for Enema",
+				"followup": ["PWSN33A", "PWSN33B"],
+				"reference": "PWSN31B"
+			},
+			{
+				"text": "Need for Gastrostomy/Jejunostomy Feeding/Care",
+				"followup": ["PWSN34A", "PWSN34B"],
+				"reference": "PWSN31C"
+			},
+			{
+				"text": "Need for Gastrostomy/Jejunostomy Teaching",
+				"followup": ["PWSN35A", "PWSN35B"],
+				"reference": "PWSN31D"
+			},
+			{
+				"text": "Need for Impaction Removal",
+				"followup": ["PWSN36A", "PWSN36B"],
+				"reference": "PWSN31E"
+			}
+		]
+	},
+	{
+		"id": "PWSN32A",
+		"parentId": "PWSN31A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A285",
+		"template": "Skilled Nurse to instruct patient/caregiver on colostomy/ileostomy management including appliance type and usage, stomal care, and irrigation. Skilled Nurse may perform colostomy/ileostomy appliance change and stoma care each visit as needed.",
+		"text": "Intervention: Need for colostomy/ileostomy teaching/care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN32B",
+		"parentId": "PWSN31A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A285",
+		"template": "Patient/caregiver will be able to verbalize/demonstrate appropriate *colostomy/ileostomy management as evidenced by consistent return demonstrations using proper technique and absence of skin breakdown by *.",
+		"text": "Goal: Need for colostomy/ileostomy teaching/care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN33A",
+		"parentId": "PWSN31B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A325",
+		"template": "Skilled Nurse for administration of *(type) enema.",
+		"text": "Intervention: Need for enema",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN33B",
+		"parentId": "PWSN31B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A325",
+		"template": "Patient will verbalize tolerance to enema and demonstrate adequate evacuation of stool.",
+		"text": "Goal: Need for enema",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN34A",
+		"parentId": "PWSN31C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A305",
+		"template": "Skilled Nurse for preparation, administration and instruction of gastrostomy/jejunostomy feeding. Type* *cc/hr x *hrs via pump or bolus type * *cans frequency * flush gastrostomy/jejunostomy with * cc of* frequency *, site care*, check tube placement*, check residual every * .",
+		"text": "Intervention: Need for gastrostomy/jejunostomy feeding/care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN34B",
+		"parentId": "PWSN31C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A305",
+		"template": "Patient/Caregiver will verbalize/demonstrate tolerance to gastrostomy/jejunostomy tube and feedings.",
+		"text": "Goal: Need for gastrostomy/jejunostomy feeding/care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN35A",
+		"parentId": "PWSN31D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A295",
+		"template": "Skilled Nurse for teaching of gastrostomy/jejunostomy management including care of site, equipment, and preparation/administration of feedings",
+		"text": "Intervention: Need for gastrostomy/jejunostomy teaching",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN35B",
+		"parentId": "PWSN31D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A295",
+		"template": "Patient/Caregiver will be able to verbalize/demonstrate management of gastrostomy/jejunostomy as evidenced by consistent return demonstrations using proper technique by *.",
+		"text": "Goal: Need for gastrostomy/jejunostomy teaching",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN36A",
+		"parentId": "PWSN31E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A315A",
+		"template": "Skilled Nurse for removal of fecal impaction * frequency. May follow up with * enema.",
+		"text": "Intervention: Need for impaction removal",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN36B",
+		"parentId": "PWSN31E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A315A",
+		"template": "Fecal impaction will be removed/relieved, resulting in adequate stool evacuation without complications.",
+		"text": "Goal: Need for impaction removal",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN37A",
+		"parentId": "PWSN29C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A240",
+		"template": "Skilled Nurse to provide instructions regarding measures to control constipation.",
+		"text": "Intervention: need for skilled teaching related to constipation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN37B",
+		"parentId": "PWSN29C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A240",
+		"template": "Patient/Caregiver will verbalize bowel program to prevent constipation complications by *.",
+		"text": "Goal: Need for skilled teaching related to constipation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1304",
+		"parentId": "PWSN13D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about the genitourinary system apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for SN for Observation, Assessment, and Teaching Related to Genitourinary Disease",
+				"followup": ["PWSN39A", "PWSN39B"],
+				"reference": "PWSN38A"
+			},
+			{
+				"text": "Need for Skilled Procedure Related to Genitourinary System",
+				"followup": ["PWSN40"],
+				"reference": "PWSN38B"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Chronic Renal Failure",
+				"followup": ["PWSN46A", "PWSN46B"],
+				"reference": "PWSN38C"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Urinary Tract Infection.",
+				"followup": ["PWSN47A", "PWSN47B"],
+				"reference": "PWSN38D"
+			}
+		]
+	},
+	{
+		"id": "PWSN39A",
+		"parentId": "PWSN38A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A335",
+		"template": "Skilled Nurse to perform observation/assessment of genitourinary status and intervene to minimize complications of disease process. Skilled Nurse to provide instruction regarding management of disease process, including pathophysiology, nutritional/fluid requirements and medication regimen.",
+		"text": "Intervention: Need for SN for observation, assessment, and teaching related to genitourinary disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN39B",
+		"parentId": "PWSN38A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A335",
+		"template": "Genitourinary system will be evaluated and exacerbations identified with interventions implemented to minimize complications. Patient/Caregiver will verbalize/demonstrate ability manage genitourinary disease as evidenced by decreased symptoms and no unplanned hospitalizations by *.",
+		"text": "Goal: Need for SN for observation, assessment, and teaching related to genitourinary disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN40",
+		"parentId": "PWSN38B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following skilled procedures related to the genitourinary system are needed by this patient?",
+		"responses": [
+			{
+				"text": "Need for Indwelling Urinary Catheter",
+				"followup": ["PWSN41A", "PWSN41B"],
+				"reference": "PWSN40A"
+			},
+			{
+				"text": "Need for Insertion Management of Indwelling Urinary Catheter",
+				"followup": ["PWSN42A", "PWSN42B"],
+				"reference": "PWSN40B"
+			},
+			{
+				"text": "Need for Insertion Management of Intermittent Straight Catheter",
+				"followup": ["PWSN43A", "PWSN43B"],
+				"reference": "PWSN40C"
+			},
+			{
+				"text": "Need for skilled care related to bladder instillation/irrigation",
+				"followup": ["PWSN44A", "PWSN44B"],
+				"reference": "PWSN40D"
+			},
+			{
+				"text": "Need for Teaching Related to Intermittent Straight Catheterization",
+				"followup": ["PWSN45A", "PWSN45B"],
+				"reference": "PWSN40E"
+			}
+		]
+	},
+	{
+		"id": "PWSN41A",
+		"parentId": "PWSN40A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A345",
+		"template": "Skilled Nurse to instruct patient/caregiver in indwelling urinary catheter management, including care of foley catheter, sign and symptoms of complications, perineal care, tube and bag placement.",
+		"text": "Intervention: Need for indwelling urinary catheter",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN41B",
+		"parentId": "PWSN40A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A345",
+		"template": "Patient/Caregiver will verbalize/demonstrate required knowledge to manage urinary catheter care as evidenced by consistent return demonstrations using proper technique and will be able to verbalize signs and symptoms of urinary tract infection by *.",
+		"text": "Goal: Need for indwelling urinary catheter",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN42A",
+		"parentId": "PWSN40B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A355",
+		"template": "Skilled Nurse for insertion of * catheter maintenance with catheter #*, * cc balloon, change q * and PRN dislodgment or stoppage, and obtain urine specimen as indicated.",
+		"text": "Intervention: Need for insertion management of indwelling urinary catheter",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN42B",
+		"parentId": "PWSN40B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A355",
+		"template": "Catheter will remain patent and without complications.",
+		"text": "Goal: Need for insertion management of indwelling urinary catheter",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN43A",
+		"parentId": "PWSN40C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A370",
+		"template": "Skilled Nurse for insertion of * straight catheter * q * .",
+		"text": "Intervention: Need for insertion management of intermittent straight catheter",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN43B",
+		"parentId": "PWSN40C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A370",
+		"template": "Goal: Intermittent catheterization will be completed without complications to *obtain urine specimen/*drain bladder.",
+		"text": "Need for Insertion Management of Intermittent Straight Catheter",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN44A",
+		"parentId": "PWSN40D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A375",
+		"template": "Skilled Nurse for administration of bladder instillation/irrigation with * Q */PRN.",
+		"text": "Intervention: Need for skilled care related to bladder instillation/irrigation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN44B",
+		"parentId": "PWSN40D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A375",
+		"template": "Bladder instillation/irrigation will be completed without complications.",
+		"text": "Goal: Need for skilled care related to bladder instillation/irrigation",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN45A",
+		"parentId": "PWSN40E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A365",
+		"template": "Skilled Nurse to instruct patient/caregiver on intermittent catheterization to be done q *, signs/symptoms of infections/complications, and proper perineal care.",
+		"text": "Intervention: Need for teaching related to intermittent straight catheterization",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN45B",
+		"parentId": "PWSN40E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A365",
+		"template": "Goal: Patient/Caregiver will verbalize/demonstrate required knowledge to manage adequate intermittent catheterizationas evidenced by consistent return demonstrations using proper technique and will be able to verbalize signs and symptoms of urinary tract infection by *.",
+		"text": "Need for Teaching Related to Intermittent Straight Catheterization",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN46A",
+		"parentId": "PWSN38C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A302",
+		"template": "Skilled Nurse to instruct regarding chronic renal failure to include disease process, signs/symptoms, complications, and management in the home setting.",
+		"text": "Intervention: Need for skilled teaching related to chronic renal failure",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN46B",
+		"parentId": "PWSN38C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A302",
+		"template": "Patient/Caregiver will demonstrate compliance with treatment regime and verbalize signs and symptoms of chronic renal failure by * .",
+		"text": "Goal: Need for skilled teaching related to chronic renal failure",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN47A",
+		"parentId": "PWSN38D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A306",
+		"template": "Skilled Nurse to instruct patient/caregiver about urinary tract infection to include disease process, signs/symptoms, management, and complications.",
+		"text": "Intervention: Need for skilled teaching related to urinary tract infection.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN47B",
+		"parentId": "PWSN38D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A306",
+		"template": "Patient/Caregiver will verbalize understanding of disease process of urinary tract infection by *.",
+		"text": "Goal: Need for skilled teaching related to urinary tract infection",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1305",
+		"parentId": "PWSN13E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about altered skin integrity apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for Observation/Assessment and Skilled Teaching and Training Related to Preservation of Skin Integrity",
+				"followup": ["PWSN49A", "PWSN49B"],
+				"reference": "PWSN1305A"
+			},
+			{
+				"text": "Need for Wound Care",
+				"followup": ["PWSN50"],
+				"reference": "PWSN1305B"
+			}
+		]
+	},
+	{
+		"id": "PWSN49A",
+		"parentId": "PWSN1305A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A380",
+		"template": "Skilled Nurse to observe and assess integumentary status to identify changes and intervene to minimize complications. Skilled Nurse to provide skilled teaching related to altered skin integrity including pathophysiology, nutrition, medication regimen, and *. Skilled Nurse to report significant changes in status to physician for early intervention.",
+		"text": "Intervention: Need for observation/assessment and skilled teaching and training related to preservation of skin integrity",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN49B",
+		"parentId": "PWSN1305A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A380",
+		"template": "Changes in skin integrity will be identified and reported to the physician for prompt intervention. Patient/Caregiver will verbalize/demonstrate appropriate measures to promote skin integrity and prevent injury as evidenced by no skin breakdown by *.",
+		"text": "Goal: Need for observation/assessment and skilled teaching and training related to preservation of skin integrity",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN50",
+		"parentId": "PWSN1305B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Need for Wound Care",
+		"responses": [
+			{
+				"text": "Need for Incision Site Care (Used in conjunction with O/A and skilled teaching problem statement)",
+				"followup": ["PWSN51A", "PWSN51B"],
+				"reference": "PWSN50A"
+			},
+			{
+				"text": "Need for Negative Pressure Wound Therapy (Used in conjunction with O/A and skilled teaching problem statement)",
+				"followup": ["PWSN52A", "PWSN52B"],
+				"reference": "PWSN50B"
+			},
+			{
+				"text": "Need for Pressure Ulcer Care (Used in conjunction with O/A and skilled teaching problem statement)",
+				"followup": ["PWSN520A", "PWSN520B"],
+				"reference": "PWSN50C"
+			},
+			{
+				"text": "Need for Wound Care Not Otherwise Specified (Used in conjunction with O/A and skilled teaching problem statement)",
+				"followup": ["PWSN521A", "PWSN521B"],
+				"reference": "PWSN50D"
+			}
+		]
+	},
+	{
+		"id": "PWSN51A",
+		"parentId": "PWSN50A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A395",
+		"template": "Skilled Nurse to perform/teach wound care to incision/suture site located * - cleanse with* apply*. cover with *. using clean/aseptic technique. change dressing every * and PRN.",
+		"text": "Intervention: Need for incision site care. (Used in conjunction with O/A and skilled teaching problem statement.)",
+		"codingInstructions": "Create one response per incision site, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN51B",
+		"parentId": "PWSN50A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A395",
+		"template": "Patient/Caregiver will verbalize/demonstrate ability to perform wound care. Wound status will improve as evidenced by a decrease in size, drainage, absence of infection, and decreased pain by *.",
+		"text": "Goal: Need for incision site care (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "Create one response per incision site, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN52A",
+		"parentId": "PWSN50B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A405",
+		"template": "Skilled Nurse to cleanse wound to * with *. Prepare peri-wound area with *. Fill entire cavity with * foam. Apply tubing and cover with transparent drape. Apply negative pressure device at * mmHg for * hours. Change dressing every *. May use the following protocol as an alternative dressing as needed *.",
+		"text": "Intervention: Need for negative pressure wound therapy (used in conjunction with O/A and skilled teaching problem statement).",
+		"codingInstructions": "Create one response per relevant wound, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN52B",
+		"parentId": "PWSN50B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A405",
+		"template": "Patient will demonstrate improved wound status as evidenced by a decrease in size/drainage of wound, absence of infection, and decreased pain.",
+		"text": "Goal: Need for negative pressure wound therapy",
+		"codingInstructions": "Create one response per relevant wound, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN520A",
+		"parentId": "PWSN50",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A395",
+		"template": "Skilled Nurse to perform/teach pressure ulcer care to * (area). Cleanse with * and apply *. Cover with *. Using clean/aseptic technique. Change dressing every * and PRN.",
+		"text": "Intervention: Need for pressure ulcer care (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "Create one response per pressure ulcer, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN520B",
+		"parentId": "PWSN50C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A395",
+		"template": "Patient/Caregiver will verbalize/demonstrate ability to perform wound care. Wound status will improve as evidenced by a decrease in size, drainage, absence of infection, and decreased pain by *.",
+		"text": "Goal: Need for pressure ulcer care",
+		"codingInstructions": "Create one response per pressure ulcer, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN521A",
+		"parentId": "PWSN50D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A395",
+		"template": "Skilled Nurse to perform/teach wound care to * (type of wound and location) - cleanse with *, apply *. Cover with *. Using clean/aseptic technique. Change dressing every * and PRN.",
+		"text": "Intervention: Need for wound care not otherwise specified (Used in conjunction with O/A and skilled teaching problem statement.)",
+		"codingInstructions": "Create one response per wound, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN521B",
+		"parentId": "PWSN50D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A395",
+		"template": "Patient/caregiver will verbalize/demonstrate ability to perform wound care. Wound status will improve as evidenced by a decrease in size, drainage, absence of infection, and decreased pain by *.",
+		"text": "Goal: Need for wound care not otherwise specified",
+		"codingInstructions": "Create one response per wound, each as its own paragraph. Each response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1306A",
+		"parentId": "PWSN13F",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A792",
+		"template": "Skilled Nurse for observation/assessment, teaching and management of * (specify drain type) to * (specify location). Skilled Nurse to provide/instruct on drain care *(specify ordered drain and/or site care). Skilled Nurse to instruct patient/caregiver on emptying drain *(specify frequency) and to document color and amount of drainage. Skilled Nurse to educate patient/caregiver to monitor for signs and symptoms of infection to report.",
+		"text": "Intervention: Need for O/A, skilled teaching, and management of drains.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1306B",
+		"parentId": "PWSN13F",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A792",
+		"template": "Patient/Caregiver will verbalize/demonstrate management of drain care including s/sx infection and/or complications to report by the end of the certification period.",
+		"text": "Goal: Need for observation/assessment, skilled teaching, and management of drains",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1307A",
+		"parentId": "PWSN13G",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A791",
+		"template": "Skilled Nurse, using sterile technique and sterile supplies, to drain * cc of pleural fluid via the PleurX pleural catheter Q *. If 500 cc or greater of pleural fluid, drain daily until output is 250 cc or less, then drain every other day. Skilled Nurse using sterile supplies and sterile technique, to perform catheter site care every time pleural fluid is drained.",
+		"text": "Intervention: Need for PleurX catheter care.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1307B",
+		"parentId": "PWSN13G",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A791",
+		"template": "Patient will manage PleurX pleural catheter. Patient and site will remain free of signs and symptoms of infection.",
+		"text": "Goal: Need for PleurX catheter care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1308A",
+		"parentId": "PWSN13H",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A425",
+		"template": "Skilled Nurse to perform multifactor fall risk assessment and implement interventions to decrease risk of falls. Skilled Nurse to instruct on home safety, impact of polypharmacy, environmental safety, and fall prevention.",
+		"text": "Intervention: Need for skilled care related to risk for falls",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1308B",
+		"parentId": "PWSN13H",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A425",
+		"template": "Patient will demonstrate/verbalize knowledge of interventions to prevent falls and safety hazards as evidenced by no falls by *.",
+		"text": "Goal: Need for skilled care related to risk for falls",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1309",
+		"parentId": "PWSN13I",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about neurological status apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for Observation/Assessment and Skilled Teaching and Training Related to Neurological System",
+				"followup": ["PWSN59A", "PWSN59B"],
+				"reference": "PWSN1309A"
+			},
+			{
+				"text": "Need for Cerebral Vascular Accident Management (Used in conjunction with O/A and skilled teaching problem statement)",
+				"followup": ["PWSN60A", "PWSN60B"],
+				"reference": "PWSN1309B"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Parkinson's Disease",
+				"followup": ["PWSN61A", "PWSN61B"],
+				"reference": "PWSN1309C"
+			}
+		]
+	},
+	{
+		"id": "PWSN59A",
+		"parentId": "PWSN1309A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A505",
+		"template": "Skilled Nurse to observe and assess neurological system to identify changes and intervene to minimize complications. Skilled Nurse to provide skilled teaching related to altered neurological status including pathophysiology, nutrition, medication regimen, and permitted activities. Skilled Nurse to report significant changes in neurological status to MD for early intervention.",
+		"text": "Intervention: Need for observation/assessment and skilled teaching and training related to neurological system",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN59B",
+		"parentId": "PWSN1309A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A505",
+		"template": "Changes in neurological status will be identified and reported to the physician for prompt intervention. Patient/Caregiver will verbalize/demonstrate appropriate measures to manage neurological disease as evidenced by decreased symptoms and no hospitalizations by *.",
+		"text": "Goal: Need for observation/assessment and skilled teaching and training related to neurological system",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN60A",
+		"parentId": "PWSN1309B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A525",
+		"template": "Skilled Nurse to provide skilled teaching/reinforcement of management of cerebral vascular accident.",
+		"text": "Intervention: Need for cerebral vascular accident management (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN60B",
+		"parentId": "PWSN1309B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A525",
+		"template": "Patient/Caregiver will verbalize/demonstrate understanding of signs/symptoms of cerebral vascular accident and ability to manage effects of CVA as evidenced by decreased symptoms and utilization of safety measures and by *.",
+		"text": "Goal: Need for cerebral vascular accident management (used in conjunction with O/A and skilled teaching problem statement)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN61A",
+		"parentId": "PWSN1309C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A565",
+		"template": "Skilled Nurse to instruct patient/caregiver on disease process and management of Parkinson's disease.",
+		"text": "Intervention: Need for skilled teaching related to parkinson's disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN61B",
+		"parentId": "PWSN1309C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A565",
+		"template": "Patient/Caregiver will verbalize understanding of disease process of and measures to manage Parkinson's disease by *.",
+		"text": "Goal: Need for skilled teaching related to Parkinson's disease",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1310",
+		"parentId": "PWSN13J",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about mental status apply to this patient?",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": [
+			{
+				"text": "Need for Observation, Assessment and Skilled Teaching Related to Generalized Depression",
+				"followup": ["PWSN63A", "PWSN63B"],
+				"reference": "PWSN1310A"
+			},
+			{
+				"text": "Need for Observation, Assessment and Skilled Teaching Related to Management of Patient's Alzheimer's Disease with Behavioral Disturbances",
+				"followup": ["PWSN64A", "PWSN64B"],
+				"reference": "PWSN1310B"
+			}
+		]
+	},
+	{
+		"id": "PWSN63A",
+		"parentId": "PWSN1310A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A535",
+		"template": "Skilled Nurse to observe and assess patient with generalized depression. Assess need for medication, medication changes, and potential need for referral to provide counseling and assistance with managing depression.",
+		"text": "Intervention: Need for observation, assessment and skilled teaching related to generalized depression",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN63B",
+		"parentId": "PWSN1310A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A535",
+		"template": "Patient/Caregiver will verbalize understanding of measures to manage depression, including medication compliance, as evidenced by improved mood by *.",
+		"text": "Goal: Need for observation, assessment and skilled teaching related to generalized depression",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN64A",
+		"parentId": "PWSN1310B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A545",
+		"template": "Skilled Nurse to observe and assess patient with Alzheimer's disease and instruct family/caregivers in proper management techniques of the patient with Alzheimer's disease and the behavioral disturbances associated with the disease process.",
+		"text": "Intervention: Need for observation, assessment and skilled teaching related to management of patient's Alzheimer's disease with behavioral disturbances",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN64B",
+		"parentId": "PWSN1310B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A545",
+		"template": "Family/Caregivers will verbalize and/or demonstrate appropriate management techniques related to Alzheimer's disease and the associated behavioral disturbances by *.",
+		"text": "Goal: Need for observation, assessment and skilled teaching related to management of patient's Alzheimer's disease with behavioral disturbances",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1311",
+		"parentId": "PWSN13K",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about the endocrine system apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for Skilled Teaching Related to Diabetes",
+				"followup": ["PWSN66A", "PWSN66B"],
+				"reference": "PWSN1311A"
+			},
+			{
+				"text": "Need for Skilled Care - Diabetes Management",
+				"followup": ["PWSN67"],
+				"reference": "PWSN1311B"
+			},
+			{
+				"text": "Need for Prefilling of Insulin Syringes",
+				"followup": ["PWSN72A", "PWSN72B"],
+				"reference": "PWSN1311C"
+			}
+		]
+	},
+	{
+		"id": "PWSN66A",
+		"parentId": "PWSN1311A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A580",
+		"template": "Skilled Nurse for instructions/reinforcement of diabetic care to include diet, skin care, administration of insulin, blood glucose testing, and diabetic foot care. Patient/Caregiver will verbalize/demonstrate knowledge of management of diabetes as evidenced by decreased symptoms, stabilization of blood glucose within parameters set by physician approved parameters, and no unplanned hospitalizations by *.",
+		"text": "Intervention: Need for skilled teaching related to diabetes.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN66B",
+		"parentId": "PWSN1311A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A580",
+		"template": "Patient/Caregiver will verbalize/demonstrate knowledge of management of diabetes as evidenced by decreased symptoms, stabilization of blood glucose within parameters set by physician approved parameters and no unplanned hospitalizations by *.",
+		"text": "Goal: Need for skilled teaching related to diabetes",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN67",
+		"parentId": "PWSN1311B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following skilled care needs related to diabetes management apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for Blood Glucose Testing",
+				"followup": ["PWSN68A", "PWSN68B"],
+				"reference": "PWSN67A"
+			},
+			{
+				"text": "Need for Hypoglycemic Intervention",
+				"followup": ["PWSN69A", "PWSN69B"],
+				"reference": "PWSN67B"
+			},
+			{
+				"text": "Need for Insulin Administration",
+				"followup": ["PWSN70A", "PWSN70B"],
+				"reference": "PWSN67C"
+			},
+			{
+				"text": "Need for Skilled Teaching Related to Insulin Injection Therapy",
+				"followup": ["PWSN700A", "PWSN700B"],
+				"reference": "PWSN67D"
+			},
+			{
+				"text": "Need for Monitoring of Patient's Blood Glucose Log",
+				"followup": ["PWSN71A", "PWSN71B"],
+				"reference": "PWSN67E"
+			}
+		]
+	},
+	{
+		"id": "PWSN68A",
+		"parentId": "PWSN67A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A620",
+		"template": "Skilled Nurse to perform * blood sugar analysis q * if patient/caregiver unable/unwilling*.",
+		"text": "Intervention: Need for blood glucose testing",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN68B",
+		"parentId": "PWSN67A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A620",
+		"template": "Patient's blood glucose levels will be documented and managed.",
+		"text": "Goal: Need for blood glucose testing",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN69A",
+		"parentId": "PWSN67B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A600",
+		"template": "Skilled Nurse may administer 4 ounces of fruit juice or one tablespoon of sugar if the blood sugar analysis is between 60-80 mg/dL, and recheck blood sugar in 15-20 minutes. If subsequent blood sugar is greater than 80 mg/dL administer insulin, otherwise notify physician.",
+		"text": "Intervention: Need for hypoglycemic intervention",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN69B",
+		"parentId": "PWSN67B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A600",
+		"template": "Patient will demonstrate improved blood sugar levels as a direct result of hypoglycemic intervention.",
+		"text": "Goal: Need for hypoglycemic intervention",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN70A",
+		"parentId": "PWSN67C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A590",
+		"template": "Skilled Nurse to administer sq insulin *(type) *( dose) every * if patient/caregiver* unable/unwilling*.",
+		"text": "Intervention: Need for insulin administration",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN70B",
+		"parentId": "PWSN67C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A590",
+		"template": "Insulin is administered per orders.",
+		"text": "Goal: Need for insulin administration",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN700A",
+		"parentId": "PWSN67D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A590",
+		"template": "Skilled Nurse for instructions/reinforcement of administration of prescribed insulin injection.",
+		"text": "Intervention: Need for skilled teaching related to insulin injection therapy.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN700B",
+		"parentId": "PWSN67D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A590",
+		"template": "Patient/Caregiver will verbalize/demonstrate adequate knowledge of injection technique by *.",
+		"text": "Goal: Need for skilled teaching related to insulin injection therapy",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN71A",
+		"parentId": "PWSN67E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A5610",
+		"template": "Skilled Nurse to report a pattern (three or more) of blood glucose levels greater than * mg/dL.",
+		"text": "Intervention: Need for monitoring of patient's blood glucose log.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN71B",
+		"parentId": "PWSN67E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A5610",
+		"template": "Blood sugar values (three or more) outside the parameters set by the physician will be reported to the physician for prompt intervention to minimize associated risks.",
+		"text": "Goal: Need for monitoring of patient's blood glucose log",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN72A",
+		"parentId": "PWSN1311C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A476",
+		"template": "Skilled Nurse to prefill insulin * (# ) syringes with * (insulin type and dose) q * to administer as follows: *",
+		"text": "Intervention: Need for prefilling of insulin syringes",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN72B",
+		"parentId": "PWSN1311C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A476",
+		"template": "Patient/caregiver* will administer insulin appropriately via prefilled syringes as evidenced by consistent return demonstrations by *.",
+		"text": "Goal: Need for prefilling of insulin syringes",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1312A",
+		"parentId": "PWSN13L",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A575",
+		"template": "Skilled Nurse for observation/assessment of pain, effectiveness of pain management regimen and skilled teaching related to pain management. Nurse to intervene to minimize complications if pain level increases.",
+		"text": "Intervention: Need for interventions related to pain management",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1312B",
+		"parentId": "PWSN13L",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A575",
+		"template": "Increased pain or ineffective pain control measures will be identified and promptly reported to the physician. Patient/Caregiver will verbalize understanding of pharmacologic and non-pharmacologic pain control measures as evidenced by pain level below *(parameter acceptable to patient) by *.",
+		"text": "Goal: Need for interventions related to pain management",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1313",
+		"parentId": "PWSN13M",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following diagnostic tests are needed by this patient?",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": [
+			{
+				"text": "Need for Venipuncture",
+				"followup": ["PWSN75A", "PWSN75B"],
+				"reference": "PWSN1313A"
+			},
+			{
+				"text": "Need for Diagnostic Urine/Sputum Test",
+				"followup": ["PWSN76A", "PWSN76B"],
+				"reference": "PWSN1313B"
+			},
+			{
+				"text": "Need for Diagnostic Culture",
+				"followup": ["PWSN77A", "PWSN77B"],
+				"reference": "PWSN1313C"
+			}
+		]
+	},
+	{
+		"id": "PWSN75A",
+		"parentId": "PWSN1313A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A850",
+		"template": "Skilled Nurse to obtain blood specimen for *(test) via venipuncture on *.",
+		"text": "Intervention: Need for venipuncture",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN75B",
+		"parentId": "PWSN1313A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A850",
+		"template": "Patient/Caregiver will verbalize understanding of purpose of venipuncture and lab results will be reported to physician.",
+		"text": "Goal: Need for venipuncture",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN76A",
+		"parentId": "PWSN1313B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A851",
+		"template": "Skilled Nurse to collect *urine/sputum specimen for * via * on *.",
+		"text": "Intervention: Need for diagnostic urine/sputum test",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN76B",
+		"parentId": "PWSN1313B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A851",
+		"template": "Patient/Caregiver will verbalize understanding of purpose of specimen collection and lab results will be reported to physician.",
+		"text": "Goal: Need for diagnostic urine/sputum test",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN77A",
+		"parentId": "PWSN1313C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A852",
+		"template": "Skilled Nurse to collect * specimen for culture via * on *.",
+		"text": "Intervention: Need for diagnostic culture",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN77B",
+		"parentId": "PWSN1313C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A852",
+		"template": "Patient/Caregiver will verbalize understanding of purpose of specimen collection and lab results will be reported to physician.",
+		"text": "Goal: Need for diagnostic culture",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1314",
+		"parentId": "PWSN13N",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about IV and/or parenteral therapies apply to this patient?",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": [
+			{
+				"text": "Need for Procedure IV Therapy",
+				"followup": ["PWSN82A", "PWSN82B"],
+				"reference": "PWSN1314A"
+			},
+			{
+				"text": "Need for Skilled Teaching for IV Therapy",
+				"followup": ["PWSN83A", "PWSN83B"],
+				"reference": "PWSN1314B"
+			},
+			{
+				"text": "Need for Parenteral Nutrition (Used in conjunction with O/A and skilled teaching problem statement)",
+				"followup": ["PWSN84A", "PWSN84B"],
+				"reference": "PWSN1314C"
+			}
+		]
+	},
+	{
+		"id": "PWSN1315A",
+		"parentId": "PWSN13O",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A930",
+		"template": "Skilled Nurse, using aseptic technique, to flush IV access * (type of infusion access device) with *.",
+		"text": "Intervention: Need for IV flush.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1315B",
+		"parentId": "PWSN13O",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A930",
+		"template": "Patient's infusion access will remain patent and will not require discontinuation due to patency.",
+		"text": "Goal: Need for IV flush",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1316A",
+		"parentId": "PWSN13P",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A922",
+		"template": "Skilled Nurse to change PICC line dressing as ordered.",
+		"text": "Intervention: Need for PICC line dressing change.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1316B",
+		"parentId": "PWSN13P",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A922",
+		"template": "Patient will tolerate PICC line dressing change and remains infection free.",
+		"text": "Goal: Need for PICC line dressing change",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1317A",
+		"parentId": "PWSN13Q",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A911",
+		"template": "Skilled Nurse to remove PICC line.",
+		"text": "Intervention: Need for PICC line removal",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1317B",
+		"parentId": "PWSN13Q",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A911",
+		"template": "PICC line will be removed without complications.",
+		"text": "Goal: Need for PICC line removal",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN82A",
+		"parentId": "PWSN1314A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A597",
+		"template": "Skilled Nurse to obtain IV access via ** using ** (angiocath, Huber, etc.) and aseptic technique. Skilled Nurse may infuse ** (medication/solution) at ** cc/** (min/hr) via ** (pump/gravity). Perform IV site care using ** and aseptic technique. Flush IV access with **.",
+		"text": "Intervention: Need for procedure IV therapy.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN82B",
+		"parentId": "PWSN1314A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A597",
+		"template": "IV fluids/meds will be administered per orders. The patient will verbalize/demonstrate tolerance to IV infusion.",
+		"text": "Goal: Need for procedure IV therapy",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN83A",
+		"parentId": "PWSN1314B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A595",
+		"template": "Skilled Nurse for observation/assessment of IV access site, response to medication, and skilled teaching regarding infusion procedure, care of infusion line and site care, care and use of infusion equipment, and signs/symptoms of complications of IV therapy.",
+		"text": "Intervention: Need for skilled teaching for IV therapy.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN83B",
+		"parentId": "PWSN1314B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A595",
+		"template": "Patient/Caregiver will verbalize/demonstrate ability to manage IV therapy adequately as evidenced by consistent return demonstrations using proper technique, ability to state signs/symptoms to be reported to nurse, and IV fluids/meds administered per orders by *.",
+		"text": "Goal: Need for skilled teaching for IV therapy",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN84A",
+		"parentId": "PWSN1314C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A596",
+		"template": "Skilled Nurse for teaching of administration of parenteral nutrition.",
+		"text": "Intervention: Need for hypertension management (Used in conjunction with O/A and skilled teaching problem statement.)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN84B",
+		"parentId": "PWSN1314C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A596",
+		"template": "Patient/Caregiver will verbalize/demonstrate ability to manage parenteral nutrition adequately as evidenced by consistent return demonstrations using proper technique, ability to state signs/symptoms to be reported to nurse and IV nutritionals administered per orders by *",
+		"text": "Goal: Need for parenteral nutrition",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1318",
+		"parentId": "PWSN13R",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about impaired nutrition apply to this patient?",
+		"responses": [
+			{
+				"text": "Malnutrition",
+				"followup": ["PWSN86A", "PWSN86B"],
+				"reference": "PWSN1314A"
+			},
+			{
+				"text": "Obesity",
+				"followup": ["PWSN87A", "PWSN87B"],
+				"reference": "PWSN1314B"
+			}
+		]
+	},
+	{
+		"id": "PWSN86A",
+		"parentId": "PWSN1318A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A615",
+		"template": "Skilled Nurse for observation/assessment of patient's impaired nutrition related to malnutrition. Instruct patient/caregiver on interventions designed to improve nutritional intake and patient well-being.",
+		"text": "Intervention: Malnutrition",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN86B",
+		"parentId": "PWSN1318A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A615",
+		"template": "Patient/Caregiver will verbalize/demonstrate appropriate methods to maintain/gain weight and improve nutrition as evidenced by weight gain of at least * lbs by *.",
+		"text": "Goal: Malnutrition",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN87A",
+		"parentId": "PWSN1318B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A616",
+		"template": "Skilled Nurse for observation/assessment ofpatient's impaired nutrition related to obesity. Instruct patient/caregiver on interventions designed to improve nutritional intake and patient well being.",
+		"text": "Intervention: Obesity",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN87B",
+		"parentId": "PWSN1318B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A616",
+		"template": "Patient/caregiver will verbalize/demonstrate appropriate methods to control/lose weight as evidenced by weight loss of at least * lbs by *.",
+		"text": "Goal: Obesity",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1319",
+		"parentId": "PWSN13S",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "Which of the following statements about medication management apply to this patient?",
+		"responses": [
+			{
+				"text": "Need for Anticoagulation Monitoring, Management and Education",
+				"followup": ["PWSN89A", "PWSN89B"],
+				"reference": "PWSN1319A"
+			},
+			{
+				"text": "Need for Injection Administration",
+				"followup": ["PWSN90A", "PWSN90B"],
+				"reference": "PWSN1319B"
+			},
+			{
+				"text": "Need for INR Monitoring",
+				"followup": ["PWSN91A", "PWSN91B"],
+				"reference": "PWSN1319C"
+			},
+			{
+				"text": "Need for Medication Management - Not disease specific",
+				"followup": ["PWSN92A", "PWSN92B"],
+				"reference": "PWSN1319D"
+			}
+		]
+	},
+	{
+		"id": "PWSN89A",
+		"parentId": "PWSN1319A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A599",
+		"template": "Skilled Nurse for monitoring effectiveness of anticoagulation therapy regimen and skilled instruction related to anticoagulation management.",
+		"text": "Intervention: Need for anticoagulation monitoring, management and education",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN89B",
+		"parentId": "PWSN1319A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A599",
+		"template": "Ineffective anticoagulation therapy, as evidenced by PT/INR outside therapeutic parameters set by physician or signs/symptoms of excessive bleeding, will be identified and promptly reported to the physician. Patient/Caregiver will verbalize/demonstrate understanding of measures to maintain effective anticoagulation therapy by *.",
+		"text": "Goal: Need for anticoagulation monitoring, management and education",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN90A",
+		"parentId": "PWSN1319B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A598",
+		"template": "Skilled Nurse for administration of ** via ** injection with * Q *.",
+		"text": "Intervention: Need for injection administration",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN90B",
+		"parentId": "PWSN1319B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A598",
+		"template": "Injection will be administered per orders. Patient will verbalize/demonstrate tolerance of injection.",
+		"text": "Goal: Need for injection administration",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN91A",
+		"parentId": "PWSN1319C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A605",
+		"template": "Skilled Nurse to obtain specimen for PT/INR via * on/every *.",
+		"text": "Intervention: Need for INR monitoring",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN91B",
+		"parentId": "PWSN1319C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A605",
+		"template": "Patient PT/INR will be maintained at a therapeutic level identified by the physician.",
+		"text": "Goal: Need for INR monitoring",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN92A",
+		"parentId": "PWSN1319D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A585",
+		"template": "Skilled Nurse to review medication profile and reconcile medications as needed. Skilled Nurse may instruct and reinforce medication teaching related to use of medications to treat disease processes. Skilled Nurse may fill medi-planner per current medication orders/profile Q**.",
+		"text": "Intervention: Need for medication management (not disease specific)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN92B",
+		"parentId": "PWSN1319D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A585",
+		"template": "Patient will demonstrate compliance with medications as prescribed. Patient/Caregiver will verbalize/demonstrate understanding of medication schedule, purpose, side effects, and any special precautions related to medication regimen by *.",
+		"text": "Goal: Need for medication management (not disease specific)",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1320",
+		"parentId": "PWSN13T",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "checklist",
+		"treatmentCode": null,
+		"text": "Which of the following measures are needed by this patient?",
+		"responses": [
+			{
+				"text": "Measures to Satisfy Plan of Care Synopsis (M2250) Related to Depression",
+				"followup": ["PWSN94A", "PWSN94B"],
+				"reference": "PWSN1320A"
+			},
+			{
+				"text": "Measures to Satisfy Plan of Care Synopsis (M2250) Related to Falls",
+				"followup": ["PWSN95A", "PWSN95B"],
+				"reference": "PWSN1320B"
+			},
+			{
+				"text": "Measures to Satisfy Plan of Care Synopsis (M2250) Related to Pain",
+				"followup": ["PWSN96A", "PWSN96B"],
+				"reference": "PWSN1320C"
+			},
+			{
+				"text": "Measures to Satisfy Plan of Care Synopsis (M2250) Related to Pressure Ulcer Prevention",
+				"followup": ["PWSN97A", "PWSN97B"],
+				"reference": "PWSN1320D"
+			},
+			{
+				"text": "Measures to Satisfy Plan of Care Synopsis (M2250) Related To; Diabetic Foot Care",
+				"followup": ["PWSN98A", "PWSN98B"],
+				"reference": "PWSN1320E"
+			}
+		]
+	},
+	{
+		"id": "PWSN94A",
+		"parentId": "PWSN1320A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625D",
+		"template": "Skilled Nurse to monitor plan for current treatment of depression such as effects of medication and/or need for referral for other treatment.",
+		"text": "Intervention: Measures to satisfy Plan of Care Synopsis (M2250) related to depression",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN94B",
+		"parentId": "PWSN1320A",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625D",
+		"template": "Changes in patient co-morbid status will be promptly identified and reported to the physician. Patient/Caregiver verbalize/demonstrate ability to properly manage depression by *.",
+		"text": "Goal: Measures to satisfy plan of care synopsis (M2250) related to depression",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN95A",
+		"parentId": "PWSN1320B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625C",
+		"template": "Skilled Nurse to provide and instruct regarding fall prevention interventions.",
+		"text": "Intervention: Measures to satisfy plan of care synopsis (M2250) related to falls",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN95B",
+		"parentId": "PWSN1320B",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625C",
+		"template": "Changes in patient co-morbid status will be promptly identified and reported to the physician. Patient/Caregiver verbalize/demonstrate measures to prevent falls by *.",
+		"text": "Goal: Measures to satisfy plan of care synopsis (M2250) related to falls",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN96A",
+		"parentId": "PWSN1320C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625E",
+		"template": "Skilled Nurse to provide/instruct regarding intervention(s) to monitor and mitigate pain.",
+		"text": "Intervention: Measures to satisfy plan of care synopsis (M2250) related to pain.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN96B",
+		"parentId": "PWSN1320C",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625E",
+		"template": "Changes in patient co-morbid status will be promptly identified and reported to the physician. Patient/Caregiver verbalize/demonstrate ability to properly manage pain by *",
+		"text": "Goal: Measures to satisfy plan of care synopsis (M2250) related to pain.",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN97A",
+		"parentId": "PWSN1320D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625F",
+		"template": "Skilled Nurse to provide instruction(s) regarding intervention(s) to prevent pressure ulcers.",
+		"text": "Intervention: Measures to satisfy plan of care synopsis (M2250) related to pressure ulcer prevention",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN97B",
+		"parentId": "PWSN1320D",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625F",
+		"template": "Changes in patient co-morbid status will be promptly identified and reported to the physician. Patient/Caregiver verbalize/demonstrate measures to prevent pressure ulcers by *.",
+		"text": "Goal: Measures to satisfy plan of care synopsis (M2250) related to pressure ulcer prevention",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN98A",
+		"parentId": "PWSN1320E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625B",
+		"template": "Skilled Nurse to provide monitoring for the presence of skin lesions on the lower extremities and teaching/reinforcement regarding proper diabetic foot care.",
+		"text": "Intervention: Measures to satisfy plan of care synopsis (M2250) related to diabetic foot care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN98B",
+		"parentId": "PWSN1320E",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "A625B",
+		"template": "Changes in patient co-morbid status will be promptly identified and reported to the physician. Patient/Caregiver verbalize/demonstrate ability to properly manage diabetic foot care by *.",
+		"text": "Goal: Measures to satisfy plan of care synopsis (M2250) related to diabetic foot care",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	},
+	{
+		"id": "PWSN1321",
+		"parentId": "PWSN13U",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "Checklist",
+		"treatmentCode": null,
+		"text": "What other disciplines are needed?",
+		"responses": [
+			{
+				"text": "PT Evaluation",
+				"followup": ["PWSN6A", "PWSN6B"],
+				"reference": "PWSN5B1"
+			},
+			{
+				"text": "ST Evaluation",
+				"followup": ["PWSN7A", "PWSN7B"],
+				"reference": "PWSN5B2"
+			},
+			{
+				"text": "OT Evaluation",
+				"followup": ["PWSN8A", "PWSN8B"],
+				"reference": "PWSN5B3"
+			},
+			{
+				"text": "MSW Evaluation",
+				"followup": ["PWSN9A", "PWSN9B"],
+				"reference": "PWSN5B4"
+			},
+			{
+				"text": "Aide Services",
+				"followup": ["PWSN10A", "PWSN10B"],
+				"reference": "PWSN5B5"
+			},
+			{
+				"text": "Dietician Evaluation",
+				"followup": ["PWSN11A", "PWSN11B"],
+				"reference": "PWSN5B6"
+			},
+			{
+				"text": "Need for Additional Physicians - SN",
+				"followup": ["PWSN12B"],
+				"reference": "PWSN5B6"
+			}
+		]
+	},
+	{
+		"id": "PWSN1322",
+		"parentId": "PWSN13V",
+		"assessment": "pathways",
+		"pathway": "Skilled Nursing",
+		"discipline": "SN",
+		"questionType": "text",
+		"treatmentCode": "OV RN",
+		"template": "The licensed professional whose signature appears below attests that these orders were received on **",
+		"text": "Intervention: Order verification (RN add-on evals only - mandatory).",
+		"codingInstructions": "The response should closely resemble the template, replacing all asterisks with information relevant to the patient. ",
+		"responses": []
+	}
+]

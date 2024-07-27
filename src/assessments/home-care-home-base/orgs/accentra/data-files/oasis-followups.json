@@ -1,0 +1,23 @@
+[
+	{
+		"oasisId": "M0150",
+		"responses": [{ "text": "Other (specify)", "followup": ["PA-e7e092"] }]
+	},
+	{
+		"oasisId": "M1340",
+		"responses": [{ "text": "Yes, patient has at least one observable surgical wound", "followup": ["PA-96dadc"] }]
+	},
+	{
+		"oasisId": "M1630",
+		"responses": [
+			{
+				"text": "The ostomy was related to an inpatient stay or did necessitate change in medical or treatment regimen.",
+				"followup": ["PA-5fb82a", "PA-0793ad"]
+			},
+			{
+				"text": "Patient's ostomy was not related to an inpatient stay and did not necessitate change in medical or treatment regimen.",
+				"followup": ["PA-5fb82a", "PA-0793ad"]
+			}
+		]
+	}
+]

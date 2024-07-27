@@ -1,0 +1,142 @@
+[
+	{
+		"id": "AC2022",
+		"questionType": "LongText",
+		"text": "Narrative (Patient History):",
+		"alternateQuestionText": "You are a nurse conducting a start of care assessment for a new patient. Write a short paragraph describing the patient's recent hospitalizations and/or health issues. Be as specific as possible.",
+		"codingInstructions": "Refer to the patient as \"patient\" and the clinician as \"clinician.\" The opening sentence should identify the patient's gender and age.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2023",
+		"questionType": "LongText",
+		"text": "Narrative (Current Status):",
+		"alternateQuestionText": "You are a nurse conducting a start of care assessment for a new patient. Write a short paragraph describing the patient's current status, including pertinent physical and mental status. Include details about any wounds, catheters, colostomy, dialysis, oxygen, ports, etc. that are present.",
+		"codingInstructions": "Refer to the patient as \"patient\" and the clinician as \"clinician.\" Do not include basic patient details (such as gender and age) in your response.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2024",
+		"questionType": "LongText",
+		"text": "Narrative (Skilled Nursing Need):",
+		"alternateQuestionText": "You are a nurse conducting a start of care assessment for a new home health patient. Write a short paragraph describing the skilled nursing needs for this patient, focusing on teaching required for new or changed medications, wound care, and/or injections. Describe any procedures that will be performed and explain why the patient and caregiver are unable to manage these needs independently without the assistance of home health. Be as specific as possible, but avoid indicating visit frequencies unless directly supported by the provided documents.",
+		"codingInstructions": "Refer to the patient as \"the patient\" and the assessing clinician as \"the clinician.\" Begin the paragraph with the sentence, \"The primary focus for home health is...\" If the patient had a recent hospitalization or acute event (e.g. CVA, surgery, myocardial infarction, infection), the primary focus should address the specific residual effects and needs related to improving function, safety, managing new medications, and handling side effects from the hospitalization or event. State the acute event or hospitalization definitively, without using hedging terms like suspected or probable. If a wound is the primary focus, indicate the wound etiology in the first sentence.  Note that the focus of care should not be general factors like weakness, difficulty walking, recent falls or fall risk, or pain. Instead, identify and state the underlying cause of these factors. For example, if the patient has Parkinson's disease and recently fell due to disease-related symptoms, the focus of care would be Parkinson's disease.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2025",
+		"questionType": "LongText",
+		"text": "Narrative (Therapy Need):",
+		"alternateQuestionText": "You are a nurse conducting a start of care assessment for a new patient. Write a short paragraph describing the types of therapy needed by the patient and why those therapy types are needed.",
+		"codingInstructions": "Refer to the patient as \"patient\" and the clinician as \"clinician.\" If no therapy is needed or ordered for the patient, reply with \"Therapy is not needed at this time.\" or \"Therapy is not ordered for this patient.\"",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2026",
+		"questionType": "LongText",
+		"text": "Narrative (High Risk Med Education):",
+		"alternateQuestionText": "You are a nurse conducting a start of care assessment for a new patient. Write a short paragraph about the patient's need for high risk medication education. Identify any high risk medications that patient is currently taking and describe the skilled teaching needed for each.",
+		"codingInstructions": "Refer to the patient as \"patient\" and the clinician as \"clinician.\" If the patient is not taking any high risk medications, reply with \"Patient is not taking any high risk medications at this time.\"\n\nFor the purposes of this question, high risk medications include medications in the following classes: Antipsychotic, Anticoagulant, Antibiotic, Opioid, Antiplatelet, Hypoglycemic (including insulin)",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2027",
+		"questionType": "LongText",
+		"text": "Narrative (Teaching/Care Provided):",
+		"alternateQuestionText": "You are a nurse conducting a start of care assessment for a new patient. Write a short paragraph about any teaching and care provided to the patient during the Start of Care visit. Be as specific as possible. ",
+		"codingInstructions": "Refer to the patient as \"patient\" and the clinician as \"clinician.\" Always include the following sentences at the end of the paragraph: \"Clinician educated patient on consents, consents were signed and saved. Clinician educated patient on their rights and responsibilities, emergency plan, high risk meds, transfer and discharge policy, advanced directives, and how to contact HHA if needed. PPE worn during visit and equipment cleaned before and after assessment with disinfectant.\" Do not include patient/caregiver reaction to teaching in your response; that will be addressed in a separate question.",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	},
+	{
+		"id": "AC2028",
+		"questionType": "LongText",
+		"text": "Narrative (Patient/Caregiver Response):",
+		"alternateQuestionText": "You are a nurse conducting a start of care assessment for a new patient. Write a short paragraph describing the response of the patient and caregiver to all care and teaching provided during the start of care visit.",
+		"codingInstructions": "Refer to the patient as \"patient\" and the clinician as \"clinician.\"",
+		"wellskyOriginalText": "",
+		"wellskyReference": "",
+		"isRequired": false,
+		"hchb": {
+			"id": null,
+			"active": true,
+			"responses": []
+		},
+		"wellsky": {
+			"id": null,
+			"active": true,
+			"responses": []
+		}
+	}
+]

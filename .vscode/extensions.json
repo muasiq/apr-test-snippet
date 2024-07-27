@@ -1,0 +1,13 @@
+{
+	"recommendations": [
+		"streetsidesoftware.code-spell-checker",
+		"IronGeek.vscode-env",
+		"dbaeumer.vscode-eslint",
+		"GitHub.copilot",
+		"wix.vscode-import-cost",
+		"esbenp.prettier-vscode",
+		"yoavbls.pretty-ts-errors",
+		"wayou.vscode-todo-highlight",
+		"bshearrer.g6-stack-app-tools"
+	]
+}

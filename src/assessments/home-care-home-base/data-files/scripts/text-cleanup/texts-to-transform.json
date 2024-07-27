@@ -1,0 +1,274 @@
+[
+	{
+		"Original": "INDICATE ABNORMAL MOVEMENT OF UPPER (ARMS, WRISTS, HANDS, FINGERS): INCLUDE CHOREIC MOVEMENTS SUCH AS RAPID, OBJECTIVELY PURPOSELESS, IRREGULAR OR SPONTANEOUS, AND ATHETOID MOVEMENTS SUCH AS SLOW, IRREGULAR, COMPLEX OR SERPENTINE:",
+		"Cleaned": "INDICATE ABNORMAL MOVEMENT OF ARMS, WRISTS, HANDS, FINGERS. INCLUDE CHOREIC MOVEMENTS (SUCH AS RAPID, OBJECTIVELY PURPOSELESS, IRREGULAR OR SPONTANEOUS) AND ATHETOID MOVEMENTS (SUCH AS SLOW, IRREGULAR, COMPLEX OR SERPENTINE)."
+	},
+	{
+		"Original": "INDICATE ABNORMAL MOVEMENT OF LOWER (LEGS, KNEES, ANKLES, TOES): LATERAL KNEE MOVEMENT, FOOT TAPPING, HEEL DROPPING, FOOT SQUIRMING:",
+		"Cleaned": "INDICATE ABNORMAL MOVEMENT OF LEGS, KNEES, ANKLES, TOES (e.g. LATERAL KNEE MOVEMENT, FOOT TAPPING, HEEL DROPPING, FOOT SQUIRMING):"
+	},
+	{
+		"Original": "DESCRIBE SYMPTOMS OF INSOMNIA - EARLY:",
+		"Cleaned": "DESCRIBE SYMPTOMS OF INSOMNIA EARLY IN THE NIGHT."
+	},
+	{
+		"Original": "DESCRIBE SYMPTOMS OF INSOMNIA - MIDDLE:",
+		"Cleaned": "DESCRIBE SYMPTOMS OF INSOMNIA IN THE MIDDLE OF THE NIGHT."
+	},
+	{
+		"Original": "DESCRIBE SYMPTOMS OF INSOMNIA - LATE:",
+		"Cleaned": "DESCRIBE SYMPTOMS OF INSOMNIA TOWARDS THE END OF THE NIGHT."
+	},
+	{
+		"Original": "START OF CARE / RESUMPTION OF CARE",
+		"Cleaned": "START OF CARE"
+	},
+	{
+		"Original": "CLIENT",
+		"Cleaned": "PATIENT"
+	},
+	{
+		"Original": "CLIENT'S",
+		"Cleaned": "PATIENT'S"
+	},
+	{
+		"Original": "YOU COMMUNICATED",
+		"Cleaned": "CLINICIAN COMMUNICATED"
+	},
+	{
+		"Original": "DO YOU WANT TO",
+		"Cleaned": "DID THE CLINICIAN"
+	},
+	{
+		"Original": "DID YOU COMMUNICATE",
+		"Cleaned": "DID THE CLINICIAN COMMUNICATE"
+	},
+	{
+		"Original": "HAVE YOU CONTACTED",
+		"Cleaned": "DID THE CLINICIAN CONTACT"
+	},
+	{
+		"Original": "DO YOU ANTICIPATE",
+		"Cleaned": "DOES THE CLINICIAN ANTICIPATE"
+	},
+	{
+		"Original": "YOUR INTERVENTIONS",
+		"Cleaned": "CLINICIAN'S INTERVENTIONS"
+	},
+	{
+		"Original": "ANTI-DEPRESSANTS",
+		"Cleaned": "ANTIDEPRESSANTS"
+	},
+	{
+		"Original": "ANTIDEPRESSENTS",
+		"Cleaned": "ANTIDEPRESSANTS"
+	},
+	{
+		"Original": "ARRYTHMIA",
+		"Cleaned": "ARRHYTHMIA"
+	},
+	{
+		"Original": "CO-MORBID",
+		"Cleaned": "COMORBID"
+	},
+	{
+		"Original": "CO-MORBITITY",
+		"Cleaned": "COMORBIDITY"
+	},
+	{
+		"Original": "COMSUMPTION",
+		"Cleaned": "CONSUMPTION"
+	},
+	{
+		"Original": "DENUNICATORY",
+		"Cleaned": "DENUNCIATORY"
+	},
+	{
+		"Original": "DISPONDENCY",
+		"Cleaned": "DESPONDENCY"
+	},
+	{
+		"Original": "EAR ACHE",
+		"Cleaned": "EARACHE"
+	},
+	{
+		"Original": "FATIGUABILITY",
+		"Cleaned": "FATIGABILITY"
+	},
+	{
+		"Original": "FREQUENC Y",
+		"Cleaned": "FREQUENCY"
+	},
+	{
+		"Original": "GOOD-BYE",
+		"Cleaned": "GOODBYE"
+	},
+	{
+		"Original": "INDICISION",
+		"Cleaned": "INDECISION"
+	},
+	{
+		"Original": "LIFE-STYLE",
+		"Cleaned": "LIFESTYLE"
+	},
+	{
+		"Original": "LONGTERM",
+		"Cleaned": "LONG-TERM"
+	},
+	{
+		"Original": "MAKE-UP",
+		"Cleaned": "MAKEUP"
+	},
+	{
+		"Original": "MID-LINE",
+		"Cleaned": "MIDLINE"
+	},
+	{
+		"Original": "NIGHT GOWN",
+		"Cleaned": "NIGHTGOWN"
+	},
+	{
+		"Original": "NON VERBALLY",
+		"Cleaned": "NONVERBALLY"
+	},
+	{
+		"Original": "OCCASSION",
+		"Cleaned": "OCCASION"
+	},
+	{
+		"Original": "ASSIST YOU OCCASIONALLY",
+		"Cleaned": "OCCASIONAL ASSISTANCE"
+	},
+	{
+		"Original": "RUQ",
+		"Cleaned": "RIGHT UPPER QUADRANT"
+	},
+	{
+		"Original": "RLQ",
+		"Cleaned": "RIGHT LOWER QUADRANT"
+	},
+	{
+		"Original": "LUQ",
+		"Cleaned": "LEFT UPPER QUADRANT"
+	},
+	{
+		"Original": "LLQ",
+		"Cleaned": "LEFT LOWER QUADRANT"
+	},
+	{
+		"Original": "RUE",
+		"Cleaned": "RIGHT UPPER EXTREMITIES"
+	},
+	{
+		"Original": "LUE",
+		"Cleaned": "LEFT UPPER EXTREMITIES"
+	},
+	{
+		"Original": "RLE",
+		"Cleaned": "RIGHT LOWER EXTREMITIES"
+	},
+	{
+		"Original": "LLE",
+		"Cleaned": "LEFT LOWER EXTREMITIES"
+	},
+	{
+		"Original": "WAS MOUTH AND THROAT ASSESSED?",
+		"Cleaned": "WERE MOUTH AND THROAT ASSESSED?"
+	},
+	{
+		"Original": "CARDIOVASCULAR SYSTEM ASSESSED?",
+		"Cleaned": "WAS CARDIOVASCULAR SYSTEM ASSESSED?"
+	},
+	{
+		"Original": "DIRECTIONS FOR TUG ASSESSMENT ARE FOUND IN REFERENCE SECTION. INDICATE RESULTS IN SECONDS.",
+		"Cleaned": "INDICATE RESULTS OF TUG SCREEN IN SECONDS."
+	},
+	{
+		"Original": "INSIGHT: HOW DOES THE PATIENT SEE SELF: SUBJECTIVE DATA?",
+		"Cleaned": "INSIGHT: HOW DOES THE PATIENT SEE SELF (SUBJECTIVE DATA)?"
+	},
+	{
+		"Original": "HOW FREQUENT",
+		"Cleaned": "HOW FREQUENTLY"
+	},
+	{
+		"Original": "FREQUENC Y",
+		"Cleaned": "FREQUENCY"
+	},
+	{
+		"Original": "DESCRIBE SOMATIC SYMPTOMS: GASTROINTESTINAL",
+		"Cleaned": "DESCRIBE SOMATIC SYMPTOMS (GASTROINTESTINAL):"
+	},
+	{
+		"Original": "DESCRIBE SOMATIC SYMPTOMS: GENERAL:",
+		"Cleaned": "DESCRIBE SOMATIC SYMPTOMS (GENERAL):"
+	},
+	{
+		"Original": "IN AM",
+		"Cleaned": "IN THE MORNING"
+	},
+	{
+		"Original": "IN PM",
+		"Cleaned": "IN THE AFTERNOON/EVENING"
+	},
+	{
+		"Original": "PRINCIPALS OF CARE",
+		"Cleaned": "PRINCIPLES OF CARE"
+	},
+	{
+		"Original": "[REMOVABLE]",
+		"Cleaned": "(REMOVABLE)"
+	},
+	{
+		"Original": "BILAT",
+		"Cleaned": "BILATERAL"
+	},
+	{
+		"Original": "U. S.",
+		"Cleaned": "U.S."
+	},
+	{
+		"Original": "I. E.",
+		"Cleaned": "I.E."
+	},
+	{
+		"Original": "CARDIOVASCULAR ASSESSMENT:",
+		"Cleaned": "INDICATE CARDIOVASCULAR ASSESSMENT FINDINGS:"
+	},
+	{
+		"Original": "SCORE: ABOVE 10 = PROBABLE MAJOR DEPRESSIVE EPISODE; ABOVE 18 = DEFINITE MAJOR DEPRESSIVE EPISODE:",
+		"Cleaned": "INDICATE CORNELL SCALE SCORE:"
+	},
+	{
+		"Original": "INDICATE PATIENT'S BEHAVIORAL DISTURBANCE: AGITATION: RESTLESSNESS, HANDWRINGING, HAIRPULLING: ",
+		"Cleaned": "INDICATE PATIENT'S BEHAVIORAL DISTURBANCE (e.g. AGITATION, RESTLESSNESS, HANDWRINGING, HAIRPULLING): "
+	},
+	{
+		"Original": "INDICATE PATIENT'S PHYSICAL SIGNS: APPETITE LOSS: EATING LESS THAN USUAL:",
+		"Cleaned": "INDICATE PATIENT'S PHYSICAL SIGNS (e.g. APPETITE LOSS, EATING LESS THAN USUAL)"
+	},
+	{
+		"Original": "ISUSUAL",
+		"Cleaned": "IS USUAL"
+	},
+	{
+		"Original": "IS CATH CARE BEING PERFORMED?",
+		"Cleaned": "IS CATHETER CARE BEING PERFORMED?"
+	},
+	{
+		"Original": "BY WHO?",
+		"Cleaned": "WHO IS PERFORMING CATHETER CARE?"
+	},
+	{
+		"Original": "HAS ADEQUATE SUPPLY AND RESOURCES AS NEEDED TO MANAGE INCONTINENCE? TO INCLUDE BATHROOM ASSISTIVE DEVICES",
+		"Cleaned": "DOES THE PATIENT HAVE ADEQUATE SUPPLIES AND RESOURCES AS NEEDED TO MANAGE INCONTINENCE (INCLUDING BATHROOM ASSISTIVE DEVICES)?"
+	},
+	{
+		"Original": "MAINTAINS APPROPRIATE HYGIENE?",
+		"Cleaned": "DOES THE PATIENT MAINTAIN APPROPRIATE PERINEAL HYGEINE?"
+	},
+	{
+		"Original": "FREQUENCY OF CHANGING PRODUCT: EX; WHEN DAMP OR WET; DAILY; MORE THAN DAILY",
+		"Cleaned": "FREQUENCY OF CHANGING INCONTINENCE PRODUCTS (e.g. WHEN DAMP OR WET, DAILY, MORE THAN DAILY):"
+	}
+]
